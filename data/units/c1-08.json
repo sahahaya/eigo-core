@@ -1,0 +1,69 @@
+{
+  "id": "c1-08",
+  "title": "瞬間英作文 総合",
+  "subtitle": "主語と動詞を決めて、おまけはあとから足す",
+  "steps": [
+    {
+      "type": "question",
+      "title": "文法は分かるのに、話そうとすると止まってしまう",
+      "body": "問題を解けば正解できるのに、いざ話そうとすると「昨日駅で会った人は、私の上司の友達でした」のような文が、なかなか口から出てきません。\n\n頭の中で日本語を最初から順番に英語にしようとして、「昨日……駅で……会った……」と止まってしまうのです。\n\n**学んだ文法を、会話で使える速さにするには、どうすればいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "まず「主語と動詞」。時制を決めて、おまけはあとから",
+      "body": "このアプリで最初に学んだのは、**英語は「誰が → どうする」を先に言う**ということでした。速く話すコツも、まったく同じです。\n\n> **① 主語と動詞を決める**（文の骨組み）\n> **② 時制を決める**（いつの話？ 今とつながっている？）\n> **③ おまけ（説明・場所・時・理由）をあとから足す**\n\n**例：「昨日駅で会った人は、私の上司の友達でした」**\n\n- ① 骨組み：The person **was** my boss's friend.（その人は、上司の友達だった）\n- ② 時制：昨日の話で、今とは切り離されている → 過去形 was\n- ③ おまけ：どんな人？ → The person [ I met at the station yesterday ]（関係代名詞の that を省略）\n\n日本語の順番（昨日 → 駅で → 会った → 人）で考えると、最初の単語から迷ってしまいます。**英語の骨組みから組み立てる**と、すっと出てきます。\n\n**完璧より速さ**\n瞬間英作文では、まず**3秒以内に話し始める**ことを目標にします。間違えてもかまいません。答えを聞いて、もう一度言い直せば、それが練習になります。\n\n**毎日の習慣に**\n「英作文」タブで、学んだ全単元の文から出題されます。1日5文でも、毎日続けることがいちばん効果があります。\n\n[[日本語の発想|英語の発想]]\nL: 説明（昨日・駅で・会った）を先に並べ、大事な部分は最後\nR: 骨組み（The person was 〜）を先に言い、説明はうしろから足す",
+      "points": [
+        "① 主語と動詞 → ② 時制 → ③ おまけ（説明・場所・時・理由）の順に組み立てる",
+        "日本語の語順で考えず、英語の骨組みから言う",
+        "完璧より速さ。3秒以内に話し始め、答えを聞いて言い直す"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "これまで学んだ文法を組み合わせた文です。メモの単元名を見て、忘れていたら戻って確認しましょう。",
+      "items": [
+        { "en": "The person I met at the station yesterday was my boss's friend.", "ja": "昨日駅で会った人は、私の上司の友達でした。", "note": "関係代名詞（中3）＋ 過去形（中1）" },
+        { "en": "I've been studying English for three months, and it's getting easier.", "ja": "英語を3か月勉強していて、だんだん簡単になってきました。", "note": "現在完了進行形（中3）＋ 比較（高校）" },
+        { "en": "If I had more time, I'd travel to Canada.", "ja": "もっと時間があれば、カナダに旅行するのに。", "note": "仮定法（中3）" },
+        { "en": "Could you tell me where I can buy a ticket?", "ja": "どこで切符を買えるか教えていただけますか？", "note": "間接疑問（中3）＋ ていねいな過去形" },
+        { "en": "It's important to practice a little every day.", "ja": "毎日少しずつ練習することが大切です。", "note": "It is 〜 to（中3）" },
+        { "en": "I'm going to visit my grandmother this weekend because it's her birthday.", "ja": "今週末、祖母の誕生日なので、祖母を訪ねる予定です。", "note": "未来（中2）＋ 接続詞（中2）" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "order", "ja": "昨日駅で会った人は、私の上司の友達でした。", "words": ["The", "person", "I", "met", "at", "the", "station", "yesterday", "was", "my", "boss's", "friend"], "extra": ["is"], "answer": "The person I met at the station yesterday was my boss's friend", "tag": "骨組みから組み立てる", "why": "骨組みは The person was my boss's friend.。person のうしろに説明（I met 〜 yesterday）を足す。" },
+        { "id": "q2", "type": "order", "ja": "英語を3か月勉強しています。", "words": ["I've", "been", "studying", "English", "for", "three", "months"], "extra": ["since"], "answer": "I've been studying English for three months", "tag": "時制を決める", "why": "3か月前から今も続いている → 現在完了進行形。期間なので for。" },
+        { "id": "q3", "type": "fill", "q": "If I ___ more time, I'd travel to Canada.", "ja": "もっと時間があれば、カナダに旅行するのに。", "choices": ["had", "have", "will have"], "answer": "had", "tag": "時制を決める", "why": "実際には時間がない（現実から離れた想像）→ 過去形 had。" },
+        { "id": "q4", "type": "fill", "q": "Could you tell me where I ___ buy a ticket?", "ja": "どこで切符を買えるか教えていただけますか？", "choices": ["can", "do", "am"], "answer": "can", "tag": "文法の組み合わせ", "why": "間接疑問なので where ＋ 主語 ＋ 動詞のふつうの語順（where I can buy）。" },
+        { "id": "q5", "type": "choice", "q": "瞬間英作文で最初に決めることは？", "choices": ["主語と動詞", "いちばん難しい単語", "文の最後の語", "日本語の語順"], "answer": 0, "tag": "瞬間英作文の核心", "why": "英語は「誰が → どうする」が先。骨組みが決まれば、残りはおまけ。" },
+        { "id": "q6", "type": "fill", "q": "It's important ___ practice a little every day.", "ja": "毎日少しずつ練習することが大切です。", "choices": ["to", "for", "that"], "answer": "to", "tag": "文法の組み合わせ", "why": "It is 〜 to ＋ 原形。It は to 以下を指す。" },
+        { "id": "q7", "type": "choice", "q": "「今週末、祖母の誕生日なので、祖母を訪ねる予定です」", "choices": ["I'm going to visit my grandmother this weekend because it's her birthday.", "I visited my grandmother this weekend because it was her birthday.", "I'm going to visit my grandmother this weekend so it's her birthday.", "I go visiting my grandmother because her birthday."], "answer": 0, "tag": "文法の組み合わせ", "why": "前から決めた予定 → be going to。理由は because（so だと結果になってしまう）。" },
+        { "id": "q8", "type": "choice", "q": "「昨日駅で会った人」の英語の語順は？", "choices": ["the person I met at the station yesterday", "yesterday station met I person", "I met yesterday the person", "the station yesterday I met person"], "answer": 0, "tag": "骨組みから組み立てる", "why": "名詞（the person）が先、説明（I met 〜）があと。時（yesterday）はいちばん後ろ。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "総まとめです。**3秒以内に話し始める**ことを目標に。まず主語と動詞から。",
+      "items": [
+        { "ja": "昨日駅で会った人は、私の上司の友達でした。", "en": "The person I met at the station yesterday was my boss's friend.", "accept": ["The person that I met at the station yesterday was my boss's friend.", "The person who I met at the station yesterday was my boss's friend."], "hint": "The person I met ..." },
+        { "ja": "英語を3か月勉強していて、だんだん簡単になってきました。", "en": "I've been studying English for three months, and it's getting easier.", "accept": ["I have been studying English for three months, and it's getting easier.", "I've been studying English for three months and it's getting easier."], "hint": "I've been studying ..." },
+        { "ja": "もっと時間があれば、カナダに旅行するのに。", "en": "If I had more time, I'd travel to Canada.", "accept": ["If I had more time, I would travel to Canada."], "hint": "If I had ..." },
+        { "ja": "どこで切符を買えるか教えていただけますか？", "en": "Could you tell me where I can buy a ticket?", "accept": ["Can you tell me where I can buy a ticket?"], "hint": "Could you tell me where ...?" },
+        { "ja": "毎日少しずつ練習することが大切です。", "en": "It's important to practice a little every day.", "accept": ["It is important to practice a little every day."], "hint": "It's important to ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "grandmother", "ja": "祖母", "ex": "I'm going to visit my grandmother this weekend." },
+    { "en": "get easier", "ja": "簡単になる", "ex": "It's getting easier." },
+    { "en": "a little", "ja": "少し", "ex": "Practice a little every day." },
+    { "en": "every day", "ja": "毎日", "ex": "It's important to practice a little every day." },
+    { "en": "travel to", "ja": "〜へ旅行する", "ex": "I'd travel to Canada." },
+    { "en": "three months", "ja": "3か月", "ex": "I've been studying English for three months." },
+    { "en": "boss's friend", "ja": "上司の友達", "ex": "He was my boss's friend." },
+    { "en": "where I can buy", "ja": "どこで買えるか", "ex": "Could you tell me where I can buy a ticket?" }
+  ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2563eb">
+<title>英語の核心 — 中学英語からTOEIC・英会話へ</title>
+<!-- ?v= は更新のたびに日付を変える（古いファイルがブラウザに残らないようにするため） -->
+<link rel="stylesheet" href="css/style.css?v=20261111">
+</head>
+<body>
+<header class="topbar">
+  <button id="backBtn" class="iconbtn" aria-label="戻る" hidden>←</button>
+  <h1 id="pageTitle">英語の核心</h1>
+  <span id="streakBadge" class="badge" title="連続学習日数"></span>
+</header>
+
+<main id="view" class="view" aria-live="polite"></main>
+
+<nav class="tabbar" aria-label="メインメニュー">
+  <a href="#home" data-tab="home"><span class="ico">🏠</span>ホーム</a>
+  <a href="#course" data-tab="course"><span class="ico">📚</span>コース</a>
+  <a href="#review" data-tab="review"><span class="ico">🔁</span>復習</a>
+  <a href="#compose" data-tab="compose"><span class="ico">🗣</span>英作文</a>
+  <a href="#stats" data-tab="stats"><span class="ico">📈</span>記録</a>
+</nav>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="js/storage.js?v=20261111"></script>
+<script src="js/srs.js?v=20261111"></script>
+<script src="js/speech.js?v=20261111"></script>
+<script src="js/data.js?v=20261111"></script>
+<script src="js/quiz.js?v=20261111"></script>
+<script src="js/app.js?v=20261111"></script>
+</body>
+</html>

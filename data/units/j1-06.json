@@ -1,0 +1,71 @@
+{
+  "id": "j1-06",
+  "title": "疑問詞",
+  "subtitle": "知りたいことを先頭に置く",
+  "steps": [
+    {
+      "type": "question",
+      "title": "なぜ What は文の先頭に来るのか",
+      "body": "「あなたは何が好きですか？」。英語では `What do you like?` です。\n\n日本語の順番のまま `You like what?` と言いたくなりますが、ふつうは使いません。なぜ what は先頭に飛んでいくのでしょう？\n\nそして、what のうしろの `do you like` は、どこかで見た形ではないでしょうか。"
+    },
+    {
+      "type": "core",
+      "title": "知りたいことを先頭に置き、うしろはふつうの疑問文",
+      "body": "語順の単元で、英語は**大事なことを先に言う**言葉だと学びました。疑問詞の文は、その発想そのものです。\n\n質問で**いちばん知りたいこと**（何？ 誰？ どこ？）に疑問詞という名札をつけて、**文の先頭**に置きます。\n\n> **疑問詞 ＋ ふつうの疑問文**\n> What ＋ do you like?　（何を ＋ あなたは好きですか）\n> Where ＋ is the station?　（どこ ＋ 駅はありますか）\n\nうしろの部分は、前の単元で作った疑問文と**まったく同じ**です。be動詞なら be動詞を前に、一般動詞なら代理の do / does を前に。新しい仕組みは1つもありません。\n\n**疑問詞はこの6つ**\n\n- **what** 何 ／ **who** 誰 ／ **where** どこ\n- **when** いつ ／ **why** なぜ ／ **how** どうやって・どんな具合\n\n疑問詞の質問には Yes / No では答えません。聞かれた中身（何・誰・どこ）を答えます。\n\n- What do you like? → I like coffee.\n- Where is the station? → It's over there.\n\n[[日本語の発想|英語の発想]]\nL: 「何」「どこ」は文の途中にある（あなたは何が好き？）\nR: 「何」「どこ」を先頭に出し、うしろは疑問文の形\n\n**ひとつだけ注意**：who が「誰が（主語）」のときは、`Who plays the piano?` のように、うしろを疑問文の形にしません。主語の席が who で埋まっているからです。これは中2でくわしく扱います。",
+      "points": [
+        "疑問詞（知りたいこと）を先頭に、うしろはふつうの疑問文",
+        "うしろの仕組みは前の単元と同じ：be動詞は前へ、一般動詞は do / does",
+        "Yes / No ではなく、中身で答える"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "「疑問詞 ＋ 疑問文」の切れ目を意識して聞きましょう。旅行でそのまま使える文が多いです。",
+      "items": [
+        { "en": "What do you do on weekends?", "ja": "週末は何をしますか？", "note": "最初の do は代理、2つ目の do は「する」という本物の動詞", "sound": "What do you「ワッドゥユ」とつながる" },
+        { "en": "Where is the station?", "ja": "駅はどこですか？", "note": "旅行でいちばん使う形。Where is（Where's）＋ 場所", "sound": "Where's「ウェアズ」" },
+        { "en": "When does the store open?", "ja": "その店はいつ開きますか？", "note": "the store ＝ 1つ → does" },
+        { "en": "Who is that woman?", "ja": "あの女性は誰ですか？", "note": "who ＋ be動詞の疑問文", "sound": "Who's「フーズ」" },
+        { "en": "Why are you here?", "ja": "なぜここにいるのですか？", "note": "why ＋ be動詞の疑問文（「いる」の be動詞）" },
+        { "en": "How do you go to work?", "ja": "どうやって通勤していますか？", "note": "How ＝ 方法。答えは By train. など" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "order", "ja": "駅はどこですか？", "words": ["Where", "is", "the", "station"], "answer": "Where is the station", "tag": "疑問詞＋be動詞", "why": "Where（知りたいこと）＋ is the station?（be動詞の疑問文）。" },
+        { "id": "q2", "type": "order", "ja": "週末は何をしますか？", "words": ["What", "do", "you", "do", "on", "weekends"], "answer": "What do you do on weekends", "tag": "疑問詞＋do", "why": "What ＋ do you do on weekends? 最初の do は代理、2つ目は「する」。" },
+        { "id": "q3", "type": "fill", "q": "___ does the store open?", "ja": "その店はいつ開きますか？", "choices": ["When", "Where", "What"], "answer": "When", "tag": "疑問詞の選び方", "why": "「いつ」＝ when。" },
+        { "id": "q4", "type": "choice", "q": "「How do you go to work?」への答えとして自然なのは？", "choices": ["By train.", "Yes, I do.", "At 9.", "I like work."], "answer": 0, "tag": "疑問詞への答え方", "why": "How（どうやって）→ 手段で答える。疑問詞の質問に Yes / No では答えない。" },
+        { "id": "q5", "type": "choice", "q": "「あの女性は誰ですか？」", "choices": ["Who is that woman?", "Who that woman is?", "Is who that woman?", "Who does that woman?"], "answer": 0, "tag": "疑問詞＋be動詞", "why": "Who ＋ is that woman?（be動詞の疑問文）。疑問詞は必ず先頭。" },
+        { "id": "q6", "type": "fill", "q": "___ are you here?", "ja": "なぜここにいるのですか？", "choices": ["Why", "Who", "When"], "answer": "Why", "tag": "疑問詞の選び方", "why": "「なぜ」＝ why。" },
+        { "id": "q7", "type": "choice", "q": "疑問詞の文で、疑問詞のうしろはどんな形？", "choices": ["ふつうの疑問文と同じ", "ふつうの文と同じ", "動詞だけ", "決まっていない"], "answer": 0, "tag": "疑問詞の核心", "why": "疑問詞 ＋ ふつうの疑問文。be動詞は前へ、一般動詞は do / does。" },
+        { "id": "q8", "type": "fill", "q": "What ___ your sister like?", "ja": "あなたのお姉さんは何が好きですか？", "choices": ["does", "do", "is"], "answer": "does", "tag": "疑問詞＋does", "why": "your sister は1人（is の仲間）→ 代理は does。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "**知りたいことを先に**言ってから、疑問文を続ける練習です。旅行でそのまま使えます。",
+      "items": [
+        { "ja": "駅はどこですか？", "en": "Where is the station?", "accept": ["Where's the station?"], "hint": "Where is ...?" },
+        { "ja": "週末は何をしますか？", "en": "What do you do on weekends?", "accept": ["What do you do on the weekend?"], "hint": "What do you ...?" },
+        { "ja": "その店はいつ開きますか？", "en": "When does the store open?", "hint": "When does ...?" },
+        { "ja": "どうやって通勤していますか？", "en": "How do you go to work?", "hint": "How do you ...?" },
+        { "ja": "あの女性は誰ですか？", "en": "Who is that woman?", "accept": ["Who's that woman?"], "hint": "Who is ...?" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "what", "ja": "何", "ex": "What do you do on weekends?" },
+    { "en": "where", "ja": "どこ", "ex": "Where is the station?" },
+    { "en": "when", "ja": "いつ", "ex": "When does the store open?" },
+    { "en": "who", "ja": "誰", "ex": "Who is that woman?" },
+    { "en": "why", "ja": "なぜ", "ex": "Why are you here?" },
+    { "en": "how", "ja": "どうやって", "ex": "How do you go to work?" },
+    { "en": "station", "ja": "駅", "ex": "Where is the station?" },
+    { "en": "store", "ja": "店", "ex": "When does the store open?" },
+    { "en": "weekend", "ja": "週末", "ex": "What do you do on weekends?" },
+    { "en": "open", "ja": "開く", "ex": "When does the store open?" }
+  ]
+}

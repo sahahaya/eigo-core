@@ -1,0 +1,69 @@
+{
+  "id": "j2-07",
+  "title": "比較",
+  "subtitle": "-er / -est と than の仕組み",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「Bより」が、なぜ英語では文の最後に来るのか",
+      "body": "「このかばんは、あれ**より**大きい」。日本語では「あれより」が先に来て、「大きい」が最後です。\n\n英語では `This bag is bigger than that one.` と、「大きい（bigger）」が先で、「あれより（than that one）」が最後に来ます。\n\nさらに「いちばん高い」は `the highest` と、なぜか the がつきます。**比較の文は、どんな仕組みでできているのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "比較は「ものさしに並べる」。結論が先、比べる相手はあと",
+      "body": "比較は、2つ以上のものを**1本のものさしの上に並べる**ことです。\n\n> **A is 〜er than B.** ＝ AはBより〜だ\n> **A is the 〜est in / of 〜.** ＝ Aは〜の中でいちばん〜だ\n> **A is as 〜 as B.** ＝ AはBと同じくらい〜だ\n\n**結論を先に言うから、than B は最後**\n語順の単元で学んだとおり、英語は**結論を先に**言います。「このかばんは大きいほうだよ（bigger）」と結論を言い切ってから、「あれと比べてね（than that one）」と比べる相手を足すのです。\n\n**いちばんに the がつく理由**\n「いちばん大きいもの」は、グループの中で**1つに決まります**。1つに決まるものは、冠詞の単元で学んだ「指さしの the」で指せます。だから **the** biggest です。\n\n**長い単語は more / most**\nbeautiful や expensive のような長い単語に -er をつけると言いにくいので、前に **more / most** を置きます（more expensive、the most popular）。\n\n**よく使う語は特別な形**：good → **better** → **best**、bad → worse → worst、many / much → more → most。過去形と同じく、よく使う語ほど特別な形が残っています。\n\n**in と of の使い分け**\n前置詞のイメージがそのまま使えます。\n\n- **in**：グループ・場所の**中**で → the tallest **in** my family\n- **of**：同じ仲間の**集まり**の中から → the best **of** the three\n\n[[日本語の発想|英語の発想]]\nL: 「Bより」が先、「大きい」は最後\nR: 「bigger（結論）」が先、「than B（比べる相手）」はあと",
+      "points": [
+        "A is 〜er than B。結論（〜er）が先、比べる相手（than B）があと",
+        "いちばん（-est）は1つに決まるから the をつける",
+        "長い単語は more / most。good → better → best は特別な形"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "結論（〜er / the 〜est）が先に来ていることを確かめながら聞きましょう。",
+      "items": [
+        { "en": "This bag is bigger than that one.", "ja": "このかばんはあれより大きいです。", "note": "one は bag のくり返しを避ける言葉", "sound": "than は弱く「ザン」より「ズン」に近い" },
+        { "en": "Tokyo is more expensive than Osaka.", "ja": "東京は大阪より物価が高いです。", "note": "expensive は長い単語 → more" },
+        { "en": "Mt. Fuji is the highest mountain in Japan.", "ja": "富士山は日本でいちばん高い山です。", "note": "日本という場所の中 → in" },
+        { "en": "This is the best ramen in this town.", "ja": "これはこの町でいちばんおいしいラーメンです。", "note": "good → better → best" },
+        { "en": "My brother is as tall as my father.", "ja": "兄は父と同じくらい背が高いです。", "note": "as 〜 as ＝ ものさしの同じ位置" },
+        { "en": "English is not as difficult as you think.", "ja": "英語はあなたが思っているほど難しくありません。", "note": "not as 〜 as ＝ 〜ほど…ではない" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "This bag is ___ than that one.", "ja": "このかばんはあれより大きいです。", "choices": ["bigger", "big", "biggest"], "answer": "bigger", "tag": "比較の形", "why": "than（〜より）と組むのは -er の形。big は g を重ねて bigger。" },
+        { "id": "q2", "type": "fill", "q": "Tokyo is ___ expensive than Osaka.", "ja": "東京は大阪より物価が高いです。", "choices": ["more", "most", "very"], "answer": "more", "tag": "比較の形", "why": "expensive は長い単語 → -er ではなく more を前に置く。" },
+        { "id": "q3", "type": "fill", "q": "Mt. Fuji is the ___ mountain in Japan.", "ja": "富士山は日本でいちばん高い山です。", "choices": ["highest", "higher", "high"], "answer": "highest", "tag": "比較の形", "why": "「いちばん」は -est。1つに決まるので the がつく。" },
+        { "id": "q4", "type": "choice", "q": "「これはこの町でいちばんおいしいラーメンです」", "choices": ["This is the best ramen in this town.", "This is the goodest ramen in this town.", "This is the better ramen in this town.", "This is best ramen in this town."], "answer": 0, "tag": "比較の形", "why": "good のいちばんは best（特別な形）。1つに決まるので the を忘れない。" },
+        { "id": "q5", "type": "order", "ja": "兄は父と同じくらい背が高いです。", "words": ["My", "brother", "is", "as", "tall", "as", "my", "father"], "extra": ["than"], "answer": "My brother is as tall as my father", "tag": "as 〜 as", "why": "同じくらい ＝ as 〜 as。than は「〜より」なので使わない。" },
+        { "id": "q6", "type": "choice", "q": "「English is not as difficult as you think.」の意味は？", "choices": ["英語はあなたが思っているほど難しくない", "英語はあなたが思うより難しい", "英語は難しくないと思う", "英語はあなたと同じくらい難しい"], "answer": 0, "tag": "as 〜 as", "why": "not as 〜 as ＝ 〜ほど…ではない。" },
+        { "id": "q7", "type": "choice", "q": "いちばん（-est）に the がつく理由は？", "choices": ["「いちばん」は1つに決まり、指さしできるから", "ていねいにするため", "過去の話だから", "複数だから"], "answer": 0, "tag": "比較の核心", "why": "the は「どれか分かる」ものの指さし。いちばんは1つに決まる。" },
+        { "id": "q8", "type": "fill", "q": "He is the tallest ___ my family.", "ja": "彼は家族の中でいちばん背が高いです。", "choices": ["in", "of", "than"], "answer": "in", "tag": "in と of", "why": "家族というグループの中 → in。of は the three のような仲間の集まりのとき。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "**結論（〜er / the 〜est）を先に**言い切ってから、比べる相手を足します。",
+      "items": [
+        { "ja": "このかばんはあれより大きいです。", "en": "This bag is bigger than that one.", "hint": "This bag is bigger ..." },
+        { "ja": "東京は大阪より物価が高いです。", "en": "Tokyo is more expensive than Osaka.", "hint": "Tokyo is more ..." },
+        { "ja": "富士山は日本でいちばん高い山です。", "en": "Mt. Fuji is the highest mountain in Japan.", "accept": ["Mount Fuji is the highest mountain in Japan."], "hint": "... the highest ..." },
+        { "ja": "兄は父と同じくらい背が高いです。", "en": "My brother is as tall as my father.", "hint": "as tall as" },
+        { "ja": "英語はあなたが思っているほど難しくありません。", "en": "English is not as difficult as you think.", "accept": ["English isn't as difficult as you think."], "hint": "not as ... as" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "than", "ja": "〜より", "ex": "This bag is bigger than that one." },
+    { "en": "expensive", "ja": "高い（値段が）", "ex": "Tokyo is more expensive than Osaka." },
+    { "en": "mountain", "ja": "山", "ex": "Mt. Fuji is the highest mountain in Japan." },
+    { "en": "high", "ja": "高い（高さが）", "ex": "Mt. Fuji is the highest mountain in Japan." },
+    { "en": "tall", "ja": "背が高い", "ex": "My brother is as tall as my father." },
+    { "en": "difficult", "ja": "難しい", "ex": "English is not as difficult as you think." },
+    { "en": "the best", "ja": "いちばんよい", "ex": "This is the best ramen in this town." },
+    { "en": "as ... as", "ja": "〜と同じくらい", "ex": "My brother is as tall as my father." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "c1-06",
+  "title": "日常：趣味・家族・週末",
+  "subtitle": "「答え ＋ ひとこと ＋ 質問」で話を広げる",
+  "steps": [
+    {
+      "type": "question",
+      "title": "質問に答えたあと、会話が止まってしまう",
+      "body": "「Do you like sports?」と聞かれて「Yes.」。「Do you have any hobbies?」と聞かれて「Yes, I like reading.」。\n\n正しく答えているのに、そこで会話が止まってしまい、気まずい沈黙が流れる……。英会話を始めたばかりの人がよく経験することです。\n\n**会話を続けるには、どうすればいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "答えに「ひとこと」と「質問」を足すと、会話は続く",
+      "body": "英語の雑談では、聞かれたことに答えるだけでなく、**少し情報を足して、質問を返す**のが基本です。\n\n> **答え ＋ ひとこと（くわしい情報）＋ 質問を返す**\n> Yes, I love hiking.（答え）I went to Mt. Takao last weekend.（ひとこと）Do you like outdoor activities?（質問）\n\nひとことを足すと、相手はそこから質問できます（Mt. Takao? How was it?）。\n\n**広げる質問は「疑問詞」で**\nYes / No で答えられる質問（Do you like 〜?）は、Yes で終わってしまいがちです。**What / How / Why** で始まる質問は、相手がたくさん話せます。\n\n- **What** do you like to do in your free time?（暇なときは何をするのが好き？）\n- **How** was your weekend?（週末はどうだった？）\n- **What made you** start hiking?（何がきっかけでハイキングを始めたの？）\n\n**週末の予定は進行形でも言える**\n友達と会う約束など、**もう決まっている予定**は、進行形で言うことがよくあります。\n\n- What **are** you **doing** this weekend? — I'**m meeting** a friend for dinner.\n\n「今まさに途中」の進行形が、「もう準備が進んでいる予定」にも使われるのです（be going to の going も同じ進行形でしたね）。\n\n[[日本語の発想|英語の発想]]\nL: 聞かれたことに短く答えて、相手の次の質問を待つ\nR: 答えに情報を足し、自分からも質問を返して、会話を一緒に作る",
+      "points": [
+        "答え ＋ ひとこと ＋ 質問を返す",
+        "広げる質問は What / How / Why で始める（Yes / No で終わらせない）",
+        "決まっている予定は進行形でも言える（I'm meeting a friend this weekend.）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "答え・ひとこと・質問のどれにあたるかを考えながら聞きましょう。",
+      "items": [
+        { "en": "What do you like to do in your free time?", "ja": "暇なときは何をするのが好きですか？", "note": "趣味を聞く定番。疑問詞で始まる" },
+        { "en": "I love hiking. I went to Mt. Takao last weekend.", "ja": "ハイキングが大好きです。先週末は高尾山に行きました。", "note": "答え ＋ ひとこと" },
+        { "en": "How was your weekend? — It was great. I visited my parents.", "ja": "週末はどうでしたか？ — よかったです。両親に会いに行きました。", "sound": "How was your は「ハウワズユア」とつながる" },
+        { "en": "Do you have any brothers or sisters? — Yes, I have an older sister.", "ja": "きょうだいはいますか？ — はい、姉が1人います。" },
+        { "en": "What are you doing this weekend? — I'm meeting a friend for dinner.", "ja": "今週末は何をする予定ですか？ — 友達と夕食を食べる予定です。", "note": "決まっている予定 → 進行形" },
+        { "en": "What made you start hiking?", "ja": "何がきっかけでハイキングを始めたのですか？", "note": "make 人 原形（使役）。話を広げる質問" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "autoplay": false, "audio": ["M: How was your weekend?", "W: It was great. I went hiking with my sister.", "M: Oh, nice! Where did you go?", "W: Mt. Takao. It was a little crowded, but the view was beautiful.", "M: That sounds fun. I've never been there."], "q": "Who did the woman go hiking with?", "ja": "女性は誰とハイキングに行きましたか？（設問を読んでから ▶）", "choices": ["Her sister", "Her parents", "Her coworkers", "Nobody"], "answer": 0, "tag": "会話の聞き取り", "why": "I went hiking with my sister。答え（great）にひとこと（with my sister）を足している。" },
+        { "id": "q2", "type": "choice", "autoplay": false, "audio": ["M: How was your weekend?", "W: It was great. I went hiking with my sister.", "M: Oh, nice! Where did you go?", "W: Mt. Takao. It was a little crowded, but the view was beautiful.", "M: That sounds fun. I've never been there."], "q": "What does the woman say about the mountain?", "ja": "女性は山についてどう言っていますか？", "choices": ["It was crowded, but the view was beautiful.", "It was closed.", "It was too cold.", "It was empty."], "answer": 0, "tag": "会話の聞き取り", "why": "a little crowded, but the view was beautiful。but の前後で反対の内容。" },
+        { "id": "q3", "type": "choice", "q": "会話を広げる答え方は？", "choices": ["答え ＋ ひとこと ＋ 質問を返す", "Yes か No だけで答える", "相手の質問をくり返す", "黙ってうなずく"], "answer": 0, "tag": "会話を広げるコツ", "why": "ひとことを足すと相手が質問しやすく、質問を返すと会話が続く。" },
+        { "id": "q4", "type": "fill", "q": "What do you like to do in your free ___?", "ja": "暇なときは何をするのが好きですか？", "choices": ["time", "day", "hour"], "answer": "time", "tag": "趣味の聞き方", "why": "free time ＝ 自由な時間・暇な時間。" },
+        { "id": "q5", "type": "choice", "q": "「What are you doing this weekend?」への自然な答えは？", "choices": ["I'm meeting a friend for dinner.", "I met a friend for dinner.", "I always meet friends.", "I was meeting a friend."], "answer": 0, "tag": "予定の言い方", "why": "もう決まっている予定 → 進行形。過去形や過去進行形は週末の予定にならない。" },
+        { "id": "q6", "type": "choice", "q": "話を広げやすい質問は？", "choices": ["What made you start hiking?", "Do you like hiking?", "Is it hiking?", "Hiking?"], "answer": 0, "tag": "会話を広げるコツ", "why": "疑問詞（What）で始まる質問は、Yes / No で終わらず、相手がたくさん話せる。" },
+        { "id": "q7", "type": "fill", "q": "Do you have ___ brothers or sisters?", "ja": "きょうだいはいますか？", "choices": ["any", "some", "a"], "answer": "any", "tag": "家族の聞き方", "why": "疑問文で「いくらか・誰か」→ any（There is の単元）。" },
+        { "id": "q8", "type": "order", "ja": "週末はどうでしたか？", "words": ["How", "was", "your", "weekend"], "extra": ["did"], "answer": "How was your weekend", "tag": "雑談の定番", "why": "How ＋ was ＋ 主語。月曜日のあいさつ代わりによく使う。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "自分のことに置きかえて、**答え ＋ ひとこと**まで言ってみましょう。",
+      "items": [
+        { "ja": "暇なときは何をするのが好きですか？", "en": "What do you like to do in your free time?", "hint": "What do you like to do ...?" },
+        { "ja": "週末はどうでしたか？", "en": "How was your weekend?", "hint": "How was ...?" },
+        { "ja": "ハイキングが大好きです。先週末は高尾山に行きました。", "en": "I love hiking. I went to Mt. Takao last weekend.", "accept": ["I love hiking. I went to Mount Takao last weekend."], "hint": "I love hiking. I went ..." },
+        { "ja": "姉が1人います。", "en": "I have an older sister.", "accept": ["I have one older sister."], "hint": "I have ..." },
+        { "ja": "今週末は友達と夕食を食べる予定です。", "en": "I'm meeting a friend for dinner this weekend.", "accept": ["I'm having dinner with a friend this weekend.", "I'm going to have dinner with a friend this weekend."], "hint": "I'm meeting ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "free time", "ja": "暇な時間", "ex": "What do you like to do in your free time?" },
+    { "en": "hiking", "ja": "ハイキング", "ex": "I love hiking." },
+    { "en": "How was ...?", "ja": "〜はどうでしたか？", "ex": "How was your weekend?" },
+    { "en": "parents", "ja": "両親", "ex": "I visited my parents." },
+    { "en": "older sister", "ja": "姉", "ex": "I have an older sister." },
+    { "en": "crowded", "ja": "混雑した", "ex": "It was a little crowded." },
+    { "en": "What made you ...?", "ja": "何がきっかけで〜したのですか？", "ex": "What made you start hiking?" },
+    { "en": "outdoor activities", "ja": "野外活動", "ex": "Do you like outdoor activities?" }
+  ]
+}

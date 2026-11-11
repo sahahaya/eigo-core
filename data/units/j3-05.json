@@ -1,0 +1,69 @@
+{
+  "id": "j3-05",
+  "title": "間接疑問文",
+  "subtitle": "疑問文を文の中に入れる",
+  "steps": [
+    {
+      "type": "question",
+      "title": "なぜ「where is the station」が「where the station is」に戻るのか",
+      "body": "「駅はどこですか？」は `Where is the station?` です。\n\nところが「駅がどこか知っていますか？」は `Do you know where the station is?` と、is が最後に戻ります。`Do you know where is the station?` とは言いません。\n\n「彼は何がほしいの？」は `What does he want?` なのに、「彼が何をほしいのか分からない」は `I don't know what he wants.` と、does が消えて s が戻ってきます。**なぜでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "質問の合図は1つの文に1つ。中に入った疑問文はふつうの語順に戻る",
+      "body": "中1で、疑問文は**be動詞や do を前に出して**作ると学びました。この語順は「**今まさに質問しています**」という合図です。\n\n疑問文を別の文の中に入れると、質問の合図は**外側の文**（Do you know 〜?）が出しています。中に入った部分は、もう質問ではなく「**〜か**」という**名詞のかたまり**です。だから合図をやめて、**ふつうの語順（主語 ＋ 動詞）**に戻ります。\n\n> Where **is the station**?（質問の合図あり）\n> Do you know where **the station is**?（合図は外側。中はふつうの語順）\n\n**do / does / did は消える**\n代理の do は、疑問文の形を作るための係でした。疑問文の形をやめると、代理の出番もなくなります。三単現の s や過去形は、動詞に戻ります。\n\n- What **does he want**? → I don't know what **he wants**.\n- Where **did she go**? → Do you know where **she went**?\n\n**疑問詞がない質問は if でつなぐ**\nYes / No で答える質問を中に入れるときは、**if**（〜かどうか）でつなぎます。\n\n- Is this store open? → Do you know **if** this store is open?\n\n**会話で役立つ理由**\n`Where is the station?` と直接聞くより、`Can you tell me where the station is?` と外側の文で包むほうが、やわらかく丁寧に聞こえます。旅行先で道や時間を聞くときにとても便利です。\n\n[[日本語の発想|英語の発想]]\nL: 「駅はどこですか」も「駅がどこか（知っていますか）」も語順は同じ\nR: 中に入った疑問文は質問の合図をやめ、主語 ＋ 動詞の順に戻る",
+      "points": [
+        "疑問文を文の中に入れると、ふつうの語順（主語 ＋ 動詞）に戻る",
+        "do / does / did は消え、s や過去形は動詞に戻る（what he wants）",
+        "Yes / No の質問は if でつなぐ。Can you tell me 〜? で包むと丁寧"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "外側の文が質問の合図を出し、中の部分がふつうの語順になっていることを確かめましょう。",
+      "items": [
+        { "en": "Do you know where the station is?", "ja": "駅がどこか知っていますか？", "note": "where のうしろは the station is（主語 ＋ 動詞）" },
+        { "en": "Can you tell me what time it is?", "ja": "今何時か教えてくれますか？", "note": "What time is it? が中に入った形" },
+        { "en": "I don't know what he wants.", "ja": "彼が何をほしいのか分かりません。", "note": "does が消えて、s が wants に戻る" },
+        { "en": "I wonder why she is late.", "ja": "彼女はどうして遅れているんだろう。", "note": "I wonder ＝ 〜かなと思う" },
+        { "en": "Do you know if this store is open on Sundays?", "ja": "この店が日曜日に開いているか知っていますか？", "note": "Yes / No の質問 → if" },
+        { "en": "Please tell me when the next train leaves.", "ja": "次の電車がいつ出るか教えてください。", "note": "When does the next train leave? が中に入った形", "sound": "next train は t が重なり「ネクストレイン」と1つにつながる" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "order", "ja": "駅がどこか知っていますか？", "words": ["Do", "you", "know", "where", "the", "station", "is"], "extra": ["does"], "answer": "Do you know where the station is", "tag": "間接疑問の語順", "why": "外側（Do you know）が質問の合図。中は where ＋ 主語 ＋ 動詞。" },
+        { "id": "q2", "type": "choice", "q": "「彼が何をほしいのか分かりません」", "choices": ["I don't know what he wants.", "I don't know what does he want.", "I don't know what he want.", "I don't know what wants he."], "answer": 0, "tag": "間接疑問の語順", "why": "中に入ると does は消え、三単現の s が動詞に戻る。" },
+        { "id": "q3", "type": "fill", "q": "Can you tell me what time ___?", "ja": "今何時か教えてくれますか？", "choices": ["it is", "is it", "does it"], "answer": "it is", "tag": "間接疑問の語順", "why": "中に入った部分はふつうの語順 → it is。" },
+        { "id": "q4", "type": "choice", "q": "間接疑問で語順がふつうに戻る理由は？", "choices": ["質問の合図は外側の文（Do you know 〜?）が出しているから", "過去の話だから", "丁寧にするためだけだから", "疑問詞が消えるから"], "answer": 0, "tag": "間接疑問の核心", "why": "質問の合図は1つの文に1つ。中の部分は「〜か」という名詞のかたまり。" },
+        { "id": "q5", "type": "fill", "q": "Do you know ___ this store is open on Sundays?", "ja": "この店が日曜日に開いているか知っていますか？", "choices": ["if", "what", "where"], "answer": "if", "tag": "if（〜かどうか）", "why": "Yes / No で答える質問を中に入れる → if。" },
+        { "id": "q6", "type": "fill", "q": "Please tell me when the next train ___.", "ja": "次の電車がいつ出るか教えてください。", "choices": ["leaves", "does leave", "leave"], "answer": "leaves", "tag": "間接疑問の語順", "why": "does が消えて、三単現の s が動詞に戻る → leaves。" },
+        { "id": "q7", "type": "fill", "q": "I wonder why she ___ late.", "ja": "彼女はどうして遅れているんだろう。", "choices": ["is", "does", "be"], "answer": "is", "tag": "間接疑問の語順", "why": "why ＋ 主語（she）＋ 動詞（is）のふつうの語順。" },
+        { "id": "q8", "type": "choice", "q": "駅の場所を、よりやわらかく丁寧に聞くのは？", "choices": ["Can you tell me where the station is?", "Where is the station?", "Station where?", "Tell me where is the station."], "answer": 0, "tag": "間接疑問の使い方", "why": "外側の文で包むとやわらかく聞こえる。中はふつうの語順。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "旅行先で道や時間を聞く形です。**Do you know / Can you tell me** のあとはふつうの語順で。",
+      "items": [
+        { "ja": "駅がどこか知っていますか？", "en": "Do you know where the station is?", "hint": "Do you know where ...?" },
+        { "ja": "今何時か教えてくれますか？", "en": "Can you tell me what time it is?", "accept": ["Could you tell me what time it is?"], "hint": "Can you tell me ...?" },
+        { "ja": "彼が何をほしいのか分かりません。", "en": "I don't know what he wants.", "accept": ["I do not know what he wants."], "hint": "I don't know what ..." },
+        { "ja": "この店が日曜日に開いているか知っていますか？", "en": "Do you know if this store is open on Sundays?", "accept": ["Do you know if this store is open on Sunday?", "Do you know whether this store is open on Sundays?"], "hint": "Do you know if ...?" },
+        { "ja": "次の電車がいつ出るか教えてください。", "en": "Please tell me when the next train leaves.", "accept": ["Can you tell me when the next train leaves?", "Could you tell me when the next train leaves?"], "hint": "Please tell me when ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "I wonder", "ja": "〜かなと思う", "ex": "I wonder why she is late." },
+    { "en": "what time it is", "ja": "今何時か", "ex": "Can you tell me what time it is?" },
+    { "en": "next train", "ja": "次の電車", "ex": "Please tell me when the next train leaves." },
+    { "en": "leave", "ja": "出発する・去る", "ex": "Please tell me when the next train leaves." },
+    { "en": "tell", "ja": "伝える・教える", "ex": "Please tell me when the next train leaves." },
+    { "en": "Do you know ...?", "ja": "〜を知っていますか？", "ex": "Do you know where the station is?" },
+    { "en": "Can you tell me ...?", "ja": "〜を教えてくれますか？", "ex": "Can you tell me what time it is?" },
+    { "en": "whether", "ja": "〜かどうか", "ex": "Do you know whether this store is open?" }
+  ]
+}

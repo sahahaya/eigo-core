@@ -1,0 +1,70 @@
+{
+  "id": "j1-12",
+  "title": "過去形",
+  "subtitle": "「今から切り離された」感覚",
+  "steps": [
+    {
+      "type": "question",
+      "title": "過去形は「時間が前」というだけ？",
+      "body": "「昨日テニスをしました」は `I played tennis yesterday.`。動詞に -ed をつければ過去形です。\n\nところが「行った」は goed ではなく `went`、「食べた」は `ate`。さらに否定は `I didn't played` ではなく `I didn't play` です。\n\n**不規則な形はなぜあるのでしょう？ そして、did のうしろで動詞が元に戻るのはなぜでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "過去形は「今とは切り離された、終わった話」",
+      "body": "過去形の中心の感覚は、**今の自分から離れたところにある話**です。\n\n> **現在形**：今もそう（I play tennis. ＝ 今もテニスをする人）\n> **過去形**：今とは切り離された話（I played tennis yesterday. ＝ 昨日で終わった話）\n\nこの「今から離れている」感覚は、とても大事です。高校で学ぶ仮定法（もし〜なら）でも、過去形が「現実から離れている」印として使われます。今のうちに「過去形 ＝ 離れている」と覚えておきましょう。\n\n**形の作り方**\n\n- ふつうは -ed：play → played、watch → watched、like → liked\n- 子音＋y は ied：study → studied\n- 「短い音＋子音1つ」は重ねて ed：stop → stopped\n- **よく使う動詞ほど特別な形**：go → went、eat → ate、have → had、see → saw、come → came、make → made、buy → bought\n\nよく使う動詞は、昔からの形がそのまま残っています。毎日何度も口にするので、形が変わらずに受け継がれてきたのです。だからこそ、**例文ごと口で覚える**のがいちばんの近道です。\n\n過去形は主語で形が変わりません（he play**ed**。三単現の s はいらない）。be動詞だけは am / is → **was**、are → **were** です。\n\n**否定・疑問は代理の do が did になる**\n中1-04 の「代理の do」、中1-05 の「does が s を引き受ける」と同じ仕組みです。今度は **did が「過去」を引き受ける**ので、動詞は原形に戻ります。\n\n- I **didn't** go.（✕ didn't went：過去が2つになる）\n- **Did** you go? — Yes, I **did**.\n\n[[日本語の発想|英語の発想]]\nL: 文末の「た」で過去を表す\nR: 動詞の形そのものを変えて過去を表す。否定・疑問では did が過去を引き受ける",
+      "points": [
+        "過去形 ＝ 今とは切り離された、終わった話",
+        "よく使う動詞ほど不規則（went, ate, had, saw）。例文ごと覚える",
+        "否定・疑問は did が過去を引き受け、動詞は原形（didn't go / Did you go?）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "-ed の発音は3種類あります。🔊 のメモも見ながら聞きましょう。",
+      "items": [
+        { "en": "I played tennis yesterday.", "ja": "私は昨日テニスをしました。", "sound": "played の ed は「ド」。「プレイド」" },
+        { "en": "We watched a movie last night.", "ja": "私たちは昨夜映画を見ました。", "sound": "watched の ed は「ト」。「ウォッチト」" },
+        { "en": "She wanted a new phone.", "ja": "彼女は新しい電話をほしがっていました。", "sound": "t / d で終わる語の ed は「イド」。「ウォンティド」" },
+        { "en": "He went to Kyoto last week.", "ja": "彼は先週京都に行きました。", "note": "go → went。主語が he でも s はつかない" },
+        { "en": "I was busy yesterday.", "ja": "私は昨日忙しかったです。", "note": "am の過去は was" },
+        { "en": "I didn't eat breakfast this morning.", "ja": "今朝は朝食を食べませんでした。", "note": "did が過去を引き受け、eat は原形" },
+        { "en": "Did you sleep well? — Yes, I did.", "ja": "よく眠れましたか？ — はい。", "note": "旅先や職場で、朝のあいさつ代わりによく使う" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I ___ tennis yesterday.", "ja": "私は昨日テニスをしました。", "choices": ["played", "play", "plays"], "answer": "played", "tag": "過去形の形", "why": "yesterday ＝ 今とは切り離された話 → 過去形 played。" },
+        { "id": "q2", "type": "fill", "q": "He ___ to Kyoto last week.", "ja": "彼は先週京都に行きました。", "choices": ["went", "goed", "goes"], "answer": "went", "tag": "不規則な過去形", "why": "go はよく使う動詞なので特別な形 went。goed という形はない。" },
+        { "id": "q3", "type": "fill", "q": "I ___ busy yesterday.", "ja": "私は昨日忙しかったです。", "choices": ["was", "were", "am"], "answer": "was", "tag": "be動詞の過去", "why": "am の過去は was。were は you や2人以上のとき。" },
+        { "id": "q4", "type": "choice", "q": "「今朝は朝食を食べませんでした」", "choices": ["I didn't eat breakfast this morning.", "I didn't ate breakfast this morning.", "I don't ate breakfast this morning.", "I wasn't eat breakfast this morning."], "answer": 0, "tag": "did の代理", "why": "did が過去を引き受けるので eat は原形。ate にすると過去が2つになる。" },
+        { "id": "q5", "type": "choice", "q": "「Did you sleep well?」への答えは？", "choices": ["Yes, I did.", "Yes, I was.", "Yes, I do.", "Yes, I slept."], "answer": 0, "tag": "did の代理", "why": "質問で使った did で返す。" },
+        { "id": "q6", "type": "order", "ja": "あなたは昨日どこへ行きましたか？", "words": ["Where", "did", "you", "go", "yesterday"], "extra": ["went"], "answer": "Where did you go yesterday", "tag": "did の代理", "why": "疑問詞 ＋ did you ＋ 原形 go。疑問詞の単元と同じ形。" },
+        { "id": "q7", "type": "fill", "q": "They ___ at home last night.", "ja": "彼らは昨夜家にいました。", "choices": ["were", "was", "are"], "answer": "were", "tag": "be動詞の過去", "why": "they（2人以上）の are → 過去は were。" },
+        { "id": "q8", "type": "choice", "q": "過去形の中心の感覚は？", "choices": ["今とは切り離された、終わった話", "今まさに途中", "いつもそう", "これからの予定"], "answer": 0, "tag": "過去形の核心", "why": "過去形は「今から離れている」印。仮定法にもつながる大事な感覚。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "昨日や週末のことを話す練習です。日常会話でいちばん使う時制です。",
+      "items": [
+        { "ja": "私は昨日テニスをしました。", "en": "I played tennis yesterday.", "hint": "I played ..." },
+        { "ja": "私たちは昨夜映画を見ました。", "en": "We watched a movie last night.", "accept": ["We saw a movie last night."], "hint": "We watched ..." },
+        { "ja": "あなたは昨日どこへ行きましたか？", "en": "Where did you go yesterday?", "hint": "Where did ...?" },
+        { "ja": "私は昨日忙しかったです。", "en": "I was busy yesterday.", "hint": "I was ..." },
+        { "ja": "よく眠れましたか？", "en": "Did you sleep well?", "hint": "Did you ...?" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "yesterday", "ja": "昨日", "ex": "I played tennis yesterday." },
+    { "en": "last night", "ja": "昨夜", "ex": "We watched a movie last night." },
+    { "en": "last week", "ja": "先週", "ex": "He went to Kyoto last week." },
+    { "en": "went", "ja": "行った（go の過去形）", "ex": "He went to Kyoto last week." },
+    { "en": "ate", "ja": "食べた（eat の過去形）", "ex": "I ate sushi yesterday." },
+    { "en": "busy", "ja": "忙しい", "ex": "I was busy yesterday." },
+    { "en": "movie", "ja": "映画", "ex": "We watched a movie last night." },
+    { "en": "sleep well", "ja": "よく眠る", "ex": "Did you sleep well?" }
+  ]
+}

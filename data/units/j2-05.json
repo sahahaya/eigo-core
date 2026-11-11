@@ -1,0 +1,69 @@
+{
+  "id": "j2-05",
+  "title": "動名詞と不定詞",
+  "subtitle": "-ing は「実際にしていること」、to は「これから」",
+  "steps": [
+    {
+      "type": "question",
+      "title": "なぜ「I enjoy to swim.」は言えないのか",
+      "body": "「泳ぐのが好き」は `I like swimming.` でも `I like to swim.` でも言えます。\n\nところが「泳ぐのを楽しむ」は `I enjoy swimming.` だけで、`I enjoy to swim.` とは言いません。逆に「泳ぎたい」は `I want to swim.` だけで、`I want swimming.` は言いません。\n\n**-ing と to、どちらを使うかはどうやって決まるのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "-ing は「実際に動いていること」、to は「→ これから」",
+      "body": "動詞に -ing をつけると「〜すること」という名詞にもなります（動名詞）。`Swimming is fun.`（泳ぐことは楽しい）のように、主語にも置けます。\n\n2つのイメージを並べると、使い分けが見えてきます。\n\n> **-ing** ＝ 実際にしている・もう起きている動作（進行形の -ing と同じ「動いている」感覚）\n> **to ＋ 原形** ＝「→ これから」の、まだしていない動作（前の単元の to）\n\n**-ing と相性がいい動詞**\n\n- **enjoy**：楽しむのは、実際にやっている最中 → enjoy swim**ming**\n- **finish**：終えるのは、もうやっていること → finish eat**ing**\n- **stop**：やめるのは、それまでしていたこと → stop smok**ing**\n\n**to と相性がいい動詞**：want、hope、decide、plan など、**これからに向かう動詞**です。\n\n**stop で違いがはっきり分かる**\n\n- He stopped **smoking**.（していた喫煙をやめた ＝ 禁煙した）\n- He stopped **to smoke**.（→ 吸うために、立ち止まった）\n\nlike や start は、どちらを使っても意味はほとんど変わりません。迷ったときは「実際にしていること？ これからのこと？」と考えると、多くの場合に正しく選べます。\n\n**前置詞のうしろは -ing**\nfor、at、of などの前置詞のうしろには名詞が来ます。動詞を置きたいときは、名詞の形の -ing にします。\n\n- Thank you for **coming**.（来てくれてありがとう）\n- I'm good at **cooking**.（料理が得意です）\n\n[[日本語の発想|英語の発想]]\nL: 「泳ぐこと」「泳ぐのを」で、動作が実際かどうかは区別しない\nR: 実際の動作なら -ing、これからの動作なら to と言い分ける",
+      "points": [
+        "-ing ＝ 実際にしている・もう起きている動作。enjoy / finish / stop と相性がいい",
+        "to ＝ これからの動作。want / hope / decide と相性がいい",
+        "前置詞のうしろは -ing（Thank you for coming.）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "-ing が「実際の動作」、to が「これから」になっていることを確かめましょう。",
+      "items": [
+        { "en": "I enjoy cooking on weekends.", "ja": "週末は料理を楽しんでいます。", "note": "実際にやっている最中を楽しむ → -ing" },
+        { "en": "Did you finish eating?", "ja": "食べ終わりましたか？", "note": "もう食べていた → -ing。食事が終わったかを聞くときの言い方" },
+        { "en": "My father stopped smoking last year.", "ja": "父は去年、たばこをやめました。", "note": "していた喫煙をやめた → -ing" },
+        { "en": "Swimming is good for your health.", "ja": "泳ぐことは健康にいいです。", "note": "-ing は主語にもなる" },
+        { "en": "Thank you for coming.", "ja": "来てくれてありがとう。", "note": "前置詞 for のうしろ → -ing" },
+        { "en": "I'm not good at singing.", "ja": "私は歌うのが得意ではありません。", "note": "前置詞 at のうしろ → -ing" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I enjoy ___ on weekends.", "ja": "週末は料理を楽しんでいます。", "choices": ["cooking", "to cook", "cook"], "answer": "cooking", "tag": "-ing と to の使い分け", "why": "楽しむのは実際にしている最中の動作 → -ing。" },
+        { "id": "q2", "type": "fill", "q": "I want ___ Hawaii.", "ja": "ハワイを訪れたいです。", "choices": ["to visit", "visiting", "visit"], "answer": "to visit", "tag": "-ing と to の使い分け", "why": "want は「→ これから」に向かう動詞 → to ＋ 原形。" },
+        { "id": "q3", "type": "fill", "q": "Did you finish ___?", "ja": "食べ終わりましたか？", "choices": ["eating", "to eat", "eat"], "answer": "eating", "tag": "-ing と to の使い分け", "why": "終えるのは、もうしていた動作 → -ing。" },
+        { "id": "q4", "type": "choice", "q": "「My father stopped smoking.」の意味は？", "choices": ["父はたばこをやめた", "父はたばこを吸うために立ち止まった", "父はたばこを吸い始めた", "父は今たばこを吸っている"], "answer": 0, "tag": "-ing と to の使い分け", "why": "-ing ＝ していた喫煙。それをやめた。stopped to smoke なら「吸うために立ち止まった」。" },
+        { "id": "q5", "type": "fill", "q": "Thank you for ___.", "ja": "来てくれてありがとう。", "choices": ["coming", "to come", "come"], "answer": "coming", "tag": "前置詞のうしろ", "why": "前置詞 for のうしろは名詞の形 → -ing。" },
+        { "id": "q6", "type": "choice", "q": "-ing（動名詞）の中心イメージは？", "choices": ["実際にしている・もう起きている動作", "これから向かう動作", "今から切り離された話", "相手への命令"], "answer": 0, "tag": "動名詞の核心", "why": "進行形の -ing と同じ「動いている」感覚。to の「これから」と対になる。" },
+        { "id": "q7", "type": "order", "ja": "泳ぐことは健康にいいです。", "words": ["Swimming", "is", "good", "for", "your", "health"], "extra": ["Swim"], "answer": "Swimming is good for your health", "tag": "動名詞の形", "why": "主語の席には名詞が来る → 動詞を -ing にして Swimming。" },
+        { "id": "q8", "type": "fill", "q": "I'm not good at ___.", "ja": "私は歌うのが得意ではありません。", "choices": ["singing", "to sing", "sing"], "answer": "singing", "tag": "前置詞のうしろ", "why": "前置詞 at のうしろ → -ing。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "動詞を言う前に**「実際の動作？ これから？」**と判断してから口に出します。",
+      "items": [
+        { "ja": "週末は料理を楽しんでいます。", "en": "I enjoy cooking on weekends.", "hint": "I enjoy ..." },
+        { "ja": "食べ終わりましたか？", "en": "Did you finish eating?", "accept": ["Have you finished eating?"], "hint": "Did you finish ...?" },
+        { "ja": "来てくれてありがとう。", "en": "Thank you for coming.", "accept": ["Thanks for coming."], "hint": "Thank you for ..." },
+        { "ja": "父は去年、たばこをやめました。", "en": "My father stopped smoking last year.", "accept": ["My father quit smoking last year."], "hint": "My father stopped ..." },
+        { "ja": "私は歌うのが得意ではありません。", "en": "I'm not good at singing.", "accept": ["I am not good at singing."], "hint": "I'm not good at ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "enjoy", "ja": "楽しむ", "ex": "I enjoy cooking on weekends." },
+    { "en": "finish", "ja": "終える", "ex": "Did you finish eating?" },
+    { "en": "stop smoking", "ja": "たばこをやめる", "ex": "My father stopped smoking last year." },
+    { "en": "health", "ja": "健康", "ex": "Swimming is good for your health." },
+    { "en": "be good at", "ja": "〜が得意だ", "ex": "I'm not good at singing." },
+    { "en": "sing", "ja": "歌う", "ex": "I'm not good at singing." },
+    { "en": "Thank you for coming.", "ja": "来てくれてありがとう。", "ex": "Thank you for coming." },
+    { "en": "last year", "ja": "去年", "ex": "My father stopped smoking last year." }
+  ]
+}

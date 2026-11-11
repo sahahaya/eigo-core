@@ -1,0 +1,73 @@
+{
+  "id": "t1-01",
+  "title": "頻出語彙：職場",
+  "subtitle": "会議・人事・スケジュール",
+  "steps": [
+    {
+      "type": "question",
+      "title": "TOEICの単語は、なぜ覚えにくいのか",
+      "body": "TOEICには `postpone`（延期する）、`agenda`（議題）、`deadline`（締め切り）のような、中学・高校ではあまり見なかった単語がたくさん出てきます。\n\n単語帳を1ページ目から順に覚えようとして、途中で止まってしまう人も多いでしょう。\n\n**TOEICの単語を効率よく覚えるには、どうすればいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "TOEICは「架空の会社の毎日」。場面ごとに、部品で覚える",
+      "body": "TOEICの問題は、ほとんどが**どこかの会社やお店の、ふつうの1日**の話です。会議の日程を変える、新しい人を雇う、報告書を出す、注文する、届かない……。出てくる場面が決まっているので、単語も**場面ごとのかたまり**で覚えると、ぐっと覚えやすくなります。\n\nこの単元は「職場」の場面です。\n\n> **予定**：schedule / reschedule / postpone / deadline / available\n> **会議**：attend / agenda / colleague / supervisor\n> **人事**：hire / promote / transfer / branch\n\n**単語の「部品」で推測する**\n長い単語も、部品に分けると意味が見えてきます。\n\n- **re-** ＝ もう一度：**re**schedule（予定を組み直す）、**re**write（書き直す）\n- **co-** ＝ 一緒に：**co**worker（同僚）\n- **post-** ＝ 後ろへ：**post**pone（後ろへ置く → 延期する）\n- **-er** ＝ する人、**-ee** ＝ される人：employ**er**（雇う人）、employ**ee**（雇われる人 ＝ 社員）\n\n**同じ部品で品詞が変わる**\nattend（出席する：動詞）、attendance（出席：名詞）、attendee（出席者：名詞）。Part 5 では、この形の違いがよく問われます（Part 5 の単元でくわしく扱います）。\n\n[[日本語の発想|英語の発想]]\nL: 「延期」「出席」のように、漢字の組み合わせで意味を作る\nR: re- / co- / -ee のような部品の組み合わせで意味を作る",
+      "points": [
+        "TOEICは会社やお店の日常。単語は場面ごとのかたまりで覚える",
+        "部品で推測する：re- ＝ もう一度、co- ＝ 一緒に、-er ＝ する人、-ee ＝ される人",
+        "attend / attendance / attendee のように、同じ部品で品詞が変わる"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "職場でよく聞く文です。太字の単語の場面を思い浮かべながら聞きましょう。",
+      "items": [
+        { "en": "The meeting has been postponed until next Monday.", "ja": "会議は来週の月曜日に延期されました。", "note": "postpone ＝ 後ろへ置く。受動態の現在完了（今もその状態）" },
+        { "en": "Could you send me the agenda before the meeting?", "ja": "会議の前に議題を送っていただけますか？" },
+        { "en": "The deadline for the report is this Friday.", "ja": "報告書の締め切りは今週の金曜日です。", "sound": "deadline は「デッドライン」。最初の d が弱くなり「デッライン」に近い" },
+        { "en": "She was promoted to sales manager last month.", "ja": "彼女は先月、営業部長に昇進しました。" },
+        { "en": "We are planning to hire three new employees.", "ja": "新しい社員を3人雇う予定です。" },
+        { "en": "Are you available on Thursday afternoon?", "ja": "木曜日の午後は空いていますか？", "note": "available ＝ 都合がつく・手に入る。予定を聞く定番" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "The meeting has been ___ until next Monday.", "ja": "会議は来週の月曜日に延期されました。", "choices": ["postponed", "attended", "submitted"], "answer": "postponed", "tag": "職場の語彙", "why": "post-（後ろへ）＋ pone（置く）→ 延期する。until（〜まで）とよく一緒に使う。" },
+        { "id": "q2", "type": "fill", "q": "Please ___ your report by Friday.", "ja": "金曜日までに報告書を提出してください。", "choices": ["submit", "hire", "attend"], "answer": "submit", "tag": "職場の語彙", "why": "submit ＝ 提出する。by Friday（期限）とセットでよく出る。" },
+        { "id": "q3", "type": "choice", "q": "employee と employer の違いは？", "choices": ["employee は雇われる人（社員）、employer は雇う人（雇い主）", "どちらも同じ意味", "employee は雇う人、employer は雇われる人", "employee は会社、employer は建物"], "answer": 0, "tag": "単語の部品", "why": "-ee ＝ される人、-er ＝ する人。attendee（出席者）も同じ部品。" },
+        { "id": "q4", "type": "fill", "q": "Are you ___ on Thursday afternoon?", "ja": "木曜日の午後は空いていますか？", "choices": ["available", "agenda", "deadline"], "answer": "available", "tag": "職場の語彙", "why": "be動詞のうしろに来る形容詞 available ＝ 都合がつく。" },
+        { "id": "q5", "type": "choice", "q": "reschedule の意味は？", "choices": ["予定を組み直す", "予定を取り消す", "予定を守る", "予定を早める"], "answer": 0, "tag": "単語の部品", "why": "re-（もう一度）＋ schedule（予定を組む）。" },
+        { "id": "q6", "type": "fill", "q": "She was ___ to sales manager last month.", "ja": "彼女は先月、営業部長に昇進しました。", "choices": ["promoted", "postponed", "submitted"], "answer": "promoted", "tag": "職場の語彙", "why": "promote ＝ 昇進させる。昇進した人が主語なので受動態 was promoted。" },
+        { "id": "q7", "type": "fill", "q": "Many people ___ the conference every year.", "ja": "毎年多くの人がその会議に出席します。", "choices": ["attend", "attendance", "attendee"], "answer": "attend", "tag": "品詞の見分け", "why": "主語 Many people のうしろは動詞の席 → attend。attendance / attendee は名詞。" },
+        { "id": "q8", "type": "choice", "q": "colleague に最も近い意味の語は？", "choices": ["coworker", "customer", "supervisor", "applicant"], "answer": 0, "tag": "職場の語彙", "why": "colleague ＝ 同僚。co-（一緒に）＋ worker ＝ coworker。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "職場でそのまま使える文です。**単語をかたまり（予定・会議・人事）で**口に出しましょう。",
+      "items": [
+        { "ja": "木曜日の午後は空いていますか？", "en": "Are you available on Thursday afternoon?", "hint": "Are you available ...?" },
+        { "ja": "会議は来週の月曜日に延期されました。", "en": "The meeting has been postponed until next Monday.", "accept": ["The meeting was postponed until next Monday."], "hint": "The meeting has been ..." },
+        { "ja": "報告書の締め切りは今週の金曜日です。", "en": "The deadline for the report is this Friday.", "hint": "The deadline for ..." },
+        { "ja": "会議の前に議題を送っていただけますか？", "en": "Could you send me the agenda before the meeting?", "accept": ["Can you send me the agenda before the meeting?"], "hint": "Could you send me ...?" },
+        { "ja": "新しい社員を3人雇う予定です。", "en": "We're planning to hire three new employees.", "accept": ["We are planning to hire three new employees.", "We're going to hire three new employees."], "hint": "We're planning to ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "postpone", "ja": "延期する", "ex": "The meeting has been postponed until next Monday." },
+    { "en": "reschedule", "ja": "予定を組み直す", "ex": "Can we reschedule the meeting?" },
+    { "en": "agenda", "ja": "議題・予定表", "ex": "Could you send me the agenda?" },
+    { "en": "deadline", "ja": "締め切り", "ex": "The deadline for the report is this Friday." },
+    { "en": "submit", "ja": "提出する", "ex": "Please submit your report by Friday." },
+    { "en": "available", "ja": "都合がつく・入手できる", "ex": "Are you available on Thursday afternoon?" },
+    { "en": "attend", "ja": "出席する", "ex": "Many people attend the conference every year." },
+    { "en": "colleague", "ja": "同僚", "ex": "I had lunch with a colleague." },
+    { "en": "supervisor", "ja": "上司・監督者", "ex": "Please ask your supervisor." },
+    { "en": "hire", "ja": "雇う", "ex": "We are planning to hire three new employees." },
+    { "en": "promote", "ja": "昇進させる・宣伝する", "ex": "She was promoted to sales manager." },
+    { "en": "branch", "ja": "支店", "ex": "He was transferred to the Osaka branch." }
+  ]
+}

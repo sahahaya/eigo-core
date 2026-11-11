@@ -1,0 +1,69 @@
+{
+  "id": "t1-04",
+  "title": "Part 2 応答問題",
+  "subtitle": "最初の1〜2語（疑問詞）を聞き取る",
+  "steps": [
+    {
+      "type": "question",
+      "title": "文字が何もないのに、どこを聞けばいい？",
+      "body": "Part 2 は、質問（または発言）が1つ流れ、そのあと3つの応答が流れます。最も自然な応答を選ぶ問題で、**問題用紙には何も書かれていません**。\n\n音声は1回だけ。質問を全部覚えようとすると、応答を聞いているうちに質問を忘れてしまいます。\n\n**Part 2 では、どこに集中して聞けばいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "勝負は最初の1〜2語。そして「同じ音のわな」をよける",
+      "body": "中1の疑問詞の単元で、英語は**知りたいことを文の先頭に置く**と学びました。だから Part 2 では、**最初の1〜2語**に全力で集中します。\n\n> **When** → 時 ／ **Where** → 場所 ／ **Who** → 人 ／ **Why** → 理由 ／ **How long** → 期間 ／ **Do / Did / Can** → Yes・No でも答えられる質問\n\n最初の語さえ聞き取れれば、「時を答えている応答」を待てばよいので、残りを全部聞き取れなくても正解できます。\n\n**同じ音のわなをよける**\n質問と**同じ単語・似た音の単語**を使った応答は、わなのことが多いです。\n\n- Who is **in charge** of the project? → ✕ It's free of **charge**.（同じ音だが意味が違う）\n\n**まっすぐ答えない応答も正解になる**\n実際の会話と同じで、質問に直接答えない応答が正解になることがあります。\n\n- When is the meeting? → It's been **canceled**.（いつかは答えていないが、自然）\n- When will the package arrive? → **Let me check** the tracking number.（確認します）\n\n**Why don't we 〜? は理由の質問ではない**\n`Why don't we take a break?` は「一緒に休憩しませんか？」という**提案**です。Because で始まる応答は、ふつう不正解です。\n\n[[日本語の発想|英語の発想]]\nL: 「いつ？」「どこ？」は文の後ろのほうに来ることが多い\nR: When / Where は文の先頭。最初の1語で答えの種類が決まる",
+      "points": [
+        "最初の1〜2語（疑問詞）で、待つべき答えの種類を決める",
+        "質問と同じ単語・似た音の応答は、わなのことが多い",
+        "Why don't we 〜? は提案。まっすぐ答えない自然な応答も正解になる"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "質問と、自然な応答のセットです。最初の1〜2語に注目して聞きましょう。",
+      "items": [
+        { "en": "When is the meeting? — It's been moved to Friday.", "ja": "会議はいつですか？ — 金曜日に変更になりました。", "note": "When → 時。moved ＝ 予定が動いた" },
+        { "en": "Where is the nearest bank? — There's one across the street.", "ja": "いちばん近い銀行はどこですか？ — 通りの向かいにあります。", "note": "Where → 場所" },
+        { "en": "Who will lead the presentation? — I think Mr. Lee will.", "ja": "誰が発表を担当しますか？ — リーさんだと思います。", "note": "Who → 人" },
+        { "en": "Why don't we order lunch? — Sounds good.", "ja": "お昼を注文しませんか？ — いいですね。", "note": "Why don't we ＝ 提案" },
+        { "en": "Can you help me with this report? — Sure, after this call.", "ja": "この報告書を手伝ってくれますか？ — いいですよ、この電話のあとで。" },
+        { "en": "When will the package arrive? — Let me check the tracking number.", "ja": "荷物はいつ届きますか？ — 追跡番号を確認させてください。", "note": "まっすぐ答えない、自然な応答" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "audio": "When does the training session start?", "q": "質問を聞いて、最も自然な応答を選ぼう（▶で質問と応答が流れる）", "choices": ["In the main conference room.", "At ten o'clock tomorrow.", "Yes, I trained hard."], "answer": 1, "audioChoices": true, "tag": "疑問詞の聞き取り", "why": "When → 時を答えている応答。場所の応答や、同じ音（training / trained）のわなに注意。" },
+        { "id": "q2", "type": "choice", "audio": "Where should I put these boxes?", "q": "質問を聞いて、最も自然な応答を選ぼう（▶で質問と応答が流れる）", "choices": ["Next to the copy machine.", "About twenty boxes.", "Yes, I put them on."], "answer": 0, "audioChoices": true, "tag": "疑問詞の聞き取り", "why": "Where → 場所。数を答えたり、Yes で答えたりするのは不自然。" },
+        { "id": "q3", "type": "choice", "audio": "Who is in charge of the new project?", "q": "質問を聞いて、最も自然な応答を選ぼう（▶で質問と応答が流れる）", "choices": ["It's free of charge.", "Ms. Tanaka from marketing.", "A new projector."], "answer": 1, "audioChoices": true, "tag": "同じ音のわな", "why": "Who → 人。charge / project と同じ音・似た音を使った応答はわな。" },
+        { "id": "q4", "type": "choice", "audio": "Why don't we take a short break?", "q": "発言を聞いて、最も自然な応答を選ぼう（▶で発言と応答が流れる）", "choices": ["Because it was broken.", "Sure, that's a good idea.", "I took it yesterday."], "answer": 1, "audioChoices": true, "tag": "提案の表現", "why": "Why don't we 〜? は提案。Because で理由を答えるのは不自然。break / broken の音のわなにも注意。" },
+        { "id": "q5", "type": "choice", "audio": "Did you send the invoice to the client?", "q": "質問を聞いて、最も自然な応答を選ぼう（▶で質問と応答が流れる）", "choices": ["I'll do it right after lunch.", "He's a regular client.", "Yes, it's on my voice mail."], "answer": 0, "audioChoices": true, "tag": "まっすぐ答えない応答", "why": "Yes / No を言わずに「昼食のすぐあとでやります」（まだ送っていない）と答えるのが自然。client / voice の音のわなに注意。" },
+        { "id": "q6", "type": "choice", "audio": "How long will the repairs take?", "q": "質問を聞いて、最も自然な応答を選ぼう（▶で質問と応答が流れる）", "choices": ["About two hours.", "On the second floor.", "Since last Monday."], "answer": 0, "audioChoices": true, "tag": "疑問詞の聞き取り", "why": "How long → 期間（これから何時間かかるか）。場所や、過去からの起点は答えにならない。" },
+        { "id": "q7", "type": "choice", "q": "「Why don't we 〜?」の意味は？", "choices": ["一緒に〜しませんか（提案）", "なぜ〜しないのですか（理由）", "〜してはいけません", "〜したことがありません"], "answer": 0, "tag": "提案の表現", "why": "形は Why の疑問文だが、意味は提案。Part 2 の定番のわな。" },
+        { "id": "q8", "type": "choice", "q": "Part 2 でいちばん集中して聞くべきところは？", "choices": ["最初の1〜2語（When / Where / Who など）", "最後の単語", "文の長さ", "話す人の声の高さ"], "answer": 0, "tag": "Part 2 の核心", "why": "英語は知りたいことを先頭に置く。最初の語で答えの種類が決まる。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "質問に**すぐ答える**練習です。英会話でもそのまま使えます。",
+      "items": [
+        { "ja": "「When is the meeting?」に：金曜日に変更になりました。", "en": "It's been moved to Friday.", "accept": ["It has been moved to Friday.", "It was moved to Friday."], "hint": "It's been moved ..." },
+        { "ja": "「Where is the nearest bank?」に：通りの向かいにあります。", "en": "There's one across the street.", "accept": ["There is one across the street."], "hint": "There's one ..." },
+        { "ja": "「Why don't we order lunch?」に：いいですね。", "en": "Sounds good.", "accept": ["That sounds good.", "Good idea."], "hint": "Sounds ..." },
+        { "ja": "「Can you help me with this report?」に：いいですよ、この電話のあとで。", "en": "Sure, after this call.", "hint": "Sure, ..." },
+        { "ja": "「When will the package arrive?」に：追跡番号を確認させてください。", "en": "Let me check the tracking number.", "hint": "Let me check ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "in charge of", "ja": "〜を担当して", "ex": "Who is in charge of the new project?" },
+    { "en": "training session", "ja": "研修会", "ex": "When does the training session start?" },
+    { "en": "Why don't we ...?", "ja": "（一緒に）〜しませんか？", "ex": "Why don't we take a short break?" },
+    { "en": "Sounds good.", "ja": "いいですね。", "ex": "Why don't we order lunch? — Sounds good." },
+    { "en": "across the street", "ja": "通りの向かいに", "ex": "There's one across the street." },
+    { "en": "nearest", "ja": "いちばん近い", "ex": "Where is the nearest bank?" },
+    { "en": "tracking number", "ja": "（荷物の）追跡番号", "ex": "Let me check the tracking number." },
+    { "en": "lead", "ja": "率いる・担当する", "ex": "Who will lead the presentation?" }
+  ]
+}

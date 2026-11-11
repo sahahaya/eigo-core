@@ -1,0 +1,69 @@
+{
+  "id": "j3-02",
+  "title": "現在完了進行形",
+  "subtitle": "「ずっと途中」",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「2時間ずっと待っている」はどう言う？",
+      "body": "待ち合わせで「もう2時間待っているよ」と言いたいとき、英語では `I've been waiting for two hours.` と言います。\n\n前の単元の現在完了（`I've waited`）とも、中1の進行形（`I'm waiting`）とも少し違う形です。\n\n一方で「彼とは10年来の知り合いです」は `I've known him for ten years.` で、been knowing とは言いません。**この違いは、どこから来るのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "現在完了 ＋ 進行形 ＝「過去に始まって、今もまだ途中」",
+      "body": "これまでに学んだ2つを組み合わせるだけです。\n\n> **現在完了**：今とつながっている（have ＋ 過去分詞）\n> **進行形**：まさに途中（be ＋ -ing）\n> **現在完了進行形**：**have been ＋ -ing** ＝ 過去に始まって、今もまだ途中\n\nbeen は be の過去分詞です。`I've been waiting` は「待っている途中の状態を、2時間前から今までずっと持っている」という意味になります。\n\n**「ずっと〜している」は動作の動詞で使う**\nwait、study、work、rain のような**動作の動詞**で「ずっと〜し続けている」と言うときは、現在完了進行形が自然です。\n\n**心の状態の動詞は、ふつうの現在完了で**\n中1で、know や like のような心の状態の動詞は進行形にしないと学びました。それは現在完了進行形でも同じです。だから「10年来の知り合い」は `I've known him for ten years.` です。\n\n**現在完了との違い**\n\n- I'**ve read** this book.（読み終えた状態を持っている → 読んだことがある・読み終えた）\n- I'**ve been reading** this book.（読んでいる途中が今も続いている → まだ読み終えていない）\n\n会話では、`How long have you been 〜ing?`（どのくらい〜しているの？）という質問がとてもよく使われます。\n\n[[日本語の発想|英語の発想]]\nL: 「待っている」「待っていた」「ずっと待っている」を、副詞で言い分ける\nR: 「今とつながる」と「途中」を組み合わせて、形で言い分ける",
+      "points": [
+        "have been ＋ -ing ＝ 過去に始まって、今もまだ途中",
+        "know / like など心の状態の動詞は、ふつうの現在完了（I've known him）",
+        "How long have you been 〜ing? ＝ どのくらい〜しているの？"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "どの文も「始まった時点 → 今」まで、途中の状態が続いています。",
+      "items": [
+        { "en": "I've been waiting for two hours.", "ja": "もう2時間ずっと待っています。", "sound": "I've been は「アイヴビン」。been は弱く「ビン」" },
+        { "en": "How long have you been studying English?", "ja": "どのくらい英語を勉強していますか？", "note": "会話で相手の経験を聞く定番の質問" },
+        { "en": "It's been raining since this morning.", "ja": "今朝からずっと雨が降っています。", "note": "It's been ＝ It has been" },
+        { "en": "I've been reading this book, but I haven't finished it yet.", "ja": "この本を読んでいるところですが、まだ読み終わっていません。", "note": "途中が続いている。yet は否定文で「まだ」" },
+        { "en": "I've known him for ten years.", "ja": "彼とは10年来の知り合いです。", "note": "know は心の状態 → 進行形にしない" },
+        { "en": "It's been a long time.", "ja": "久しぶりですね。", "note": "「（会わない）長い時間が今まで続いている」。再会のあいさつ" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I've been ___ for two hours.", "ja": "もう2時間ずっと待っています。", "choices": ["waiting", "wait", "waited"], "answer": "waiting", "tag": "現在完了進行形の形", "why": "have been ＋ -ing。途中なので -ing。" },
+        { "id": "q2", "type": "fill", "q": "How long have you ___ studying English?", "ja": "どのくらい英語を勉強していますか？", "choices": ["been", "be", "being"], "answer": "been", "tag": "現在完了進行形の形", "why": "have のうしろは過去分詞 → be の過去分詞 been。" },
+        { "id": "q3", "type": "fill", "q": "It has been ___ since this morning.", "ja": "今朝からずっと雨が降っています。", "choices": ["raining", "rain", "rained"], "answer": "raining", "tag": "現在完了進行形の形", "why": "今朝から今まで降っている途中が続いている → been raining。" },
+        { "id": "q4", "type": "choice", "q": "「彼とは10年来の知り合いです」", "choices": ["I've known him for ten years.", "I've been knowing him for ten years.", "I'm knowing him for ten years.", "I know him since ten years."], "answer": 0, "tag": "進行形にしない動詞", "why": "know は心の状態 → 進行形にしない。今までの継続はふつうの現在完了で。" },
+        { "id": "q5", "type": "choice", "q": "現在完了進行形の中心イメージは？", "choices": ["過去に始まって、今もまだ途中", "今とは切り離された過去", "これからの予定", "いつもそう"], "answer": 0, "tag": "現在完了進行形の核心", "why": "現在完了（今とつながる）＋ 進行形（途中）。" },
+        { "id": "q6", "type": "order", "ja": "どのくらい英語を勉強していますか？", "words": ["How", "long", "have", "you", "been", "studying", "English"], "extra": ["do"], "answer": "How long have you been studying English", "tag": "現在完了進行形の形", "why": "How long ＋ have you been ＋ -ing。have が自分で動くので do はいらない。" },
+        { "id": "q7", "type": "choice", "q": "「I've read this book.」と「I've been reading this book.」の違いは？", "choices": ["前は読み終えた、後はまだ読んでいる途中", "前は読んでいる途中、後は読み終えた", "意味は同じ", "前は未来、後は過去"], "answer": 0, "tag": "現在完了と現在完了進行形", "why": "現在完了は「した状態」、現在完了進行形は「途中」が今も続いている。" },
+        { "id": "q8", "type": "fill", "q": "She's been working here ___ April.", "ja": "彼女は4月からここで働いています。", "choices": ["since", "for", "in"], "answer": "since", "tag": "for と since", "why": "April は始まりの時点 → since。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "「ずっと〜している」を **I've been 〜ing** でひとかたまりに言う練習です。",
+      "items": [
+        { "ja": "もう2時間ずっと待っています。", "en": "I've been waiting for two hours.", "accept": ["I have been waiting for two hours.", "I've been waiting for 2 hours."], "hint": "I've been ..." },
+        { "ja": "どのくらい英語を勉強していますか？", "en": "How long have you been studying English?", "hint": "How long have you ...?" },
+        { "ja": "今朝からずっと雨が降っています。", "en": "It's been raining since this morning.", "accept": ["It has been raining since this morning."], "hint": "It's been ..." },
+        { "ja": "彼とは10年来の知り合いです。", "en": "I've known him for ten years.", "accept": ["I have known him for ten years.", "I've known him for 10 years."], "hint": "I've known ..." },
+        { "ja": "久しぶりですね。", "en": "It's been a long time.", "accept": ["It has been a long time."], "hint": "It's been ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "wait", "ja": "待つ", "ex": "I've been waiting for two hours." },
+    { "en": "how long", "ja": "どのくらい（の時間）", "ex": "How long have you been studying English?" },
+    { "en": "this morning", "ja": "今朝", "ex": "It's been raining since this morning." },
+    { "en": "yet", "ja": "（否定文で）まだ・（疑問文で）もう", "ex": "I haven't finished it yet." },
+    { "en": "haven't", "ja": "have not の短縮形", "ex": "I haven't finished it yet." },
+    { "en": "known", "ja": "知られた・知っている（know の過去分詞）", "ex": "I've known him for ten years." },
+    { "en": "April", "ja": "4月", "ex": "She's been working here since April." },
+    { "en": "It's been a long time.", "ja": "久しぶりですね。", "ex": "It's been a long time." }
+  ]
+}

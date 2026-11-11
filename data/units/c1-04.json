@@ -1,0 +1,69 @@
+{
+  "id": "c1-04",
+  "title": "仕事：自己紹介・雑談",
+  "subtitle": "仕事は「肩書き」より「何をしているか」を動詞で",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「営業部の課長です」は、英語で伝わる？",
+      "body": "海外の人と名刺交換をしたとき、日本語の感覚で「ABC商事、営業部第二課の課長です」と言おうとして、英語にできずに困ったことはありませんか。\n\nそのあと「What do you do?」と聞かれても、会話が続かない……。\n\n**英語の自己紹介と雑談は、日本語と何が違うのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "英語の自己紹介は「何をしているか」を動詞で言い、質問を返す",
+      "body": "日本語の自己紹介は、会社名・部署・肩書きが中心です。英語では、**「どんな仕事をしているか」を動詞で言う**のが自然です。\n\n> 名前 → 何をしているか（動詞）→ ひとこと\n> Hi, I'm Kenta. **I work for** a travel company. **I plan** group tours for overseas visitors.\n\n**「いつもしていること」なので現在形**\n中1で、現在形は「いつもそう」だと学びました。仕事は毎日していることなので、`I work 〜` `I plan 〜` と現在形で言います。\n\n`What do you do?` が「お仕事は何ですか？」という意味になるのも同じ理由です。「（いつも）何をしているの？」→ 職業を聞いているのです。「今、何をしているの？」なら進行形の `What are you doing?` です。\n\n**雑談は「答え ＋ 質問を返す」**\n聞かれたことに答えたら、**同じ質問を返す**と会話が続きます。\n\n- How about you?（あなたは？）\n- How long have you been working there?（そこで働いてどのくらい？：現在完了進行形）\n\n**あいづちと、別れのあいさつ**\n\n- That sounds interesting.（おもしろそうですね）\n- It was nice talking to you.（お話しできてよかったです）\n\n[[日本語の発想|英語の発想]]\nL: 所属と肩書きで「自分が何者か」を伝える\nR: 動詞で「何をしているか」を伝える（I plan / I design / I help 〜）",
+      "points": [
+        "自己紹介は 名前 → 何をしているか（動詞・現在形）→ ひとこと",
+        "What do you do? ＝ お仕事は何ですか（現在形 ＝ いつもしていること）",
+        "答えたら How about you? で質問を返すと会話が続く"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "名刺交換や懇親会で使える文です。",
+      "items": [
+        { "en": "Hi, I'm Yuki. I work for a travel company in Tokyo.", "ja": "こんにちは、ユキです。東京の旅行会社で働いています。", "note": "work for ＋ 会社" },
+        { "en": "What do you do? — I'm an engineer. I design software for hospitals.", "ja": "お仕事は何ですか？ — エンジニアです。病院向けのソフトウェアを設計しています。", "note": "肩書きのあとに、動詞で中身を足す" },
+        { "en": "I plan group tours for overseas visitors.", "ja": "海外からのお客様向けに団体旅行を企画しています。" },
+        { "en": "How long have you been working there? — About five years.", "ja": "そこで働いてどのくらいですか？ — 5年くらいです。", "note": "中3の現在完了進行形" },
+        { "en": "That sounds interesting. How about you?", "ja": "おもしろそうですね。あなたは？", "sound": "How about you は「ハウアバウチュー」とつながる" },
+        { "en": "It was nice talking to you.", "ja": "お話しできてよかったです。", "note": "別れ際のあいさつ" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "autoplay": false, "audio": ["W: Hi, I'm Sarah. I don't think we've met.", "M: Nice to meet you, Sarah. I'm Kenta. I work for a travel company in Tokyo.", "W: Oh, really? What do you do there?", "M: I plan group tours for overseas visitors.", "W: That sounds interesting."], "q": "Where does the man work?", "ja": "男性はどこで働いていますか？（設問を読んでから ▶）", "choices": ["At a travel company", "At a hospital", "At a hotel", "At a school"], "answer": 0, "tag": "会話の聞き取り", "why": "I work for a travel company in Tokyo。work for ＋ 会社。" },
+        { "id": "q2", "type": "choice", "autoplay": false, "audio": ["W: Hi, I'm Sarah. I don't think we've met.", "M: Nice to meet you, Sarah. I'm Kenta. I work for a travel company in Tokyo.", "W: Oh, really? What do you do there?", "M: I plan group tours for overseas visitors.", "W: That sounds interesting."], "q": "What does the man do at work?", "ja": "男性は仕事で何をしていますか？", "choices": ["He plans tours for visitors from abroad.", "He designs software.", "He teaches English.", "He sells tickets at a station."], "answer": 0, "tag": "会話の聞き取り", "why": "group tours for overseas visitors が、tours for visitors from abroad に言い換えられている。" },
+        { "id": "q3", "type": "choice", "q": "「What do you do?」の意味は？", "choices": ["お仕事は何ですか？", "今、何をしていますか？", "何をするつもりですか？", "何が好きですか？"], "answer": 0, "tag": "仕事の聞き方", "why": "現在形 ＝ いつもしていること → 職業。今していることなら What are you doing?。" },
+        { "id": "q4", "type": "fill", "q": "I ___ for a travel company.", "ja": "旅行会社で働いています。", "choices": ["work", "working", "am work"], "answer": "work", "tag": "仕事の言い方", "why": "毎日していること → 現在形。be動詞と一般動詞は重ねない。" },
+        { "id": "q5", "type": "choice", "q": "雑談で、相手に同じ質問を返す言い方は？", "choices": ["How about you?", "Why you?", "You what?", "And then?"], "answer": 0, "tag": "雑談のコツ", "why": "How about you? ＝ あなたは？ 答えたら質問を返すと会話が続く。" },
+        { "id": "q6", "type": "choice", "q": "別れ際の自然なあいさつは？", "choices": ["It was nice talking to you.", "Let's begin talking.", "I'm talking to you.", "Talk to you was nice."], "answer": 0, "tag": "あいさつ", "why": "It was nice ＋ 〜ing ＝ 〜できてよかった（過去形で、終わった会話をふり返る）。" },
+        { "id": "q7", "type": "fill", "q": "How long have you been ___ there?", "ja": "そこで働いてどのくらいですか？", "choices": ["working", "work", "worked"], "answer": "working", "tag": "仕事の言い方", "why": "過去に始まって今も途中 → have been ＋ -ing。" },
+        { "id": "q8", "type": "choice", "q": "英語の自己紹介で仕事を伝えるコツは？", "choices": ["肩書きより「何をしているか」を動詞で言う", "会社名だけを言う", "年齢から言う", "仕事の話はしない"], "answer": 0, "tag": "自己紹介のコツ", "why": "I plan 〜 / I design 〜 のように動詞で言うと、相手が質問しやすく会話が続く。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "自分の仕事に置きかえて言ってみましょう。**動詞（work / plan / design）**がポイントです。",
+      "items": [
+        { "ja": "東京の旅行会社で働いています。", "en": "I work for a travel company in Tokyo.", "hint": "I work for ..." },
+        { "ja": "お仕事は何をされていますか？", "en": "What do you do?", "hint": "What do you ...?" },
+        { "ja": "海外からのお客様向けに団体旅行を企画しています。", "en": "I plan group tours for overseas visitors.", "hint": "I plan ..." },
+        { "ja": "そこで働いてどのくらいですか？", "en": "How long have you been working there?", "hint": "How long have you ...?" },
+        { "ja": "お話しできてよかったです。", "en": "It was nice talking to you.", "accept": ["It was nice talking with you.", "Nice talking to you."], "hint": "It was nice ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "What do you do?", "ja": "お仕事は何ですか？", "ex": "What do you do? — I'm an engineer." },
+    { "en": "travel company", "ja": "旅行会社", "ex": "I work for a travel company." },
+    { "en": "plan", "ja": "計画する・企画する", "ex": "I plan group tours for overseas visitors." },
+    { "en": "overseas", "ja": "海外の・海外へ", "ex": "overseas visitors" },
+    { "en": "engineer", "ja": "技術者・エンジニア", "ex": "I'm an engineer." },
+    { "en": "design", "ja": "設計する・デザインする", "ex": "I design software for hospitals." },
+    { "en": "That sounds interesting.", "ja": "おもしろそうですね。", "ex": "That sounds interesting. How about you?" },
+    { "en": "It was nice talking to you.", "ja": "お話しできてよかったです。", "ex": "It was nice talking to you." }
+  ]
+}

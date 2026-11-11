@@ -1,0 +1,69 @@
+{
+  "id": "h1-11",
+  "title": "読解の基礎",
+  "subtitle": "長い文を骨組みで読む",
+  "steps": [
+    {
+      "type": "question",
+      "title": "長い英文、どこが主語でどこが動詞？",
+      "body": "`The book that I borrowed from the library last week is very interesting.`\n\n単語はどれも知っているのに、長くなると「どれが主語で、どれが動詞か」が分からなくなります。borrowed も is も動詞に見えます。\n\nTOEICの読解でも、こうした長い文がたくさん出てきます。**長い文を速く正しく読むには、どうすればいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "長い文も、骨組みは短い。おまけをカッコでくくって読む",
+      "body": "中2の文型の単元で学んだとおり、英文の**骨組み**は「S V」「S V O」「S V C」などの短い形です。長く見える文は、骨組みに**おまけ（説明）**がたくさんくっついているだけです。\n\n> **おまけをカッコでくくると、骨組みが見える**\n\nこれまで学んだ「おまけ」の目印は、次の4つです。\n\n- **前置詞 ＋ 名詞**、**時を表す語**：( from the library ) ( last week )\n- **関係詞・分詞で始まる説明**：the book [ that I borrowed ] ／ people [ living in big cities ]\n- **接続詞で始まる文**：< When I arrived at the hotel, >\n- **to で始まる目的など**：( to buy milk )\n\nおまけをくくると、こうなります。\n\n> The book [ that I borrowed ( from the library ) ( last week ) ] **is** very interesting.\n> 骨組み ＝ **The book is interesting.**\n\n**文の動詞の見つけ方**\nカッコの中の動詞（borrowed）は、説明の一部です。カッコの**外**にある、時制のついた動詞（is）が**文の動詞**です。\n\n**頭から、英語の語順のまま読む**\n日本語の語順に並べ直して訳すと、時間がかかります。英語は結論が先の言葉なので、**前から順に意味をとる**のがいちばん速く、正確です。\n\n「その本は → [私が借りた → 図書館から → 先週] → とてもおもしろい」\n\n[[日本語の発想|英語の発想]]\nL: 説明が先で、いちばん大事な動詞は最後\nR: 骨組み（主語 → 動詞）が先に来て、説明はうしろからくっつく",
+      "points": [
+        "長い文 ＝ 短い骨組み ＋ おまけ（前置詞句・関係詞・分詞・接続詞の文）",
+        "カッコの外にある、時制のついた動詞が文の動詞",
+        "日本語の語順に戻さず、英語の語順のまま前から意味をとる"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "それぞれの文の骨組み（メモ）を確かめてから、もう一度全文を聞きましょう。",
+      "items": [
+        { "en": "The man who called me yesterday wants to meet you.", "ja": "昨日電話してきた男性が、あなたに会いたがっています。", "note": "骨組み：The man wants to meet you." },
+        { "en": "The report written by our team was sent to the client.", "ja": "私たちのチームが書いた報告書は、顧客に送られた。", "note": "骨組み：The report was sent." },
+        { "en": "When I arrived at the hotel, the room was not ready.", "ja": "ホテルに着いたとき、部屋はまだ準備ができていなかった。", "note": "骨組み：the room was not ready." },
+        { "en": "Many people living in big cities want to move to the countryside.", "ja": "大都市に住む多くの人が、田舎に移りたいと思っている。", "note": "骨組み：Many people want to move." },
+        { "en": "The book that I borrowed from the library last week is very interesting.", "ja": "先週図書館で借りた本は、とてもおもしろい。", "note": "骨組み：The book is interesting." },
+        { "en": "It is important for new employees to ask questions.", "ja": "新しい社員にとって、質問することは大切だ。", "note": "骨組み：It is important.（It ＝ to ask questions）" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "q": "「The man who called me yesterday wants to meet you.」の文の動詞（骨組みの V）は？", "choices": ["wants", "called", "meet", "who"], "answer": 0, "tag": "文の動詞を見つける", "why": "called は [who called me yesterday] の中。カッコの外の wants が文の動詞。" },
+        { "id": "q2", "type": "choice", "q": "「The report written by our team was sent to the client.」の主語は？", "choices": ["The report", "our team", "the client", "written"], "answer": 0, "tag": "主語を見つける", "why": "written by our team は報告書を説明するおまけ。骨組みは The report was sent.。" },
+        { "id": "q3", "type": "choice", "q": "「Many people living in big cities want to move to the countryside.」の骨組みは？", "choices": ["Many people want to move.", "Big cities want to move.", "People living want.", "Cities move to the countryside."], "answer": 0, "tag": "骨組みを見つける", "why": "living in big cities は people を説明するおまけ。" },
+        { "id": "q4", "type": "choice", "q": "長い文で「おまけ」としてカッコでくくれるものは？", "choices": ["前置詞＋名詞、関係詞や分詞の説明、接続詞の文", "文の主語", "文の動詞", "文の動詞の目的語"], "answer": 0, "tag": "読解の核心", "why": "おまけをくくると、短い骨組みが残る。" },
+        { "id": "q5", "type": "choice", "q": "「The book that I borrowed from the library last week is very interesting.」で is の主語は？", "choices": ["The book", "I", "the library", "last week"], "answer": 0, "tag": "主語を見つける", "why": "that から last week までは book の説明。骨組みは The book is interesting.。" },
+        { "id": "q6", "type": "choice", "q": "英文を速く正確に読むコツは？", "choices": ["英語の語順のまま、前から意味をとっていく", "最後から日本語の語順に戻して訳す", "知らない単語を全部辞書で引いてから読む", "動詞だけを拾って読む"], "answer": 0, "tag": "読解の核心", "why": "英語は結論が先。前から読めば、書かれた順に意味が入ってくる。" },
+        { "id": "q7", "type": "order", "ja": "ホテルに着いたとき、部屋はまだ準備ができていなかった。", "words": ["When", "I", "arrived", "at", "the", "hotel", "the", "room", "was", "not", "ready"], "extra": ["is"], "answer": "When I arrived at the hotel the room was not ready", "accept": ["The room was not ready when I arrived at the hotel"], "tag": "骨組みを見つける", "why": "< When I arrived at the hotel > はおまけ。骨組みは the room was not ready。" },
+        { "id": "q8", "type": "choice", "q": "「It is important for new employees to ask questions.」の It が指すのは？", "choices": ["to ask questions（質問すること）", "new employees", "important", "会社"], "answer": 0, "tag": "It is 〜 to …", "why": "中3で学んだ形。It は to 以下の中身を指す仮の主語。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "長い文を**骨組みを意識して**一気に言う練習です。おまけの前後で区切らず、意味のかたまりごとに。",
+      "items": [
+        { "ja": "昨日電話してきた男性が、あなたに会いたがっています。", "en": "The man who called me yesterday wants to meet you.", "accept": ["The man that called me yesterday wants to meet you."], "hint": "The man who ..." },
+        { "ja": "私たちのチームが書いた報告書は、顧客に送られた。", "en": "The report written by our team was sent to the client.", "accept": ["The report that our team wrote was sent to the client."], "hint": "The report written ..." },
+        { "ja": "ホテルに着いたとき、部屋はまだ準備ができていなかった。", "en": "When I arrived at the hotel, the room was not ready.", "accept": ["When I arrived at the hotel, the room wasn't ready.", "When I got to the hotel, the room wasn't ready yet."], "hint": "When I arrived ..." },
+        { "ja": "先週図書館で借りた本は、とてもおもしろい。", "en": "The book I borrowed from the library last week is very interesting.", "accept": ["The book that I borrowed from the library last week is very interesting."], "hint": "The book I borrowed ..." },
+        { "ja": "新しい社員にとって、質問することは大切だ。", "en": "It is important for new employees to ask questions.", "accept": ["It's important for new employees to ask questions."], "hint": "It is important for ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "borrow", "ja": "借りる", "ex": "The book I borrowed from the library is interesting." },
+    { "en": "library", "ja": "図書館", "ex": "The book I borrowed from the library is interesting." },
+    { "en": "interesting", "ja": "おもしろい・興味深い", "ex": "The book is very interesting." },
+    { "en": "employee", "ja": "社員・従業員", "ex": "It is important for new employees to ask questions." },
+    { "en": "countryside", "ja": "田舎", "ex": "Many people want to move to the countryside." },
+    { "en": "move to", "ja": "〜に引っ越す", "ex": "Many people want to move to the countryside." },
+    { "en": "ready", "ja": "準備ができた", "ex": "The room was not ready." },
+    { "en": "team", "ja": "チーム", "ex": "The report written by our team was sent to the client." }
+  ]
+}

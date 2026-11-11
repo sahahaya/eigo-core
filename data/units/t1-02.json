@@ -1,0 +1,73 @@
+{
+  "id": "t1-02",
+  "title": "頻出語彙：取引・お金",
+  "subtitle": "注文・請求・配送",
+  "steps": [
+    {
+      "type": "question",
+      "title": "invoice、refund、shipment……ばらばらに覚えていない？",
+      "body": "TOEICには、`invoice`（請求書）、`refund`（返金）、`shipment`（発送品）、`out of stock`（在庫切れ）のような、お金や取引の単語がとてもよく出ます。\n\n日本語でもふだんあまり使わない言葉が多く、単語帳で1つずつ覚えてもすぐ忘れてしまいます。\n\n**取引の単語をしっかり定着させるには、どうすればいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "取引の単語は「流れ（ストーリー）」と「セット」で覚える",
+      "body": "前の単元で、TOEICの単語は**場面ごとのかたまり**で覚えると学びました。取引の場面には、さらに**決まった流れ**があります。\n\n> **見積もり** estimate → **注文** order → **発送** ship → **配達** deliver → **請求** invoice → **支払い** payment\n> （問題が起きたら）**破損** damaged → **返金** refund ／ **交換** replace\n\nTOEICのメールや会話は、この流れの**どこか1か所**で起きています。「今、流れのどこの話か」が分かると、次に何が起きるかも予想できます。\n\n**動詞と名詞のセットで覚える**\n単語は1語ずつより、よく一緒に使う**セット**で覚えると、聞き取りでも読解でもすぐに意味が浮かびます。\n\n- **place** an order（注文する）\n- **issue** a refund（返金する）\n- **make** a payment（支払う）\n- **out of** stock（在庫切れ）\n- payment is **due**（支払い期限だ）\n\n**分詞の単元が役に立つ**\n`The package arrived damaged.`（荷物が破損した状態で届いた）の damaged は、荷物が「壊される側」なので過去分詞です。\n\n[[日本語の発想|英語の発想]]\nL: 「注文する」「支払う」は、1語の動詞で言うことが多い\nR: place an order、make a payment のように、動詞＋名詞のセットで言うことが多い",
+      "points": [
+        "取引の流れ：見積もり → 注文 → 発送 → 配達 → 請求 → 支払い（→ 返金・交換）",
+        "動詞＋名詞のセットで覚える：place an order、make a payment、out of stock",
+        "「今、流れのどこの話か」が分かると、次の展開が予想できる"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "取引の流れのどこの話かを考えながら聞きましょう。",
+      "items": [
+        { "en": "I'd like to place an order for 50 chairs.", "ja": "椅子を50脚注文したいのですが。", "note": "流れ：注文" },
+        { "en": "Your order will be shipped within three business days.", "ja": "ご注文は3営業日以内に発送されます。", "note": "流れ：発送。business day ＝ 営業日" },
+        { "en": "The item you ordered is currently out of stock.", "ja": "ご注文の商品は現在在庫切れです。", "note": "流れ：注文のあとの問題" },
+        { "en": "Please find the invoice attached.", "ja": "請求書を添付しましたのでご確認ください。", "note": "流れ：請求。メールの定番表現" },
+        { "en": "The package arrived damaged, so I'd like a refund.", "ja": "荷物が破損して届いたので、返金してほしいです。", "note": "流れ：問題 → 返金" },
+        { "en": "Payment is due by the end of the month.", "ja": "支払いは月末が期限です。", "note": "流れ：支払い。due ＝ 期限が来る" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I'd like to ___ an order for 50 chairs.", "ja": "椅子を50脚注文したいのですが。", "choices": ["place", "deliver", "refund"], "answer": "place", "tag": "取引の語彙", "why": "place an order ＝ 注文する。動詞と名詞のセットで覚える。" },
+        { "id": "q2", "type": "fill", "q": "Your order will be ___ within three business days.", "ja": "ご注文は3営業日以内に発送されます。", "choices": ["shipped", "shipping", "ship"], "answer": "shipped", "tag": "取引の語彙", "why": "注文は発送される側 → will be ＋ 過去分詞 shipped。" },
+        { "id": "q3", "type": "choice", "q": "out of stock の意味は？", "choices": ["在庫切れ", "値下げ中", "配達中", "返品不可"], "answer": 0, "tag": "取引の語彙", "why": "stock ＝ 在庫。out of ＝ 〜から外れて → 在庫がない。" },
+        { "id": "q4", "type": "fill", "q": "Please find the ___ attached.", "ja": "請求書を添付しましたのでご確認ください。", "choices": ["invoice", "refund", "discount"], "answer": "invoice", "tag": "取引の語彙", "why": "invoice ＝ 請求書。Please find 〜 attached. はメールの定番。" },
+        { "id": "q5", "type": "choice", "q": "取引の流れとして自然な順番は？", "choices": ["見積もり → 注文 → 発送 → 請求 → 支払い", "支払い → 注文 → 見積もり → 発送 → 請求", "発送 → 見積もり → 支払い → 注文 → 請求", "請求 → 支払い → 注文 → 発送 → 見積もり"], "answer": 0, "tag": "取引の流れ", "why": "estimate → order → ship → invoice → payment。流れが分かると次の展開を予想できる。" },
+        { "id": "q6", "type": "fill", "q": "Payment is ___ by the end of the month.", "ja": "支払いは月末が期限です。", "choices": ["due", "delivered", "discounted"], "answer": "due", "tag": "取引の語彙", "why": "due ＝ 期限が来る。payment is due ＝ 支払い期限だ。" },
+        { "id": "q7", "type": "fill", "q": "The package arrived ___, so I'd like a refund.", "ja": "荷物が破損して届いたので、返金してほしいです。", "choices": ["damaged", "damaging", "damage"], "answer": "damaged", "tag": "品詞の見分け", "why": "荷物は壊される側 → 過去分詞 damaged（分詞の単元と同じ）。" },
+        { "id": "q8", "type": "choice", "q": "refund に最も近い意味は？", "choices": ["返金", "割引", "領収書", "保証"], "answer": 0, "tag": "取引の語彙", "why": "refund ＝ 支払ったお金を返すこと。re- のつく語には「元へ戻す」イメージのものが多い（return、replace）。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "お店や取引先とのやりとりで使う文です。**セット（place an order など）をひとかたまりで**。",
+      "items": [
+        { "ja": "椅子を50脚注文したいのですが。", "en": "I'd like to place an order for 50 chairs.", "accept": ["I would like to place an order for 50 chairs.", "I'd like to order 50 chairs."], "hint": "I'd like to place ..." },
+        { "ja": "ご注文の商品は現在在庫切れです。", "en": "The item you ordered is currently out of stock.", "hint": "The item you ordered ..." },
+        { "ja": "請求書を添付しました。", "en": "Please find the invoice attached.", "accept": ["I've attached the invoice.", "The invoice is attached."], "hint": "Please find ..." },
+        { "ja": "荷物が破損して届いたので、返金してほしいです。", "en": "The package arrived damaged, so I'd like a refund.", "hint": "The package arrived ..." },
+        { "ja": "支払いは月末が期限です。", "en": "Payment is due by the end of the month.", "accept": ["Payment is due at the end of the month."], "hint": "Payment is due ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "place an order", "ja": "注文する", "ex": "I'd like to place an order for 50 chairs." },
+    { "en": "estimate", "ja": "見積もり・見積もる", "ex": "Could you send us an estimate?" },
+    { "en": "ship", "ja": "発送する", "ex": "Your order will be shipped within three business days." },
+    { "en": "business day", "ja": "営業日", "ex": "within three business days" },
+    { "en": "out of stock", "ja": "在庫切れで", "ex": "The item is currently out of stock." },
+    { "en": "invoice", "ja": "請求書", "ex": "Please find the invoice attached." },
+    { "en": "refund", "ja": "返金・返金する", "ex": "I'd like a refund." },
+    { "en": "due", "ja": "期限が来て・予定されて", "ex": "Payment is due by the end of the month." },
+    { "en": "damaged", "ja": "破損した", "ex": "The package arrived damaged." },
+    { "en": "discount", "ja": "割引", "ex": "We offer a 10% discount." },
+    { "en": "receipt", "ja": "領収書・レシート", "ex": "Please keep your receipt." },
+    { "en": "replace", "ja": "交換する・取り替える", "ex": "We will replace the damaged item." }
+  ]
+}

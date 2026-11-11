@@ -1,0 +1,70 @@
+{
+  "id": "h1-08",
+  "title": "前置詞のイメージ",
+  "subtitle": "for / with / of / by / from を絵で",
+  "steps": [
+    {
+      "type": "question",
+      "title": "by は「〜によって」、では「by Friday」は？",
+      "body": "by は「〜によって」と習います。でも `by Friday` は「金曜日によって」ではなく「金曜日**までに**」です。\n\n`made from milk`（牛乳から作られる）と `made of wood`（木でできている）は、どちらも「〜でできている」なのに、from と of を使い分けます。\n\n**前置詞の意味は、ばらばらに暗記するしかないのでしょうか？**"
+    },
+    {
+      "type": "core",
+      "title": "前置詞は「1つの絵」から意味が広がる",
+      "body": "中1で in（中）、on（接触）、at（点）を1つの絵で学びました。残りのよく使う前置詞も、同じように絵で押さえます。\n\n> **for** ＝ → 方向（気持ちや動きが向かう先）\n> **with** ＝ 一緒にある・つながっている\n> **of** ＝ 全体の一部・切り離せないつながり\n> **by** ＝ すぐそば\n> **from** ＝ 出発点\n\n**for は「方向」、to は「到着点」**\n`leave for Osaka`（大阪に向けて出発する）は方向だけを言います。`go to Osaka` は大阪に着くところまでを言います。I'm for the plan.（その計画に賛成）も、気持ちが計画のほうを向いている絵です。\n\n**with は「一緒にある」**\n`with my friend`（友達と一緒に）、`cut with a knife`（ナイフを手に持って一緒に → ナイフで）、`a girl with long hair`（長い髪と一緒にいる → 長い髪の女の子）。\n\n**by は「すぐそば」**\n`by the window`（窓のそば）。時間に使うと「その時点のすぐそばまで」→ **期限**（by Friday ＝ 金曜日までに）。受動態の by（〜によって）も、「出来事のそばにいて、それを起こした人」と考えるとつながります。\n\n**by と until の違い**（TOEIC頻出）\n\n- **by** Friday：金曜日**までに**（1回すませればよい期限）\n- **until** Friday：金曜日**まで ずっと**（続く）\n\n**from と of の違い**\n\n- made **from** milk：牛乳が**出発点**で、形が変わってチーズになった\n- made **of** wood：木が**そのまま一部**として見えている\n\n[[日本語の発想|英語の発想]]\nL: 「〜で」「〜から」「〜まで」をいろいろな場面で使い回す\nR: 方向・一緒・一部・そば・出発点という絵で使い分ける",
+      "points": [
+        "for ＝ 方向、with ＝ 一緒、of ＝ 一部、by ＝ そば、from ＝ 出発点",
+        "by Friday ＝ 金曜日までに（期限）、until Friday ＝ 金曜日までずっと（継続）",
+        "made from ＝ 形が変わる原料、made of ＝ そのまま見える材料"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "それぞれの前置詞の「絵」を思い浮かべながら聞きましょう。",
+      "items": [
+        { "en": "This train leaves for Osaka at ten.", "ja": "この電車は10時に大阪へ向けて出発します。", "note": "for ＝ 方向。駅のアナウンスでよく聞く" },
+        { "en": "I cut the cake with a knife.", "ja": "ナイフでケーキを切った。", "note": "ナイフと一緒に → 道具" },
+        { "en": "Please finish the report by Friday.", "ja": "金曜日までに報告書を仕上げてください。", "note": "by ＝ 期限。仕事で必須" },
+        { "en": "I'll be in the office until five.", "ja": "5時まで（ずっと）オフィスにいます。", "note": "until ＝ その時点まで続く" },
+        { "en": "Cheese is made from milk.", "ja": "チーズは牛乳から作られる。", "note": "形が変わる → from" },
+        { "en": "This table is made of wood.", "ja": "このテーブルは木でできている。", "note": "木がそのまま見える → of" },
+        { "en": "She is one of my best friends.", "ja": "彼女は親友の一人です。", "note": "of ＝ 全体（親友たち）の一部", "sound": "one of は「ワノヴ」とつながる" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "This train leaves ___ Osaka at ten.", "ja": "この電車は10時に大阪へ向けて出発します。", "choices": ["for", "to", "with"], "answer": "for", "tag": "for", "why": "leave for ＝ 〜に向けて出発する。for は方向。" },
+        { "id": "q2", "type": "fill", "q": "I cut the cake ___ a knife.", "ja": "ナイフでケーキを切った。", "choices": ["with", "by", "of"], "answer": "with", "tag": "with", "why": "ナイフを手に持って一緒に → with（道具）。" },
+        { "id": "q3", "type": "fill", "q": "Please finish the report ___ Friday.", "ja": "金曜日までに報告書を仕上げてください。", "choices": ["by", "until", "for"], "answer": "by", "tag": "by と until", "why": "仕上げるのは1回 → 期限の by。" },
+        { "id": "q4", "type": "fill", "q": "I'll be in the office ___ five.", "ja": "5時まで（ずっと）オフィスにいます。", "choices": ["until", "by", "from"], "answer": "until", "tag": "by と until", "why": "5時までいる状態が続く → until。" },
+        { "id": "q5", "type": "fill", "q": "Cheese is made ___ milk.", "ja": "チーズは牛乳から作られる。", "choices": ["from", "of", "by"], "answer": "from", "tag": "from と of", "why": "牛乳が出発点で、形が変わる → from。" },
+        { "id": "q6", "type": "choice", "q": "by と until の違いは？", "choices": ["by は「それまでに（期限）」、until は「それまでずっと（継続）」", "同じ意味", "by は過去、until は未来", "by は場所、until は時間"], "answer": 0, "tag": "by と until", "why": "by ＝ そばまで来たら期限。until ＝ そこまで続く。" },
+        { "id": "q7", "type": "choice", "q": "with の中心イメージは？", "choices": ["一緒にある・つながっている", "方向", "出発点", "全体の一部"], "answer": 0, "tag": "前置詞の核心", "why": "友達と一緒、ナイフと一緒（道具）、長い髪と一緒（持っている）。" },
+        { "id": "q8", "type": "order", "ja": "彼女は親友の一人です。", "words": ["She", "is", "one", "of", "my", "best", "friends"], "extra": ["from"], "answer": "She is one of my best friends", "tag": "of", "why": "one of ＋ 複数名詞 ＝ 全体の中の一部。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "仕事や旅行でよく使う形です。**by と until** の違いを意識して。",
+      "items": [
+        { "ja": "この電車は10時に大阪へ向けて出発します。", "en": "This train leaves for Osaka at ten.", "accept": ["This train leaves for Osaka at 10."], "hint": "This train leaves for ..." },
+        { "ja": "金曜日までに報告書を仕上げてください。", "en": "Please finish the report by Friday.", "hint": "Please finish ... by ..." },
+        { "ja": "5時までオフィスにいます。", "en": "I'll be in the office until five.", "accept": ["I will be in the office until five.", "I'll be in the office until 5."], "hint": "I'll be in the office until ..." },
+        { "ja": "チーズは牛乳から作られる。", "en": "Cheese is made from milk.", "hint": "Cheese is made ..." },
+        { "ja": "彼女は親友の一人です。", "en": "She's one of my best friends.", "accept": ["She is one of my best friends."], "hint": "She's one of ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "leave for", "ja": "〜に向けて出発する", "ex": "This train leaves for Osaka at ten." },
+    { "en": "knife", "ja": "ナイフ", "ex": "I cut the cake with a knife." },
+    { "en": "until", "ja": "〜まで（ずっと）", "ex": "I'll be in the office until five." },
+    { "en": "made from", "ja": "（原料）から作られる", "ex": "Cheese is made from milk." },
+    { "en": "made of", "ja": "（材料）でできている", "ex": "This table is made of wood." },
+    { "en": "cheese", "ja": "チーズ", "ex": "Cheese is made from milk." },
+    { "en": "wood", "ja": "木材", "ex": "This table is made of wood." },
+    { "en": "one of", "ja": "〜の中の1つ（1人）", "ex": "She is one of my best friends." }
+  ]
+}

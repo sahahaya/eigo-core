@@ -1,0 +1,69 @@
+{
+  "id": "j2-04",
+  "title": "不定詞",
+  "subtitle": "to は「→（これから向かう）」のイメージ",
+  "steps": [
+    {
+      "type": "question",
+      "title": "不定詞の「3つの用法」は暗記するしかない？",
+      "body": "to ＋ 動詞の原形（不定詞）には「名詞的・形容詞的・副詞的用法」の3つがある、と習った人も多いでしょう。\n\n- `I want to eat sushi.`（食べること）\n- `I have a lot of work to do.`（やるべき仕事）\n- `I went to the store to buy milk.`（買うために）\n\n訳し方がばらばらで、どれがどれか迷います。**3つを別々に覚えないといけないのでしょうか？**"
+    },
+    {
+      "type": "core",
+      "title": "to は「→ これから向かう」。3つの用法は全部これで読める",
+      "body": "`I go to Tokyo.` の to は「→ 東京に向かう」でしたね。不定詞の to も、**同じ「→」の矢印**です。\n\n> **to ＋ 動詞の原形 ＝「→ これから〜する（まだしていない）」**\n\nこの1つのイメージで、3つの用法がすべて読めます。\n\n- **want to eat**：気持ちが「→ 食べる」に向かっている → 食べたい\n- **work to do**：「→ これからやる」仕事 → やるべき仕事\n- **went to the store to buy milk**：店に行った「→ 牛乳を買う」に向かって → 買うために\n\nどれも「**まだしていない、これからの動作**」を指しています。だから want（ほしい）、decide（決める）、hope（望む）、plan（計画する）のような**未来に向かう動詞**と相性がいいのです。\n\n**結論を先に、目的はあとで**\n`I went to the store to buy milk.` は、まず「店に行った」と結論を言い、そのあとで「→ 牛乳を買うために」を足します。語順の単元で学んだ「大事なことを先に、おまけはあと」と同じ発想です。\n\n**名詞のあとの to は「おまけの説明」**\n`something to drink`（→ 飲むための何か ＝ 飲み物）のように、名詞のうしろに置いて「何のためのものか」を説明します。旅行やお店でよく聞く言い方です。\n\n[[日本語の発想|英語の発想]]\nL: 「〜すること」「〜するための」「〜するために」と訳し分ける\nR: to は全部「→ これから」。置く場所で、何に向かっているかが決まる",
+      "points": [
+        "to ＋ 原形 ＝「→ これから〜する（まだしていない）」",
+        "want / decide / hope など未来に向かう動詞と相性がいい",
+        "名詞のうしろ（work to do）も、文のうしろ（to buy milk）も同じ「→」"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "to が出てきたら「→ これから」と矢印を思い浮かべて聞きましょう。",
+      "items": [
+        { "en": "I want to eat sushi.", "ja": "私は寿司が食べたいです。", "note": "気持ちが「→ 食べる」に向かう", "sound": "want to は会話で「ワナ」（wanna）と聞こえることがある" },
+        { "en": "I decided to study English every day.", "ja": "毎日英語を勉強することに決めました。", "note": "決めた「→ これから勉強する」" },
+        { "en": "I have a lot of work to do today.", "ja": "今日はやるべき仕事がたくさんあります。", "note": "「→ これからやる」仕事" },
+        { "en": "Do you want something to drink?", "ja": "何か飲み物はいかがですか？", "note": "「→ 飲むための」何か。機内やお店でよく聞く" },
+        { "en": "I went to the store to buy milk.", "ja": "牛乳を買うために店に行きました。", "note": "結論（店に行った）が先、目的（→ 買う）があと" },
+        { "en": "I'm saving money to travel abroad.", "ja": "海外旅行のためにお金を貯めています。", "note": "貯めている「→ 旅行する」に向かって" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I want ___ sushi.", "ja": "私は寿司が食べたいです。", "choices": ["to eat", "eat", "eating"], "answer": "to eat", "tag": "不定詞の形", "why": "want は「→ これから」に向かう動詞 → to ＋ 原形。" },
+        { "id": "q2", "type": "choice", "q": "「I have a lot of work to do.」の to do の働きは？", "choices": ["「→ これからやる」と、仕事を説明している", "過去にやった仕事を表す", "やっている途中を表す", "仕事をやめることを表す"], "answer": 0, "tag": "不定詞の使い方", "why": "名詞 work のうしろから「→ これからやる」と説明 → やるべき仕事。" },
+        { "id": "q3", "type": "order", "ja": "牛乳を買うために店に行きました。", "words": ["I", "went", "to", "the", "store", "to", "buy", "milk"], "extra": ["for"], "answer": "I went to the store to buy milk", "tag": "不定詞の使い方", "why": "結論（店に行った）が先、目的（to buy milk）があと。for ＋ 動詞の原形は使わない。" },
+        { "id": "q4", "type": "fill", "q": "Do you want something ___?", "ja": "何か飲み物はいかがですか？", "choices": ["to drink", "drink", "drinking"], "answer": "to drink", "tag": "不定詞の使い方", "why": "something のうしろから「→ 飲むための」と説明する。" },
+        { "id": "q5", "type": "choice", "q": "不定詞の to の中心イメージは？", "choices": ["→ これから向かう", "すでに終わった", "今まさに途中", "〜によって"], "answer": 0, "tag": "不定詞の核心", "why": "go to Tokyo の to と同じ矢印。まだしていない、これからの動作。" },
+        { "id": "q6", "type": "fill", "q": "I decided ___ English every day.", "ja": "毎日英語を勉強することに決めました。", "choices": ["to study", "study", "studied"], "answer": "to study", "tag": "不定詞の形", "why": "decide は未来に向かう動詞 → to ＋ 原形。" },
+        { "id": "q7", "type": "choice", "q": "「海外旅行のためにお金を貯めています」", "choices": ["I'm saving money to travel abroad.", "I'm saving money travel abroad.", "I'm saving to money travel abroad.", "I'm to saving money travel abroad."], "answer": 0, "tag": "不定詞の使い方", "why": "貯めている（結論）→ to travel（目的）。to は目的の動詞の前に置く。" },
+        { "id": "q8", "type": "fill", "q": "I hope ___ you again.", "ja": "またお会いしたいです。", "choices": ["to see", "see", "seeing"], "answer": "to see", "tag": "不定詞の形", "why": "hope は「→ これから」を望む動詞 → to ＋ 原形。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "まず結論を言い、**to で「これからの動作」を足す**練習です。",
+      "items": [
+        { "ja": "私は寿司が食べたいです。", "en": "I want to eat sushi.", "hint": "I want to ..." },
+        { "ja": "今日はやるべき仕事がたくさんあります。", "en": "I have a lot of work to do today.", "hint": "I have a lot of work ..." },
+        { "ja": "何か飲み物はいかがですか？", "en": "Do you want something to drink?", "accept": ["Would you like something to drink?"], "hint": "Do you want something ...?" },
+        { "ja": "牛乳を買うために店に行きました。", "en": "I went to the store to buy milk.", "hint": "I went to the store ..." },
+        { "ja": "またお会いしたいです。", "en": "I hope to see you again.", "hint": "I hope ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "decide", "ja": "決める", "ex": "I decided to study English every day." },
+    { "en": "study", "ja": "勉強する", "ex": "I decided to study English every day." },
+    { "en": "something to drink", "ja": "何か飲み物", "ex": "Do you want something to drink?" },
+    { "en": "buy", "ja": "買う", "ex": "I went to the store to buy milk." },
+    { "en": "milk", "ja": "牛乳", "ex": "I went to the store to buy milk." },
+    { "en": "save money", "ja": "お金を貯める", "ex": "I'm saving money to travel abroad." },
+    { "en": "travel abroad", "ja": "海外旅行する", "ex": "I'm saving money to travel abroad." },
+    { "en": "hope", "ja": "望む・〜したいと思う", "ex": "I hope to see you again." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "t1-10",
+  "title": "時間配分と本番の進め方",
+  "subtitle": "試験の全体像と、数字・時刻の聞き取り",
+  "steps": [
+    {
+      "type": "question",
+      "title": "600点に、全問正解は必要ない",
+      "body": "TOEIC Listening & Reading テストは、2時間で200問を解く試験です。最後まで解き終わらなかったり、1問にこだわって時間がなくなったりする人がたくさんいます。\n\nまた、リスニングでは「15ドル（fifteen）」と「50ドル（fifty）」、「9時15分（a quarter past nine）」のような**数字や時刻**の聞き間違いで点を落とすこともよくあります。\n\n**600点を取るには、試験全体をどう進めればいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "全体像を知り、取れる問題を確実に取る",
+      "body": "**試験の全体像**（受験前に、公式サイトで最新の形式を必ず確認してください）\n\n> **リスニング**（約45分・100問）：Part 1 写真描写 6問 ／ Part 2 応答 25問 ／ Part 3 会話 39問 ／ Part 4 説明文 30問\n> **リーディング**（75分・100問）：Part 5 短文穴埋め 30問 ／ Part 6 長文穴埋め 16問 ／ Part 7 読解 54問\n\nスコアは各セクション5〜495点、合計10〜990点です。\n\n**600点の考え方**\n点数への換算方法は公開されておらず、回によって変わるので、正確な正答数は言えません。ただ、全体のおよそ6割前後の正答が目安とよく言われます。つまり、**4割は間違えてもよい**ということです。\n\n**リーディングの時間配分の目安**\n\n- Part 5：約10分（1問20秒）\n- Part 6：約10分\n- Part 7：約55分\n\n**分からない問題は、すぐ何かを選んで次へ**\n間違えても減点はありません。空欄にせず、何かをマークしてすぐ次に進みます。1問で悩む時間を、確実に取れる問題に回しましょう。\n\n**リスニングは「先読み」の時間を作る**\nPart 3・4 では、答えをマークしたらすぐに次の設問を読みます（Part 3・4 の単元で練習した方法）。\n\n**数字・時刻は「強さ」と「言い方」で聞き分ける**\n\n- fif**teen**（後ろを強く・長く）⇔ **fif**ty（前を強く）\n- a **quarter** past nine ＝ 9時15分（quarter ＝ 4分の1時間）、**half** past eight ＝ 8時30分\n- room three-**oh**-four ＝ 304号室（0 を oh と読む）\n\n[[日本語の発想|英語の発想]]\nL: 「15」「50」は、数字の読み方そのものが大きく違う\nR: fifteen と fifty は音が似ていて、強く言う位置で聞き分ける",
+      "points": [
+        "L 約45分100問、R 75分100問。R は Part 5 約10分・Part 6 約10分・Part 7 約55分が目安",
+        "600点は全体の6割前後の正答が目安（公式の換算は非公開）。分からない問題は選んで次へ",
+        "fifteen は後ろ、fifty は前を強く。quarter past ＝ 15分過ぎ、half past ＝ 30分過ぎ"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "Part 3・4 によく出る、数字と時刻の言い方です。強く言う位置に注意して聞きましょう。",
+      "items": [
+        { "en": "The store closes at half past eight.", "ja": "店は8時半に閉まります。", "note": "half past ＝ 30分過ぎ。eight thirty とも言う" },
+        { "en": "The meeting starts at a quarter past nine.", "ja": "会議は9時15分に始まります。", "note": "quarter ＝ 4分の1（1時間の4分の1 ＝ 15分）" },
+        { "en": "The ticket costs fifteen dollars, not fifty.", "ja": "チケットは15ドルです。50ドルではありません。", "sound": "fifteen は「フィフティーン」で後ろの「ティーン」を強く長く、fifty は「フィフティ」で前の「フィ」を強く" },
+        { "en": "Please go to room three-oh-four.", "ja": "304号室へ行ってください。", "note": "部屋番号は1けたずつ。0 は oh" },
+        { "en": "The conference will be held on May twenty-third.", "ja": "会議は5月23日に開かれます。", "note": "日付は序数（twenty-third）で言う" },
+        { "en": "About two thirds of the staff attended the training.", "ja": "スタッフの約3分の2が研修に参加しました。", "note": "分数：分子は数、分母は序数（third）。2以上なら s" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "q": "TOEIC Listening & Reading テストの問題数と時間は？", "choices": ["200問・約2時間", "100問・1時間", "150問・90分", "200問・3時間"], "answer": 0, "tag": "試験の全体像", "why": "リスニング約45分100問 ＋ リーディング75分100問。最新の形式は公式サイトで確認を。" },
+        { "id": "q2", "type": "choice", "q": "リーディング75分の時間配分の目安は？", "choices": ["Part 5 約10分・Part 6 約10分・Part 7 約55分", "Part 5 に40分", "Part 7 は最後の10分", "全部のパートに同じ時間"], "answer": 0, "tag": "時間配分", "why": "問題数の多い Part 7 にいちばん時間を残す。Part 5 は1問20秒が目安。" },
+        { "id": "q3", "type": "choice", "q": "分からない問題があったときは？", "choices": ["何かを選んでマークし、すぐ次へ進む（間違えても減点はない）", "空欄のままにする", "分かるまで考え続ける", "最後にまとめて見直す"], "answer": 0, "tag": "時間配分", "why": "減点がないので空欄は損。悩む時間を、確実に取れる問題に回す。" },
+        { "id": "q4", "type": "choice", "audio": "The store closes at half past eight.", "q": "音声を聞いて：閉店時刻は？", "choices": ["8:30", "8:00", "7:30", "9:30"], "answer": 0, "tag": "数字・時刻の聞き取り", "why": "half past eight ＝ 8時を30分過ぎた ＝ 8:30。" },
+        { "id": "q5", "type": "choice", "audio": "The ticket costs fifteen dollars.", "q": "音声を聞いて：チケットの値段は？", "choices": ["$15", "$50", "$5", "$150"], "answer": 0, "tag": "数字・時刻の聞き取り", "why": "fifteen は後ろの teen を強く・長く言う。fifty は前の fif を強く言う。" },
+        { "id": "q6", "type": "choice", "audio": "Please go to room three-oh-four.", "q": "音声を聞いて：部屋番号は？", "choices": ["304", "340", "314", "34"], "answer": 0, "tag": "数字・時刻の聞き取り", "why": "部屋番号は1けたずつ読み、0 は oh と読む。three-oh-four ＝ 304。" },
+        { "id": "q7", "type": "choice", "audio": "The meeting starts at a quarter past nine.", "q": "音声を聞いて：会議の開始時刻は？", "choices": ["9:15", "8:45", "9:45", "9:25"], "answer": 0, "tag": "数字・時刻の聞き取り", "why": "a quarter past nine ＝ 9時を15分過ぎた。a quarter to nine なら 8:45（9時の15分前）。" },
+        { "id": "q8", "type": "choice", "q": "600点を目指すときの考え方として正しいのは？", "choices": ["全問正解は目指さず、取れる問題を確実に取る", "難しい Part 7 の長い文書から解く", "リスニングはあきらめる", "1問に時間をかけて完璧にする"], "answer": 0, "tag": "試験の全体像", "why": "6割前後の正答が目安。Part 1・2・5 と短い文書を確実に取るのが近道。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "数字と時刻を言う練習です。**fifteen は後ろを強く**、時刻は past を使って。",
+      "items": [
+        { "ja": "店は8時半に閉まります。", "en": "The store closes at half past eight.", "accept": ["The store closes at eight thirty.", "The store closes at 8:30."], "hint": "half past ..." },
+        { "ja": "会議は9時15分に始まります。", "en": "The meeting starts at a quarter past nine.", "accept": ["The meeting starts at nine fifteen.", "The meeting starts at 9:15."], "hint": "a quarter past ..." },
+        { "ja": "チケットは15ドルです。", "en": "The ticket costs fifteen dollars.", "accept": ["The ticket costs $15.", "The ticket is fifteen dollars.", "The ticket is $15."], "hint": "fifteen は後ろを強く" },
+        { "ja": "304号室へ行ってください。", "en": "Please go to room three-oh-four.", "accept": ["Please go to room 304."], "hint": "three-oh-..." },
+        { "ja": "会議は5月23日に開かれます。", "en": "The conference will be held on May twenty-third.", "accept": ["The conference will be held on May 23rd.", "The conference will be held on May 23."], "hint": "will be held on ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "half past", "ja": "（〜時）30分過ぎ", "ex": "The store closes at half past eight." },
+    { "en": "a quarter past", "ja": "（〜時）15分過ぎ", "ex": "The meeting starts at a quarter past nine." },
+    { "en": "a quarter to", "ja": "（〜時）15分前", "ex": "It's a quarter to nine." },
+    { "en": "fifteen", "ja": "15（後ろを強く）", "ex": "The ticket costs fifteen dollars." },
+    { "en": "fifty", "ja": "50（前を強く）", "ex": "It costs fifty dollars." },
+    { "en": "be held", "ja": "開かれる・行われる", "ex": "The conference will be held on May twenty-third." },
+    { "en": "two thirds", "ja": "3分の2", "ex": "About two thirds of the staff attended." },
+    { "en": "answer sheet", "ja": "解答用紙", "ex": "Mark your answer on the answer sheet." }
+  ]
+}

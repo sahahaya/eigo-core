@@ -1,0 +1,69 @@
+{
+  "id": "j1-07",
+  "title": "名詞と冠詞",
+  "subtitle": "a は「たくさんの中の1つ」、the は「あれ」の指さし",
+  "steps": [
+    {
+      "type": "question",
+      "title": "なぜ「I have dog.」ではダメなのか",
+      "body": "日本語では「私は犬を飼っています」と言うだけで、1匹か2匹か、どの犬かは言いません。\n\nところが英語では `I have dog.` は不自然で、`I have a dog.`（1匹）か `I have two dogs.`（2匹）と言います。さらに、2回目に話すときは `The dog is very big.` と the に変わります。\n\n**英語はなぜ、名詞のたびに a や the や s をつけるのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "英語は名詞を言うたびに「1つ？ 複数？ どれか分かる？」を決める",
+      "body": "英語では、名詞（人・物・ことがらの名前）を口に出すたびに、次の2つをはっきりさせます。\n\n> ① **数**：1つなのか、2つ以上なのか\n> ② **特定**：聞き手も「どれのことか」分かっているか\n\n**a / an ＝「たくさんある中の、どれか1つ」**\n世の中にたくさんいる犬のうちの1匹。聞き手はまだ、どの犬か知りません。だから**初めて話に出すとき**は a です。\n\n**the ＝「ほら、あれ」と指さす言葉**\n話し手と聞き手の両方が「どれのことか」分かっているときに使います。\n\n- 2回目に出てきたとき：I have a dog. **The** dog is very big.\n- 状況で分かるとき：Where is **the** station?（この近くの、あの駅）\n- 1つしかないもの：**the** moon（月は1つ）\n\n**2つ以上なら s**：two dog**s**。「犬というもの全体」を言うときも複数形で `I like dogs.` と言います。\n\n**区切れないものには a をつけない**\nwater（水）や music（音楽）は、1つ2つと区切れる形がありません。だから a も s もつけません。お店で `A coffee, please.` と言えるのは、「カップ1杯」という区切りができるからです。\n\n**an は音の都合**：apple のように「ア・イ・ウ・エ・オ」に近い音で始まる語の前では、言いやすいように an にします（an apple）。\n\n[[日本語の発想|英語の発想]]\nL: 数や「どれか」は、必要なときだけ言う\nL: 「犬を飼っている」で十分\nR: 名詞を言うたびに、数と「どれか」を決める\nR: a dog / two dogs / the dog を必ず選ぶ",
+      "points": [
+        "a ＝ たくさんの中のどれか1つ（初めて出すとき）",
+        "the ＝ 話し手と聞き手が「どれか」分かっているときの指さし",
+        "区切れないもの（water, music）には a も s もつけない"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "a・the・s のどれがついているか、なぜそれなのかを考えながら聞きましょう。",
+      "items": [
+        { "en": "I have a dog. The dog is very big.", "ja": "私は犬を飼っています。その犬はとても大きいです。", "note": "1回目は a（どれか1匹）、2回目は the（さっきの犬）", "sound": "have a は「ハヴァ」とつながる" },
+        { "en": "She eats an apple every day.", "ja": "彼女は毎日りんごを1個食べます。", "note": "apple は「ア」の音で始まる → an", "sound": "an apple は「アナプル」とつながる" },
+        { "en": "I like dogs.", "ja": "私は犬が好きです。", "note": "「犬というもの」全体 → 複数形。the dog だと「その犬」になる" },
+        { "en": "I drink water every morning.", "ja": "私は毎朝水を飲みます。", "note": "水は区切れない → a をつけない" },
+        { "en": "Where is the station?", "ja": "駅はどこですか？", "note": "この近くの「あの駅」と、聞き手にも分かる → the" },
+        { "en": "The moon is beautiful tonight.", "ja": "今夜は月がきれいです。", "note": "月は1つしかない → the" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I have ___ dog.", "ja": "私は犬を（1匹）飼っています。", "choices": ["a", "the", "an"], "answer": "a", "tag": "a と the", "why": "初めて話に出す、たくさんいる犬の中の1匹 → a。聞き手はまだ「どの犬か」知らない。" },
+        { "id": "q2", "type": "fill", "q": "She eats ___ apple every day.", "ja": "彼女は毎日りんごを1個食べます。", "choices": ["an", "a", "the"], "answer": "an", "tag": "a と an", "why": "apple は「ア」の音で始まる → 言いやすい an。意味は a と同じ。" },
+        { "id": "q3", "type": "fill", "q": "I have a cat. ___ cat is white.", "ja": "私は猫を飼っています。その猫は白いです。", "choices": ["The", "A", "An"], "answer": "The", "tag": "a と the", "why": "2回目なので、聞き手も「さっきの猫」と分かる → the。" },
+        { "id": "q4", "type": "choice", "q": "「（犬というもの全般が）好きです」正しいのは？", "choices": ["I like dogs.", "I like dog.", "I like the dog.", "I like a dogs."], "answer": 0, "tag": "数を決める", "why": "種類全体を言うときは複数形。the dog は「その犬」、dog だけでは数が決まっていない。" },
+        { "id": "q5", "type": "choice", "q": "ふつう a をつけない名詞は？", "choices": ["water", "apple", "pen", "book"], "answer": 0, "tag": "区切れない名詞", "why": "水は1つ2つと区切れる形がない → a も s もつけない。" },
+        { "id": "q6", "type": "fill", "q": "Where is ___ station?", "ja": "（この近くの）駅はどこですか？", "choices": ["the", "a", "an"], "answer": "the", "tag": "a と the", "why": "話し手も聞き手も「この近くのあの駅」と分かっている → the。" },
+        { "id": "q7", "type": "order", "ja": "私には兄弟が2人います。", "words": ["I", "have", "two", "brothers"], "extra": ["brother"], "answer": "I have two brothers", "tag": "数を決める", "why": "2人なので複数形の brothers。two と言っても s は省かない。" },
+        { "id": "q8", "type": "choice", "q": "the の中心イメージは？", "choices": ["話し手と聞き手が「どれか」分かっている（指さし）", "大切なもの", "1つだけのもの", "2つ以上のもの"], "answer": 0, "tag": "a と the", "why": "the は「ほら、あれ」の指さし。数ではなく「分かっているか」で決まる。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "名詞を言う前に、**1つ？ 複数？ 分かっている？** を一瞬で決めてから口に出します。",
+      "items": [
+        { "ja": "私は犬を飼っています。", "en": "I have a dog.", "hint": "1匹 → a" },
+        { "ja": "その犬はとても大きいです。", "en": "The dog is very big.", "hint": "さっきの犬 → the" },
+        { "ja": "私は犬が好きです（犬というもの）。", "en": "I like dogs.", "hint": "全体 → 複数形" },
+        { "ja": "私は毎朝水を飲みます。", "en": "I drink water every morning.", "hint": "水は区切れない" },
+        { "ja": "彼女は毎日りんごを1個食べます。", "en": "She eats an apple every day.", "hint": "an apple" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "dog", "ja": "犬", "ex": "I have a dog." },
+    { "en": "apple", "ja": "りんご", "ex": "She eats an apple every day." },
+    { "en": "water", "ja": "水", "ex": "I drink water every morning." },
+    { "en": "moon", "ja": "月", "ex": "The moon is beautiful tonight." },
+    { "en": "beautiful", "ja": "美しい・きれいな", "ex": "The moon is beautiful tonight." },
+    { "en": "tonight", "ja": "今夜", "ex": "The moon is beautiful tonight." },
+    { "en": "big", "ja": "大きい", "ex": "The dog is very big." },
+    { "en": "very", "ja": "とても", "ex": "The dog is very big." }
+  ]
+}

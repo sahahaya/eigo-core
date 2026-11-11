@@ -1,0 +1,69 @@
+{
+  "id": "h1-07",
+  "title": "冠詞のイメージ",
+  "subtitle": "「形が見えるか」で a / 何もつけないが決まる",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「I ate a chicken.」は何を食べた？",
+      "body": "夕食に鶏肉を食べたとき、`I ate a chicken.` と言うと「ニワトリを1羽まるごと食べた」に聞こえてしまいます。正しくは `I ate chicken.` です。\n\nまた「通学する」は `go to school` で the がつきません。「アドバイスを1つください」も `an advice` とは言えません。\n\n**同じ単語なのに a がついたりつかなかったりするのは、なぜでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "a がつくかは、話し手に「形・区切り」が見えているかで決まる",
+      "body": "中1で、a は「たくさんの中の1つ」、区切れないもの（water, music）には a をつけない、と学びました。高校ではもう一歩進みます。\n\n> 名詞に a がつくかどうかは、単語ごとに決まっているのではなく、\n> **話し手がそのものを「形・区切りのあるもの」として見ているか**で決まる\n\n同じ単語でも、見方が変わると a がついたり消えたりします。\n\n- **a chicken**：1羽のニワトリ（形が見える）／ **chicken**：鶏肉（形がない）\n- **a paper**：新聞1部・書類1枚（区切りがある）／ **paper**：紙という素材\n- **a coffee**：コーヒー1杯／ **coffee**：飲み物としてのコーヒー\n\n**形をなくすと「働き・目的」になる**\n`go to school`、`go to bed`、`by bus` に冠詞がないのは、建物やベッドや乗り物という**物の形**ではなく、「勉強しに行く」「寝る」「バスという手段」という**働き**を言っているからです。\n\n建物としての学校を言うときは形が戻ります（My mother went to **the school** to meet my teacher.：母は先生に会いに学校へ行った）。\n\n**日本人が数えがちな「数えない名詞」**\nadvice（助言）、information（情報）、furniture（家具）、baggage（荷物）は、英語では**形のないまとまり**として見ます。だから a も s もつけません。1つ、2つと数えたいときは **a piece of** を使います（a piece of advice）。TOEICでもよく問われます。\n\n[[日本語の発想|英語の発想]]\nL: 鶏も鶏肉も「チキン」。数や形はあまり気にしない\nR: 形が見えれば a chicken、形がなければ chicken。見方で言い分ける",
+      "points": [
+        "a がつくかは「形・区切り」が見えているかで決まる（a chicken / chicken）",
+        "go to school / go to bed / by bus は、物ではなく働き・目的を言うので冠詞なし",
+        "advice / information / furniture は数えない。数えるときは a piece of"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "話し手に「形」が見えているかどうかを考えながら聞きましょう。",
+      "items": [
+        { "en": "I had chicken for dinner.", "ja": "夕食に鶏肉を食べた。", "note": "肉には形がない → a なし" },
+        { "en": "There's a chicken in the garden.", "ja": "庭にニワトリが1羽いる。", "note": "1羽の形が見える → a" },
+        { "en": "I go to school by bus.", "ja": "私はバスで通学しています。", "note": "school も bus も働き・手段 → 冠詞なし" },
+        { "en": "Could you give me some advice?", "ja": "何かアドバイスをいただけますか？", "note": "advice は数えない → some" },
+        { "en": "I bought a paper at the station.", "ja": "駅で新聞を1部買った。", "note": "1部という区切り → a paper" },
+        { "en": "I need some paper to write on.", "ja": "書くための紙が必要だ。", "note": "素材としての紙 → a なし" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "q": "「夕食に鶏肉を食べた」", "choices": ["I had chicken for dinner.", "I had a chicken for dinner.", "I had chickens for dinner.", "I had an chicken for dinner."], "answer": 0, "tag": "形が見えるか", "why": "鶏肉は形のない食べ物 → a なし。a chicken は1羽まるごと。" },
+        { "id": "q2", "type": "fill", "q": "I go to school by ___.", "ja": "私はバスで通学しています。", "choices": ["bus", "a bus", "the bus"], "answer": "bus", "tag": "働きを言うときの無冠詞", "why": "by ＋ 手段は、乗り物の形ではなく働きを言う → 冠詞なし。" },
+        { "id": "q3", "type": "choice", "q": "「何かアドバイスをいただけますか？」", "choices": ["Could you give me some advice?", "Could you give me an advice?", "Could you give me advices?", "Could you give me a advice?"], "answer": 0, "tag": "数えない名詞", "why": "advice は形のないまとまり → a も s もつけない。" },
+        { "id": "q4", "type": "choice", "q": "名詞に a がつくかどうかを決めるのは？", "choices": ["話し手がそれを「形・区切りのあるもの」として見ているか", "単語ごとに決まっている", "値段", "大きさ"], "answer": 0, "tag": "冠詞の核心", "why": "同じ chicken でも、1羽なら a chicken、肉なら chicken。" },
+        { "id": "q5", "type": "fill", "q": "I bought ___ paper at the station.", "ja": "駅で新聞を1部買った。", "choices": ["a", "some", "much"], "answer": "a", "tag": "形が見えるか", "why": "新聞1部という区切りがある → a paper。some paper だと「紙」になる。" },
+        { "id": "q6", "type": "fill", "q": "It's late. Let's go to ___.", "ja": "遅いから寝よう。", "choices": ["bed", "the bed", "a bed"], "answer": "bed", "tag": "働きを言うときの無冠詞", "why": "ベッドという物ではなく「寝る」という目的 → 冠詞なし。" },
+        { "id": "q7", "type": "choice", "q": "「go to school」に the がない理由は？", "choices": ["建物ではなく「勉強しに行く」という目的・働きを言っているから", "学校は1つしかないから", "school は数えない名詞だから", "省略しただけ"], "answer": 0, "tag": "働きを言うときの無冠詞", "why": "物の形が消えると冠詞も消える。建物を言うなら the school。" },
+        { "id": "q8", "type": "fill", "q": "I need some ___ to write on.", "ja": "書くための紙が必要だ。", "choices": ["paper", "papers", "a paper"], "answer": "paper", "tag": "形が見えるか", "why": "素材としての紙は形がない → a も s もつけない。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "名詞を言う前に、**形が見えているか**を一瞬で判断します。",
+      "items": [
+        { "ja": "夕食に鶏肉を食べた。", "en": "I had chicken for dinner.", "accept": ["I ate chicken for dinner."], "hint": "a はつける？" },
+        { "ja": "私はバスで通学しています。", "en": "I go to school by bus.", "hint": "I go to school ..." },
+        { "ja": "何かアドバイスをいただけますか？", "en": "Could you give me some advice?", "accept": ["Can you give me some advice?"], "hint": "Could you give me ...?" },
+        { "ja": "駅で新聞を1部買った。", "en": "I bought a paper at the station.", "accept": ["I bought a newspaper at the station."], "hint": "I bought ..." },
+        { "ja": "遅いから寝よう。", "en": "It's late. Let's go to bed.", "accept": ["It's late, let's go to bed."], "hint": "It's late. Let's ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "chicken", "ja": "ニワトリ・鶏肉", "ex": "I had chicken for dinner." },
+    { "en": "garden", "ja": "庭", "ex": "There's a chicken in the garden." },
+    { "en": "go to school", "ja": "通学する", "ex": "I go to school by bus." },
+    { "en": "advice", "ja": "助言・アドバイス（数えない）", "ex": "Could you give me some advice?" },
+    { "en": "information", "ja": "情報（数えない）", "ex": "I need more information." },
+    { "en": "a piece of", "ja": "（数えない名詞を）1つの", "ex": "Let me give you a piece of advice." },
+    { "en": "paper", "ja": "紙・新聞・書類", "ex": "I bought a paper at the station." },
+    { "en": "furniture", "ja": "家具（数えない）", "ex": "We need some new furniture." }
+  ]
+}

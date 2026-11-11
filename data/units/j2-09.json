@@ -1,0 +1,69 @@
+{
+  "id": "j2-09",
+  "title": "文型",
+  "subtitle": "動詞のうしろに何が来るか（「人に物を」と「A＝B」）",
+  "steps": [
+    {
+      "type": "question",
+      "title": "動詞のうしろに名詞が2つ並んだら、どう読む？",
+      "body": "`He gave me a book.`（彼は私に本をくれた）では、gave のうしろに me と a book の2つが並んでいます。\n\n`We call our dog Pochi.`（私たちは犬をポチと呼ぶ）でも、call のうしろに our dog と Pochi の2つが並んでいます。\n\n形は同じ「動詞 ＋ 名詞 ＋ 名詞」なのに、意味の関係はまったく違います。**どうやって見分ければいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "文の骨組みは「動詞のうしろに何が来るか」で決まる",
+      "body": "語順の単元で「誰が → どうする → 何を」を学びました。文型とは、この**「どうする」のうしろに何が来るか**のパターンです。基本のパターンは5つです。\n\n記号を使うと整理しやすくなります。S ＝ 主語（誰が）、V ＝ 動詞、O ＝ 相手（何を・誰に）、C ＝ 説明（主語や O と「＝」で結べる言葉）です。\n\n> ① **S V**：I run.（私は走る）\n> ② **S V C**：You look tired.（あなた ＝ 疲れている）\n> ③ **S V O**：I like coffee.（コーヒーを）\n> ④ **S V O O**：He gave me a book.（私に・本を）\n> ⑤ **S V O C**：This song makes me happy.（私 ＝ 幸せ にする）\n\n①〜③はもう知っています。新しいのは④と⑤です。\n\n**見分け方は「＝」が成り立つかどうか**\n動詞のうしろの2つの名詞の間に「＝」が成り立つかを見ます。\n\n- He gave **me**（人）／ **a book**（物）：私 ≠ 本 → ④「人に・物を」。物が人に**移る**\n- We call **our dog**（A）／ **Pochi**（B）：犬 ＝ ポチ → ⑤「AをBと〜する」\n\n④は give（あげる）、show（見せる）、teach（教える）、send（送る）、tell（伝える）のように、**何かが人のところへ移る**動詞でよく使います。物を先に言いたいときは、「→ 向かう先」の to で人を示します（He gave a book **to** me.）。\n\n⑤は make（〜にする）、call（〜と呼ぶ）などで使います。\n\n[[日本語の発想|英語の発想]]\nL: 「私に」「本を」と助詞で役割を示す\nR: 並べる順番で役割を示す。人 → 物、A ＝ B の順",
+      "points": [
+        "文の骨組みは、動詞のうしろに何が来るかの5パターン",
+        "名詞が2つ並んだら「＝」が成り立つかを見る。≠ なら「人に物を」、＝ なら「AをBに」",
+        "「人に物を」は物を先にして to ＋ 人 でも言える（gave a book to me）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "動詞のうしろの言葉の間に「＝」があるかどうかを確かめながら聞きましょう。",
+      "items": [
+        { "en": "You look tired.", "ja": "疲れているように見えますね。", "note": "S V C：you ＝ tired。look は「〜に見える」" },
+        { "en": "He gave me a book.", "ja": "彼は私に本をくれました。", "note": "S V O O：me ≠ a book。本が私に移った", "sound": "gave me は「ゲイヴミー」" },
+        { "en": "Can you show me the way to the station?", "ja": "駅への道を教えてくれますか？", "note": "S V O O：道順を見せて教える → show" },
+        { "en": "My mother taught me English.", "ja": "母が私に英語を教えてくれました。", "note": "teach → taught" },
+        { "en": "We call our dog Pochi.", "ja": "私たちは犬をポチと呼んでいます。", "note": "S V O C：our dog ＝ Pochi" },
+        { "en": "This song makes me happy.", "ja": "この歌を聞くと幸せな気持ちになります。", "note": "S V O C：me ＝ happy。直訳は「この歌は私を幸せにする」" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "order", "ja": "彼は私に本をくれました。", "words": ["He", "gave", "me", "a", "book"], "extra": ["for"], "answer": "He gave me a book", "tag": "人に物を（S V O O）", "why": "gave ＋ 人（me）＋ 物（a book）の順。" },
+        { "id": "q2", "type": "choice", "q": "「This song makes me happy.」で me と happy の関係は？", "choices": ["me ＝ happy（私が幸せ）", "me に happy を渡す", "happy が主語", "関係はない"], "answer": 0, "tag": "AをBに（S V O C）", "why": "「＝」が成り立つ → S V O C。歌が「私 ＝ 幸せ」の状態にする。" },
+        { "id": "q3", "type": "choice", "q": "「He gave me a book.」で me と a book の関係は？", "choices": ["me ≠ a book（本が私に移る）", "me ＝ a book", "a book が主語", "me が動詞"], "answer": 0, "tag": "人に物を（S V O O）", "why": "「＝」が成り立たない → 人に物を。give は物が人に移る動詞。" },
+        { "id": "q4", "type": "fill", "q": "You look ___.", "ja": "疲れているように見えますね。", "choices": ["tired", "tiredly", "to tire"], "answer": "tired", "tag": "A＝B（S V C）", "why": "look のうしろは主語と「＝」で結べる説明（you ＝ tired）。" },
+        { "id": "q5", "type": "order", "ja": "私たちは犬をポチと呼んでいます。", "words": ["We", "call", "our", "dog", "Pochi"], "extra": ["is"], "answer": "We call our dog Pochi", "tag": "AをBに（S V O C）", "why": "call ＋ A（our dog）＋ B（Pochi）。A ＝ B の関係。" },
+        { "id": "q6", "type": "fill", "q": "My mother taught ___ English.", "ja": "母が私に英語を教えてくれました。", "choices": ["me", "I", "my"], "answer": "me", "tag": "人に物を（S V O O）", "why": "動詞のうしろは相手の席 → me（代名詞の単元と同じ）。" },
+        { "id": "q7", "type": "choice", "q": "「駅への道を教えてくれますか？」", "choices": ["Can you show me the way to the station?", "Can you show the way me to the station?", "Can you show I the way to the station?", "Can you show to me the way to the station?"], "answer": 0, "tag": "人に物を（S V O O）", "why": "show ＋ 人（me）＋ 物（the way）の順。人の前に to はつけない。" },
+        { "id": "q8", "type": "choice", "q": "「He gave me a book.」を、物を先にして言いかえると？", "choices": ["He gave a book to me.", "He gave a book me.", "He gave to me a book.", "He gave me to a book."], "answer": 0, "tag": "人に物を（S V O O）", "why": "物を先に言うときは、「→ 向かう先」の to で人を示す。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "動詞のあとに**人 → 物**、または**A → B**の順で並べる練習です。",
+      "items": [
+        { "ja": "疲れているように見えますね。", "en": "You look tired.", "hint": "You look ..." },
+        { "ja": "彼は私に本をくれました。", "en": "He gave me a book.", "accept": ["He gave a book to me."], "hint": "He gave me ..." },
+        { "ja": "駅への道を教えてくれますか？", "en": "Can you show me the way to the station?", "accept": ["Can you tell me the way to the station?"], "hint": "Can you show me ...?" },
+        { "ja": "私たちは犬をポチと呼んでいます。", "en": "We call our dog Pochi.", "hint": "We call ..." },
+        { "ja": "この歌を聞くと幸せな気持ちになります。", "en": "This song makes me happy.", "hint": "This song makes ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "look", "ja": "〜に見える・見る", "ex": "You look tired." },
+    { "en": "gave", "ja": "あげた（give の過去形）", "ex": "He gave me a book." },
+    { "en": "show me the way", "ja": "道を教える", "ex": "Can you show me the way to the station?" },
+    { "en": "taught", "ja": "教えた（teach の過去形）", "ex": "My mother taught me English." },
+    { "en": "song", "ja": "歌", "ex": "This song makes me happy." },
+    { "en": "happy", "ja": "幸せな・うれしい", "ex": "This song makes me happy." },
+    { "en": "make A happy", "ja": "Aを幸せにする", "ex": "This song makes me happy." },
+    { "en": "call A B", "ja": "AをBと呼ぶ", "ex": "We call our dog Pochi." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "j1-08",
+  "title": "代名詞",
+  "subtitle": "I / my / me の使い分けは「席」で決まる",
+  "steps": [
+    {
+      "type": "question",
+      "title": "なぜ「私」が I / my / me / mine と4つもあるのか",
+      "body": "日本語の「私」は、うしろに「は」「の」「を」をつけるだけで役割が変わります。\n\n英語では `I`（私は）、`my`（私の）、`me`（私を・私に）、`mine`（私のもの）と、**単語そのもの**が変わります。\n\n`He loves she.` や `Me like coffee.` と言ってしまうのはなぜでしょう？ どうやって選べばいいのでしょう？"
+    },
+    {
+      "type": "core",
+      "title": "代名詞は「座る席」によって形を変える",
+      "body": "語順の単元で、英語は**置く場所（席）**で役割が決まると学びました。\n\n代名詞（I, he, they のように名詞の代わりをする言葉）は、さらに**席ごとに形まで変えて**、役割をはっきり示します。日本語の「は・を・の」の仕事を、形の変化がしているのです。\n\n> **主語の席**（動詞の前）：I / you / he / she / it / we / they\n> **相手の席**（動詞や with, for などのうしろ）：me / you / him / her / it / us / them\n> **名詞の前**（持ち主）：my / your / his / her / its / our / their\n> **「〜のもの」**（それだけで名詞になる）：mine / yours / his / hers / ours / theirs\n\n選び方は1つだけ。**その言葉が文のどの席に座っているか**を見ます。\n\n- **She** loves **him**.（彼女は 彼を）\n- **He** loves **her**.（彼は 彼女を）\n\n同じ2人でも、席が入れ替わると形が変わります。\n\nwith（〜と一緒に）や for（〜のために）のうしろも「相手の席」です。だから `with me`、`for her` になります。\n\n[[日本語の発想|英語の発想]]\nL: 「私」は1つ。助詞（は・の・を）で役割を示す\nR: 席に合わせて I / my / me / mine と形を変える\n\nTom や my sister のようなふつうの名詞は形が変わりません。だから位置だけで役割を判断します。代名詞だけが、位置と形の**両方**で役割を示すのです。",
+      "points": [
+        "主語の席は I / he / she、相手の席は me / him / her",
+        "名詞の前は my / his / their、「〜のもの」は mine / his / theirs",
+        "with や for のうしろも相手の席 → with me, for them"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "それぞれの代名詞が、どの席に座っているかを確かめながら聞きましょう。",
+      "items": [
+        { "en": "I know him.", "ja": "私は彼を知っています。", "note": "I は主語の席、him は相手の席" },
+        { "en": "She calls me every night.", "ja": "彼女は毎晩私に電話をくれます。", "note": "me は calls のうしろ（相手の席）", "sound": "calls me は「コーズミー」" },
+        { "en": "This is my bag.", "ja": "これは私のかばんです。", "note": "my は名詞 bag の前（持ち主）" },
+        { "en": "This bag is mine.", "ja": "このかばんは私のものです。", "note": "mine はそれだけで「私のかばん」の意味" },
+        { "en": "They live with us.", "ja": "彼らは私たちと一緒に住んでいます。", "note": "with のうしろ → us" },
+        { "en": "Their house is near the station.", "ja": "彼らの家は駅の近くにあります。", "note": "their は名詞 house の前", "sound": "their は there と同じ音「ゼア」" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I know ___.", "ja": "私は彼を知っています。", "choices": ["him", "he", "his"], "answer": "him", "tag": "代名詞の席", "why": "know のうしろは相手の席 → him。he は主語の席の形。" },
+        { "id": "q2", "type": "fill", "q": "___ calls me every night.", "ja": "彼女は毎晩私に電話をくれます。", "choices": ["She", "Her", "Hers"], "answer": "She", "tag": "代名詞の席", "why": "動詞 calls の前は主語の席 → She。" },
+        { "id": "q3", "type": "fill", "q": "This is ___ bag.", "ja": "これは私のかばんです。", "choices": ["my", "me", "mine"], "answer": "my", "tag": "持ち主の形", "why": "名詞 bag の前に置いて持ち主を示す → my。mine はうしろに名詞をとらない。" },
+        { "id": "q4", "type": "fill", "q": "This bag is ___.", "ja": "このかばんは私のものです。", "choices": ["mine", "my", "me"], "answer": "mine", "tag": "持ち主の形", "why": "うしろに名詞がない →「私のもの」の mine。" },
+        { "id": "q5", "type": "choice", "q": "「彼らは私たちと一緒に住んでいます」", "choices": ["They live with us.", "They live with we.", "Them live with us.", "They live with our."], "answer": 0, "tag": "代名詞の席", "why": "主語の席は They、with のうしろは相手の席 → us。" },
+        { "id": "q6", "type": "order", "ja": "私は彼女が好きです。", "words": ["I", "like", "her"], "extra": ["she"], "answer": "I like her", "tag": "代名詞の席", "why": "like のうしろは相手の席 → her。she は主語の席の形。" },
+        { "id": "q7", "type": "choice", "q": "I / my / me のどれを使うかを決めるのは？", "choices": ["文の中の席（役割）", "丁寧さ", "時間", "話し手の性別"], "answer": 0, "tag": "代名詞の核心", "why": "主語の席なら I、相手の席なら me、名詞の前なら my。席で決まる。" },
+        { "id": "q8", "type": "fill", "q": "___ house is near the station.", "ja": "彼らの家は駅の近くにあります。", "choices": ["Their", "They", "Them"], "answer": "Their", "tag": "持ち主の形", "why": "名詞 house の前 → 持ち主の形 their。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "代名詞を言う瞬間に**「この席は主語？ 相手？ 持ち主？」**と判断する練習です。",
+      "items": [
+        { "ja": "私は彼を知っています。", "en": "I know him.", "hint": "know のうしろ" },
+        { "ja": "これは私のかばんです。", "en": "This is my bag.", "hint": "bag の前" },
+        { "ja": "このかばんは私のものです。", "en": "This bag is mine.", "hint": "私のもの" },
+        { "ja": "彼女は毎晩私に電話をくれます。", "en": "She calls me every night.", "hint": "She calls ..." },
+        { "ja": "彼らは私たちと一緒に住んでいます。", "en": "They live with us.", "hint": "with のうしろ" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "him", "ja": "彼を・彼に", "ex": "I know him." },
+    { "en": "her", "ja": "彼女を・彼女の", "ex": "I like her." },
+    { "en": "us", "ja": "私たちを・私たちに", "ex": "They live with us." },
+    { "en": "them", "ja": "彼らを・それらを", "ex": "I know them." },
+    { "en": "mine", "ja": "私のもの", "ex": "This bag is mine." },
+    { "en": "their", "ja": "彼らの", "ex": "Their house is near the station." },
+    { "en": "call", "ja": "電話する・呼ぶ", "ex": "She calls me every night." },
+    { "en": "near", "ja": "〜の近くに", "ex": "Their house is near the station." }
+  ]
+}

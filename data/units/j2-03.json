@@ -1,0 +1,70 @@
+{
+  "id": "j2-03",
+  "title": "助動詞の核心",
+  "subtitle": "must / should / may は「話し手の気持ち」",
+  "steps": [
+    {
+      "type": "question",
+      "title": "must は「〜しなければならない」だけ？",
+      "body": "must は「〜しなければならない」と習います。ところが `You must be tired.` は「疲れなければならない」ではなく「疲れているに**違いない**」です。\n\nmay も「〜してもよい」と習いますが、`It may rain.` は「雨が降る**かもしれない**」です。\n\n**1つの助動詞に、なぜまったく違う2つの意味があるのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "助動詞は「話し手の気持ち」を1つずつ持っている",
+      "body": "can の単元で学んだとおり、助動詞は動詞の前に置いて**話し手の気持ち・判断**を足す道具です。形のルールも can と同じです（うしろは原形、s はつかない、自分で動く）。\n\nそれぞれの助動詞は、**気持ちを1つだけ**持っています。\n\n> **must** ＝「それしかない」（強い圧力・強い確信）\n> **should** ＝「そうするのが自然・正しい」（おすすめ）\n> **may** ＝「そうなってもおかしくない」（扉が開いている）\n\n**2つの意味が出てくる理由**\nその気持ちを、**相手の行動**に向けるか、**事実の判断**に向けるかで、日本語訳が変わるだけです。\n\n- must：You **must** go.（行くしかない → 行かなければならない）／ You **must** be tired.（疲れているとしか考えられない → 違いない）\n- may：You **may** go.（行ってもおかしくない → 行ってもよい）／ It **may** rain.（降ってもおかしくない → 降るかもしれない）\n\n**should は「すべき」より軽い**\n`You should try this cake.` は「このケーキ、食べてみたら？」というおすすめです。日本語の「すべき」ほど強くありません。\n\n**must と have to**\nmust は**話し手自身**の強い気持ち。have to は**ルールや予定など周りの事情**で「〜しなければならない」です。否定にすると意味が大きく変わります。\n\n- **must not** ＝「しない」しかない → **してはいけない**（禁止）\n- **don't have to** ＝ する事情がない → **しなくてもいい**\n\nhave to は一般動詞 have の文なので、否定・疑問は代理の do を使います（don't have to / Do I have to 〜?）。\n\n[[日本語の発想|英語の発想]]\nL: 「しなければならない」「違いない」は別の言葉\nR: must 1つ（それしかない）を、行動と判断の両方に使う",
+      "points": [
+        "must ＝ それしかない、should ＝ そうするのが自然、may ＝ そうなってもおかしくない",
+        "気持ちを行動に向けると「義務・許可」、事実に向けると「推量」になる",
+        "must not ＝ してはいけない、don't have to ＝ しなくてもいい"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "それぞれの助動詞が、行動に向いているのか、事実の判断に向いているのかを考えましょう。",
+      "items": [
+        { "en": "You must wear a seat belt.", "ja": "シートベルトをしなければなりません。", "note": "それしかない → 行動に向けると義務" },
+        { "en": "You must be tired.", "ja": "疲れているに違いないね。", "note": "それしかない → 事実の判断に向けると強い確信" },
+        { "en": "I have to work this Saturday.", "ja": "今週の土曜日は働かなければなりません。", "note": "仕事の予定という周りの事情 → have to", "sound": "have to は「ハフタ」と聞こえる" },
+        { "en": "You don't have to come early.", "ja": "早く来なくてもいいですよ。", "note": "する事情がない → しなくてもいい" },
+        { "en": "You should try this cake.", "ja": "このケーキ、食べてみて。", "note": "おすすめの should。命令よりやわらかい" },
+        { "en": "It may rain this afternoon.", "ja": "今日の午後は雨が降るかもしれません。", "note": "降ってもおかしくない → かもしれない" },
+        { "en": "May I come in?", "ja": "入ってもいいですか？", "note": "Can I 〜? よりていねいな許可の求め方" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "q": "「You must be tired.」の意味は？", "choices": ["疲れているに違いない", "疲れなければならない", "疲れてもよい", "疲れたほうがいい"], "answer": 0, "tag": "助動詞の2つの意味", "why": "must ＝ それしかない。事実の判断に向けると「〜に違いない」。" },
+        { "id": "q2", "type": "fill", "q": "You ___ try this cake.", "ja": "このケーキ、食べてみたらいいよ（おすすめ）。", "choices": ["should", "don't have to", "may not"], "answer": "should", "tag": "should", "why": "「そうするのが自然」→ おすすめの should。" },
+        { "id": "q3", "type": "choice", "q": "「早く来なくてもいいですよ」", "choices": ["You don't have to come early.", "You must not come early.", "You should come early.", "You have to come early."], "answer": 0, "tag": "must not と don't have to", "why": "don't have to ＝ する事情がない。must not だと「来てはいけない」という禁止になる。" },
+        { "id": "q4", "type": "fill", "q": "You ___ smoke here.", "ja": "ここでたばこを吸ってはいけません。", "choices": ["must not", "don't have to", "should"], "answer": "must not", "tag": "must not と don't have to", "why": "「吸わない」しかない → must not ＝ 禁止。" },
+        { "id": "q5", "type": "fill", "q": "It ___ rain this afternoon.", "ja": "今日の午後は雨が降るかもしれません。", "choices": ["may", "has to", "is"], "answer": "may", "tag": "助動詞の2つの意味", "why": "may ＝ そうなってもおかしくない → かもしれない。" },
+        { "id": "q6", "type": "order", "ja": "今週の土曜日は働かなければなりません。", "words": ["I", "have", "to", "work", "this", "Saturday"], "extra": ["has"], "answer": "I have to work this Saturday", "tag": "have to", "why": "主語 I なので have to。has to は he / she のとき。" },
+        { "id": "q7", "type": "choice", "q": "must の中心の気持ちは？", "choices": ["それしかない（強い圧力・確信）", "そうするのが自然", "そうなってもおかしくない", "可能だ"], "answer": 0, "tag": "助動詞の核心", "why": "must は「それしかない」。だから義務にも、強い確信にもなる。" },
+        { "id": "q8", "type": "fill", "q": "___ I come in?", "ja": "入ってもいいですか？", "choices": ["May", "Must", "Should"], "answer": "May", "tag": "助動詞の2つの意味", "why": "may ＝ してもおかしくない → 許可を求める。Can I 〜? よりていねい。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "助動詞の**気持ち**をこめて言う練習です。must は強く、should はやわらかく。",
+      "items": [
+        { "ja": "疲れているに違いないね。", "en": "You must be tired.", "hint": "You must ..." },
+        { "ja": "今週の土曜日は働かなければなりません。", "en": "I have to work this Saturday.", "accept": ["I must work this Saturday."], "hint": "I have to ..." },
+        { "ja": "早く来なくてもいいですよ。", "en": "You don't have to come early.", "accept": ["You do not have to come early."], "hint": "You don't have to ..." },
+        { "ja": "このケーキ、食べてみて（おすすめ）。", "en": "You should try this cake.", "hint": "You should ..." },
+        { "ja": "今日の午後は雨が降るかもしれません。", "en": "It may rain this afternoon.", "accept": ["It might rain this afternoon."], "hint": "It may ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "must", "ja": "〜しなければならない・〜に違いない", "ex": "You must be tired." },
+    { "en": "have to", "ja": "（事情があって）〜しなければならない", "ex": "I have to work this Saturday." },
+    { "en": "don't have to", "ja": "〜しなくてもいい", "ex": "You don't have to come early." },
+    { "en": "should", "ja": "〜したほうがいい", "ex": "You should try this cake." },
+    { "en": "may", "ja": "〜してもよい・〜かもしれない", "ex": "It may rain this afternoon." },
+    { "en": "tired", "ja": "疲れた", "ex": "You must be tired." },
+    { "en": "try", "ja": "試す・やってみる", "ex": "You should try this cake." },
+    { "en": "early", "ja": "早く", "ex": "You don't have to come early." }
+  ]
+}

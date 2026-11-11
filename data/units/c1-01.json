@@ -1,0 +1,69 @@
+{
+  "id": "c1-01",
+  "title": "旅行：空港・機内",
+  "subtitle": "3つの型（I'd like / Can I / Could you）で乗り切る",
+  "steps": [
+    {
+      "type": "question",
+      "title": "空港のカウンターで、言葉が出てこない",
+      "body": "空港のチェックインカウンターで「通路側の席がいい」と言いたいのに、「通路側って英語で何だっけ」「文はどう組み立てるんだっけ」と考えているうちに、列が進んでしまう……。\n\n入国審査では、質問を聞き取れずに固まってしまうこともあります。\n\n**旅行先で、短い時間に確実に伝えるには、どうすればいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "旅行の英語は「3つの型」と「短い答え」でほとんど足りる",
+      "body": "旅行で言いたいことの大部分は、次の**3つの型**に単語を入れるだけで言えます。\n\n> **ほしい**：I'd like 〜, please. ／ 〜, please.\n> **してもいい？**：Can I 〜? ／ Could I 〜?\n> **してくれる？**：Could you 〜?\n\n**I'd like が want よりていねいな理由**\nI'd like は I **would** like の短い形です。仮定法の単元で、過去形の would / could は**相手との間に距離をとって遠慮を表す**と学びました。だから I want 〜 より、I'd like 〜 のほうがやわらかく聞こえます。Could you 〜? も同じ理由で、Can you 〜? よりていねいです。\n\n**答えは短くていい**\n入国審査の質問は、だいたい決まっています。答えは**単語やかたまりだけ**で大丈夫です。英語の会話では、主語と動詞を省いた短い答えも失礼ではありません。\n\n- What's the purpose of your visit? → **Sightseeing.**（観光です）\n- How long are you staying? → **For a week.**（1週間です）\n- Where are you staying? → **At a hotel near Central Station.**\n\n**聞き取れなかったら、すぐ聞き返す**\n`Could you say that again, please?`（もう一度言っていただけますか？）を、口が覚えるまで練習しておきましょう。聞き返すのは失礼ではありません。\n\n[[日本語の発想|英語の発想]]\nL: 「〜をお願いしたいのですが…」と長く丁寧に言おうとする\nR: I'd like 〜, please. の短い型で、ていねいさは would と please が担う",
+      "points": [
+        "ほしい → I'd like 〜 / してもいい？ → Can I 〜? / してくれる？ → Could you 〜?",
+        "I'd like / Could you がていねいなのは、would / could の「距離」のおかげ",
+        "入国審査の答えは短くてよい。聞き取れなければ Could you say that again, please?"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "空港と機内で、そのまま使える文です。3つの型のどれかを確かめながら聞きましょう。",
+      "items": [
+        { "en": "I'd like an aisle seat, please.", "ja": "通路側の席をお願いします。", "note": "型：ほしい。窓側は a window seat", "sound": "I'd like an は「アイドライカン」とつながる" },
+        { "en": "Can I take this bag on the plane?", "ja": "このかばんは機内に持ち込めますか？", "note": "型：してもいい？" },
+        { "en": "Could you say that again, please?", "ja": "もう一度言っていただけますか？", "note": "型：してくれる？ 旅行で最も大事な一文" },
+        { "en": "What's the purpose of your visit? — Sightseeing.", "ja": "訪問の目的は何ですか？ — 観光です。", "note": "答えは1語でよい" },
+        { "en": "How long are you staying? — For a week.", "ja": "どのくらい滞在しますか？ — 1週間です。", "note": "進行形で「予定」を聞いている" },
+        { "en": "Could I have a blanket, please?", "ja": "毛布をいただけますか？", "note": "機内で。Could I have 〜? ＝ 〜をいただけますか" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "autoplay": false, "audio": ["W: Good morning. May I see your passport, please?", "M: Here you are.", "W: Thank you. Would you like a window seat or an aisle seat?", "M: An aisle seat, please. Also, can I take this bag on the plane?", "W: Yes, that size is fine."], "q": "What kind of seat does the man want?", "ja": "男性はどんな席を希望していますか？（設問を読んでから ▶）", "choices": ["An aisle seat", "A window seat", "A seat near the exit", "A business class seat"], "answer": 0, "tag": "会話の聞き取り", "why": "An aisle seat, please. と短く答えている。答えは短くてよい。" },
+        { "id": "q2", "type": "choice", "autoplay": false, "audio": ["W: Good morning. May I see your passport, please?", "M: Here you are.", "W: Thank you. Would you like a window seat or an aisle seat?", "M: An aisle seat, please. Also, can I take this bag on the plane?", "W: Yes, that size is fine."], "q": "What does the man ask about?", "ja": "男性は何についてたずねていますか？", "choices": ["Taking a bag on the plane", "Changing his flight", "Buying a ticket", "The departure gate"], "answer": 0, "tag": "会話の聞き取り", "why": "Can I take this bag on the plane?（してもいい？の型）。" },
+        { "id": "q3", "type": "choice", "autoplay": false, "audio": ["W: What's the purpose of your visit?", "M: Sightseeing.", "W: How long are you staying?", "M: For ten days.", "W: Where are you staying?", "M: At a hotel near Central Station."], "q": "How long will the man stay?", "ja": "男性はどのくらい滞在しますか？", "choices": ["For ten days", "For two days", "For a month", "For a week"], "answer": 0, "tag": "会話の聞き取り", "why": "How long → 期間。For ten days。" },
+        { "id": "q4", "type": "fill", "q": "I'd ___ an aisle seat, please.", "ja": "通路側の席をお願いします。", "choices": ["like", "liked", "liking"], "answer": "like", "tag": "3つの型", "why": "I'd like ＝ I would like。would のうしろは原形 like。" },
+        { "id": "q5", "type": "choice", "q": "聞き取れなかったときの、ていねいな聞き返しは？", "choices": ["Could you say that again, please?", "What?", "Again!", "I don't English."], "answer": 0, "tag": "聞き返し", "why": "Could you 〜? ＋ please でていねいに。聞き返すのは失礼ではない。" },
+        { "id": "q6", "type": "choice", "q": "入国審査で「How long are you staying?」と聞かれたときの自然な答えは？", "choices": ["For a week.", "At a hotel.", "Sightseeing.", "Yes, I am."], "answer": 0, "tag": "短い答え", "why": "How long → 期間を答える。At a hotel は Where、Sightseeing は目的への答え。" },
+        { "id": "q7", "type": "choice", "q": "「I'd like 〜」が「I want 〜」よりていねいに聞こえる理由は？", "choices": ["would（will の過去形）で相手との距離をとっているから", "単語が長いから", "過去の話だから", "like が「好き」という意味だから"], "answer": 0, "tag": "3つの型", "why": "仮定法の単元と同じ「過去形 ＝ 距離」。距離が遠慮・ていねいさになる。" },
+        { "id": "q8", "type": "order", "ja": "このかばんは機内に持ち込めますか？", "words": ["Can", "I", "take", "this", "bag", "on", "the", "plane"], "extra": ["Do"], "answer": "Can I take this bag on the plane", "tag": "3つの型", "why": "してもいい？ → Can I ＋ 原形。can は自分で動くので Do はいらない。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "空港で実際に言う場面を思い浮かべて、**短く・はっきり**言いましょう。",
+      "items": [
+        { "ja": "通路側の席をお願いします。", "en": "I'd like an aisle seat, please.", "accept": ["An aisle seat, please.", "I would like an aisle seat, please."], "hint": "I'd like ..." },
+        { "ja": "このかばんは機内に持ち込めますか？", "en": "Can I take this bag on the plane?", "accept": ["Can I bring this bag on the plane?"], "hint": "Can I ...?" },
+        { "ja": "もう一度言っていただけますか？", "en": "Could you say that again, please?", "accept": ["Could you say that again?", "Could you repeat that, please?"], "hint": "Could you ...?" },
+        { "ja": "（訪問の目的は？と聞かれて）観光です。", "en": "Sightseeing.", "accept": ["For sightseeing.", "I'm here for sightseeing."], "hint": "1語でOK" },
+        { "ja": "（機内で）毛布をいただけますか？", "en": "Could I have a blanket, please?", "accept": ["Can I have a blanket, please?", "Could I get a blanket, please?"], "hint": "Could I have ...?" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "aisle seat", "ja": "通路側の席", "ex": "I'd like an aisle seat, please." },
+    { "en": "window seat", "ja": "窓側の席", "ex": "Would you like a window seat?" },
+    { "en": "passport", "ja": "パスポート", "ex": "May I see your passport, please?" },
+    { "en": "Here you are.", "ja": "（物を渡して）はい、どうぞ。", "ex": "May I see your passport? — Here you are." },
+    { "en": "purpose of your visit", "ja": "訪問の目的", "ex": "What's the purpose of your visit?" },
+    { "en": "sightseeing", "ja": "観光", "ex": "I'm here for sightseeing." },
+    { "en": "blanket", "ja": "毛布", "ex": "Could I have a blanket, please?" },
+    { "en": "Could you say that again?", "ja": "もう一度言っていただけますか？", "ex": "Could you say that again, please?" }
+  ]
+}

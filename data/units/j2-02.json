@@ -1,0 +1,69 @@
+{
+  "id": "j2-02",
+  "title": "未来の表し方",
+  "subtitle": "will と be going to の違いは「決めたタイミング」",
+  "steps": [
+    {
+      "type": "question",
+      "title": "英語の動詞には「未来形」がない？",
+      "body": "英語の動詞には、過去形（played）はあります。でも「未来形」という形はありません。\n\n未来のことは `I will call you.` や `I'm going to visit Kyoto.` のように、動詞の前に言葉を足して表します。\n\n**なぜ未来だけ、動詞の形がないのでしょう？ そして will と be going to はどう使い分けるのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "未来は「話し手の気持ち」を足して語る",
+      "body": "過去や現在は、実際に起きた（起きている）ことです。でも未来は、**まだ起きていない**ので確かではありません。\n\nだから英語は、未来を動詞の形で決めつけずに、**「〜するつもり」「〜だろう」という話し手の気持ち**を足して語ります。\n\n> **will** ＝ 心の中で「〜しよう」「〜だろう」と決める・予想する\n> **be going to** ＝ 「〜に向かって、もう進んでいる途中」（go の進行形）\n\n**違いは「決めたタイミング」**\n\n- **その場で決めた**ことは will：電話が鳴った → `I'll get it.`（私が出ます）\n- **前から決めていて、準備が進んでいる**ことは be going to：`I'm going to visit Kyoto next week.`（もう予定してある）\n\n予想でも同じ考え方です。`It will rain tomorrow.` は話し手の予想。`Look at those clouds. It's going to rain.` は、目の前の雲という**兆しがもう見えている**ときです。\n\n**形は、中1で学んだものと同じ**\n\n- will は can と同じ助動詞。主語が誰でも will、うしろは原形、自分で動く（won't / Will you 〜?）\n- be going to は be動詞の文。be動詞が動く（I'm not going to 〜 / Are you going to 〜?）\n\n[[日本語の発想|英語の発想]]\nL: 「行きます」「行く予定です」と、現在の形のまま未来も言える\nR: 未来は will / be going to で「気持ち」や「進み具合」を足して言う\n\n**聞き取りのコツ**：会話では going to が「ガナ」（gonna）と聞こえることがよくあります。I'll は「アイル」より短く「アォ」に近く聞こえます。",
+      "points": [
+        "未来はまだ起きていないので、動詞の形ではなく will / be going to で語る",
+        "その場で決めた → will。前から決めていた・兆しがある → be going to",
+        "will は can と同じく自分で動く（won't / Will you 〜?）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "「その場で決めた」のか「前から決まっていた」のかを考えながら聞きましょう。",
+      "items": [
+        { "en": "It will rain tomorrow.", "ja": "明日は雨が降るでしょう。", "note": "話し手の予想 → will" },
+        { "en": "The phone is ringing. — I'll get it.", "ja": "電話が鳴っています。 — 私が出ます。", "note": "今この場で決めた → will", "sound": "I'll は「アォ」に近く短い" },
+        { "en": "I'm going to visit Kyoto next week.", "ja": "来週、京都を訪れる予定です。", "note": "前から決めてある予定 → be going to" },
+        { "en": "Look at those clouds. It's going to rain.", "ja": "あの雲を見て。雨が降りそうです。", "note": "兆しがもう見えている → be going to" },
+        { "en": "I won't be late.", "ja": "遅れません。", "note": "won't ＝ will not。約束によく使う", "sound": "won't は「ウォウント」。want（ワント）と聞き分ける" },
+        { "en": "Are you going to take the train?", "ja": "電車に乗るつもりですか？", "sound": "going to が「ガナ」と聞こえることが多い" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "It ___ rain tomorrow.", "ja": "明日は雨が降るでしょう。", "choices": ["will", "is", "does"], "answer": "will", "tag": "will の形", "why": "話し手の予想 → will ＋ 原形。" },
+        { "id": "q2", "type": "choice", "q": "電話が鳴った。その場で「私が出ます」と決めて言うなら？", "choices": ["I'll get it.", "I'm going to get it.", "I get it.", "I'm get it."], "answer": 0, "tag": "will と be going to", "why": "その場で決めたことは will。be going to は前から決めていたときに使う。" },
+        { "id": "q3", "type": "fill", "q": "I'm going ___ visit Kyoto next week.", "ja": "来週、京都を訪れる予定です。", "choices": ["to", "for", "at"], "answer": "to", "tag": "be going to の形", "why": "be going to ＋ 原形。「〜に向かって進んでいる」の to。" },
+        { "id": "q4", "type": "fill", "q": "She will ___ late.", "ja": "彼女は遅れるでしょう。", "choices": ["be", "is", "being"], "answer": "be", "tag": "will の形", "why": "will のうしろは原形。be動詞の原形は be（can と同じルール）。" },
+        { "id": "q5", "type": "choice", "q": "「I'm going to visit Kyoto next week.」の going to が表すのは？", "choices": ["前から決めてあり、もう進み始めている予定", "その場で今決めたこと", "過去の習慣", "能力"], "answer": 0, "tag": "will と be going to", "why": "be going to は go の進行形。「もう向かっている途中」の予定。" },
+        { "id": "q6", "type": "order", "ja": "電車に乗るつもりですか？", "words": ["Are", "you", "going", "to", "take", "the", "train"], "extra": ["Do"], "answer": "Are you going to take the train", "tag": "be going to の形", "why": "be going to は be動詞の文 → Are が先頭。代理の do はいらない。" },
+        { "id": "q7", "type": "fill", "q": "I ___ be late.", "ja": "（約束します）遅れません。", "choices": ["won't", "don't", "am not"], "answer": "won't", "tag": "will の形", "why": "will の否定は won't（will not）。うしろの be はそのまま。" },
+        { "id": "q8", "type": "choice", "q": "英語の未来の表し方として正しい説明は？", "choices": ["動詞の形ではなく、will や be going to で気持ちを足す", "動詞に -ed をつける", "動詞に -s をつける", "動詞の前に to だけをつける"], "answer": 0, "tag": "未来の核心", "why": "未来はまだ起きていないので、話し手の気持ちや進み具合を足して語る。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "予定や約束を言う練習です。**前から決めていたら going to、その場なら will**。",
+      "items": [
+        { "ja": "明日は雨が降るでしょう。", "en": "It will rain tomorrow.", "accept": ["It'll rain tomorrow.", "It's going to rain tomorrow."], "hint": "It will ..." },
+        { "ja": "（電話が鳴って）私が出ます。", "en": "I'll get it.", "accept": ["I will get it."], "hint": "I'll ..." },
+        { "ja": "来週、京都を訪れる予定です。", "en": "I'm going to visit Kyoto next week.", "accept": ["I am going to visit Kyoto next week."], "hint": "I'm going to ..." },
+        { "ja": "遅れません。", "en": "I won't be late.", "accept": ["I will not be late."], "hint": "I won't ..." },
+        { "ja": "電車に乗るつもりですか？", "en": "Are you going to take the train?", "hint": "Are you going to ...?" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "tomorrow", "ja": "明日", "ex": "It will rain tomorrow." },
+    { "en": "next week", "ja": "来週", "ex": "I'm going to visit Kyoto next week." },
+    { "en": "visit", "ja": "訪れる", "ex": "I'm going to visit Kyoto next week." },
+    { "en": "ring", "ja": "鳴る", "ex": "The phone is ringing." },
+    { "en": "I'll get it.", "ja": "（電話・来客に）私が出ます", "ex": "The phone is ringing. — I'll get it." },
+    { "en": "cloud", "ja": "雲", "ex": "Look at those clouds." },
+    { "en": "won't", "ja": "will not の短縮形", "ex": "I won't be late." },
+    { "en": "take the train", "ja": "電車に乗る", "ex": "Are you going to take the train?" }
+  ]
+}

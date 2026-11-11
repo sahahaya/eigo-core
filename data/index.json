@@ -1,0 +1,114 @@
+{
+  "stages": [
+    {
+      "id": "j1",
+      "group": "中学英語",
+      "title": "中1",
+      "description": "英文の骨組み（語順・be動詞・一般動詞・否定/疑問・三単現・疑問詞）。ここが全部の土台。",
+      "units": [
+        { "id": "j1-01", "title": "英語の語順", "subtitle": "「誰が→どうする→何を」。場所が役割を決める", "minutes": 12, "file": "units/j1-01.json" },
+        { "id": "j1-02", "title": "be動詞", "subtitle": "「＝」と「いる・ある」の2つの顔", "minutes": 12, "file": "units/j1-02.json" },
+        { "id": "j1-03", "title": "一般動詞", "subtitle": "動詞は文の心臓。1つの文に1つ", "minutes": 12, "file": "units/j1-03.json" },
+        { "id": "j1-04", "title": "否定文・疑問文", "subtitle": "do は「動詞の代理」", "minutes": 14, "file": "units/j1-04.json" },
+        { "id": "j1-05", "title": "三単現の s", "subtitle": "「私でもあなたでもない1人」の印", "minutes": 12, "file": "units/j1-05.json" },
+        { "id": "j1-06", "title": "疑問詞", "subtitle": "知りたいことを先頭に置く", "minutes": 12, "file": "units/j1-06.json" },
+        { "id": "j1-07", "title": "名詞と冠詞", "subtitle": "a は「たくさんの中の1つ」、the は「あれ」の指さし", "minutes": 12, "file": "units/j1-07.json" },
+        { "id": "j1-08", "title": "代名詞", "subtitle": "I / my / me の使い分けは「席」で決まる", "minutes": 12, "file": "units/j1-08.json" },
+        { "id": "j1-09", "title": "命令文と Let's", "subtitle": "主語を言わない＝目の前の相手に向ける", "minutes": 12, "file": "units/j1-09.json" },
+        { "id": "j1-10", "title": "現在進行形", "subtitle": "「今まさに途中」の感覚", "minutes": 13, "file": "units/j1-10.json" },
+        { "id": "j1-11", "title": "can", "subtitle": "中心は「可能」。能力・許可・依頼が1本でつながる", "minutes": 12, "file": "units/j1-11.json" },
+        { "id": "j1-12", "title": "過去形", "subtitle": "「今から切り離された」感覚", "minutes": 14, "file": "units/j1-12.json" },
+        { "id": "j1-13", "title": "前置詞のイメージ", "subtitle": "in / on / at を1つの絵で", "minutes": 12, "file": "units/j1-13.json" }
+      ]
+    },
+    {
+      "id": "j2",
+      "group": "中学英語",
+      "title": "中2",
+      "description": "時制の広がりと、動詞に情報を足す道具（助動詞・不定詞・動名詞・比較・接続詞・受動態）。",
+      "units": [
+        { "id": "j2-01", "title": "過去形の深掘り", "subtitle": "過去進行形と、よく使う不規則動詞", "minutes": 13, "file": "units/j2-01.json" },
+        { "id": "j2-02", "title": "未来の表し方", "subtitle": "will と be going to の違いは「決めたタイミング」", "minutes": 13, "file": "units/j2-02.json" },
+        { "id": "j2-03", "title": "助動詞の核心", "subtitle": "must / should / may は「話し手の気持ち」", "minutes": 14, "file": "units/j2-03.json" },
+        { "id": "j2-04", "title": "不定詞", "subtitle": "to は「→（これから向かう）」のイメージ", "minutes": 12, "file": "units/j2-04.json" },
+        { "id": "j2-05", "title": "動名詞と不定詞", "subtitle": "-ing は「実際にしていること」、to は「これから」", "minutes": 13, "file": "units/j2-05.json" },
+        { "id": "j2-06", "title": "There is / are", "subtitle": "「新しい情報を登場させる」文", "minutes": 12, "file": "units/j2-06.json" },
+        { "id": "j2-07", "title": "比較", "subtitle": "-er / -est と than の仕組み", "minutes": 13, "file": "units/j2-07.json" },
+        { "id": "j2-08", "title": "接続詞", "subtitle": "when / if / because で文をつなぐ", "minutes": 13, "file": "units/j2-08.json" },
+        { "id": "j2-09", "title": "文型", "subtitle": "動詞のうしろに何が来るか（「人に物を」と「A＝B」）", "minutes": 14, "file": "units/j2-09.json" },
+        { "id": "j2-10", "title": "受動態", "subtitle": "「される側」を主役にする理由", "minutes": 13, "file": "units/j2-10.json" }
+      ]
+    },
+    {
+      "id": "j3",
+      "group": "中学英語",
+      "title": "中3",
+      "description": "「今とつながる」現在完了、名詞を後ろから説明する仕組み（関係代名詞・分詞）、仮定法の入口。",
+      "units": [
+        { "id": "j3-01", "title": "現在完了", "subtitle": "過去を「今」に持ってくる感覚", "minutes": 14, "file": "units/j3-01.json" },
+        { "id": "j3-02", "title": "現在完了進行形", "subtitle": "「ずっと途中」", "minutes": 13, "file": "units/j3-02.json" },
+        { "id": "j3-03", "title": "関係代名詞", "subtitle": "名詞を後ろから説明する", "minutes": 14, "file": "units/j3-03.json" },
+        { "id": "j3-04", "title": "分詞の後置修飾", "subtitle": "-ing と -ed で名詞を説明", "minutes": 13, "file": "units/j3-04.json" },
+        { "id": "j3-05", "title": "間接疑問文", "subtitle": "疑問文を文の中に入れる", "minutes": 13, "file": "units/j3-05.json" },
+        { "id": "j3-06", "title": "不定詞の発展", "subtitle": "It is … to / want 人 to / how to", "minutes": 13, "file": "units/j3-06.json" },
+        { "id": "j3-07", "title": "仮定法の入口", "subtitle": "なぜ「過去形」で「今」を語るのか", "minutes": 14, "file": "units/j3-07.json" }
+      ]
+    },
+    {
+      "id": "h1",
+      "group": "高校英語",
+      "short": "高校",
+      "title": "基礎〜発展",
+      "description": "中学文法を1本の線につなぎ直す。時制の全体像、仮定法、関係詞、分詞構文、冠詞・前置詞のイメージ、読解の基礎。",
+      "units": [
+        { "id": "h1-01", "title": "時制の全体像", "subtitle": "「基準の時点」×「見え方」で12の時制を1枚に", "minutes": 14, "file": "units/h1-01.json" },
+        { "id": "h1-02", "title": "助動詞の発展", "subtitle": "過去への判断：助動詞 ＋ have ＋ 過去分詞", "minutes": 14, "file": "units/h1-02.json" },
+        { "id": "h1-03", "title": "仮定法", "subtitle": "過去の事実に反する想像（had ＋ 過去分詞）", "minutes": 14, "file": "units/h1-03.json" },
+        { "id": "h1-04", "title": "関係詞の発展", "subtitle": "関係副詞・what・コンマつきの説明", "minutes": 14, "file": "units/h1-04.json" },
+        { "id": "h1-05", "title": "分詞構文", "subtitle": "接続詞と主語を省くと何が残るか", "minutes": 14, "file": "units/h1-05.json" },
+        { "id": "h1-06", "title": "準動詞のまとめ", "subtitle": "remember to / -ing と、使役・知覚動詞", "minutes": 14, "file": "units/h1-06.json" },
+        { "id": "h1-07", "title": "冠詞のイメージ", "subtitle": "「形が見えるか」で a / 何もつけないが決まる", "minutes": 14, "file": "units/h1-07.json" },
+        { "id": "h1-08", "title": "前置詞のイメージ", "subtitle": "for / with / of / by / from を絵で", "minutes": 14, "file": "units/h1-08.json" },
+        { "id": "h1-09", "title": "比較の発展", "subtitle": "差の大きさ・倍数・「〜すればするほど」", "minutes": 14, "file": "units/h1-09.json" },
+        { "id": "h1-10", "title": "強調・倒置", "subtitle": "語順を崩す理由", "minutes": 14, "file": "units/h1-10.json" },
+        { "id": "h1-11", "title": "読解の基礎", "subtitle": "長い文を骨組みで読む", "minutes": 14, "file": "units/h1-11.json" }
+      ]
+    },
+    {
+      "id": "t1",
+      "group": "TOEIC対策",
+      "short": "TOEIC",
+      "title": "600点",
+      "description": "ビジネス場面の頻出語彙と、Part ごとの解き方。問題はすべてオリジナル。",
+      "units": [
+        { "id": "t1-01", "title": "頻出語彙：職場", "subtitle": "会議・人事・スケジュール", "minutes": 12, "file": "units/t1-01.json" },
+        { "id": "t1-02", "title": "頻出語彙：取引・お金", "subtitle": "注文・請求・配送", "minutes": 12, "file": "units/t1-02.json" },
+        { "id": "t1-03", "title": "Part 1 写真描写", "subtitle": "人の動作と物の状態", "minutes": 13, "file": "units/t1-03.json" },
+        { "id": "t1-04", "title": "Part 2 応答問題", "subtitle": "最初の1〜2語（疑問詞）を聞き取る", "minutes": 13, "file": "units/t1-04.json" },
+        { "id": "t1-05", "title": "Part 3 会話", "subtitle": "先に設問を読んでから聞く", "minutes": 15, "file": "units/t1-05.json" },
+        { "id": "t1-06", "title": "Part 4 説明文", "subtitle": "留守番電話・アナウンスの「型」を知る", "minutes": 15, "file": "units/t1-06.json" },
+        { "id": "t1-07", "title": "Part 5 短文穴埋め", "subtitle": "品詞と文型で、訳さずに解く", "minutes": 12, "file": "units/t1-07.json" },
+        { "id": "t1-08", "title": "Part 6 長文穴埋め", "subtitle": "前後の文と「つなぎ言葉」で解く", "minutes": 14, "file": "units/t1-08.json" },
+        { "id": "t1-09", "title": "Part 7 読解", "subtitle": "設問を先に読み、答えのある場所を探す", "minutes": 15, "file": "units/t1-09.json" },
+        { "id": "t1-10", "title": "時間配分と本番の進め方", "subtitle": "試験の全体像と、数字・時刻の聞き取り", "minutes": 12, "file": "units/t1-10.json" }
+      ]
+    },
+    {
+      "id": "c1",
+      "group": "英会話",
+      "short": "英会話",
+      "title": "場面別",
+      "description": "場面別の定番表現と、瞬間英作文・シャドーイング・音の変化。",
+      "units": [
+        { "id": "c1-01", "title": "旅行：空港・機内", "subtitle": "3つの型（I'd like / Can I / Could you）で乗り切る", "minutes": 12, "file": "units/c1-01.json" },
+        { "id": "c1-02", "title": "旅行：ホテル・レストラン", "subtitle": "店員の「決まった質問」に短く答える", "minutes": 13, "file": "units/c1-02.json" },
+        { "id": "c1-03", "title": "旅行：道案内・買い物", "subtitle": "間接疑問でたずね、命令文の案内を聞き取る", "minutes": 13, "file": "units/c1-03.json" },
+        { "id": "c1-04", "title": "仕事：自己紹介・雑談", "subtitle": "仕事は「肩書き」より「何をしているか」を動詞で", "minutes": 12, "file": "units/c1-04.json" },
+        { "id": "c1-05", "title": "仕事：会議・メール・電話", "subtitle": "依頼のていねいさと、確認・やわらかい反対", "minutes": 13, "file": "units/c1-05.json" },
+        { "id": "c1-06", "title": "日常：趣味・家族・週末", "subtitle": "「答え ＋ ひとこと ＋ 質問」で話を広げる", "minutes": 12, "file": "units/c1-06.json" },
+        { "id": "c1-07", "title": "聞き取りのコツ：音の変化", "subtitle": "強弱・連結・脱落・変化", "minutes": 13, "file": "units/c1-07.json" },
+        { "id": "c1-08", "title": "瞬間英作文 総合", "subtitle": "主語と動詞を決めて、おまけはあとから足す", "minutes": 13, "file": "units/c1-08.json" }
+      ]
+    }
+  ]
+}

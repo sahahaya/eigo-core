@@ -1,0 +1,69 @@
+{
+  "id": "h1-04",
+  "title": "関係詞の発展",
+  "subtitle": "関係副詞・what・コンマつきの説明",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「私が生まれた町」は、なぜ which ではなく where なのか",
+      "body": "「私が去年訪れた町」は `the town which I visited last year` です。\n\nところが「私が生まれた町」は `the town where I was born` と、which ではなく where を使います。どちらも「町」の説明なのに、なぜ違うのでしょう？\n\nさらに `What I need now is a good rest.` の what や、`My mother, who lives in Osaka, …` のコンマにも、意味の違いがあります。"
+    },
+    {
+      "type": "core",
+      "title": "関係詞は、説明の文の中で「どの席が空いているか」で選ぶ",
+      "body": "中3で、関係代名詞は**説明の文の中で、主語や相手の席に座っている**と学びました。\n\n- the town **which** I visited：visited の**相手の席**が空いている（町を訪れた）→ which\n\nでは「生まれた町」はどうでしょう。`I was born`（私は生まれた）は、それだけで文が完成していて、主語や相手の席は空いていません。足りないのは「**どこで**」という**場所のおまけ**だけです。\n\n> **関係副詞 where / when / why ＝ 場所・時・理由のおまけの席に座る**\n> the town **where** I was born（I was born **there** の there の代わり）\n> the day **when** we first met（we first met **then** の then の代わり）\n> the reason **why** I came here\n\n**見分け方**：説明の文に**相手の席の空き**があれば which / that。席が全部埋まっていて、**場所や時のおまけが欠けている**なら where / when。\n\n**what ＝「〜すること・もの」**\nwhat は、説明される名詞（the thing）を**中に含んだ**関係代名詞です。\n\n- **What** I need now is a good rest.（私が今必要なもの ＝ 十分な休息）\n\n**コンマつきの説明 ＝ 補足**\nコンマのない説明は、名詞を**しぼりこみます**。コンマつきの説明は、名詞がもう1つに決まっていて、**補足をはさむ**だけです。\n\n- I have a sister **who** lives in Osaka.（大阪に住んでいる姉がいる。ほかにも姉がいるかもしれない）\n- I have a sister, **who** lives in Osaka.（姉が1人いて、その姉は大阪に住んでいる）\n\nコンマつきの説明には that は使いません。\n\n[[日本語の発想|英語の発想]]\nL: 「生まれた町」「訪れた町」と、つなぎ方は同じ\nR: 説明の文で空いている席（相手か、場所のおまけか）によって which / where を選ぶ",
+      "points": [
+        "相手の席が空いていれば which / that、場所・時のおまけが欠けていれば where / when",
+        "what ＝「〜すること・もの」（the thing を中に含む）",
+        "コンマなし ＝ しぼりこみ、コンマつき ＝ 補足説明（that は使わない）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "説明の文の中で、どの席が空いているかを考えながら聞きましょう。",
+      "items": [
+        { "en": "This is the town where I was born.", "ja": "ここは私が生まれた町です。", "note": "I was born は完成した文。欠けているのは「どこで」" },
+        { "en": "I'll never forget the day when we first met.", "ja": "初めて会った日を決して忘れません。", "note": "欠けているのは「いつ」→ when" },
+        { "en": "That's the reason why I came here.", "ja": "それが私がここに来た理由です。", "note": "会話では That's why I came here. と短く言うことが多い" },
+        { "en": "What I need now is a good rest.", "ja": "今私に必要なのは十分な休息だ。", "note": "主語は What I need now までのかたまり" },
+        { "en": "My mother, who lives in Osaka, calls me every week.", "ja": "母は大阪に住んでいて、毎週電話をくれる。", "note": "母は1人 → コンマつきの補足説明", "sound": "コンマのところで少し間をあける" },
+        { "en": "This is what I wanted.", "ja": "これがほしかったものです。" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "This is the town ___ I was born.", "ja": "ここは私が生まれた町です。", "choices": ["where", "which", "what"], "answer": "where", "tag": "関係副詞", "why": "I was born は完成した文。欠けているのは場所のおまけ → where。" },
+        { "id": "q2", "type": "fill", "q": "This is the town ___ I visited last year.", "ja": "ここは私が去年訪れた町です。", "choices": ["which", "where", "what"], "answer": "which", "tag": "関係副詞", "why": "visited の相手の席が空いている（町を訪れた）→ which。" },
+        { "id": "q3", "type": "fill", "q": "___ I need now is a good rest.", "ja": "今私に必要なのは十分な休息だ。", "choices": ["What", "That", "Which"], "answer": "What", "tag": "what", "why": "「私が必要なもの」→ the thing を含む what。" },
+        { "id": "q4", "type": "choice", "q": "「My mother, who lives in Osaka, …」のコンマが表すのは？", "choices": ["母は1人に決まっていて、補足説明をはさんでいる", "何人もいる母の中からしぼりこんでいる", "過去の話である", "強調している"], "answer": 0, "tag": "コンマつきの説明", "why": "コンマつきは補足。名詞がもう1つに決まっているときに使う。" },
+        { "id": "q5", "type": "fill", "q": "I'll never forget the day ___ we first met.", "ja": "初めて会った日を決して忘れません。", "choices": ["when", "where", "what"], "answer": "when", "tag": "関係副詞", "why": "we first met は完成した文。欠けているのは「いつ」→ when。" },
+        { "id": "q6", "type": "choice", "q": "「これがほしかったものです」", "choices": ["This is what I wanted.", "This is that I wanted.", "This is which I wanted.", "This is the thing what I wanted."], "answer": 0, "tag": "what", "why": "「〜もの」は what 1語で言える。the thing と what を重ねない。" },
+        { "id": "q7", "type": "choice", "q": "where と which の見分け方は？", "choices": ["説明の文で相手の席が空いていれば which、席が埋まっていて場所のおまけが欠けていれば where", "場所の名詞なら必ず where", "人なら which", "決まりはない"], "answer": 0, "tag": "関係詞の核心", "why": "名詞の種類ではなく、説明の文の中で何が欠けているかで選ぶ。" },
+        { "id": "q8", "type": "order", "ja": "それが私がここに来た理由です。", "words": ["That's", "the", "reason", "why", "I", "came", "here"], "extra": ["what"], "answer": "That's the reason why I came here", "tag": "関係副詞", "why": "the reason ＋ why ＋ 完成した文（I came here）。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "名詞を言ってから、**where / when / what** で説明を続ける練習です。",
+      "items": [
+        { "ja": "ここは私が生まれた町です。", "en": "This is the town where I was born.", "hint": "This is the town where ..." },
+        { "ja": "初めて会った日を決して忘れません。", "en": "I'll never forget the day we first met.", "accept": ["I'll never forget the day when we first met.", "I will never forget the day when we first met."], "hint": "I'll never forget the day ..." },
+        { "ja": "今私に必要なのは十分な休息だ。", "en": "What I need now is a good rest.", "hint": "What I need now ..." },
+        { "ja": "それが私がここに来た理由です。", "en": "That's why I came here.", "accept": ["That's the reason why I came here.", "That is why I came here."], "hint": "That's why ..." },
+        { "ja": "これがほしかったものです。", "en": "This is what I wanted.", "hint": "This is what ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "be born", "ja": "生まれる", "ex": "This is the town where I was born." },
+    { "en": "forget", "ja": "忘れる", "ex": "I'll never forget the day when we first met." },
+    { "en": "reason", "ja": "理由", "ex": "That's the reason why I came here." },
+    { "en": "That's why ...", "ja": "そういうわけで〜", "ex": "That's why I came here." },
+    { "en": "what I need", "ja": "私に必要なもの", "ex": "What I need now is a good rest." },
+    { "en": "need", "ja": "必要とする", "ex": "What I need now is a good rest." },
+    { "en": "every week", "ja": "毎週", "ex": "My mother calls me every week." },
+    { "en": "first", "ja": "初めて・最初に", "ex": "the day when we first met" }
+  ]
+}

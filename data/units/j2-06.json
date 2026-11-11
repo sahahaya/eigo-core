@@ -1,0 +1,69 @@
+{
+  "id": "j2-06",
+  "title": "There is / are",
+  "subtitle": "「新しい情報を登場させる」文",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「A book is on the desk.」ではダメなのか",
+      "body": "「机の上に本があります」は、ふつう `There is a book on the desk.` と言います。\n\n`A book is on the desk.` も文法的には言えますが、不自然に聞こえることが多いです。一方で「私のかばんはいすの上にあります」は `My bag is on the chair.` で、`There is my bag on the chair.` とはふつう言いません。\n\n**同じ「〜がある」なのに、なぜ言い方が分かれるのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "There is は「新しいもの」を話の舞台に登場させる",
+      "body": "英語には、**聞き手がもう知っていること → 新しいこと**の順に話すと聞きやすい、という性質があります。\n\nいきなり「ある1冊の本が…」と知らないものを主語にすると、聞き手は何の話か分かりません。そこで、まず `There is`（ほら、〜があるよ）と前置きしてから、**新しいもの**を登場させます。\n\n> **There is ＋ 新しいもの（1つ） ＋ 場所**\n> **There are ＋ 新しいもの（2つ以上） ＋ 場所**\n\n**本当の主語は be動詞のうしろ**\nThere は形だけの主語で、「そこに」という意味はほとんどありません。本当の主語は be動詞のうしろの名詞です。だから、そのうしろの名詞が1つなら is、2つ以上なら are を使います。\n\n**知っているものには使わない**\n冠詞の単元で学んだとおり、the や my のついたものは、聞き手も「どれか」分かっているものです。新しく登場させる必要がないので、There is は使わず、そのまま主語にします。\n\n- There is **a** convenience store near my house.（新しいもの）\n- **My** bag is on the chair.（知っているもの）\n\n**疑問・否定・過去**は be動詞の文と同じです。\n\n- **Is there** an ATM near here?（疑問：be動詞が前へ）\n- **There aren't any** towels.（否定。any は「1つも」）\n- **There was** a long line.（過去：was / were）\n\n[[日本語の発想|英語の発想]]\nL: 「〜がある」1つで、新しいものも知っているものも言える\nR: 新しいもの → There is。知っているもの → そのまま主語",
+      "points": [
+        "There is / are は、聞き手の知らない新しいものを登場させる",
+        "本当の主語は be動詞のうしろ。1つなら is、2つ以上なら are",
+        "the / my のついた「知っているもの」には使わない"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "旅行先のホテルや駅でそのまま使える文です。「新しいもの」が登場しているか確かめましょう。",
+      "items": [
+        { "en": "There is a convenience store near my house.", "ja": "家の近くにコンビニがあります。", "sound": "There is は「ゼアリズ」、There's は「ゼアズ」" },
+        { "en": "There are two parks in this town.", "ja": "この町には公園が2つあります。", "note": "two parks（2つ以上）→ are" },
+        { "en": "Is there an ATM near here?", "ja": "この近くにATMはありますか？", "note": "旅行で必須。be動詞が前へ" },
+        { "en": "There was a long line at the airport.", "ja": "空港に長い列ができていました。", "note": "過去は was" },
+        { "en": "There aren't any towels in my room.", "ja": "部屋にタオルが1枚もありません。", "note": "ホテルのフロントで使える。not any ＝ 1つも〜ない" },
+        { "en": "My bag is on the chair.", "ja": "私のかばんはいすの上にあります。", "note": "my bag は知っているもの → There is にしない" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "There ___ two parks in this town.", "ja": "この町には公園が2つあります。", "choices": ["are", "is", "be"], "answer": "are", "tag": "There is / are の形", "why": "本当の主語は be動詞のうしろの two parks（2つ以上）→ are。" },
+        { "id": "q2", "type": "fill", "q": "___ there an ATM near here?", "ja": "この近くにATMはありますか？", "choices": ["Is", "Are", "Does"], "answer": "Is", "tag": "There is / are の形", "why": "be動詞の文なので be動詞が前へ。an ATM（1つ）→ Is。" },
+        { "id": "q3", "type": "choice", "q": "「私のかばんはいすの上にあります」", "choices": ["My bag is on the chair.", "There is my bag on the chair.", "There are my bag on the chair.", "My bag there is on the chair."], "answer": 0, "tag": "There is を使わない場合", "why": "my bag は聞き手も知っているもの。新しく登場させないので、そのまま主語にする。" },
+        { "id": "q4", "type": "fill", "q": "There ___ a long line at the airport.", "ja": "空港に長い列ができていました。", "choices": ["was", "were", "is"], "answer": "was", "tag": "There is / are の形", "why": "過去の話で、a long line（1つ）→ was。" },
+        { "id": "q5", "type": "choice", "q": "There is の文が「登場させる」のは？", "choices": ["聞き手がまだ知らない新しいもの", "聞き手がもう知っているもの", "話し手の気持ち", "過去の習慣"], "answer": 0, "tag": "There is の核心", "why": "知っていること → 新しいことの順にするため、There is で新しいものを登場させる。" },
+        { "id": "q6", "type": "order", "ja": "家の近くにコンビニがあります。", "words": ["There", "is", "a", "convenience", "store", "near", "my", "house"], "extra": ["It"], "answer": "There is a convenience store near my house", "tag": "There is / are の形", "why": "There is ＋ 新しいもの（a convenience store）＋ 場所。" },
+        { "id": "q7", "type": "fill", "q": "There aren't ___ towels in my room.", "ja": "部屋にタオルが1枚もありません。", "choices": ["any", "a", "an"], "answer": "any", "tag": "There is / are の形", "why": "否定文で「1つも〜ない」は not any。towels は複数なので a / an はつかない。" },
+        { "id": "q8", "type": "choice", "q": "「There are many people in the park.」の本当の主語は？", "choices": ["many people", "There", "the park", "are"], "answer": 0, "tag": "There is の核心", "why": "There は形だけの主語。本当の主語は be動詞のうしろ。だから複数の are。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "ホテルや駅で使う形です。**There is / Is there** をひとかたまりで言いましょう。",
+      "items": [
+        { "ja": "この近くにATMはありますか？", "en": "Is there an ATM near here?", "hint": "Is there ...?" },
+        { "ja": "家の近くにコンビニがあります。", "en": "There's a convenience store near my house.", "accept": ["There is a convenience store near my house."], "hint": "There's ..." },
+        { "ja": "この町には公園が2つあります。", "en": "There are two parks in this town.", "hint": "There are ..." },
+        { "ja": "部屋にタオルが1枚もありません。", "en": "There aren't any towels in my room.", "accept": ["There are no towels in my room.", "There are not any towels in my room."], "hint": "There aren't any ..." },
+        { "ja": "空港に長い列ができていました。", "en": "There was a long line at the airport.", "hint": "There was ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "convenience store", "ja": "コンビニ", "ex": "There is a convenience store near my house." },
+    { "en": "town", "ja": "町", "ex": "There are two parks in this town." },
+    { "en": "ATM", "ja": "現金自動預け払い機", "ex": "Is there an ATM near here?" },
+    { "en": "near here", "ja": "この近くに", "ex": "Is there an ATM near here?" },
+    { "en": "line", "ja": "列", "ex": "There was a long line at the airport." },
+    { "en": "airport", "ja": "空港", "ex": "There was a long line at the airport." },
+    { "en": "towel", "ja": "タオル", "ex": "There aren't any towels in my room." },
+    { "en": "any", "ja": "（否定文で）1つも・（疑問文で）いくつか", "ex": "There aren't any towels in my room." }
+  ]
+}

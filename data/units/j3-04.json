@@ -1,0 +1,69 @@
+{
+  "id": "j3-04",
+  "title": "分詞の後置修飾",
+  "subtitle": "-ing と -ed で名詞を説明",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「寝ている猫」は a sleeping cat、では「ソファで寝ている猫」は？",
+      "body": "「寝ている猫」は `a sleeping cat` と、sleeping が名詞の**前**に来ます。\n\nところが「ソファで寝ている猫」は `the cat sleeping on the sofa` と、名詞の**うしろ**に回ります。\n\nさらに「英語で書かれた手紙」は `a letter written in English` と、-ing ではなく written を使います。**位置と形は、どう決まるのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "-ing は「〜している」、過去分詞は「〜された」。長い説明はうしろ",
+      "body": "動詞を -ing や過去分詞にすると、名詞を説明する言葉として使えます（分詞）。新しい意味は何もありません。**すでに学んだ2つのイメージ**そのままです。\n\n> **-ing** ＝「〜している」（進行形の「途中」と同じ）\n> **過去分詞** ＝「〜された」（受動態の「された状態」と同じ）\n\n**-ing か過去分詞かは「名詞がする側か、される側か」**\n\n- the girl **playing** the piano：女の子が（ピアノを）ひく → する側 → -ing\n- the language **spoken** in Brazil：言語は話される → される側 → 過去分詞\n\n**位置は「説明の長さ」で決まる**\n\n- **1語だけ**なら名詞の**前**：a **sleeping** cat、the **broken** glass\n- **2語以上**（場所などがつく）なら名詞の**うしろ**：the cat **sleeping on the sofa**、a car **made in Germany**\n\n関係代名詞の単元と同じで、英語は長い説明を名詞のうしろに回します。まず名詞を言って、「どんな？」の答えをあとから足すのです。\n\n**関係代名詞とのつながり**\n`the man standing over there` は、`the man who is standing over there` から who is を省いた形だと考えることができます。分詞を使うと、同じ内容を短く言えます。\n\n[[日本語の発想|英語の発想]]\nL: 説明は長くても短くても名詞の前（ソファで寝ている猫）\nR: 1語なら前、2語以上ならうしろ（the cat sleeping on the sofa）",
+      "points": [
+        "-ing ＝ 〜している（する側）、過去分詞 ＝ 〜された（される側）",
+        "1語なら名詞の前、2語以上なら名詞のうしろ",
+        "the man standing there ＝ the man who is standing there の短い形"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "名詞が「する側」か「される側」か、説明が名詞の前かうしろかを確かめましょう。",
+      "items": [
+        { "en": "Look at the baby sleeping on the sofa.", "ja": "ソファで寝ている赤ちゃんを見て。", "note": "赤ちゃんが寝ている（する側）。説明が長い → うしろ" },
+        { "en": "Who is the man standing over there?", "ja": "あそこに立っている男の人は誰ですか？", "sound": "standing over there は「スタンディンゴウヴァゼア」とつながる" },
+        { "en": "I have a car made in Germany.", "ja": "ドイツ製の車を持っています。", "note": "車は作られた（される側）→ made" },
+        { "en": "This is a letter written in English.", "ja": "これは英語で書かれた手紙です。", "note": "手紙は書かれた → written" },
+        { "en": "The language spoken in Brazil is Portuguese.", "ja": "ブラジルで話されている言語はポルトガル語です。", "note": "主語は The language spoken in Brazil までのかたまり" },
+        { "en": "Be careful of the broken glass.", "ja": "割れたガラスに気をつけて。", "note": "1語だけ → 名詞の前" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "Who is the man ___ over there?", "ja": "あそこに立っている男の人は誰ですか？", "choices": ["standing", "stood", "stand"], "answer": "standing", "tag": "-ing と過去分詞", "why": "男の人が立っている（する側）→ -ing。" },
+        { "id": "q2", "type": "fill", "q": "I have a car ___ in Germany.", "ja": "ドイツ製の車を持っています。", "choices": ["made", "making", "make"], "answer": "made", "tag": "-ing と過去分詞", "why": "車は作られた（される側）→ 過去分詞 made。" },
+        { "id": "q3", "type": "choice", "q": "「ブラジルで話されている言語はポルトガル語です」", "choices": ["The language spoken in Brazil is Portuguese.", "The language speaking in Brazil is Portuguese.", "The spoken in Brazil language is Portuguese.", "The language is spoken in Brazil Portuguese."], "answer": 0, "tag": "分詞の位置", "why": "言語は話される → spoken。2語以上の説明なので名詞のうしろ。" },
+        { "id": "q4", "type": "choice", "q": "名詞を説明する -ing と過去分詞の見分け方は？", "choices": ["名詞が「する側」なら -ing、「される側」なら過去分詞", "現在なら -ing、過去なら過去分詞", "人なら -ing、物なら過去分詞", "短いなら -ing、長いなら過去分詞"], "answer": 0, "tag": "分詞の核心", "why": "-ing は進行形の「〜している」、過去分詞は受動態の「〜された」。" },
+        { "id": "q5", "type": "fill", "q": "Be careful of the ___ glass.", "ja": "割れたガラスに気をつけて。", "choices": ["broken", "breaking", "break"], "answer": "broken", "tag": "-ing と過去分詞", "why": "ガラスは割られた（される側）→ broken。1語なので名詞の前。" },
+        { "id": "q6", "type": "order", "ja": "ソファで寝ている赤ちゃんを見て。", "words": ["Look", "at", "the", "baby", "sleeping", "on", "the", "sofa"], "extra": ["slept"], "answer": "Look at the baby sleeping on the sofa", "tag": "分詞の位置", "why": "赤ちゃんが寝ている → sleeping。on the sofa までの長い説明は名詞のうしろ。" },
+        { "id": "q7", "type": "choice", "q": "「the cat sleeping on the sofa」で sleeping が名詞のうしろにある理由は？", "choices": ["on the sofa まで説明が長いから（2語以上はうしろ）", "猫が主語だから", "過去の話だから", "特に理由はない"], "answer": 0, "tag": "分詞の位置", "why": "1語なら前（a sleeping cat）、2語以上ならうしろ。" },
+        { "id": "q8", "type": "fill", "q": "This is a letter ___ in English.", "ja": "これは英語で書かれた手紙です。", "choices": ["written", "writing", "wrote"], "answer": "written", "tag": "-ing と過去分詞", "why": "手紙は書かれた（される側）→ 過去分詞 written。wrote は過去形。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "名詞を先に言い、**-ing / 過去分詞で説明を足す**練習です。",
+      "items": [
+        { "ja": "あそこに立っている男の人は誰ですか？", "en": "Who is the man standing over there?", "accept": ["Who's the man standing over there?"], "hint": "Who is the man ...?" },
+        { "ja": "ドイツ製の車を持っています。", "en": "I have a car made in Germany.", "accept": ["I have a German car."], "hint": "I have a car made ..." },
+        { "ja": "これは英語で書かれた手紙です。", "en": "This is a letter written in English.", "hint": "This is a letter ..." },
+        { "ja": "ソファで寝ている赤ちゃんを見て。", "en": "Look at the baby sleeping on the sofa.", "hint": "Look at the baby ..." },
+        { "ja": "割れたガラスに気をつけて。", "en": "Be careful of the broken glass.", "accept": ["Watch out for the broken glass."], "hint": "Be careful of ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "baby", "ja": "赤ちゃん", "ex": "Look at the baby sleeping on the sofa." },
+    { "en": "sofa", "ja": "ソファ", "ex": "Look at the baby sleeping on the sofa." },
+    { "en": "stand", "ja": "立つ", "ex": "Who is the man standing over there?" },
+    { "en": "over there", "ja": "あそこに", "ex": "Who is the man standing over there?" },
+    { "en": "made in", "ja": "〜製の", "ex": "I have a car made in Germany." },
+    { "en": "letter", "ja": "手紙", "ex": "This is a letter written in English." },
+    { "en": "spoken", "ja": "話された・話されている（speak の過去分詞）", "ex": "The language spoken in Brazil is Portuguese." },
+    { "en": "broken", "ja": "割れた・壊れた", "ex": "Be careful of the broken glass." }
+  ]
+}

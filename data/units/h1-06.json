@@ -1,0 +1,69 @@
+{
+  "id": "h1-06",
+  "title": "準動詞のまとめ",
+  "subtitle": "remember to / -ing と、使役・知覚動詞",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「My boss made me to rewrite the report.」はなぜ間違い？",
+      "body": "「上司は私に報告書を書き直させた」は `My boss made me rewrite the report.` です。中3で学んだ want 人 to と違い、**to がありません**。\n\nまた `Remember to lock the door.`（忘れずにかぎをかけて）と `I remember locking the door.`（かぎをかけたのを覚えている）は、to か -ing かで意味がまったく変わります。\n\n**to、-ing、原形、過去分詞。どう使い分ければいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "4つの形は、それぞれ1つの絵を持っている",
+      "body": "これまでに学んだ形を1つの表にまとめます。どれも新しい意味ではありません。\n\n> **to ＋ 原形** ＝ → これから向かう（不定詞）\n> **-ing** ＝ 実際にしている・したこと（動名詞・進行形）\n> **過去分詞** ＝ 〜された（受動態・分詞）\n> **原形** ＝ 動作そのもの（まるごとの動き）\n\n**remember / forget は to と -ing で意味が変わる**\n\n- remember **to** lock：→ これからかぎをかけることを覚えている ＝ **忘れずに〜する**\n- remember lock**ing**：実際にかけたことを覚えている ＝ **〜したのを覚えている**\n\n**使役動詞 make / let / have ＋ 人 ＋ 原形**\n「人に〜させる」と言うとき、make・let・have のうしろは **to のない原形**です。\n\n- make 人 原形：（強制的に）〜させる\n- let 人 原形：（許可して）〜させてあげる。`Let me help you.`（手伝わせて）\n- have 人 原形：（役割として）〜してもらう\n\n**have ＋ 物 ＋ 過去分詞 ＝ 物を〜してもらう**\n物は「される側」なので過去分詞です。`I had my hair cut.`（髪が切られる状態にしてもらった ＝ 髪を切ってもらった）\n\n**知覚動詞 see / hear ＋ 人 ＋ 原形 / -ing**\n\n- I saw him **cross** the street.（渡るのを最初から最後まで見た）\n- I saw him **cross**ing the street.（渡っている途中を見た）\n\n使役・知覚では、目の前で動作がそのまま起こる（起こさせる）ことを表すので、「→ これから」の to がつかない、と考えると整理しやすくなります。\n\n[[日本語の発想|英語の発想]]\nL: 「〜させる」「〜してもらう」「〜するのを見る」と、語尾で言い分ける\nR: to・-ing・原形・過去分詞のどれを置くかで言い分ける",
+      "points": [
+        "to ＝ これから、-ing ＝ 実際にしたこと、過去分詞 ＝ された、原形 ＝ 動作そのもの",
+        "remember to 〜 ＝ 忘れずに〜する、remember 〜ing ＝ 〜したのを覚えている",
+        "make / let / have ＋ 人 ＋ 原形（to なし）。have ＋ 物 ＋ 過去分詞 ＝ 〜してもらう"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "to / -ing / 原形 / 過去分詞のどれが使われているか、その理由を考えましょう。",
+      "items": [
+        { "en": "Please remember to lock the door.", "ja": "忘れずにドアのかぎをかけてね。", "note": "これからすること → to" },
+        { "en": "I remember meeting him in Kyoto.", "ja": "京都で彼に会ったのを覚えています。", "note": "実際にしたこと → -ing" },
+        { "en": "My boss made me rewrite the report.", "ja": "上司は私に報告書を書き直させた。", "note": "make ＋ 人 ＋ 原形（to なし）" },
+        { "en": "Let me help you.", "ja": "手伝わせてください。", "note": "let ＝ 許可。会話でとてもよく使う", "sound": "Let me は「レミー」とつながる" },
+        { "en": "I had my hair cut yesterday.", "ja": "昨日、髪を切ってもらいました。", "note": "髪は切られる側 → 過去分詞 cut（cut は形が変わらない）" },
+        { "en": "I heard someone calling my name.", "ja": "誰かが私の名前を呼んでいるのが聞こえた。", "note": "呼んでいる途中を聞いた → -ing" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "Please remember ___ the door.", "ja": "忘れずにドアのかぎをかけてね。", "choices": ["to lock", "locking", "lock"], "answer": "to lock", "tag": "remember to / -ing", "why": "これからすることを覚えている → to。" },
+        { "id": "q2", "type": "fill", "q": "I remember ___ him in Kyoto.", "ja": "京都で彼に会ったのを覚えています。", "choices": ["meeting", "to meet", "meet"], "answer": "meeting", "tag": "remember to / -ing", "why": "実際に会ったことを覚えている → -ing。" },
+        { "id": "q3", "type": "fill", "q": "My boss made me ___ the report.", "ja": "上司は私に報告書を書き直させた。", "choices": ["rewrite", "to rewrite", "rewriting"], "answer": "rewrite", "tag": "使役動詞", "why": "make ＋ 人 ＋ 原形。to はつけない。" },
+        { "id": "q4", "type": "choice", "q": "「手伝わせてください」", "choices": ["Let me help you.", "Let me to help you.", "Let me helping you.", "Let I help you."], "answer": 0, "tag": "使役動詞", "why": "let ＋ 人（相手の席の me）＋ 原形。" },
+        { "id": "q5", "type": "choice", "q": "「I had my hair cut.」の意味は？", "choices": ["髪を切ってもらった", "自分で髪を切った", "髪を切らなければならなかった", "髪を切るつもりだった"], "answer": 0, "tag": "have ＋ 物 ＋ 過去分詞", "why": "髪が切られる状態にしてもらった。自分で切ったなら I cut my hair.。" },
+        { "id": "q6", "type": "fill", "q": "I heard someone ___ my name.", "ja": "誰かが私の名前を呼んでいるのが聞こえた。", "choices": ["calling", "to call", "called"], "answer": "calling", "tag": "知覚動詞", "why": "呼んでいる途中を聞いた → -ing。知覚動詞のうしろに to はつけない。" },
+        { "id": "q7", "type": "choice", "q": "「remember to do」と「remember doing」の違いは？", "choices": ["to は「これからすること」、-ing は「実際にしたこと」を覚えている", "意味は同じ", "to は過去、-ing は未来", "to はていねいな言い方"], "answer": 0, "tag": "remember to / -ing", "why": "to ＝ これから、-ing ＝ 実際の動作。いつもの2つのイメージ。" },
+        { "id": "q8", "type": "order", "ja": "昨日、髪を切ってもらいました。", "words": ["I", "had", "my", "hair", "cut", "yesterday"], "extra": ["cutting"], "answer": "I had my hair cut yesterday", "tag": "have ＋ 物 ＋ 過去分詞", "why": "have ＋ 物（my hair）＋ 過去分詞（cut）。髪は切られる側。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "to / -ing / 原形のどれを置くか、**言う前に絵を思い浮かべて**から話しましょう。",
+      "items": [
+        { "ja": "忘れずにドアのかぎをかけてね。", "en": "Please remember to lock the door.", "accept": ["Remember to lock the door.", "Don't forget to lock the door."], "hint": "Please remember ..." },
+        { "ja": "京都で彼に会ったのを覚えています。", "en": "I remember meeting him in Kyoto.", "hint": "I remember ..." },
+        { "ja": "手伝わせてください。", "en": "Let me help you.", "hint": "Let me ..." },
+        { "ja": "昨日、髪を切ってもらいました。", "en": "I had my hair cut yesterday.", "accept": ["I got my hair cut yesterday."], "hint": "I had my hair ..." },
+        { "ja": "上司は私に報告書を書き直させた。", "en": "My boss made me rewrite the report.", "hint": "My boss made me ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "remember", "ja": "覚えている・思い出す", "ex": "Please remember to lock the door." },
+    { "en": "lock", "ja": "かぎをかける", "ex": "Please remember to lock the door." },
+    { "en": "rewrite", "ja": "書き直す", "ex": "My boss made me rewrite the report." },
+    { "en": "report", "ja": "報告書", "ex": "My boss made me rewrite the report." },
+    { "en": "Let me ...", "ja": "私に〜させて", "ex": "Let me help you." },
+    { "en": "have my hair cut", "ja": "髪を切ってもらう", "ex": "I had my hair cut yesterday." },
+    { "en": "hear", "ja": "聞こえる", "ex": "I heard someone calling my name." },
+    { "en": "someone", "ja": "誰か", "ex": "I heard someone calling my name." }
+  ]
+}

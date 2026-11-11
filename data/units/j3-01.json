@@ -1,0 +1,69 @@
+{
+  "id": "j3-01",
+  "title": "現在完了",
+  "subtitle": "過去を「今」に持ってくる感覚",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「かぎをなくした」は lost？ have lost？",
+      "body": "「かぎをなくした」は `I lost my key.` とも `I've lost my key.` とも言えます。日本語ではどちらも「なくした」です。\n\nところが `I've lost my key yesterday.` とは言えません。yesterday をつけるなら `I lost my key yesterday.` です。\n\n**have ＋ 過去分詞（現在完了）は、過去形と何が違うのでしょう？ なぜ yesterday と一緒に使えないのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "現在完了は「過去の出来事を、今の状態として持っている」",
+      "body": "中1で、**過去形 ＝ 今とは切り離された話**だと学びました。現在完了はその反対です。\n\n> **現在完了（have ＋ 過去分詞）＝ 過去の出来事を「今」に持ってきて、今の状態として語る**\n\n形をそのまま読むと分かります。have は「持っている」、過去分詞は受動態の単元で学んだ「〜した（された）状態」。合わせて**「〜した状態を、今持っている」**です。\n\n- I **lost** my key.（なくした。今どうなっているかは言っていない）\n- I'**ve lost** my key.（なくした状態を今も持っている → 今もない、困っている）\n\n**yesterday と使えない理由**\nyesterday は「今から切り離された過去の時点」を指す言葉です。今の状態を語る現在完了とは、向いている方向が逆なのです。\n\n**3つの用法も、1つのイメージで読める**\n\n- **完了**：I've just finished my work.（終わった状態を今持っている → 終わったところだ）\n- **経験**：I've been to Okinawa twice.（行った経験を今持っている → 行ったことがある）\n- **継続**：I've lived in Osaka for ten years.（住んでいる状態が、10年前から今までつながっている）\n\n継続のときは、期間なら **for**（for ten years）、始まりの時点なら **since**（since 2020）を使います。\n\n**この have は自分で動く**\n現在完了の have は「持っている」の一般動詞ではなく、can や will のように**自分で動く**側です。否定は haven't、疑問は Have you 〜?。主語が he / she なら has です。\n\n[[日本語の発想|英語の発想]]\nL: 「なくした」「行った」は、今とつながっていてもいなくても同じ形\nR: 今とつながっていれば現在完了、切り離されていれば過去形",
+      "points": [
+        "現在完了 ＝ have ＋ 過去分詞。過去の出来事を今の状態として語る",
+        "yesterday や last week（今から切り離された時点）とは一緒に使わない",
+        "完了・経験・継続は全部「今とつながっている」。継続は for（期間）／ since（起点）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "どの文も「今」とつながっています。今どんな状態なのかを考えながら聞きましょう。",
+      "items": [
+        { "en": "I've lost my key.", "ja": "かぎをなくしてしまいました。", "note": "今もかぎがなくて困っている", "sound": "I've の ve は弱く、ほとんど聞こえないことがある" },
+        { "en": "I've just finished my work.", "ja": "ちょうど仕事が終わったところです。", "note": "完了：終わった状態を今持っている" },
+        { "en": "Have you ever been to Okinawa? — Yes, I've been there twice.", "ja": "沖縄に行ったことはありますか？ — はい、2回あります。", "note": "経験：have been to ＝ 行ったことがある" },
+        { "en": "I've never eaten Thai food.", "ja": "タイ料理を食べたことがありません。", "note": "eat → ate → eaten" },
+        { "en": "I've lived in Osaka for ten years.", "ja": "大阪に10年住んでいます。", "note": "継続：10年前から今までつながっている。日本語は「住んでいます」でも現在完了" },
+        { "en": "She has worked here since 2020.", "ja": "彼女は2020年からここで働いています。", "note": "since ＝ 始まりの時点" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I have ___ my key.", "ja": "かぎをなくしてしまいました（今もない）。", "choices": ["lost", "lose", "losing"], "answer": "lost", "tag": "現在完了の形", "why": "have ＋ 過去分詞。lose → lost → lost。" },
+        { "id": "q2", "type": "choice", "q": "「I went to Kyoto yesterday.」を現在完了にできない理由は？", "choices": ["yesterday は今から切り離された時点で、今を語る現在完了と合わないから", "Kyoto が地名だから", "went が不規則動詞だから", "yesterday は未来を表すから"], "answer": 0, "tag": "現在完了と過去形", "why": "現在完了は今とつながる形。yesterday は今から切り離された時点なので、過去形を使う。" },
+        { "id": "q3", "type": "fill", "q": "___ you ever been to Okinawa?", "ja": "沖縄に行ったことはありますか？", "choices": ["Have", "Did", "Are"], "answer": "Have", "tag": "現在完了の形", "why": "現在完了の have は自分で動く → Have が先頭。" },
+        { "id": "q4", "type": "fill", "q": "I've lived in Osaka ___ ten years.", "ja": "大阪に10年住んでいます。", "choices": ["for", "since", "from"], "answer": "for", "tag": "for と since", "why": "ten years は期間 → for。" },
+        { "id": "q5", "type": "fill", "q": "She has worked here ___ 2020.", "ja": "彼女は2020年からここで働いています。", "choices": ["since", "for", "at"], "answer": "since", "tag": "for と since", "why": "2020 は始まりの時点 → since。" },
+        { "id": "q6", "type": "order", "ja": "タイ料理を食べたことがありません。", "words": ["I", "have", "never", "eaten", "Thai", "food"], "extra": ["ate"], "answer": "I have never eaten Thai food", "tag": "現在完了の形", "why": "have ＋ never ＋ 過去分詞 eaten。ate は過去形なので使わない。" },
+        { "id": "q7", "type": "choice", "q": "現在完了の中心イメージは？", "choices": ["過去の出来事を今に持ってきて、今の状態として語る", "今とは切り離された過去の話", "今まさに途中", "これからの予定"], "answer": 0, "tag": "現在完了の核心", "why": "have（持っている）＋ 過去分詞（〜した状態）＝ した状態を今持っている。" },
+        { "id": "q8", "type": "choice", "q": "「ちょうど仕事が終わったところです」", "choices": ["I've just finished my work.", "I just finish my work.", "I've just finish my work.", "I've just finishing my work."], "answer": 0, "tag": "現在完了の形", "why": "have ＋ just ＋ 過去分詞 finished。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "「今とつながっている」ことを意識して、**I've 〜** で言い始める練習です。",
+      "items": [
+        { "ja": "かぎをなくしてしまいました。", "en": "I've lost my key.", "accept": ["I have lost my key."], "hint": "I've lost ..." },
+        { "ja": "沖縄に行ったことはありますか？", "en": "Have you ever been to Okinawa?", "hint": "Have you ever ...?" },
+        { "ja": "タイ料理を食べたことがありません。", "en": "I've never eaten Thai food.", "accept": ["I have never eaten Thai food."], "hint": "I've never ..." },
+        { "ja": "大阪に10年住んでいます。", "en": "I've lived in Osaka for ten years.", "accept": ["I have lived in Osaka for ten years.", "I've lived in Osaka for 10 years.", "I've been living in Osaka for ten years."], "hint": "I've lived ..." },
+        { "ja": "ちょうど仕事が終わったところです。", "en": "I've just finished my work.", "accept": ["I have just finished my work.", "I've just finished work."], "hint": "I've just ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "lost", "ja": "なくした（lose の過去形・過去分詞）", "ex": "I've lost my key." },
+    { "en": "just", "ja": "ちょうど", "ex": "I've just finished my work." },
+    { "en": "ever", "ja": "（疑問文で）これまでに", "ex": "Have you ever been to Okinawa?" },
+    { "en": "never", "ja": "一度も〜ない", "ex": "I've never eaten Thai food." },
+    { "en": "have been to", "ja": "〜に行ったことがある", "ex": "I've been to Okinawa twice." },
+    { "en": "eaten", "ja": "食べた（eat の過去分詞）", "ex": "I've never eaten Thai food." },
+    { "en": "for ten years", "ja": "10年間", "ex": "I've lived in Osaka for ten years." },
+    { "en": "since", "ja": "〜から（ずっと）", "ex": "She has worked here since 2020." }
+  ]
+}

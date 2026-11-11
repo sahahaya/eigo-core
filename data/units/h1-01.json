@@ -1,0 +1,69 @@
+{
+  "id": "h1-01",
+  "title": "時制の全体像",
+  "subtitle": "「基準の時点」×「見え方」で12の時制を1枚に",
+  "steps": [
+    {
+      "type": "question",
+      "title": "英語の時制は12個。全部、別々に覚える？",
+      "body": "英語の時制は、現在・過去・未来のそれぞれに「ふつう・進行形・完了形・完了進行形」があり、全部で12個あると言われます。\n\n`had left`（過去完了）、`will have worked`（未来完了）、`had been waiting`（過去完了進行形）……。名前を聞くだけで難しそうです。\n\n**12個を1つずつ暗記しないといけないのでしょうか？**"
+    },
+    {
+      "type": "core",
+      "title": "時制は「どこから見るか」と「どう見えるか」の組み合わせ",
+      "body": "中学で学んだことを思い出してください。時制の部品は、実は**3つしかありません**。\n\n> **基準の時点**：今（現在形）／今から離れた過去（過去形）／これから（will）\n> **進行（be ＋ -ing）**：その時点で、まさに途中\n> **完了（have ＋ 過去分詞）**：それより前の出来事を、その時点に持ってくる\n\n12の時制は、**基準の時点（3つ）× 見え方（ふつう・途中・完了・完了＋途中の4つ）**の組み合わせです。新しく覚えることはほとんどありません。\n\n**過去完了（had ＋ 過去分詞）**\n現在完了は「過去の出来事を**今**に持ってくる」形でした。過去完了は、基準を**過去のある時点**に移しただけです。\n\n- When I got to the station, the train **had** already **left**.（駅に着いた時点で、電車はもう出た状態だった）\n\n**未来完了（will have ＋ 過去分詞）**\n基準を**未来のある時点**に移します。\n\n- By next April, I **will have worked** here for five years.（来年4月の時点で、5年働いた状態になる）\n\n**未来進行（will be ＋ -ing）**\n未来のある時点で「まさに途中」。\n\n- This time tomorrow, I'**ll be flying** to Hawaii.\n\n**起きた順に話すなら、過去形を並べるだけ**\n過去完了は、2つの過去の出来事の**順番がはっきりしないとき**や、**話す順と起きた順が逆のとき**に使います。起きた順に並べるなら、過去形で十分です（I got up, took a shower, and had breakfast.）。\n\n[[日本語の発想|英語の発想]]\nL: 「た」と「ている」の組み合わせで、だいたい表せる\nR: 基準の時点を決め、そこから見て「ふつう・途中・完了」を形で選ぶ",
+      "points": [
+        "時制 ＝ 基準の時点（今・過去・未来）× 見え方（ふつう・途中・完了）",
+        "過去完了 had ＋ 過去分詞 ＝ 過去のある時点より前のことを、その時点に持ってくる",
+        "起きた順に話すなら過去形を並べるだけ。過去完了は順番を示したいときに"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "それぞれの文の「基準の時点」がどこにあるかを考えながら聞きましょう。",
+      "items": [
+        { "en": "When I got to the station, the train had already left.", "ja": "駅に着いたとき、電車はもう出てしまっていた。", "note": "基準 ＝ 駅に着いた時点（過去）。それより前に電車が出た" },
+        { "en": "I had never seen snow before I came to Hokkaido.", "ja": "北海道に来るまで、雪を見たことがなかった。", "note": "基準 ＝ 北海道に来た時点。そこまでの経験" },
+        { "en": "This time tomorrow, I'll be flying to Hawaii.", "ja": "明日の今ごろは、ハワイへ飛んでいるでしょう。", "note": "基準 ＝ 明日の今ごろ。その時点で途中" },
+        { "en": "By next April, I will have worked here for five years.", "ja": "来年の4月で、ここで働いて5年になります。", "note": "基準 ＝ 来年4月。そこまでの継続" },
+        { "en": "I had been waiting for an hour when she finally arrived.", "ja": "彼女がようやく着いたとき、私は1時間待ち続けていた。", "note": "基準 ＝ 彼女が着いた時点。そこまでずっと途中", "sound": "I had は会話で I'd「アイド」と短くなる" },
+        { "en": "I got up, took a shower, and had breakfast.", "ja": "起きて、シャワーを浴びて、朝食をとった。", "note": "起きた順に話しているので、過去形を並べるだけ" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "When I got to the station, the train had already ___.", "ja": "駅に着いたとき、電車はもう出てしまっていた。", "choices": ["left", "leave", "leaving"], "answer": "left", "tag": "過去完了", "why": "had ＋ 過去分詞。leave → left → left。" },
+        { "id": "q2", "type": "choice", "q": "「北海道に来るまで、雪を見たことがなかった」", "choices": ["I had never seen snow before I came to Hokkaido.", "I have never seen snow before I came to Hokkaido.", "I never see snow before I came to Hokkaido.", "I had never see snow before I came to Hokkaido."], "answer": 0, "tag": "過去完了", "why": "基準は北海道に来た時点（過去）→ そこまでの経験は had ＋ 過去分詞 seen。" },
+        { "id": "q3", "type": "fill", "q": "This time tomorrow, I'll be ___ to Hawaii.", "ja": "明日の今ごろは、ハワイへ飛んでいるでしょう。", "choices": ["flying", "fly", "flown"], "answer": "flying", "tag": "未来進行形", "why": "未来のある時点で途中 → will be ＋ -ing。" },
+        { "id": "q4", "type": "fill", "q": "By next April, I will have ___ here for five years.", "ja": "来年の4月で、ここで働いて5年になります。", "choices": ["worked", "work", "working"], "answer": "worked", "tag": "未来完了", "why": "基準は来年4月。そこまでの継続 → will have ＋ 過去分詞。" },
+        { "id": "q5", "type": "choice", "q": "英語の時制の組み立てとして正しい説明は？", "choices": ["基準の時点（今・過去・未来）と、見え方（ふつう・途中・完了）の組み合わせ", "12個をそれぞれ別に覚えるもの", "動詞の長さで決まるもの", "日本語の「た」と同じ仕組み"], "answer": 0, "tag": "時制の核心", "why": "部品は「基準の時点」「進行」「完了」の3つだけ。" },
+        { "id": "q6", "type": "choice", "q": "過去完了（had ＋ 過去分詞）を使うのは？", "choices": ["過去のある時点より前のことを、その時点とつなげて言うとき", "未来の予定を言うとき", "今まさに途中のとき", "いつもそうなとき"], "answer": 0, "tag": "過去完了", "why": "現在完了の基準を「今」から「過去のある時点」に移した形。" },
+        { "id": "q7", "type": "order", "ja": "彼女が着いたとき、私は1時間待ち続けていた。", "words": ["I", "had", "been", "waiting", "for", "an", "hour", "when", "she", "arrived"], "extra": ["have"], "answer": "I had been waiting for an hour when she arrived", "accept": ["When she arrived I had been waiting for an hour"], "tag": "過去完了進行形", "why": "基準は彼女が着いた時点（過去）。そこまでずっと途中 → had been ＋ -ing。" },
+        { "id": "q8", "type": "choice", "q": "「起きて、シャワーを浴びて、朝食をとった」を自然に言うと？", "choices": ["I got up, took a shower, and had breakfast.", "I had got up, had taken a shower, and had had breakfast.", "I get up, took a shower, and had breakfast.", "I have got up, took a shower, and had breakfast."], "answer": 0, "tag": "過去完了", "why": "起きた順に話すなら、過去形を並べるだけ。過去完了は順番を示したいときに使う。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "話す前に**基準の時点**を決めてから、形を選んで言います。",
+      "items": [
+        { "ja": "駅に着いたとき、電車はもう出てしまっていた。", "en": "When I got to the station, the train had already left.", "accept": ["The train had already left when I got to the station."], "hint": "When I got to the station, ..." },
+        { "ja": "明日の今ごろは、ハワイへ飛んでいるでしょう。", "en": "This time tomorrow, I'll be flying to Hawaii.", "accept": ["This time tomorrow, I will be flying to Hawaii."], "hint": "This time tomorrow, ..." },
+        { "ja": "来年の4月で、ここで働いて5年になります。", "en": "By next April, I will have worked here for five years.", "accept": ["By next April, I'll have worked here for five years.", "By next April, I will have worked here for 5 years."], "hint": "By next April, ..." },
+        { "ja": "北海道に来るまで、雪を見たことがなかった。", "en": "I had never seen snow before I came to Hokkaido.", "accept": ["I'd never seen snow before I came to Hokkaido."], "hint": "I had never ..." },
+        { "ja": "彼女がようやく着いたとき、私は1時間待ち続けていた。", "en": "I had been waiting for an hour when she finally arrived.", "accept": ["I'd been waiting for an hour when she finally arrived."], "hint": "I had been waiting ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "already", "ja": "すでに・もう", "ex": "The train had already left." },
+    { "en": "left", "ja": "出発した（leave の過去形・過去分詞）", "ex": "The train had already left." },
+    { "en": "seen", "ja": "見た（see の過去分詞）", "ex": "I had never seen snow." },
+    { "en": "this time tomorrow", "ja": "明日の今ごろ", "ex": "This time tomorrow, I'll be flying to Hawaii." },
+    { "en": "by", "ja": "〜までに（期限）", "ex": "By next April, I will have worked here for five years." },
+    { "en": "arrive", "ja": "到着する", "ex": "She finally arrived." },
+    { "en": "finally", "ja": "ようやく・最後に", "ex": "She finally arrived." },
+    { "en": "fly", "ja": "飛ぶ・飛行機で行く", "ex": "I'll be flying to Hawaii." }
+  ]
+}

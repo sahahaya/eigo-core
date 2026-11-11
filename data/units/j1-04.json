@@ -1,0 +1,69 @@
+{
+  "id": "j1-04",
+  "title": "否定文・疑問文",
+  "subtitle": "do は「動詞の代理」",
+  "steps": [
+    {
+      "type": "question",
+      "title": "なぜ一般動詞の否定には do が出てくるのか",
+      "body": "be動詞の否定は `I am not hungry.` と not をつけるだけ。ところが一般動詞では `I do not like carrots.` と、突然 **do** が現れます。\n\n疑問文も同じです。`Are you a teacher?` は be動詞を前に出すだけなのに、一般動詞では `Do you play the piano?` と do が先頭に来ます。\n\nこの do は「する」という意味なのでしょうか？ なぜ be動詞のときは出てこないのでしょう？"
+    },
+    {
+      "type": "core",
+      "title": "do は「動詞の代理」",
+      "body": "英語は、**否定も疑問も「動詞のところ」で作ります**。日本語が文末（〜ません、〜ですか）で決めるのと正反対です。\n\nbe動詞は自分で動けます。not をうしろにつける、文の先頭に出る。どちらも be動詞が自分でやります。\n\n> I **am** hungry. → I **am not** hungry. → **Am** I hungry?\n\n一般動詞は、文の中身（play, like）を担当していて、その場を離れられません。そこで**代理の do** を呼びます。do が not を引き受け、疑問文では do が先頭に出ます。\n\n> I **play** the piano. → I **do not** play the piano. → **Do** you play the piano?\n\nこの do に「する」という意味はありません。**文の形を整える係**です。だから `I do not play` の do は訳しません。\n\nこの「代理」の考え方は、このあと出てくる does / did や、疑問詞の文でも**まったく同じ**です。1つ理解すれば、否定文・疑問文はすべて同じ仕組みで作れます。\n\n[[日本語の発想|英語の発想]]\nL: 否定・疑問は文末で決まる（〜ません／〜ですか）\nR: 否定・疑問は文の前半で決まる。聞き手は早い段階で「否定だ」「質問だ」と分かる\n\n**答え方**：Yes / No のあとは、質問で使った動詞（be動詞か do）をそのまま返します。\n\n- Are you a teacher? → Yes, I **am**. / No, I'**m not**.\n- Do you play the piano? → Yes, I **do**. / No, I **don't**.\n\n会話では `do not` → `don't`、`are not` → `aren't`、`is not` → `isn't` と短縮します。",
+      "points": [
+        "否定・疑問は「動詞のところ」で作る。be動詞は自分で動く",
+        "一般動詞は動けないので、代理の do が not を受け取り、先頭に出る",
+        "答えは質問に使った動詞で返す（Yes, I am. / No, I don't.）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "be動詞の文と一般動詞の文を聞き比べて、「自分で動く」か「代理を呼ぶ」かを確かめましょう。",
+      "items": [
+        { "en": "I am not hungry.", "ja": "私はおなかがすいていません。", "note": "be動詞は自分で not を受ける", "sound": "I'm not「アイムナッ」" },
+        { "en": "Are you a teacher? — Yes, I am.", "ja": "あなたは先生ですか？ — はい、そうです。", "note": "be動詞が先頭へ。答えも be動詞で返す" },
+        { "en": "I don't like carrots.", "ja": "私はにんじんが好きではありません。", "note": "do が not を引き受けた形。like はそのまま", "sound": "don't の t はほとんど聞こえない「ドウン」" },
+        { "en": "Do you play the piano? — No, I don't.", "ja": "あなたはピアノを弾きますか？ — いいえ。", "note": "代理の do が先頭へ。答えも do で返す", "sound": "Do you「ドゥユ」とつながる" },
+        { "en": "They aren't at home.", "ja": "彼らは家にいません。", "note": "「いる」の be動詞の否定" },
+        { "en": "Do they speak Japanese?", "ja": "彼らは日本語を話しますか？", "note": "speak は一般動詞 → 代理の do" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I ___ like carrots.", "ja": "私はにんじんが好きではありません。", "choices": ["don't", "am not", "not"], "answer": "don't", "tag": "一般動詞の否定", "why": "like は一般動詞 → 代理の do ＋ not。not だけでは文にならない。" },
+        { "id": "q2", "type": "fill", "q": "I ___ hungry.", "ja": "私はおなかがすいていません。", "choices": ["am not", "don't", "not"], "answer": "am not", "tag": "be動詞の否定", "why": "hungry は状態（私 ＝ 空腹）。be動詞が自分で not を受ける。" },
+        { "id": "q3", "type": "choice", "q": "「あなたはピアノを弾きますか？」", "choices": ["Do you play the piano?", "Are you play the piano?", "You play the piano?", "Play you the piano?"], "answer": 0, "tag": "一般動詞の疑問文", "why": "play は一般動詞 → 代理の do を先頭へ。be動詞と一般動詞を重ねない。" },
+        { "id": "q4", "type": "choice", "q": "「Do you like coffee?」への答えとして正しいのは？", "choices": ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I coffee."], "answer": 0, "tag": "答え方", "why": "質問で使った do で返す。" },
+        { "id": "q5", "type": "choice", "q": "「I do not play tennis.」の do の役割は？", "choices": ["文の形を整える代理（訳さない）", "「する」という意味の動詞", "強調", "過去を表す"], "answer": 0, "tag": "do の核心", "why": "この do に意味はない。一般動詞の代わりに not を受け取る係。" },
+        { "id": "q6", "type": "order", "ja": "彼らは日本語を話しますか？", "words": ["Do", "they", "speak", "Japanese"], "extra": ["Are"], "answer": "Do they speak Japanese", "tag": "一般動詞の疑問文", "why": "speak は一般動詞なので代理の Do が先頭。Are は be動詞用。" },
+        { "id": "q7", "type": "fill", "q": "___ you a teacher?", "ja": "あなたは先生ですか？", "choices": ["Are", "Do", "Is"], "answer": "Are", "tag": "be動詞の疑問文", "why": "あなた ＝ 先生 のイコールの文 → be動詞（you なら are）が先頭へ。" },
+        { "id": "q8", "type": "order", "ja": "彼らは家にいません。", "words": ["They", "aren't", "at", "home"], "extra": ["don't"], "answer": "They aren't at home", "tag": "be動詞の否定", "why": "「いる」は be動詞 → aren't。don't は一般動詞のための代理。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "否定と疑問を、**文の前半**で決めるつもりで言います。短縮形で。",
+      "items": [
+        { "ja": "私はおなかがすいていません。", "en": "I'm not hungry.", "accept": ["I am not hungry."], "hint": "I'm not ..." },
+        { "ja": "私はにんじんが好きではありません。", "en": "I don't like carrots.", "accept": ["I do not like carrots."], "hint": "I don't ..." },
+        { "ja": "あなたはピアノを弾きますか？", "en": "Do you play the piano?", "hint": "Do you ...?" },
+        { "ja": "あなたは先生ですか？", "en": "Are you a teacher?", "hint": "Are you ...?" },
+        { "ja": "彼らは日本語を話しますか？", "en": "Do they speak Japanese?", "hint": "Do they ...?" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "hungry", "ja": "おなかがすいた", "ex": "I'm not hungry." },
+    { "en": "teacher", "ja": "先生", "ex": "Are you a teacher?" },
+    { "en": "carrot", "ja": "にんじん", "ex": "I don't like carrots." },
+    { "en": "piano", "ja": "ピアノ", "ex": "Do you play the piano?" },
+    { "en": "at home", "ja": "家に", "ex": "They aren't at home." },
+    { "en": "Japanese", "ja": "日本語・日本の", "ex": "Do they speak Japanese?" },
+    { "en": "don't", "ja": "do not の短縮形", "ex": "I don't like carrots." },
+    { "en": "aren't", "ja": "are not の短縮形", "ex": "They aren't at home." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "j1-11",
+  "title": "can",
+  "subtitle": "中心は「可能」。能力・許可・依頼が1本でつながる",
+  "steps": [
+    {
+      "type": "question",
+      "title": "同じ can なのに、なぜ意味がいくつもあるのか",
+      "body": "`Can you swim?` は「泳げますか？」。ところが `Can you help me?` は「手伝えますか？」より「手伝ってくれますか？」というお願いです。そして `Can I sit here?` は「ここに座ってもいいですか？」。\n\n「できる」「してくれる？」「してもいい？」。**can をいくつも暗記しないといけないのでしょうか？**\n\nもう1つ。`He cans swim.` や `He can swims.` と言いたくなるのはなぜでしょう？"
+    },
+    {
+      "type": "core",
+      "title": "can の中心は「〜が可能だ」。そこから全部の意味が出てくる",
+      "body": "can の中心イメージは1つだけです。\n\n> **can ＝「（力や条件がそろっていて）〜が可能だ」**\n\nここから、場面に応じて意味が広がります。\n\n- **能力**：I can swim.（私が泳ぐことは可能 ＝ 泳げる）\n- **許可**：Can I sit here?（私がここに座ることは可能？ ＝ 座ってもいい？）\n- **依頼**：Can you help me?（あなたが手伝うことは可能？ ＝ 手伝ってくれる？）\n\n暗記するのは「可能」の1つだけ。あとは「誰が・何をするのが可能か」を考えれば意味が分かります。\n\n**形のルールは2つ**\n\n> 主語 ＋ **can** ＋ **動詞の原形**\n\n1. can は主語が誰でも形が変わりません（he **can**。s はつかない）\n2. can のうしろの動詞は原形です。三単現の単元で、does が s を引き受けると動詞が原形に戻りましたね。同じように、can が前に入ると動詞は原形に戻ります\n\n**否定・疑問は can が自分で動く**\nbe動詞と同じで、can は自分で not を受け取り、自分で先頭に出ます。代理の do はいりません。\n\n- I **can't** swim. / **Can** you swim? — Yes, I **can**.\n\n[[日本語の発想|英語の発想]]\nL: 「できる」「してもいい」「してくれる」を別の言葉で言う\nR: can 1つ（可能）で、能力・許可・依頼を言い分ける\n\n**聞き取りのコツ**：ふつうの文の can は弱く「クン」と短く聞こえます。can't は強く「キャーン」と言い、最後の t はほとんど聞こえません。**強いか弱いか**で聞き分けます。",
+      "points": [
+        "can の中心は「可能」。能力・許可（Can I〜?）・依頼（Can you〜?）はそこから出る",
+        "主語 ＋ can ＋ 動詞の原形。can にも動詞にも s はつかない",
+        "否定・疑問は can が自分で動く（can't / Can you〜?）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "どの can も「可能」から考えられることを確かめましょう。旅行でそのまま使える文が多いです。",
+      "items": [
+        { "en": "I can swim.", "ja": "私は泳げます。", "note": "能力", "sound": "can は弱く「アイクンスウィム」" },
+        { "en": "She can speak three languages.", "ja": "彼女は3つの言語を話せます。", "note": "she でも can、speak は原形" },
+        { "en": "I can't eat spicy food.", "ja": "私は辛い食べ物が食べられません。", "sound": "can't は強く「キャーン」。t はほとんど聞こえない" },
+        { "en": "Can I sit here?", "ja": "ここに座ってもいいですか？", "note": "私が座ることは可能？ → 許可" },
+        { "en": "Can you help me?", "ja": "手伝ってくれますか？", "note": "あなたが手伝うことは可能？ → 依頼" },
+        { "en": "Can you speak English? — Yes, I can.", "ja": "英語を話せますか？ — はい、話せます。", "note": "答えも can で返す" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "She can ___ three languages.", "ja": "彼女は3つの言語を話せます。", "choices": ["speak", "speaks", "speaking"], "answer": "speak", "tag": "can の形", "why": "can のうしろは動詞の原形。she でも s はつけない。" },
+        { "id": "q2", "type": "choice", "q": "「彼は泳げます」", "choices": ["He can swim.", "He cans swim.", "He can swims.", "He is can swim."], "answer": 0, "tag": "can の形", "why": "can は形が変わらず、うしろは原形。be動詞と重ねない。" },
+        { "id": "q3", "type": "choice", "q": "「Can I sit here?」の意味は？", "choices": ["ここに座ってもいいですか？", "ここに座ってくれますか？", "私はここに座りました。", "ここに座ってはいけません。"], "answer": 0, "tag": "can の意味", "why": "私が座ることは可能？ → 許可を求める言い方。" },
+        { "id": "q4", "type": "choice", "q": "「Can you help me?」の意味は？", "choices": ["手伝ってくれますか？", "手伝ってもいいですか？", "手伝いました。", "手伝わないで。"], "answer": 0, "tag": "can の意味", "why": "あなたが手伝うことは可能？ → 依頼。" },
+        { "id": "q5", "type": "fill", "q": "I ___ eat spicy food.", "ja": "私は辛い食べ物が食べられません。", "choices": ["can't", "don't can", "not can"], "answer": "can't", "tag": "can の否定・疑問", "why": "can は自分で not を受け取る。代理の do はいらない。" },
+        { "id": "q6", "type": "order", "ja": "あなたは英語を話せますか？", "words": ["Can", "you", "speak", "English"], "extra": ["Do"], "answer": "Can you speak English", "tag": "can の否定・疑問", "why": "can が自分で先頭に出る。Do と can を重ねない。" },
+        { "id": "q7", "type": "choice", "q": "can の中心イメージは？", "choices": ["〜が可能だ", "〜しなければならない", "〜している途中", "〜したことがある"], "answer": 0, "tag": "can の意味", "why": "能力も許可も依頼も、すべて「可能」から出てくる。" },
+        { "id": "q8", "type": "choice", "q": "「Can you swim?」への答えは？", "choices": ["Yes, I can.", "Yes, I do.", "Yes, I am.", "Yes, I swim."], "answer": 0, "tag": "can の否定・疑問", "why": "質問で使った can で返す。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "旅行先でよく使う形です。can は軽く、**動詞をはっきり**言いましょう。",
+      "items": [
+        { "ja": "私は泳げます。", "en": "I can swim.", "hint": "I can ..." },
+        { "ja": "ここに座ってもいいですか？", "en": "Can I sit here?", "hint": "Can I ...?" },
+        { "ja": "手伝ってくれますか？", "en": "Can you help me?", "hint": "Can you ...?" },
+        { "ja": "私は辛い食べ物が食べられません。", "en": "I can't eat spicy food.", "accept": ["I cannot eat spicy food."], "hint": "I can't ..." },
+        { "ja": "彼女は3つの言語を話せます。", "en": "She can speak three languages.", "hint": "She can ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "swim", "ja": "泳ぐ", "ex": "I can swim." },
+    { "en": "language", "ja": "言語", "ex": "She can speak three languages." },
+    { "en": "spicy", "ja": "辛い", "ex": "I can't eat spicy food." },
+    { "en": "food", "ja": "食べ物", "ex": "I can't eat spicy food." },
+    { "en": "Can I ...?", "ja": "〜してもいいですか？", "ex": "Can I sit here?" },
+    { "en": "Can you ...?", "ja": "〜してくれますか？", "ex": "Can you help me?" },
+    { "en": "help", "ja": "手伝う・助ける", "ex": "Can you help me?" },
+    { "en": "here", "ja": "ここに・ここで", "ex": "Can I sit here?" }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "j3-03",
+  "title": "関係代名詞",
+  "subtitle": "名詞を後ろから説明する",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「私が昨日買った本」は、なぜ英語だと順番が逆になるのか",
+      "body": "日本語では「**私が昨日買った**本」と、説明が名詞の**前**に来ます。\n\n英語では `the book that I bought yesterday` と、名詞（the book）が先に来て、説明（I bought yesterday）が**うしろ**に続きます。\n\nさらに `the book I bought yesterday` と that を省くこともあれば、`a friend who lives in London` の who は省けません。**関係代名詞は、どんな仕組みで動いているのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "名詞を先に言い、説明はうしろから足す",
+      "body": "これまで何度も見てきたとおり、英語は**大事なこと（結論）を先に、説明はあと**の言葉です。不定詞の単元の `something to drink`（→ 飲むための何か）も、名詞のうしろから説明していましたね。\n\n関係代名詞は、名詞のうしろに**文まるごと**の説明をつなげる「のりしろ」です。\n\n> **名詞 ＋ 関係代名詞 ＋ 説明の文**\n> a friend **who** lives in London（ロンドンに住んでいる友達）\n> the book **that** I bought yesterday（私が昨日買った本）\n\n**who / which / that の使い分け**\n\n- **who**：説明する名詞が**人**\n- **which**：説明する名詞が**もの**\n- **that**：人でも、ものでも使える\n\n**関係代名詞は、説明文の中で「席」に座っている**\n代名詞の単元で学んだ「席」の考え方がここでも使えます。関係代名詞は、説明の文の中で名詞の代わりに、どこかの席に座っています。\n\n- a friend **who** lives in London：who が lives の**主語の席**（友達が住んでいる）\n- the book **that** I bought：that が bought の**相手の席**（本を買った）\n\n**相手の席の関係代名詞は省ける**\n相手の席の関係代名詞は、省いても「名詞 ＋ 主語 ＋ 動詞」の並びで関係が分かるので、会話ではよく省きます（the book I bought）。主語の席の関係代名詞は、省くと動詞の主語がなくなるので省けません。\n\n**見分け方**：関係代名詞のすぐうしろが**動詞**なら主語の席（省けない）、**主語 ＋ 動詞**なら相手の席（省ける）。\n\n[[日本語の発想|英語の発想]]\nL: 説明が先、名詞があと（昨日買った本）\nR: 名詞が先、説明があと（the book I bought yesterday）",
+      "points": [
+        "名詞 ＋ who / which / that ＋ 説明の文。名詞が先、説明があと",
+        "人なら who、ものなら which、どちらでも that",
+        "うしろが「主語 ＋ 動詞」なら関係代名詞は省ける（the book I bought）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "名詞を聞いたあと、「どんな？」と説明を待ちかまえるつもりで聞きましょう。",
+      "items": [
+        { "en": "I have a friend who lives in London.", "ja": "ロンドンに住んでいる友達がいます。", "note": "who のすぐうしろが動詞 lives → 主語の席" },
+        { "en": "This is the book that I bought yesterday.", "ja": "これは私が昨日買った本です。", "note": "that のうしろが主語 ＋ 動詞（I bought）→ 相手の席" },
+        { "en": "The movie I saw last night was great.", "ja": "昨夜見た映画は最高でした。", "note": "相手の席の that を省いた形。文の動詞は was", "sound": "The movie I saw は切れ目なく一気に言う" },
+        { "en": "Do you know a restaurant that is open now?", "ja": "今開いているレストランを知っていますか？", "note": "旅行で使える。that ＝ restaurant" },
+        { "en": "She is the person who helped me at the airport.", "ja": "彼女は空港で私を助けてくれた人です。" },
+        { "en": "Is this the bus that goes to the airport?", "ja": "これは空港へ行くバスですか？", "note": "乗る前の確認に便利" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I have a friend ___ lives in London.", "ja": "ロンドンに住んでいる友達がいます。", "choices": ["who", "which", "what"], "answer": "who", "tag": "who / which / that", "why": "説明する名詞 a friend は人 → who。" },
+        { "id": "q2", "type": "fill", "q": "Is this the bus ___ goes to the airport?", "ja": "これは空港へ行くバスですか？", "choices": ["that", "who", "where"], "answer": "that", "tag": "who / which / that", "why": "bus はもの → that（which でもよい）。who は人のとき。" },
+        { "id": "q3", "type": "order", "ja": "これは私が昨日買った本です。", "words": ["This", "is", "the", "book", "that", "I", "bought", "yesterday"], "extra": ["what"], "answer": "This is the book that I bought yesterday", "tag": "関係代名詞の語順", "why": "名詞 the book が先、that ＋ 説明（I bought yesterday）があと。" },
+        { "id": "q4", "type": "choice", "q": "「昨夜見た映画は最高でした」", "choices": ["The movie I saw last night was great.", "I saw the movie last night was great.", "The movie who I saw last night was great.", "Last night I saw movie was great."], "answer": 0, "tag": "関係代名詞の語順", "why": "主語は The movie（I saw last night）までのかたまり。映画はものなので who は使わない。" },
+        { "id": "q5", "type": "choice", "q": "that を省けるのはどれ？", "choices": ["the book that I bought", "the bus that goes to the airport", "a restaurant that is open now", "the man that helped me"], "answer": 0, "tag": "省略できる関係代名詞", "why": "that のうしろが主語 ＋ 動詞（I bought）→ 相手の席なので省ける。ほかは主語の席。" },
+        { "id": "q6", "type": "choice", "q": "関係代名詞の文の語順として正しいのは？", "choices": ["名詞が先、説明があと", "説明が先、名詞があと", "名詞と説明を同時に言う", "説明だけを言う"], "answer": 0, "tag": "関係代名詞の核心", "why": "英語は結論（名詞）が先、説明はうしろから足す。" },
+        { "id": "q7", "type": "fill", "q": "She is the person ___ helped me at the airport.", "ja": "彼女は空港で私を助けてくれた人です。", "choices": ["who", "which", "where"], "answer": "who", "tag": "who / which / that", "why": "the person は人で、うしろがすぐ動詞 helped → 主語の席の who。" },
+        { "id": "q8", "type": "fill", "q": "Do you know a restaurant ___ is open now?", "ja": "今開いているレストランを知っていますか？", "choices": ["that", "who", "what"], "answer": "that", "tag": "who / which / that", "why": "restaurant はもの → that（which でもよい）。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "名詞を言ってから、**that / who で説明を続ける**練習です。名詞のあとで止まらずに一気に。",
+      "items": [
+        { "ja": "ロンドンに住んでいる友達がいます。", "en": "I have a friend who lives in London.", "accept": ["I have a friend that lives in London."], "hint": "I have a friend who ..." },
+        { "ja": "これは私が昨日買った本です。", "en": "This is the book I bought yesterday.", "accept": ["This is the book that I bought yesterday.", "This is the book which I bought yesterday."], "hint": "This is the book ..." },
+        { "ja": "今開いているレストランを知っていますか？", "en": "Do you know a restaurant that is open now?", "accept": ["Do you know a restaurant that's open now?", "Do you know any restaurants that are open now?"], "hint": "Do you know a restaurant that ...?" },
+        { "ja": "これは空港へ行くバスですか？", "en": "Is this the bus that goes to the airport?", "accept": ["Is this the bus which goes to the airport?", "Is this the bus to the airport?"], "hint": "Is this the bus that ...?" },
+        { "ja": "昨夜見た映画は最高でした。", "en": "The movie I saw last night was great.", "accept": ["The movie that I saw last night was great."], "hint": "The movie I saw ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "restaurant", "ja": "レストラン", "ex": "Do you know a restaurant that is open now?" },
+    { "en": "person", "ja": "人", "ex": "She is the person who helped me." },
+    { "en": "great", "ja": "すばらしい・最高の", "ex": "The movie I saw last night was great." },
+    { "en": "which", "ja": "（ものを説明する）〜する・〜した", "ex": "This is the book which I bought yesterday." },
+    { "en": "that", "ja": "（関係代名詞）人・ものをうしろから説明する", "ex": "This is the book that I bought yesterday." },
+    { "en": "live in", "ja": "〜に住む", "ex": "I have a friend who lives in London." },
+    { "en": "saw", "ja": "見た（see の過去形）", "ex": "The movie I saw last night was great." },
+    { "en": "bus", "ja": "バス", "ex": "Is this the bus that goes to the airport?" }
+  ]
+}

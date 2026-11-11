@@ -1,0 +1,69 @@
+{
+  "id": "j1-05",
+  "title": "三単現の s",
+  "subtitle": "「私でもあなたでもない1人」の印",
+  "steps": [
+    {
+      "type": "question",
+      "title": "なぜ He plays にだけ s がつくのか",
+      "body": "`I play tennis.` `You play tennis.` なのに、`He plays tennis.` と he のときだけ s がつきます。\n\n多くの人が「三単現の s」と丸暗記して、話すときに忘れます。なぜ he / she のときだけ、動詞の形が変わるのでしょう？\n\nじつは、be動詞の単元にヒントがあります。"
+    },
+    {
+      "type": "core",
+      "title": "s は「私でもあなたでもない1人」の印",
+      "body": "be動詞のとき、主語によって am / is / are と形が変わりました。英語は**動詞の形で「主語が誰か」をもう一度示す**言葉でしたね。\n\n一般動詞でも同じことが、少しだけ残っています。それが s です。\n\n> 現在のことを言うとき、主語が**「私でも、あなたでもない、1人／1つ」**（he, she, it, Tom, my mother, this bus …）なら、動詞に **s** をつける\n\n「話している私」でも「聞いているあなた」でもない、**第三者が1人**。その印が s です。**is の仲間だと思ってください。** is になる主語なら動詞に s、と覚えると be動詞とつながります。\n\n- I am → I play\n- You are → You play\n- He is → He play**s**\n\n**否定・疑問のとき**は、前の単元の「代理の do」が **does** になって、s を引き受けます。s は1つの文に1つでいいので、動詞はもとの形に戻ります。\n\n- He play**s** tennis. → He **does not** play tennis. → **Does** he play tennis?\n- ✕ He does not play**s**（s が2つになってしまう）\n\n[[日本語の発想|英語の発想]]\nL: 動詞の形は主語で変わらない（私も彼も「します」）\nR: 動詞の形で「主語が誰か」を示す。be動詞の am / is / are と同じ発想\n\n**s のつけ方**（音の都合で少し変わるだけ）\n\n- ふつうは s：play → plays、work → works\n- 語尾が s / sh / ch / x / o のときは es：watch → watches、go → goes\n- 子音＋y は y を i に変えて es：study → studies\n- have は特別：have → has",
+      "points": [
+        "主語が「私でもあなたでもない1人／1つ」なら、現在形の動詞に s（is の仲間）",
+        "否定・疑問は do → does。s は does が引き受け、動詞はもとの形",
+        "話すときは、主語を言った瞬間に「is の仲間かどうか」を判断するクセをつける"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "主語を見て「is の仲間かどうか」を判断してから、動詞の形を確かめましょう。",
+      "items": [
+        { "en": "My father works in Osaka.", "ja": "私の父は大阪で働いています。", "note": "my father ＝ 私でもあなたでもない1人 → works" },
+        { "en": "She goes to the gym on Mondays.", "ja": "彼女は月曜日にジムに行きます。", "note": "go → goes（es）", "sound": "goes to「ゴウズタ」" },
+        { "en": "Our cat sleeps all day.", "ja": "うちの猫は一日中寝ています。", "note": "our cat も「1匹」→ sleeps" },
+        { "en": "He doesn't eat breakfast.", "ja": "彼は朝食を食べません。", "note": "does が s を引き受け、eat はもとの形", "sound": "doesn't「ダズン」。t はほぼ消える" },
+        { "en": "Does your sister like music?", "ja": "あなたのお姉さんは音楽が好きですか？", "note": "代理の does が先頭へ。like はもとの形", "sound": "Does your「ダズユア」" },
+        { "en": "It rains a lot in June.", "ja": "6月は雨がたくさん降ります。", "note": "天気の it も「1つ」の仲間 → rains" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "My father ___ in Osaka.", "ja": "私の父は大阪で働いています。", "choices": ["works", "work", "is work"], "answer": "works", "tag": "三単現のs", "why": "my father は私でもあなたでもない1人（is の仲間）→ s。is work は動詞が2つ。" },
+        { "id": "q2", "type": "fill", "q": "I ___ in Osaka.", "ja": "私は大阪で働いています。", "choices": ["work", "works", "am work"], "answer": "work", "tag": "三単現のs（I は s なし）", "why": "I は am の仲間。s はつかない。" },
+        { "id": "q3", "type": "fill", "q": "She ___ to the gym on Mondays.", "ja": "彼女は月曜日にジムに行きます。", "choices": ["goes", "gos", "go"], "answer": "goes", "tag": "s のつけ方", "why": "go は o で終わる → es をつけて goes。" },
+        { "id": "q4", "type": "choice", "q": "「彼は朝食を食べません」", "choices": ["He doesn't eat breakfast.", "He doesn't eats breakfast.", "He don't eat breakfast.", "He not eats breakfast."], "answer": 0, "tag": "does の代理", "why": "s は does が引き受けるので eat はもとの形。he なので do ではなく does。" },
+        { "id": "q5", "type": "choice", "q": "「Does your sister like music?」への答えは？", "choices": ["Yes, she does.", "Yes, she is.", "Yes, she likes.", "Yes, she do."], "answer": 0, "tag": "答え方", "why": "質問で使った does で返す。" },
+        { "id": "q6", "type": "fill", "q": "Tom and Ken ___ soccer.", "ja": "トムとケンはサッカーをします。", "choices": ["play", "plays", "is play"], "answer": "play", "tag": "三単現のs（2人以上）", "why": "2人は are の仲間。s はつかない。" },
+        { "id": "q7", "type": "fill", "q": "My sister ___ two dogs.", "ja": "私の姉は犬を2匹飼っています。", "choices": ["has", "haves", "have"], "answer": "has", "tag": "s のつけ方", "why": "have に s をつけた形は has という特別な形。" },
+        { "id": "q8", "type": "order", "ja": "彼女は音楽が好きですか？", "words": ["Does", "she", "like", "music"], "extra": ["likes"], "answer": "Does she like music", "tag": "does の代理", "why": "does が s を引き受けるので、likes ではなく like。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "主語を言った瞬間に「is の仲間か？」を判断して、s をつける練習です。",
+      "items": [
+        { "ja": "私の父は大阪で働いています。", "en": "My father works in Osaka.", "hint": "My father works ..." },
+        { "ja": "彼女は月曜日にジムに行きます。", "en": "She goes to the gym on Mondays.", "accept": ["She goes to the gym on Monday."], "hint": "She goes ..." },
+        { "ja": "彼は朝食を食べません。", "en": "He doesn't eat breakfast.", "accept": ["He does not eat breakfast."], "hint": "He doesn't ..." },
+        { "ja": "あなたのお姉さんは音楽が好きですか？", "en": "Does your sister like music?", "hint": "Does your sister ...?" },
+        { "ja": "うちの猫は一日中寝ています。", "en": "Our cat sleeps all day.", "accept": ["My cat sleeps all day."], "hint": "Our cat sleeps ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "work", "ja": "働く", "ex": "My father works in Osaka." },
+    { "en": "gym", "ja": "ジム", "ex": "She goes to the gym on Mondays." },
+    { "en": "sleep", "ja": "眠る", "ex": "Our cat sleeps all day." },
+    { "en": "all day", "ja": "一日中", "ex": "Our cat sleeps all day." },
+    { "en": "breakfast", "ja": "朝食", "ex": "He doesn't eat breakfast." },
+    { "en": "rain", "ja": "雨が降る", "ex": "It rains a lot in June." },
+    { "en": "a lot", "ja": "たくさん", "ex": "It rains a lot in June." },
+    { "en": "doesn't", "ja": "does not の短縮形", "ex": "He doesn't eat breakfast." }
+  ]
+}

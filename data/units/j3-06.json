@@ -1,0 +1,70 @@
+{
+  "id": "j3-06",
+  "title": "不定詞の発展",
+  "subtitle": "It is … to / want 人 to / how to",
+  "steps": [
+    {
+      "type": "question",
+      "title": "なぜ「To speak English is difficult.」より It を使うのか",
+      "body": "「英語を話すのは難しい」は `To speak English is difficult.` とも言えます。でも実際には `It is difficult to speak English.` のほうがずっとよく使われます。\n\nまた「あなたにパーティーに来てほしい」は `I want you to come to the party.` です。`I want that you come.` とは言いません。\n\n**It は何を指しているのでしょう？ そして、want のうしろの you はどんな役割なのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "長い主語はうしろへ。to の前には「誰がするか」を置ける",
+      "body": "不定詞の単元で、to は「**→ これから**」だと学びました。この単元では、その to を使った3つの形を見ます。\n\n**① It is 〜 to …（頭でっかちを避ける）**\n英語は、長い主語で文が始まるのを好みません。「結論が先」の言葉なので、`To speak English`（長い主語）を最初に言うと、結論の difficult がなかなか出てこないからです。\n\nそこで主語の席に**とりあえず It** を置き、結論を先に言い切ってから、中身を to でうしろに回します。\n\n> **It** is difficult **to speak English**.（It ＝ to speak English）\n\n「誰にとって」を言いたいときは、to の前に **for 人** を入れます（It's important **for me** to learn English.）。\n\n**② want 人 to …（する人を指定する）**\n\n- I want **to go**.（行くのは私）\n- I want **you** to go.（行くのはあなた。あなたに行ってほしい）\n\nto の前に人を置くと、「**その人が → これから〜する**」ことを望む、という意味になります。同じ形で、ask 人 to（頼む）、tell 人 to（言う）も使えます。仕事でとてもよく使う形です。\n\n**③ how to …（これからどうやるか）**\n疑問詞 ＋ to で「これからどう〜するか」です。how to use（使い方）、what to do（何をすべきか）、where to go（どこへ行けばいいか）。\n\n[[日本語の発想|英語の発想]]\nL: 「英語を話すのは」と中身を先に言い、「難しい」は最後\nR: It is difficult と結論を先に言い、中身（to speak English）はあと",
+      "points": [
+        "It is 〜 to … ＝ 長い主語をうしろへ回し、結論を先に言う形。It は to 以下を指す",
+        "want / ask / tell ＋ 人 ＋ to … ＝ その人に〜してほしい・頼む・言う",
+        "how to / what to / where to ＝ これからどう・何を・どこへ〜するか"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "to の前に「誰がするか」があるか、It が何を指しているかを確かめながら聞きましょう。",
+      "items": [
+        { "en": "It is difficult to speak English.", "ja": "英語を話すのは難しいです。", "note": "It ＝ to speak English" },
+        { "en": "It's important for me to learn English.", "ja": "英語を学ぶことは私にとって大切です。", "note": "for me ＝ 私にとって" },
+        { "en": "I want you to come to the party.", "ja": "あなたにパーティーに来てほしい。", "note": "来るのは you", "sound": "want you は「ウォンチュー」とつながる" },
+        { "en": "My boss asked me to call the client.", "ja": "上司が私に、顧客に電話するよう頼みました。", "note": "ask 人 to ＝ 人に〜するよう頼む" },
+        { "en": "The doctor told me to rest.", "ja": "医者に休むように言われました。", "note": "tell 人 to ＝ 人に〜するよう言う" },
+        { "en": "Can you tell me how to buy a ticket?", "ja": "切符の買い方を教えてくれますか？", "note": "how to ＝ これからどうやって〜するか" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "___ is difficult to speak English.", "ja": "英語を話すのは難しいです。", "choices": ["It", "That", "This"], "answer": "It", "tag": "It is 〜 to …", "why": "主語の席にとりあえず It を置き、中身（to speak English）をうしろに回す。" },
+        { "id": "q2", "type": "fill", "q": "It's important ___ me to learn English.", "ja": "英語を学ぶことは私にとって大切です。", "choices": ["for", "to", "of"], "answer": "for", "tag": "It is 〜 to …", "why": "「誰にとって」は for 人。to の前に置く。" },
+        { "id": "q3", "type": "order", "ja": "あなたにパーティーに来てほしい。", "words": ["I", "want", "you", "to", "come", "to", "the", "party"], "extra": ["that"], "answer": "I want you to come to the party", "tag": "want 人 to …", "why": "want ＋ 人（you）＋ to ＋ 原形。来るのは you。" },
+        { "id": "q4", "type": "choice", "q": "「上司が私に、顧客に電話するよう頼みました」", "choices": ["My boss asked me to call the client.", "My boss asked me call the client.", "My boss asked to me call the client.", "My boss asked I to call the client."], "answer": 0, "tag": "want 人 to …", "why": "ask ＋ 人（me：相手の席の形）＋ to ＋ 原形。" },
+        { "id": "q5", "type": "choice", "q": "「It is difficult to speak English.」の It が指すのは？", "choices": ["to speak English（英語を話すこと）", "天気", "前に出てきた物", "時間"], "answer": 0, "tag": "It is 〜 to …", "why": "It は、うしろに回した to 以下の中身を指す仮の主語。" },
+        { "id": "q6", "type": "fill", "q": "The doctor told me ___ rest.", "ja": "医者に休むように言われました。", "choices": ["to", "for", "that"], "answer": "to", "tag": "want 人 to …", "why": "tell ＋ 人 ＋ to ＋ 原形。" },
+        { "id": "q7", "type": "fill", "q": "Can you tell me how ___ a ticket?", "ja": "切符の買い方を教えてくれますか？", "choices": ["to buy", "buy", "buying"], "answer": "to buy", "tag": "how to …", "why": "how to ＋ 原形 ＝ これからどうやって〜するか。" },
+        { "id": "q8", "type": "choice", "q": "「I want to go.」と「I want you to go.」の違いは？", "choices": ["前は自分が行く、後は相手に行ってほしい", "意味は同じ", "前は過去、後は未来", "前は丁寧、後は失礼"], "answer": 0, "tag": "want 人 to …", "why": "to の前の人が「これから〜する人」。何もなければ主語自身。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "**結論を先に**（It's difficult）、**頼む相手を先に**（asked me）言ってから to を続けます。",
+      "items": [
+        { "ja": "英語を話すのは難しい。", "en": "It's difficult to speak English.", "accept": ["It is difficult to speak English.", "Speaking English is difficult."], "hint": "It's difficult ..." },
+        { "ja": "英語を学ぶことは私にとって大切です。", "en": "It's important for me to learn English.", "accept": ["It is important for me to learn English."], "hint": "It's important for me ..." },
+        { "ja": "あなたにパーティーに来てほしい。", "en": "I want you to come to the party.", "hint": "I want you ..." },
+        { "ja": "上司が私に、顧客に電話するよう頼みました。", "en": "My boss asked me to call the client.", "hint": "My boss asked me ..." },
+        { "ja": "切符の買い方を教えてくれますか？", "en": "Can you tell me how to buy a ticket?", "accept": ["Could you tell me how to buy a ticket?"], "hint": "Can you tell me how ...?" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "important", "ja": "大切な", "ex": "It's important for me to learn English." },
+    { "en": "learn", "ja": "学ぶ・身につける", "ex": "It's important for me to learn English." },
+    { "en": "party", "ja": "パーティー", "ex": "I want you to come to the party." },
+    { "en": "boss", "ja": "上司", "ex": "My boss asked me to call the client." },
+    { "en": "ask A to ...", "ja": "Aに〜するよう頼む", "ex": "My boss asked me to call the client." },
+    { "en": "client", "ja": "顧客・取引先", "ex": "My boss asked me to call the client." },
+    { "en": "rest", "ja": "休む・休息", "ex": "The doctor told me to rest." },
+    { "en": "how to ...", "ja": "〜のしかた", "ex": "Can you tell me how to buy a ticket?" },
+    { "en": "ticket", "ja": "切符・チケット", "ex": "Can you tell me how to buy a ticket?" }
+  ]
+}

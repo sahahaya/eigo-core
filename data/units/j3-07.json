@@ -1,0 +1,69 @@
+{
+  "id": "j3-07",
+  "title": "仮定法の入口",
+  "subtitle": "なぜ「過去形」で「今」を語るのか",
+  "steps": [
+    {
+      "type": "question",
+      "title": "今の話なのに、なぜ「If I were」と過去形なのか",
+      "body": "「もし私があなたなら、その仕事を引き受けます」は `If I were you, I would take the job.` です。\n\n今の話なのに、were と would という**過去形**を使っています。しかも主語が I なのに、was ではなく were です。\n\n中2では `If it rains tomorrow, I'll stay home.` と現在形の if を学びました。**同じ if なのに、何が違うのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "過去形は「離れている」印。時間ではなく「現実」から離れる",
+      "body": "中1の過去形の単元で、**過去形の中心は「今から離れている」こと**だと学びました。そして、この感覚は仮定法でも生きてくる、と予告しました。\n\n仮定法は、この「離れている」を**時間**ではなく**現実**に使います。\n\n> **過去形 ＝ 現実から離れた話**（ありえない・ありそうにない想像）\n\n**2つの if を比べる**\n\n- **現実にありうる**：If it **rains** tomorrow, I'**ll** stay home.（明日は本当に雨が降るかもしれない → 現在形 ＋ will）\n- **現実から離れた想像**：If I **had** a lot of money, I **would** buy a house.（実際にはお金がない → 過去形 ＋ would）\n\n**形**\n\n> **If ＋ 主語 ＋ 過去形 〜, 主語 ＋ would（could）＋ 原形 …**\n\nwould は will の過去形、could は can の過去形です。「〜するだろう」「〜できる」も、現実から離れた形にそろえます。\n\nbe動詞は、主語が何でも **were** を使うのが基本です（If I **were** you）。これは、昔の英語にあった「想像を表す特別な形」が残ったものです。会話では was を使う人もいます。\n\n**I wish ＋ 過去形 ＝ 現実と違う願い**\nI wish I **could** speak English fluently.（実際には話せない → 話せたらいいのに）\n\n**ていねいな表現も同じ「距離」**\n`Could you 〜?` や `Would you like 〜?` がていねいに聞こえるのは、過去形で**相手との間に少し距離をとり**、遠慮を表すからです。英会話でいちばん役立つ「距離の過去形」です。\n\n[[日本語の発想|英語の発想]]\nL: 「もし〜なら」1つで、ありうる話もありえない話も言う\nR: 現実にありうる → 現在形。現実から離れた想像 → 過去形",
+      "points": [
+        "過去形は「離れている」印。仮定法では「現実から離れている」",
+        "If ＋ 過去形, would / could ＋ 原形。be動詞は were が基本",
+        "Could you 〜? / Would you like 〜? がていねいなのも、過去形の「距離」"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "現実にありうる話か、現実から離れた想像かを考えながら聞きましょう。",
+      "items": [
+        { "en": "If I were you, I would take the job.", "ja": "もし私があなたなら、その仕事を引き受けます。", "note": "私があなたになることはありえない → 過去形", "sound": "I would は会話で I'd「アイド」と短くなる" },
+        { "en": "If I had more time, I would travel around the world.", "ja": "もっと時間があれば、世界中を旅するのに。", "note": "実際には時間がない" },
+        { "en": "I wish I could speak English fluently.", "ja": "英語をすらすら話せたらいいのに。", "note": "今は話せない → could" },
+        { "en": "If it rains tomorrow, I'll stay home.", "ja": "明日雨が降ったら、家にいます。", "note": "比べてみよう：本当に降るかもしれない → 現在形" },
+        { "en": "Could you open the window?", "ja": "窓を開けていただけますか？", "note": "過去形で距離をとる → Can you 〜? よりていねい" },
+        { "en": "Would you like some coffee?", "ja": "コーヒーはいかがですか？", "note": "Do you want 〜? のていねいな言い方" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "If I ___ you, I would take the job.", "ja": "もし私があなたなら、その仕事を引き受けます。", "choices": ["were", "am", "will be"], "answer": "were", "tag": "仮定法の形", "why": "現実から離れた想像 → 過去形。be動詞は主語が I でも were が基本。" },
+        { "id": "q2", "type": "fill", "q": "If I had more time, I ___ travel around the world.", "ja": "もっと時間があれば、世界中を旅するのに。", "choices": ["would", "will", "can"], "answer": "would", "tag": "仮定法の形", "why": "if 側が過去形なら、メインの文も would（will の過去形）＋ 原形にそろえる。" },
+        { "id": "q3", "type": "choice", "q": "仮定法で過去形を使う理由は？", "choices": ["過去形は「離れている」印で、現実から離れた想像を表すから", "過去の話だから", "ていねいな言い方にするためだけだから", "未来の話だから"], "answer": 0, "tag": "仮定法の核心", "why": "過去形 ＝ 今から離れている。仮定法では、その「離れている」を現実に使う。" },
+        { "id": "q4", "type": "choice", "q": "「英語をすらすら話せたらいいのに」", "choices": ["I wish I could speak English fluently.", "I wish I can speak English fluently.", "I wish I speak English fluently.", "I wish I will speak English fluently."], "answer": 0, "tag": "I wish", "why": "今は話せない（現実と違う願い）→ can を過去形 could にする。" },
+        { "id": "q5", "type": "choice", "q": "「現実にありうる話」はどれ？", "choices": ["If it rains tomorrow, I'll stay home.", "If I were a bird, I would fly to you.", "If I had wings, I could fly.", "If I were rich, I would buy a castle."], "answer": 0, "tag": "2つの if", "why": "明日の雨は本当にありうる → 現在形 ＋ will。ほかは現実から離れた想像。" },
+        { "id": "q6", "type": "order", "ja": "窓を開けていただけますか？", "words": ["Could", "you", "open", "the", "window"], "extra": ["opened"], "answer": "Could you open the window", "tag": "ていねいな過去形", "why": "Could ＋ 主語 ＋ 原形。過去形で距離をとってていねいにする。" },
+        { "id": "q7", "type": "fill", "q": "___ you like some coffee?", "ja": "コーヒーはいかがですか？", "choices": ["Would", "Will", "Do"], "answer": "Would", "tag": "ていねいな過去形", "why": "Would you like 〜? ＝ ていねいなすすめ。will を過去形にして距離をとる。" },
+        { "id": "q8", "type": "choice", "q": "「Could you 〜?」が「Can you 〜?」よりていねいになる理由は？", "choices": ["過去形で相手との間に距離をとり、遠慮を表すから", "過去の話だから", "単語が長いから", "命令の形だから"], "answer": 0, "tag": "ていねいな過去形", "why": "過去形の「離れている」感覚を、相手との距離に使う。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "想像や願い、ていねいなお願いを言う練習です。**過去形 ＝ 距離**を感じながら。",
+      "items": [
+        { "ja": "もし私があなたなら、その仕事を引き受けます。", "en": "If I were you, I would take the job.", "accept": ["If I were you, I'd take the job.", "I would take the job if I were you."], "hint": "If I were you, ..." },
+        { "ja": "もっと時間があれば、世界中を旅するのに。", "en": "If I had more time, I would travel around the world.", "accept": ["If I had more time, I'd travel around the world."], "hint": "If I had more time, ..." },
+        { "ja": "英語をすらすら話せたらいいのに。", "en": "I wish I could speak English fluently.", "hint": "I wish I could ..." },
+        { "ja": "窓を開けていただけますか？", "en": "Could you open the window?", "accept": ["Could you please open the window?", "Would you open the window?"], "hint": "Could you ...?" },
+        { "ja": "コーヒーはいかがですか？", "en": "Would you like some coffee?", "accept": ["Would you like a coffee?"], "hint": "Would you like ...?" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "If I were you", "ja": "もし私があなたなら", "ex": "If I were you, I would take the job." },
+    { "en": "would", "ja": "（もし〜なら）〜するだろう（will の過去形）", "ex": "I would take the job." },
+    { "en": "could", "ja": "（もし〜なら）〜できる（can の過去形）", "ex": "I wish I could speak English fluently." },
+    { "en": "I wish", "ja": "〜ならいいのに", "ex": "I wish I could speak English fluently." },
+    { "en": "fluently", "ja": "すらすらと・流ちょうに", "ex": "I wish I could speak English fluently." },
+    { "en": "take the job", "ja": "その仕事を引き受ける", "ex": "If I were you, I would take the job." },
+    { "en": "around the world", "ja": "世界中を", "ex": "I would travel around the world." },
+    { "en": "Would you like ...?", "ja": "〜はいかがですか？", "ex": "Would you like some coffee?" }
+  ]
+}

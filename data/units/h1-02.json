@@ -1,0 +1,69 @@
+{
+  "id": "h1-02",
+  "title": "助動詞の発展",
+  "subtitle": "過去への判断：助動詞 ＋ have ＋ 過去分詞",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「〜したに違いない」は、なぜ must have になるのか",
+      "body": "「彼は疲れていたに違いない」は `He must have been tired.` です。\n\n「もっと早く来ればよかったのに」は `You should have come earlier.` です。\n\nmust や should の過去形を使うのではなく、うしろに **have ＋ 過去分詞** をつけています。**なぜこんな形になるのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "判断するのは「今」、判断される出来事が「過去」",
+      "body": "中2で、助動詞は**話し手の気持ち**を1つずつ持っていると学びました（must ＝ それしかない、should ＝ そうするのが自然、may ＝ そうなってもおかしくない）。\n\nこの気持ちは、**話している今**の判断です。でも「昨日の彼は疲れていた**に違いない**」のように、**過去の出来事**を今判断したいこともあります。\n\n助動詞のうしろには原形しか置けません。そこで、うしろの動詞を **have ＋ 過去分詞**（過去のことを今とつなげる形）にします。\n\n> **助動詞 ＋ have ＋ 過去分詞**\n> ＝ 今の判断（助動詞）＋ 過去の出来事（have ＋ 過去分詞）\n\n- **must have** 〜：〜したに違いない（それしかないと今思う）\n- **may / might have** 〜：〜したかもしれない\n- **can't have** 〜：〜したはずがない\n- **should have** 〜：〜すべきだった（のに、しなかった）＝ 後悔・残念な気持ち\n\nshould have は「そうするのが自然だったのに、実際はしなかった」なので、**後悔**や、相手への「〜すればよかったのに」になります。\n\n**「しなければならなかった」は had to**\nmust have been は「〜だったに違いない」です。「〜しなければならなかった」と言いたいときは、have to の過去形 **had to** を使います。\n\n**might は may より控えめ**\n仮定法で学んだ「過去形 ＝ 距離」がここでも働きます。might は may より少し距離のある、控えめな「かもしれない」です。\n\n[[日本語の発想|英語の発想]]\nL: 「〜したに違いない」「〜すればよかった」と1つのまとまりで言う\nR: 「今の判断（助動詞）」と「過去の出来事（have ＋ 過去分詞）」を組み合わせる",
+      "points": [
+        "助動詞 ＋ have ＋ 過去分詞 ＝ 過去の出来事についての今の判断",
+        "must have 〜 ＝ 〜したに違いない、should have 〜 ＝ 〜すべきだったのに",
+        "「〜しなければならなかった」は had to。might は may より控えめ"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "判断しているのは「今」、判断されているのは「過去の出来事」です。",
+      "items": [
+        { "en": "He must have been tired.", "ja": "彼は疲れていたに違いない。", "sound": "must have は会話で「マスタヴ」とつながる" },
+        { "en": "I may have left my phone in the taxi.", "ja": "タクシーに電話を置き忘れたかもしれない。" },
+        { "en": "She can't have said that.", "ja": "彼女がそんなことを言ったはずがない。" },
+        { "en": "You should have come earlier.", "ja": "もっと早く来ればよかったのに。", "note": "実際は遅れて来た", "sound": "should have は「シュダヴ」。should've と書くこともある" },
+        { "en": "I should have studied harder.", "ja": "もっと一生懸命勉強しておけばよかった。", "note": "自分への後悔" },
+        { "en": "It might rain later.", "ja": "後で雨が降るかもしれない。", "note": "may より少し控えめ" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "He must ___ been tired.", "ja": "彼は疲れていたに違いない。", "choices": ["have", "has", "had"], "answer": "have", "tag": "助動詞 ＋ have ＋ 過去分詞", "why": "助動詞のうしろは原形 → have。主語が he でも has にしない。" },
+        { "id": "q2", "type": "fill", "q": "I may have ___ my phone in the taxi.", "ja": "タクシーに電話を置き忘れたかもしれない。", "choices": ["left", "leave", "leaving"], "answer": "left", "tag": "助動詞 ＋ have ＋ 過去分詞", "why": "have のうしろは過去分詞 left。" },
+        { "id": "q3", "type": "choice", "q": "「You should have come earlier.」の意味は？", "choices": ["もっと早く来ればよかったのに（実際は遅かった）", "もっと早く来るべきだ（これから）", "もっと早く来たに違いない", "もっと早く来ることができた"], "answer": 0, "tag": "should have", "why": "そうするのが自然だった（should）のに、実際はしなかった。" },
+        { "id": "q4", "type": "choice", "q": "「彼女がそんなことを言ったはずがない」", "choices": ["She can't have said that.", "She must have said that.", "She should have said that.", "She can't say that."], "answer": 0, "tag": "助動詞 ＋ have ＋ 過去分詞", "why": "過去についての「ありえない」→ can't have ＋ 過去分詞。" },
+        { "id": "q5", "type": "choice", "q": "助動詞 ＋ have ＋ 過去分詞の仕組みは？", "choices": ["判断は今、判断される出来事は過去", "判断も出来事も未来", "助動詞を過去形にした形", "受動態の一種"], "answer": 0, "tag": "助動詞の発展の核心", "why": "助動詞は今の気持ち。過去の出来事は have ＋ 過去分詞で表す。" },
+        { "id": "q6", "type": "order", "ja": "もっと一生懸命勉強しておけばよかった。", "words": ["I", "should", "have", "studied", "harder"], "extra": ["had"], "answer": "I should have studied harder", "tag": "should have", "why": "should ＋ have ＋ 過去分詞 studied。自分への後悔。" },
+        { "id": "q7", "type": "fill", "q": "It ___ rain later.", "ja": "後で雨が降るかもしれない。", "choices": ["might", "must have", "should have"], "answer": "might", "tag": "might", "why": "これからのこと → might ＋ 原形。have ＋ 過去分詞は過去の出来事のとき。" },
+        { "id": "q8", "type": "choice", "q": "「must have been」の意味は？", "choices": ["〜だったに違いない", "〜しなければならなかった", "〜すべきだった", "〜したことがある"], "answer": 0, "tag": "助動詞 ＋ have ＋ 過去分詞", "why": "「〜しなければならなかった」は had to。must have は過去への強い確信。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "過去を振り返って判断する練習です。**must have / should have** をひとかたまりで。",
+      "items": [
+        { "ja": "彼は疲れていたに違いない。", "en": "He must have been tired.", "hint": "He must have ..." },
+        { "ja": "タクシーに電話を置き忘れたかもしれない。", "en": "I may have left my phone in the taxi.", "accept": ["I might have left my phone in the taxi."], "hint": "I may have ..." },
+        { "ja": "もっと早く来ればよかったのに。", "en": "You should have come earlier.", "hint": "You should have ..." },
+        { "ja": "もっと一生懸命勉強しておけばよかった。", "en": "I should have studied harder.", "hint": "I should have ..." },
+        { "ja": "彼女がそんなことを言ったはずがない。", "en": "She can't have said that.", "accept": ["She couldn't have said that."], "hint": "She can't have ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "must have done", "ja": "〜したに違いない", "ex": "He must have been tired." },
+    { "en": "may have done", "ja": "〜したかもしれない", "ex": "I may have left my phone in the taxi." },
+    { "en": "can't have done", "ja": "〜したはずがない", "ex": "She can't have said that." },
+    { "en": "should have done", "ja": "〜すべきだった（のに）", "ex": "You should have come earlier." },
+    { "en": "might", "ja": "〜かもしれない（may より控えめ）", "ex": "It might rain later." },
+    { "en": "later", "ja": "後で", "ex": "It might rain later." },
+    { "en": "harder", "ja": "もっと一生懸命に（hard の比較級）", "ex": "I should have studied harder." },
+    { "en": "earlier", "ja": "もっと早く（early の比較級）", "ex": "You should have come earlier." }
+  ]
+}

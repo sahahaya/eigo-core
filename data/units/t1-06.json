@@ -1,0 +1,69 @@
+{
+  "id": "t1-06",
+  "title": "Part 4 説明文",
+  "subtitle": "留守番電話・アナウンスの「型」を知る",
+  "steps": [
+    {
+      "type": "question",
+      "title": "1人の話を、最後まで集中して聞けない",
+      "body": "Part 4 は、1人が話す説明文（留守番電話、社内アナウンス、ツアー案内など）を聞いて、3つの設問に答える問題です。\n\nPart 3 と違って話し相手がいないので、話が切れ目なく続きます。途中で1か所聞き逃すと、そのあとが分からなくなってしまいがちです。\n\n**1人の長い話を、どう聞けばいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "説明文には「型」がある。型を知っていれば、次に来る情報が分かる",
+      "body": "Part 4 の説明文は、種類ごとに**話の順番（型）がだいたい決まっています**。型を知っていれば、「次はこれが来る」と予想しながら聞けます。\n\n> **留守番電話**：名乗る（This is 〜 from 〜）→ 用件（I'm calling about 〜）→ くわしい説明 → お願い（Please call me back 〜）\n> **アナウンス**：呼びかけ（Attention, 〜）→ 何が起きるか → くわしい説明 → お願い（Please 〜）→ おわび・お礼\n\n**設問と型の対応**\n\n- Who is the speaker? / Who is the announcement for? → 話の**最初**（名乗り・呼びかけ）\n- What is the purpose of the call? / What problem is mentioned? → **用件**の部分\n- What are listeners asked to do? → 話の**後半**の **Please 〜** / I'd like you to 〜\n\nPart 3 と同じく、**設問を先に読んで**から聞くのが基本です。正解の選択肢が言い換えられていることが多いのも同じです（out of stock → unavailable）。\n\n**英会話にも使える**\nこの型は、自分が留守番電話にメッセージを残したり、仕事で連絡したりするときにも、そのまま使えます。\n\n[[日本語の発想|英語の発想]]\nL: 「お世話になっております」などのあいさつのあとで、用件は最後のほうに来ることも多い\nR: 名乗ったらすぐ用件（I'm calling about 〜）。結論を先に言う",
+      "points": [
+        "留守番電話の型：名乗る → 用件 → 説明 → お願い（Please call me back）",
+        "アナウンスの型：呼びかけ → 何が起きるか → 説明 → お願い → おわび・お礼",
+        "「聞き手が頼まれていること」は後半の Please 〜 を待つ"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "説明文の「型」を作る決まり文句です。自分で連絡するときにも使えます。",
+      "items": [
+        { "en": "Hi, this is Laura Kim from Greenfield Office Supplies.", "ja": "こんにちは、グリーンフィールド事務用品のローラ・キムです。", "note": "型：名乗る。電話では I am ではなく This is" },
+        { "en": "I'm calling about the desks you ordered last week.", "ja": "先週ご注文いただいた机の件でお電話しています。", "note": "型：用件" },
+        { "en": "Please call me back at 555-0142.", "ja": "555-0142まで折り返しお電話ください。", "note": "型：お願い。数字は1つずつ読む" },
+        { "en": "Attention, all employees.", "ja": "社員のみなさんにお知らせします。", "note": "型：アナウンスの呼びかけ" },
+        { "en": "We apologize for any inconvenience.", "ja": "ご不便をおかけして申し訳ありません。", "note": "型：おわび" },
+        { "en": "Thank you for your cooperation.", "ja": "ご協力ありがとうございます。", "note": "型：お礼" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "autoplay": false, "audio": ["Hi, this is Laura Kim from Greenfield Office Supplies. I'm calling about the desks you ordered last week.", "Unfortunately, the color you chose is out of stock, so the delivery will be delayed by about ten days.", "If you'd prefer a different color, we can ship it tomorrow.", "Please call me back at 555-0142 to let me know which you'd like."], "q": "Who most likely is the speaker?", "ja": "話し手は誰だと考えられますか？（設問を読んでから ▶）", "choices": ["A sales representative", "A furniture designer", "A bank clerk", "A building manager"], "answer": 0, "tag": "話し手・聞き手", "why": "最初の名乗り（事務用品の会社）と、注文の件で電話していることから、販売担当者。" },
+        { "id": "q2", "type": "choice", "autoplay": false, "audio": ["Hi, this is Laura Kim from Greenfield Office Supplies. I'm calling about the desks you ordered last week.", "Unfortunately, the color you chose is out of stock, so the delivery will be delayed by about ten days.", "If you'd prefer a different color, we can ship it tomorrow.", "Please call me back at 555-0142 to let me know which you'd like."], "q": "What problem does the speaker mention?", "ja": "話し手はどんな問題を伝えていますか？", "choices": ["A product is unavailable in the selected color.", "An invoice is incorrect.", "A desk was damaged.", "A payment is late."], "answer": 0, "tag": "言い換え", "why": "the color you chose is out of stock が、unavailable in the selected color に言い換えられている。" },
+        { "id": "q3", "type": "choice", "autoplay": false, "audio": ["Hi, this is Laura Kim from Greenfield Office Supplies. I'm calling about the desks you ordered last week.", "Unfortunately, the color you chose is out of stock, so the delivery will be delayed by about ten days.", "If you'd prefer a different color, we can ship it tomorrow.", "Please call me back at 555-0142 to let me know which you'd like."], "q": "What is the listener asked to do?", "ja": "聞き手は何をするよう頼まれていますか？", "choices": ["Return a call", "Visit the store", "Send a payment", "Choose a delivery date"], "answer": 0, "tag": "お願いの部分", "why": "後半の Please call me back。return a call ＝ 折り返し電話する（言い換え）。" },
+        { "id": "q4", "type": "choice", "autoplay": false, "audio": ["Attention, all employees. This Friday, the elevators in the east building will be inspected from 9 A.M. to noon.", "During that time, please use the stairs or the elevators in the west building.", "We apologize for any inconvenience, and thank you for your cooperation."], "q": "Who is the announcement for?", "ja": "このアナウンスは誰に向けたものですか？", "choices": ["Company employees", "Hotel guests", "Airline passengers", "Store customers"], "answer": 0, "tag": "話し手・聞き手", "why": "最初の呼びかけ Attention, all employees。聞き手は最初で分かる。" },
+        { "id": "q5", "type": "choice", "autoplay": false, "audio": ["Attention, all employees. This Friday, the elevators in the east building will be inspected from 9 A.M. to noon.", "During that time, please use the stairs or the elevators in the west building.", "We apologize for any inconvenience, and thank you for your cooperation."], "q": "What will happen on Friday?", "ja": "金曜日に何が行われますか？", "choices": ["Some elevators will be inspected.", "A new building will open.", "The office will close early.", "The stairs will be repaired."], "answer": 0, "tag": "詳細の設問", "why": "the elevators in the east building will be inspected。設問の Friday を待ちかまえて聞く。" },
+        { "id": "q6", "type": "choice", "autoplay": false, "audio": ["Attention, all employees. This Friday, the elevators in the east building will be inspected from 9 A.M. to noon.", "During that time, please use the stairs or the elevators in the west building.", "We apologize for any inconvenience, and thank you for your cooperation."], "q": "What are listeners asked to do?", "ja": "聞き手は何をするよう頼まれていますか？", "choices": ["Use the stairs or other elevators", "Leave work early", "Work from home", "Contact the maintenance office"], "answer": 0, "tag": "お願いの部分", "why": "please use the stairs or the elevators in the west building。お願いは please のあと。" },
+        { "id": "q7", "type": "choice", "q": "Part 4 で「聞き手が頼まれていること」が出てきやすいのは？", "choices": ["話の後半の Please 〜 や I'd like you to 〜 の部分", "最初のあいさつ", "名前を名乗る部分", "数字だけを言う部分"], "answer": 0, "tag": "Part 4 の核心", "why": "型：名乗る・呼びかけ → 用件 → 説明 → お願い。お願いは後半に来る。" },
+        { "id": "q8", "type": "choice", "q": "留守番電話のメッセージで、ふつう最初に出てくるのは？", "choices": ["話し手の名前・所属と、電話の用件", "天気の話", "お願いだけ", "相手の質問への答え"], "answer": 0, "tag": "Part 4 の核心", "why": "This is 〜 from 〜. I'm calling about 〜. の順。英語は用件を先に言う。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "留守番電話にメッセージを残す練習です。**名乗る → 用件 → お願い**の型で。",
+      "items": [
+        { "ja": "こちらはABC社のタナカです。", "en": "This is Tanaka from ABC Company.", "hint": "This is ... from ..." },
+        { "ja": "先週ご注文いただいた机の件でお電話しています。", "en": "I'm calling about the desks you ordered last week.", "accept": ["I am calling about the desks you ordered last week."], "hint": "I'm calling about ..." },
+        { "ja": "555-0142まで折り返しお電話ください。", "en": "Please call me back at 555-0142.", "hint": "Please call me back ..." },
+        { "ja": "ご不便をおかけして申し訳ありません。", "en": "We apologize for any inconvenience.", "accept": ["Sorry for the inconvenience.", "We're sorry for the inconvenience."], "hint": "We apologize ..." },
+        { "ja": "ご協力ありがとうございます。", "en": "Thank you for your cooperation.", "hint": "Thank you for ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "I'm calling about ...", "ja": "〜の件でお電話しています", "ex": "I'm calling about the desks you ordered." },
+    { "en": "call back", "ja": "折り返し電話する", "ex": "Please call me back at 555-0142." },
+    { "en": "unfortunately", "ja": "残念ながら", "ex": "Unfortunately, the color you chose is out of stock." },
+    { "en": "delay", "ja": "遅らせる・遅れ", "ex": "The delivery will be delayed by about ten days." },
+    { "en": "inspect", "ja": "点検する", "ex": "The elevators will be inspected on Friday." },
+    { "en": "stairs", "ja": "階段", "ex": "Please use the stairs." },
+    { "en": "inconvenience", "ja": "不便・迷惑", "ex": "We apologize for any inconvenience." },
+    { "en": "cooperation", "ja": "協力", "ex": "Thank you for your cooperation." }
+  ]
+}

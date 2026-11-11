@@ -1,0 +1,18 @@
+{
+  "levels": ["j1", "j2", "j3"],
+  "levelNames": { "j1": "中1", "j2": "中2", "j3": "中3" },
+  "items": [
+    { "level": "j1", "type": "fill", "q": "I ___ a teacher.", "ja": "私は先生です。", "choices": ["am", "is", "are"], "answer": "am", "tag": "be動詞の形" },
+    { "level": "j1", "type": "fill", "q": "___ you like sushi?", "ja": "あなたは寿司が好きですか？", "choices": ["Do", "Are", "Is"], "answer": "Do", "tag": "一般動詞の疑問文" },
+    { "level": "j1", "type": "fill", "q": "My mother ___ in a hospital.", "ja": "私の母は病院で働いています。", "choices": ["works", "work", "working"], "answer": "works", "tag": "三単現のs" },
+    { "level": "j1", "type": "fill", "q": "___ is the station?", "ja": "駅はどこですか？", "choices": ["Where", "What", "Who"], "answer": "Where", "tag": "疑問詞の選び方" },
+    { "level": "j2", "type": "fill", "q": "This letter ___ written in English.", "ja": "この手紙は英語で書かれていました。", "choices": ["was", "did", "has"], "answer": "was", "tag": "受動態" },
+    { "level": "j2", "type": "fill", "q": "She ___ visit her aunt tomorrow.", "ja": "彼女は明日おばを訪ねます。", "choices": ["will", "is", "does"], "answer": "will", "tag": "未来" },
+    { "level": "j2", "type": "fill", "q": "I want ___ a new car.", "ja": "私は新しい車を買いたいです。", "choices": ["to buy", "buy", "buying"], "answer": "to buy", "tag": "不定詞" },
+    { "level": "j2", "type": "fill", "q": "This bag is ___ than that one.", "ja": "このかばんはあれより大きいです。", "choices": ["bigger", "big", "biggest"], "answer": "bigger", "tag": "比較" },
+    { "level": "j3", "type": "fill", "q": "I have ___ in Osaka for ten years.", "ja": "私は大阪に10年住んでいます。", "choices": ["lived", "live", "living"], "answer": "lived", "tag": "現在完了" },
+    { "level": "j3", "type": "fill", "q": "This is the book ___ I bought yesterday.", "ja": "これは私が昨日買った本です。", "choices": ["that", "who", "what"], "answer": "that", "tag": "関係代名詞" },
+    { "level": "j3", "type": "fill", "q": "Do you know where ___?", "ja": "駅がどこか知っていますか？", "choices": ["the station is", "is the station", "does the station"], "answer": "the station is", "tag": "間接疑問文" },
+    { "level": "j3", "type": "fill", "q": "If I ___ you, I would take the job.", "ja": "もし私があなたなら、その仕事を引き受けます。", "choices": ["were", "am", "will be"], "answer": "were", "tag": "仮定法" }
+  ]
+}

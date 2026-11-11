@@ -1,0 +1,69 @@
+{
+  "id": "j1-03",
+  "title": "一般動詞",
+  "subtitle": "動詞は文の心臓。1つの文に1つ",
+  "steps": [
+    {
+      "type": "question",
+      "title": "なぜ「I am play tennis.」と言ってしまうのか",
+      "body": "「私はテニスをします」を英語にするとき、`I am play tennis.` と言ってしまう人がとても多いです。\n\n理由ははっきりしています。日本語の「〜です・〜ます」を be動詞だと思って、つい am を入れてしまうのです。\n\nでも英語の文に、動詞は**1つ**で十分です。どういうときに be動詞を使い、どういうときに play のような動詞を使うのでしょう？"
+    },
+    {
+      "type": "core",
+      "title": "動詞は文の心臓。1つの文に1つ",
+      "body": "英語の文には必ず動詞があり、動詞が文の**心臓**です。動詞は2種類あります。\n\n> **be動詞**（am / is / are）… 「＝」と「いる・ある」。状態を表す\n> **一般動詞**（play / like / have / go …）… 動き・行動、そして「好き・持っている・知っている」のような心や状態\n\n大事なのは、**1つの文に動詞は1つ**だということ。`I am play` は心臓が2つある状態で、英語としては成り立ちません。\n\n**どちらを使うか**は、日本語の文に「動き・行動」があるかで決まります。\n\n- 「私はテニスを**します**」→ 動きがある → `I play tennis.`\n- 「私は学生**です**」→ 私 ＝ 学生 → `I am a student.`\n\n注意したいのが like（好き）、have（持っている）、want（ほしい）、know（知っている）。これらは動きには見えませんが、心や状態を表す**一般動詞**です。「好きです」の「です」につられて `I am like` としないこと。「好む」という動詞だと考えてください。\n\n[[日本語の発想|英語の発想]]\nL: 「〜です」「〜ます」は文末につける丁寧語\nR: 「です＝be動詞」ではない。動きや気持ちがあれば一般動詞だけ",
+      "points": [
+        "1つの文に動詞は1つ。be動詞と一般動詞は重ねない",
+        "動き・行動があれば一般動詞。「A＝B」「いる・ある」なら be動詞",
+        "like / have / want / know は一般動詞。「です」につられない"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "どの文も動詞は1つだけ。be動詞が入っていないことを確かめながら聞きましょう。",
+      "items": [
+        { "en": "I play tennis on Saturdays.", "ja": "私は土曜日にテニスをします。", "note": "動き → play。am は入れない" },
+        { "en": "I like coffee.", "ja": "私はコーヒーが好きです。", "note": "「好きです」でも動詞は like。am は不要", "sound": "like coffee「ライッ カフィ」。k の音が軽くなる" },
+        { "en": "We have two cats.", "ja": "私たちは猫を2匹飼っています。", "note": "have は「持っている」。ペットも家族も have で言える" },
+        { "en": "They go to work by bus.", "ja": "彼らはバスで通勤します。", "sound": "go to は「ゴウ トゥ」より「ゴウタ」と軽く" },
+        { "en": "I want a new bag.", "ja": "私は新しいかばんがほしいです。", "note": "「ほしいです」も want という動詞", "sound": "want a「ワナ」とつながる" },
+        { "en": "You know my sister.", "ja": "あなたは私の妹を知っています。", "note": "know の k は読まない「ノウ」" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "q": "「私は音楽が好きです」正しいのは？", "choices": ["I like music.", "I am like music.", "I am music.", "I like am music."], "answer": 0, "tag": "動詞は1つ", "why": "like が動詞なので am は不要。I am music. は「私＝音楽」になってしまう。" },
+        { "id": "q2", "type": "fill", "q": "I ___ a student.", "ja": "私は学生です。", "choices": ["am", "play", "like"], "answer": "am", "tag": "be動詞と一般動詞の使い分け", "why": "私 ＝ 学生。動きがないので be動詞。" },
+        { "id": "q3", "type": "fill", "q": "I ___ tennis on Saturdays.", "ja": "私は土曜日にテニスをします。", "choices": ["play", "am", "am play"], "answer": "play", "tag": "動詞は1つ", "why": "「する」という動きがあるので play だけ。am を足さない。" },
+        { "id": "q4", "type": "choice", "q": "「We have two cats.」の have の意味に近いのは？", "choices": ["飼っている（持っている）", "食べる", "いる", "＝（イコール）"], "answer": 0, "tag": "have の核心", "why": "have の中心は「持っている」。ペット・家族・物・時間、なんでも have。" },
+        { "id": "q5", "type": "order", "ja": "彼らはバスで通勤します。", "words": ["They", "go", "to", "work", "by", "bus"], "answer": "They go to work by bus", "tag": "語順＋一般動詞", "why": "They（誰が）go（どうする）to work（どこへ）by bus（どうやって）。" },
+        { "id": "q6", "type": "choice", "q": "動詞が2つ入ってしまっている文は？", "choices": ["She is like tea.", "She likes tea.", "She is a teacher.", "She has tea."], "answer": 0, "tag": "動詞は1つ", "why": "is と like の2つが入っている。正しくは She likes tea.（この s は次の単元で）。" },
+        { "id": "q7", "type": "fill", "q": "I ___ a new bag.", "ja": "私は新しいかばんがほしいです。", "choices": ["want", "am", "am want"], "answer": "want", "tag": "動詞は1つ", "why": "「ほしい」は want という動詞。am はいらない。" },
+        { "id": "q8", "type": "choice", "q": "「私は東京にいます」正しいのは？", "choices": ["I am in Tokyo.", "I live Tokyo.", "I am live in Tokyo.", "I in Tokyo."], "answer": 0, "tag": "be動詞と一般動詞の使い分け", "why": "「いる」は be動詞。I live in Tokyo.（住んでいる）も正しいが、live のうしろには in が必要。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "「です・ます」につられず、**動詞を1つだけ**言う練習です。",
+      "items": [
+        { "ja": "私はテニスをします。", "en": "I play tennis.", "hint": "I play ..." },
+        { "ja": "私はコーヒーが好きです。", "en": "I like coffee.", "hint": "am は入れない" },
+        { "ja": "私たちは猫を2匹飼っています。", "en": "We have two cats.", "hint": "We have ..." },
+        { "ja": "私は新しいかばんがほしいです。", "en": "I want a new bag.", "hint": "I want ..." },
+        { "ja": "私は学生です。", "en": "I'm a student.", "accept": ["I am a student."], "hint": "これはイコールの文" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "play", "ja": "（スポーツを）する", "ex": "I play tennis on Saturdays." },
+    { "en": "like", "ja": "好む・好きだ", "ex": "I like coffee." },
+    { "en": "have", "ja": "持っている・飼っている", "ex": "We have two cats." },
+    { "en": "want", "ja": "ほしい", "ex": "I want a new bag." },
+    { "en": "go to work", "ja": "通勤する", "ex": "They go to work by bus." },
+    { "en": "by bus", "ja": "バスで", "ex": "They go to work by bus." },
+    { "en": "sister", "ja": "姉・妹", "ex": "You know my sister." },
+    { "en": "on Saturdays", "ja": "土曜日に（毎週）", "ex": "I play tennis on Saturdays." }
+  ]
+}

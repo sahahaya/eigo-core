@@ -1,0 +1,69 @@
+{
+  "id": "h1-05",
+  "title": "分詞構文",
+  "subtitle": "接続詞と主語を省くと何が残るか",
+  "steps": [
+    {
+      "type": "question",
+      "title": "主語も接続詞もない「Walking to the station,」をどう読む？",
+      "body": "`Walking to the station, I met an old friend.`（駅まで歩いていると、昔の友達に会った）\n\n前半の Walking to the station には、主語も、when や because のような接続詞もありません。いきなり -ing で始まっています。\n\n読解やTOEICでよく出てくるこの形は、**どこから来て、どう読めばいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "分詞構文 ＝ 接続詞と主語を省いて、短くしたおまけの文",
+      "body": "中2の接続詞の単元で、when / because のついた文は**おまけの文**だと学びました。分詞構文は、そのおまけの文を**短くした形**です。\n\n> When I **was walking** to the station, I met an old friend.\n> → **Walking** to the station, I met an old friend.\n\n**作り方は3ステップ**\n\n1. 接続詞（when / because など）を消す\n2. 主語がメインの文と同じなら消す\n3. 動詞を -ing にする（be動詞の being は、ふつう省く）\n\n**意味は「つながり方」から読む**\n接続詞を消したので、「〜とき」「〜ので」「〜しながら」のどれなのかは、**文の内容から判断**します。迷ったら「〜して、」とゆるくつないで読めば、ほとんど意味が通ります。\n\n- **Feeling** tired, I went to bed early.（疲れていたので）\n- She sat on the bench, **reading** a book.（本を読みながら）\n\n**過去分詞で始まるのは「される側」のとき**\n分詞の単元と同じ考え方です。主語が「される側」なら過去分詞で始めます。\n\n- **Written** in easy English, this book is good for beginners.（本は書かれる側）\n\n**否定は not を前に**：**Not** knowing what to say, I kept quiet.\n\n分詞構文は、会話より**書き言葉**でよく使われます。話すときは接続詞を使った文で十分です。読むときに「省かれた接続詞」を補えるようにしておきましょう。\n\n[[日本語の発想|英語の発想]]\nL: 「〜して、」のゆるいつなぎで、時も理由も表せる\nR: 分詞構文も同じ。接続詞を省いて、つながりを内容に任せる",
+      "points": [
+        "分詞構文 ＝ 接続詞と（同じ）主語を消して、動詞を -ing にしたおまけの文",
+        "意味（時・理由・〜しながら）は内容から判断。迷ったら「〜して、」で読む",
+        "主語が「される側」なら過去分詞で始める。否定は not を前に"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "省かれた接続詞（when / because / while など）を頭の中で補いながら聞きましょう。",
+      "items": [
+        { "en": "Walking to the station, I met an old friend.", "ja": "駅まで歩いていると、昔の友達に会った。", "note": "＝ When I was walking to the station" },
+        { "en": "Feeling tired, I went to bed early.", "ja": "疲れていたので、早く寝た。", "note": "＝ Because I felt tired" },
+        { "en": "She sat on the bench, reading a book.", "ja": "彼女は本を読みながらベンチに座っていた。", "note": "うしろに置くと「〜しながら」になることが多い" },
+        { "en": "Written in easy English, this book is good for beginners.", "ja": "やさしい英語で書かれているので、この本は初心者向きだ。", "note": "本は書かれる側 → 過去分詞" },
+        { "en": "Turning left, you'll see the hotel.", "ja": "左に曲がると、ホテルが見えます。", "note": "道案内で見かける書き方。話すときは If you turn left が自然" },
+        { "en": "Not knowing what to say, I kept quiet.", "ja": "何と言えばいいか分からなかったので、黙っていた。", "note": "否定は not を -ing の前に" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "___ to the station, I met an old friend.", "ja": "駅まで歩いていると、昔の友達に会った。", "choices": ["Walking", "Walked", "Walk"], "answer": "Walking", "tag": "分詞構文の形", "why": "主語の私が歩いている（する側）→ -ing。" },
+        { "id": "q2", "type": "fill", "q": "___ in easy English, this book is good for beginners.", "ja": "やさしい英語で書かれているので、この本は初心者向きだ。", "choices": ["Written", "Writing", "Wrote"], "answer": "Written", "tag": "分詞構文の形", "why": "主語の本は書かれる側 → 過去分詞 written。" },
+        { "id": "q3", "type": "choice", "q": "分詞構文の正体は？", "choices": ["接続詞と主語を省き、動詞を -ing などにしたおまけの文", "命令文", "受動態", "疑問文"], "answer": 0, "tag": "分詞構文の核心", "why": "when / because のおまけの文を短くした形。" },
+        { "id": "q4", "type": "choice", "q": "「Feeling tired, I went to bed early.」に最も近い意味は？", "choices": ["Because I felt tired, I went to bed early.", "If I feel tired, I go to bed early.", "Before I felt tired, I went to bed early.", "I went to bed early to feel tired."], "answer": 0, "tag": "分詞構文の意味", "why": "疲れていた → 早く寝た。内容から「理由」と判断する。" },
+        { "id": "q5", "type": "fill", "q": "She sat on the bench, ___ a book.", "ja": "彼女は本を読みながらベンチに座っていた。", "choices": ["reading", "read", "reads"], "answer": "reading", "tag": "分詞構文の形", "why": "彼女が読んでいる（する側）→ -ing。「〜しながら」。" },
+        { "id": "q6", "type": "fill", "q": "___ knowing what to say, I kept quiet.", "ja": "何と言えばいいか分からなかったので、黙っていた。", "choices": ["Not", "No", "Don't"], "answer": "Not", "tag": "分詞構文の形", "why": "分詞構文の否定は not を -ing の前に置く。" },
+        { "id": "q7", "type": "order", "ja": "左に曲がると、ホテルが見えます。", "words": ["Turning", "left", "you'll", "see", "the", "hotel"], "extra": ["Turned"], "answer": "Turning left you'll see the hotel", "tag": "分詞構文の形", "why": "あなたが曲がる（する側）→ Turning。うしろがメインの文。" },
+        { "id": "q8", "type": "choice", "q": "「Written in easy English」が過去分詞で始まる理由は？", "choices": ["主語の本が「書かれる側」だから", "過去の話だから", "ていねいにするため", "主語が人だから"], "answer": 0, "tag": "分詞構文の形", "why": "分詞の単元と同じ。する側なら -ing、される側なら過去分詞。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "話すときは接続詞を使った文でも正解です。**分詞構文と、接続詞を使った文の両方**で言ってみましょう。",
+      "items": [
+        { "ja": "駅まで歩いていると、昔の友達に会った。", "en": "Walking to the station, I met an old friend.", "accept": ["While I was walking to the station, I met an old friend.", "When I was walking to the station, I met an old friend."], "hint": "Walking to the station, ..." },
+        { "ja": "疲れていたので、早く寝た。", "en": "Feeling tired, I went to bed early.", "accept": ["I felt tired, so I went to bed early.", "Because I was tired, I went to bed early."], "hint": "Feeling tired, ..." },
+        { "ja": "彼女は本を読みながらベンチに座っていた。", "en": "She sat on the bench, reading a book.", "accept": ["She was sitting on the bench, reading a book."], "hint": "She sat on the bench, ..." },
+        { "ja": "左に曲がると、ホテルが見えます。", "en": "Turning left, you'll see the hotel.", "accept": ["If you turn left, you'll see the hotel.", "Turn left and you'll see the hotel."], "hint": "Turning left, ..." },
+        { "ja": "何と言えばいいか分からなかったので、黙っていた。", "en": "Not knowing what to say, I kept quiet.", "accept": ["I didn't know what to say, so I kept quiet."], "hint": "Not knowing ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "old friend", "ja": "昔からの友達", "ex": "I met an old friend." },
+    { "en": "go to bed", "ja": "寝る", "ex": "I went to bed early." },
+    { "en": "bench", "ja": "ベンチ", "ex": "She sat on the bench, reading a book." },
+    { "en": "easy", "ja": "やさしい・簡単な", "ex": "This book is written in easy English." },
+    { "en": "beginner", "ja": "初心者", "ex": "This book is good for beginners." },
+    { "en": "hotel", "ja": "ホテル", "ex": "Turning left, you'll see the hotel." },
+    { "en": "what to say", "ja": "何を言うべきか", "ex": "Not knowing what to say, I kept quiet." },
+    { "en": "keep quiet", "ja": "黙っている", "ex": "I kept quiet." }
+  ]
+}

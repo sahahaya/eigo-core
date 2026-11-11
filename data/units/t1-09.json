@@ -1,0 +1,69 @@
+{
+  "id": "t1-09",
+  "title": "Part 7 読解",
+  "subtitle": "設問を先に読み、答えのある場所を探す",
+  "steps": [
+    {
+      "type": "question",
+      "title": "54問の長文。最後まで解き終わらない",
+      "body": "Part 7 は、メール・広告・記事などを読んで設問に答える問題で、54問もあります。TOEICを受けた人の多くが「Part 7 の途中で時間切れになった」と言います。\n\n文章を最初から最後まで丁寧に読み、それから設問を読んでいると、時間がいくらあっても足りません。\n\n**限られた時間で、Part 7 をどう読めばいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "設問が「何を探すか」を教えてくれる。探しながら読む",
+      "body": "Part 7 は、文章を味わう問題ではなく、**必要な情報を探す**問題です。Part 3・4 と同じく、**設問を先に読んで**、何を探すかを決めてから本文を読みます。\n\n> 設問を読む → 探すもの（目的・日付・名前・依頼）を決める → 本文でその場所を探して読む\n\n**設問の型と、答えのある場所**\n\n- **目的**（What is the purpose of the e-mail?）→ 本文の**最初**のほう\n- **詳細**（When / Where / How much）→ 設問の**キーワード**（日付・名前・数字）を本文で探す\n- **依頼**（What is Mr. Sato asked to do?）→ Could you 〜? / Please 〜 の文\n- **NOT 問題**（What is NOT mentioned?）→ 選択肢を1つずつ本文と照らし合わせ、**書かれていないもの**を選ぶ\n\n**言い換えに注意**（Part 3・4 と同じ）\n本文の `20% off` は、選択肢では `A discount` に言い換えられます。\n\n**長い文は骨組みで読む**\n高校の読解の単元で学んだとおり、おまけをカッコでくくり、骨組みを前から読みます。日本語の語順に戻して訳さないことが、速く読むいちばんのコツです。\n\n**600点を目指すなら**\n全部を解き切ろうとしなくて大丈夫です。短い文書（広告・お知らせ・短いメール）の問題を確実に取りましょう。\n\n[[日本語の発想|英語の発想]]\nL: 文章は最初から順に、丁寧に読むもの\nR: TOEICの文章は情報を探すもの。設問で目的を決めてから読む",
+      "points": [
+        "設問を先に読み、何を探すかを決めてから本文を読む",
+        "目的は最初、詳細はキーワード検索、依頼は Could you / Please の文",
+        "NOT 問題は選択肢を1つずつ本文と照らし合わせる"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "Part 7 のメールや広告によく出る表現です。仕事のメールにもそのまま使えます。",
+      "items": [
+        { "en": "Thank you for agreeing to meet with our team.", "ja": "私たちのチームとの打ち合わせを引き受けてくださり、ありがとうございます。", "note": "メールの書き出しの定番" },
+        { "en": "As discussed, we will arrive in Tokyo on September 18.", "ja": "先日お話ししたとおり、9月18日に東京に到着します。" },
+        { "en": "Could you let me know if 10 A.M. works for you?", "ja": "午前10時でご都合がよいか、教えていただけますか？", "note": "work for 〜 ＝ 〜の都合に合う。設問「何を頼まれているか」の答えになる文" },
+        { "en": "If not, we are also available in the afternoon.", "ja": "ご都合が悪ければ、午後も空いています。" },
+        { "en": "Sign up before June 15 and get 20% off your first three months.", "ja": "6月15日までにお申し込みいただくと、最初の3か月が20%引きになります。", "note": "広告の定番。命令文 ＋ and ＝ 〜すれば…" },
+        { "en": "Best regards,", "ja": "よろしくお願いいたします（メールの結び）", "note": "メールの最後、名前の前に書く" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "passage": "Sunrise Fitness Center — Grand Opening!\n\nJoin us on June 1 for the opening of our new center on Maple Street.\n\n- Free one-week trial for all new visitors\n- Open daily from 6 A.M. to 11 P.M.\n- Yoga and dance classes every evening\n\nSign up before June 15 and get 20% off your first three months.\nVisit www.sunrisefitness.example or call 555-0198.", "q": "What is being advertised?", "ja": "何が宣伝されていますか？", "choices": ["A new fitness center", "A dance competition", "A yoga teacher", "A sports shop"], "answer": 0, "tag": "目的・主題", "why": "タイトルと最初の文（the opening of our new center）。目的・主題は最初のほうに書かれる。" },
+        { "id": "q2", "type": "choice", "passage": "Sunrise Fitness Center — Grand Opening!\n\nJoin us on June 1 for the opening of our new center on Maple Street.\n\n- Free one-week trial for all new visitors\n- Open daily from 6 A.M. to 11 P.M.\n- Yoga and dance classes every evening\n\nSign up before June 15 and get 20% off your first three months.\nVisit www.sunrisefitness.example or call 555-0198.", "q": "What is offered to people who sign up before June 15?", "ja": "6月15日までに申し込んだ人には何がありますか？", "choices": ["A discount", "A free T-shirt", "Private lessons", "A parking pass"], "answer": 0, "tag": "言い換え", "why": "キーワード June 15 を本文で探す → 20% off。選択肢では A discount に言い換えられている。" },
+        { "id": "q3", "type": "choice", "passage": "Sunrise Fitness Center — Grand Opening!\n\nJoin us on June 1 for the opening of our new center on Maple Street.\n\n- Free one-week trial for all new visitors\n- Open daily from 6 A.M. to 11 P.M.\n- Yoga and dance classes every evening\n\nSign up before June 15 and get 20% off your first three months.\nVisit www.sunrisefitness.example or call 555-0198.", "q": "What is NOT mentioned about the center?", "ja": "センターについて書かれていないことは？", "choices": ["Its opening hours", "Its evening classes", "Its free trial", "Its swimming pool"], "answer": 3, "keepOrder": true, "tag": "NOT 問題", "why": "選択肢を1つずつ照らし合わせる：営業時間（6 A.M. to 11 P.M.）、夜のクラス、無料体験は書かれている。プールは書かれていない。" },
+        { "id": "q4", "type": "choice", "passage": "To: Kenji Sato\nFrom: Emma Wilson\nDate: September 12\nSubject: Visit to your Tokyo office\n\nDear Mr. Sato,\n\nThank you for agreeing to meet with our team next week. As discussed, our sales manager, David Park, and I will arrive in Tokyo on September 18. We would like to visit your office on the morning of September 19 to discuss the new product line.\n\nCould you let me know if 10 A.M. works for you? If not, we are also available in the afternoon.\n\nBest regards,\nEmma Wilson", "q": "What is the purpose of the e-mail?", "ja": "このメールの目的は何ですか？", "choices": ["To arrange a meeting", "To cancel a visit", "To introduce a new employee", "To order some products"], "answer": 0, "tag": "目的・主題", "why": "最初の段落で、訪問して打ち合わせをしたいと伝えている → 打ち合わせの調整。" },
+        { "id": "q5", "type": "choice", "passage": "To: Kenji Sato\nFrom: Emma Wilson\nDate: September 12\nSubject: Visit to your Tokyo office\n\nDear Mr. Sato,\n\nThank you for agreeing to meet with our team next week. As discussed, our sales manager, David Park, and I will arrive in Tokyo on September 18. We would like to visit your office on the morning of September 19 to discuss the new product line.\n\nCould you let me know if 10 A.M. works for you? If not, we are also available in the afternoon.\n\nBest regards,\nEmma Wilson", "q": "When does Ms. Wilson want to visit Mr. Sato's office?", "ja": "ウィルソンさんはいつ佐藤さんの会社を訪れたいのですか？", "choices": ["On September 19", "On September 12", "On September 18", "At the end of the month"], "answer": 0, "tag": "詳細の設問", "why": "visit your office on the morning of September 19。12日はメールの日付、18日は東京に着く日（わな）。" },
+        { "id": "q6", "type": "choice", "passage": "To: Kenji Sato\nFrom: Emma Wilson\nDate: September 12\nSubject: Visit to your Tokyo office\n\nDear Mr. Sato,\n\nThank you for agreeing to meet with our team next week. As discussed, our sales manager, David Park, and I will arrive in Tokyo on September 18. We would like to visit your office on the morning of September 19 to discuss the new product line.\n\nCould you let me know if 10 A.M. works for you? If not, we are also available in the afternoon.\n\nBest regards,\nEmma Wilson", "q": "What is Mr. Sato asked to do?", "ja": "佐藤さんは何をするよう頼まれていますか？", "choices": ["Confirm a meeting time", "Book a hotel", "Send a product sample", "Pick them up at the airport"], "answer": 0, "tag": "依頼の設問", "why": "依頼は Could you 〜? の文。10時で都合がよいか知らせてほしい → 時間の確認。" },
+        { "id": "q7", "type": "choice", "q": "Part 7 を時間内に解くコツは？", "choices": ["設問を先に読み、答えのありそうな場所を探して読む", "本文を最初から全部じっくり訳す", "難しい問題から解く", "選択肢を読まずに答える"], "answer": 0, "tag": "Part 7 の核心", "why": "Part 7 は情報を探す問題。設問が何を探すかを教えてくれる。" },
+        { "id": "q8", "type": "choice", "q": "「What is NOT mentioned?」の問題の解き方は？", "choices": ["選択肢を1つずつ本文と照らし合わせ、書かれていないものを選ぶ", "本文にいちばん多く出てくる語を選ぶ", "いつも最後の選択肢を選ぶ", "最初の段落だけ読む"], "answer": 0, "tag": "NOT 問題", "why": "書かれているものを3つ消して、残った1つが正解。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "仕事のメールや電話で使う表現を、声に出して身につけます。",
+      "items": [
+        { "ja": "打ち合わせを引き受けてくださり、ありがとうございます。", "en": "Thank you for agreeing to meet with us.", "hint": "Thank you for agreeing ..." },
+        { "ja": "午前10時でご都合がよいか、教えていただけますか？", "en": "Could you let me know if 10 A.M. works for you?", "accept": ["Could you let me know if 10 am works for you?", "Could you let me know if ten o'clock works for you?"], "hint": "Could you let me know if ...?" },
+        { "ja": "ご都合が悪ければ、午後も空いています。", "en": "If not, we are also available in the afternoon.", "accept": ["If not, we're also available in the afternoon."], "hint": "If not, ..." },
+        { "ja": "先日お話ししたとおり、9月18日に東京に到着します。", "en": "As discussed, we will arrive in Tokyo on September 18.", "accept": ["As discussed, we'll arrive in Tokyo on September 18th."], "hint": "As discussed, ..." },
+        { "ja": "6月15日までに申し込むと、20%引きになります。", "en": "Sign up before June 15 and get 20% off.", "accept": ["If you sign up before June 15, you get 20% off."], "hint": "Sign up before ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "purpose", "ja": "目的", "ex": "What is the purpose of the e-mail?" },
+    { "en": "mention", "ja": "述べる・言及する", "ex": "What is NOT mentioned about the center?" },
+    { "en": "sign up", "ja": "申し込む・登録する", "ex": "Sign up before June 15." },
+    { "en": "trial", "ja": "お試し・試用", "ex": "Free one-week trial for all new visitors" },
+    { "en": "as discussed", "ja": "（先日）お話ししたとおり", "ex": "As discussed, we will arrive on September 18." },
+    { "en": "let me know", "ja": "知らせる・教える", "ex": "Could you let me know if 10 A.M. works for you?" },
+    { "en": "work for", "ja": "（日時が）〜の都合に合う", "ex": "Does 10 A.M. work for you?" },
+    { "en": "agree to", "ja": "〜することに同意する", "ex": "Thank you for agreeing to meet with our team." }
+  ]
+}

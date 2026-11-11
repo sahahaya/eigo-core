@@ -1,0 +1,69 @@
+{
+  "id": "j2-08",
+  "title": "接続詞",
+  "subtitle": "when / if / because で文をつなぐ",
+  "steps": [
+    {
+      "type": "question",
+      "title": "未来の話なのに、なぜ「If it rains」なのか",
+      "body": "「明日雨が降ったら、家にいます」は `If it rains tomorrow, I'll stay home.` です。\n\n明日のこと（未来）なのに、`If it will rain` ではなく `If it rains` と現在形を使います。\n\nまた、「雨が降っていたので家にいた」は `I stayed home because it was raining.` と、理由が文のうしろに来ることが多いです。**文と文をつなぐとき、英語はどんなルールで組み立てているのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "「メインの文」と「おまけの文」。接続詞がついたほうがおまけ",
+      "body": "接続詞は、文と文をつなぐ言葉です。\n\n> **when** 〜するとき ／ **if** もし〜なら ／ **because** 〜だから\n> **and** そして ／ **but** しかし ／ **so** だから（結果）\n\nwhen / if / because がついた文は、**時・条件・理由を説明するおまけの文**です。もう一方が**メインの文**です。\n\n- **I stayed home**（メイン）＋ because I had a cold（おまけ：理由）\n\nおまけの文は、前に置いても後ろに置いてもかまいません。前に置くときは、区切りにコンマ（,）を入れます。英語は結論を先に言うのが好きなので、**メインの文を先に言って、理由をあとに足す**言い方もよく使われます。\n\n**because と so は向きが逆**\n\n- 理由 ← **because**：I took a taxi **because** it was raining.\n- 理由 → **so** → 結果：It was raining, **so** I took a taxi.\n\n**when / if の文は「舞台設定」なので現在形**\n「もし明日雨が降ったら」「駅に着いたら」は、メインの文のための**舞台を設定する**部分です。舞台は「そうなった場合」として事実のように置くので、未来の話でも**現在形**を使います。予想の will は、メインの文のほうに入れます。\n\n- **If it rains** tomorrow（舞台：現在形）, **I'll stay** home（メイン：will）.\n\n※ この現在形のルールは、「〜するとき」「もし〜なら」の when / if の話です。\n\n[[日本語の発想|英語の発想]]\nL: 「〜したら」「〜なので」が先、結論は最後\nR: おまけ（時・条件・理由）は前でも後ろでもよい。結論を先に言うことも多い",
+      "points": [
+        "when / if / because がついた文は、時・条件・理由のおまけ。前でも後ろでもよい",
+        "because のうしろは理由、so のうしろは結果",
+        "when / if の文は舞台設定なので、未来の話でも現在形（If it rains tomorrow）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "どちらがメインの文で、どちらがおまけの文かを考えながら聞きましょう。",
+      "items": [
+        { "en": "When I was a child, I lived in Hokkaido.", "ja": "子どもの頃、北海道に住んでいました。", "note": "おまけ（時）が前 → コンマで区切る" },
+        { "en": "If it rains tomorrow, I'll stay home.", "ja": "明日雨が降ったら、家にいます。", "note": "舞台設定は現在形 rains、メインに will" },
+        { "en": "I stayed home because I had a cold.", "ja": "風邪をひいていたので、家にいました。", "note": "メインが先、理由（because）があと" },
+        { "en": "It was raining, so I took a taxi.", "ja": "雨が降っていたので、タクシーに乗りました。", "note": "so のうしろは結果" },
+        { "en": "Call me when you get to the station.", "ja": "駅に着いたら電話してね。", "note": "命令文 ＋ when。get は現在形", "sound": "Call me は「コーミー」とつながる" },
+        { "en": "I like coffee, but my sister likes tea.", "ja": "私はコーヒーが好きですが、姉は紅茶が好きです。", "note": "but は反対の内容をつなぐ" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "If it ___ tomorrow, I'll stay home.", "ja": "明日雨が降ったら、家にいます。", "choices": ["rains", "will rain", "rained"], "answer": "rains", "tag": "when / if の時制", "why": "if の文は舞台設定 → 未来の話でも現在形。will はメインの文に入れる。" },
+        { "id": "q2", "type": "fill", "q": "I stayed home ___ I had a cold.", "ja": "風邪をひいていたので、家にいました。", "choices": ["because", "so", "but"], "answer": "because", "tag": "because と so", "why": "うしろが理由（風邪をひいていた）→ because。" },
+        { "id": "q3", "type": "fill", "q": "It was raining, ___ I took a taxi.", "ja": "雨が降っていたので、タクシーに乗りました。", "choices": ["so", "because", "if"], "answer": "so", "tag": "because と so", "why": "うしろが結果（タクシーに乗った）→ so。" },
+        { "id": "q4", "type": "choice", "q": "「駅に着いたら電話してね」", "choices": ["Call me when you get to the station.", "Call me when you will get to the station.", "Call me if you got to the station.", "When call me you get to the station."], "answer": 0, "tag": "when / if の時制", "why": "when の文は舞台設定 → 現在形 get。will は入れない。" },
+        { "id": "q5", "type": "order", "ja": "子どもの頃、北海道に住んでいました。", "words": ["When", "I", "was", "a", "child", "I", "lived", "in", "Hokkaido"], "extra": ["If"], "answer": "When I was a child I lived in Hokkaido", "accept": ["I lived in Hokkaido when I was a child"], "tag": "接続詞の位置", "why": "時のおまけ（When I was a child）は前でも後ろでもよい。前に置くときはコンマで区切る。" },
+        { "id": "q6", "type": "choice", "q": "「If it rains tomorrow」で will rain にしない理由は？", "choices": ["if の文は「〜の場合」という舞台を設定するので、現在形で置く", "雨は確実に降るから", "過去の話だから", "if のうしろには動詞を置かないから"], "answer": 0, "tag": "接続詞の核心", "why": "舞台は事実のように現在形で置き、予想の will はメインの文に入れる。" },
+        { "id": "q7", "type": "choice", "q": "because と so の関係として正しいのは？", "choices": ["because のうしろは理由、so のうしろは結果", "どちらもうしろは理由", "どちらもうしろは結果", "because のうしろは結果、so のうしろは理由"], "answer": 0, "tag": "because と so", "why": "結果 ← because 理由 ／ 理由 → so 結果。向きが逆。" },
+        { "id": "q8", "type": "fill", "q": "I like coffee, ___ my sister likes tea.", "ja": "私はコーヒーが好きですが、姉は紅茶が好きです。", "choices": ["but", "so", "because"], "answer": "but", "tag": "and / but / so", "why": "反対の内容（コーヒー ⇔ 紅茶）をつなぐ → but。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "2つの文をつないで言う練習です。**メインの文を先に**言ってもかまいません。",
+      "items": [
+        { "ja": "明日雨が降ったら、家にいます。", "en": "If it rains tomorrow, I'll stay home.", "accept": ["If it rains tomorrow, I will stay home.", "I'll stay home if it rains tomorrow."], "hint": "If it rains ..." },
+        { "ja": "風邪をひいていたので、家にいました。", "en": "I stayed home because I had a cold.", "hint": "I stayed home because ..." },
+        { "ja": "雨が降っていたので、タクシーに乗りました。", "en": "It was raining, so I took a taxi.", "hint": "It was raining, so ..." },
+        { "ja": "駅に着いたら電話してね。", "en": "Call me when you get to the station.", "hint": "Call me when ..." },
+        { "ja": "子どもの頃、北海道に住んでいました。", "en": "When I was a child, I lived in Hokkaido.", "accept": ["I lived in Hokkaido when I was a child."], "hint": "When I was a child, ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "if", "ja": "もし〜なら", "ex": "If it rains tomorrow, I'll stay home." },
+    { "en": "because", "ja": "〜だから・〜なので", "ex": "I stayed home because I had a cold." },
+    { "en": "so", "ja": "だから（結果）", "ex": "It was raining, so I took a taxi." },
+    { "en": "stay home", "ja": "家にいる", "ex": "If it rains tomorrow, I'll stay home." },
+    { "en": "have a cold", "ja": "風邪をひいている", "ex": "I stayed home because I had a cold." },
+    { "en": "take a taxi", "ja": "タクシーに乗る", "ex": "It was raining, so I took a taxi." },
+    { "en": "get to", "ja": "〜に着く", "ex": "Call me when you get to the station." },
+    { "en": "child", "ja": "子ども", "ex": "When I was a child, I lived in Hokkaido." }
+  ]
+}

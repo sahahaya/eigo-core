@@ -1,0 +1,70 @@
+{
+  "id": "h1-10",
+  "title": "強調・倒置",
+  "subtitle": "語順を崩す理由",
+  "steps": [
+    {
+      "type": "question",
+      "title": "語順にうるさい英語が、なぜ語順を崩すのか",
+      "body": "中1から、英語は「誰が → どうする → 何を」の語順が大切だと学んできました。\n\nところが `Never have I seen such a beautiful view.` のように、疑問文でもないのに have が主語の前に出る文があります。`Here comes the bus.` では、主語の the bus が文の最後です。`I do like your idea.` は、肯定文なのに do が入っています。\n\n**語順のルールを、なぜわざわざ崩すのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "語順が崩れていたら「ここを目立たせたい」という合図",
+      "body": "英語は語順で役割を決める言葉です。だからこそ、**語順をわざと崩す**と、聞き手は「何か特別だ」と気づきます。語順の崩れは**強調の合図**です。\n\n**① It is 〜 that … で、1か所にスポットライト**\n強調したい部分を **It is** と **that** ではさみます。\n\n> Tom broke the window. → **It was Tom that** broke the window.（窓を割ったのは、ほかでもないトムだ）\n\n**見分け方**：It was と that を取りのぞくと、元の文がそのまま完成します。\n\n**② do / does / did で、動詞に力をこめる**\n中1の「代理の do」を、あえて肯定文に出すと「**本当に**〜する」という強調になります。\n\n- I **do** like your idea.（本当にいいと思う）\n\n**③ 否定語を先頭に出すと、うしろは疑問文の語順**\nnever や not only などの否定の言葉を文頭に出して強調すると、うしろが疑問文と同じ語順になります。書き言葉やスピーチでよく使われます。\n\n- I have **never** seen such a beautiful view. → **Never have I** seen such a beautiful view.\n\n**④ 新しい情報はうしろへ**\nThere is の単元で学んだ「新しい情報はうしろ」がここでも働きます。\n\n- **Here comes the bus.**（ほら、バスが来た）：場所を先に言い、新しく登場するバスをうしろへ\n- 主語が代名詞（もう知っている情報）なら崩さない：**Here it comes.**\n\n**⑤ 会話の定番：So do I. / Neither do I.**\n「私もそう」は **So ＋ 助動詞 ＋ 主語**、「私もしない」は **Neither ＋ 助動詞 ＋ 主語**。代理の do / does / did や be動詞を、相手の文に合わせて選びます。\n\n[[日本語の発想|英語の発想]]\nL: 「〜こそ」「本当に」などの言葉を足して強調する\nR: 語順を崩したり、do を出したりして強調する",
+      "points": [
+        "語順の崩れは強調の合図",
+        "It is 〜 that … ＝ 〜こそが（It is と that を取ると元の文に戻る）",
+        "否定語が先頭 → うしろは疑問文の語順。So do I. / Neither do I. は会話の定番"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "どこが強調されているか、なぜ語順が崩れているかを確かめましょう。",
+      "items": [
+        { "en": "It was Tom that broke the window.", "ja": "窓を割ったのは、ほかでもないトムだった。", "note": "It was と that を取ると Tom broke the window." },
+        { "en": "It was in Kyoto that I first met her.", "ja": "私が彼女に初めて会ったのは京都でだった。", "note": "場所を強調" },
+        { "en": "I do like your idea.", "ja": "あなたのアイデア、本当にいいと思う。", "note": "do を強く発音する", "sound": "do を強く、高く言う" },
+        { "en": "Never have I seen such a beautiful view.", "ja": "こんなに美しい景色は一度も見たことがない。", "note": "否定語が先頭 → have I（疑問文の語順）" },
+        { "en": "Here comes the bus.", "ja": "ほら、バスが来た。", "note": "新しく登場するバスはうしろ" },
+        { "en": "I love sushi. — So do I.", "ja": "寿司が大好きなんだ。 — 私も。", "note": "love は一般動詞 → So do I." },
+        { "en": "I don't eat meat. — Neither do I.", "ja": "肉は食べないんだ。 — 私も食べない。", "note": "否定に「私も」→ Neither" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "order", "ja": "窓を割ったのは、ほかでもないトムだった。", "words": ["It", "was", "Tom", "that", "broke", "the", "window"], "extra": ["what"], "answer": "It was Tom that broke the window", "accept": ["It was Tom who broke the window"], "tag": "It is 〜 that …", "why": "強調したい Tom を It was と that ではさむ。" },
+        { "id": "q2", "type": "fill", "q": "I ___ like your idea.", "ja": "あなたのアイデア、本当にいいと思う。", "choices": ["do", "am", "does"], "answer": "do", "tag": "do による強調", "why": "代理の do を肯定文に出すと「本当に」の強調。主語 I なので do。" },
+        { "id": "q3", "type": "fill", "q": "Never ___ I seen such a beautiful view.", "ja": "こんなに美しい景色は一度も見たことがない。", "choices": ["have", "am", "do"], "answer": "have", "tag": "否定語の倒置", "why": "否定語 Never が先頭 → うしろは疑問文の語順（Have I seen）。" },
+        { "id": "q4", "type": "fill", "q": "I love sushi. — So ___ I.", "ja": "寿司が大好きなんだ。 — 私も。", "choices": ["do", "am", "love"], "answer": "do", "tag": "So do I. / Neither do I.", "why": "love は一般動詞 → 代理の do を使って So do I.。" },
+        { "id": "q5", "type": "fill", "q": "I don't eat meat. — ___ do I.", "ja": "肉は食べないんだ。 — 私も食べない。", "choices": ["Neither", "So", "Also"], "answer": "Neither", "tag": "So do I. / Neither do I.", "why": "否定の文に「私も」は Neither。" },
+        { "id": "q6", "type": "choice", "q": "「Here comes the bus.」で主語がうしろにある理由は？", "choices": ["新しく登場する情報（the bus）をうしろに置くため", "過去の話だから", "疑問文だから", "命令文だから"], "answer": 0, "tag": "新しい情報はうしろ", "why": "There is と同じ「新しい情報はうしろ」。代名詞なら Here it comes.。" },
+        { "id": "q7", "type": "choice", "q": "強調構文 It is 〜 that … の見分け方は？", "choices": ["It is と that を取りのぞくと、元の文が完成する", "that のうしろが必ず名詞", "It が天気を表している", "疑問文になっている"], "answer": 0, "tag": "It is 〜 that …", "why": "It was Tom that broke the window. → Tom broke the window.。" },
+        { "id": "q8", "type": "choice", "q": "否定語（Never など）を文頭に出したとき、うしろの語順は？", "choices": ["疑問文と同じ語順", "ふつうの語順", "命令文の語順", "決まりはない"], "answer": 0, "tag": "否定語の倒置", "why": "語順を崩すことで、否定を強調していると伝える。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "会話でよく使う強調と「私も」の練習です。**強調するところを強く**言いましょう。",
+      "items": [
+        { "ja": "窓を割ったのは、ほかでもないトムだった。", "en": "It was Tom that broke the window.", "accept": ["It was Tom who broke the window."], "hint": "It was Tom ..." },
+        { "ja": "あなたのアイデア、本当にいいと思う。", "en": "I do like your idea.", "accept": ["I really like your idea."], "hint": "I do ..." },
+        { "ja": "ほら、バスが来た。", "en": "Here comes the bus.", "hint": "Here comes ..." },
+        { "ja": "（寿司が大好き、に対して）私も。", "en": "So do I.", "accept": ["Me too."], "hint": "So ..." },
+        { "ja": "（肉は食べない、に対して）私も食べない。", "en": "Neither do I.", "accept": ["Me neither.", "Nor do I."], "hint": "Neither ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "idea", "ja": "考え・アイデア", "ex": "I do like your idea." },
+    { "en": "view", "ja": "景色・眺め", "ex": "Never have I seen such a beautiful view." },
+    { "en": "such", "ja": "そんな・こんなに", "ex": "such a beautiful view" },
+    { "en": "Here comes ...", "ja": "ほら、〜が来た", "ex": "Here comes the bus." },
+    { "en": "So do I.", "ja": "私もそうです。", "ex": "I love sushi. — So do I." },
+    { "en": "Neither do I.", "ja": "私もそうではありません。", "ex": "I don't eat meat. — Neither do I." },
+    { "en": "meat", "ja": "肉", "ex": "I don't eat meat." },
+    { "en": "break", "ja": "割る・壊す", "ex": "It was Tom that broke the window." }
+  ]
+}

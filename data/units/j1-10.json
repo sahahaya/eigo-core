@@ -1,0 +1,69 @@
+{
+  "id": "j1-10",
+  "title": "現在進行形",
+  "subtitle": "「今まさに途中」の感覚",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「〜しています」は、いつも -ing なのか",
+      "body": "三単現の単元で `My father works in Osaka.` を「私の父は大阪で働いています」と訳しました。「働いています」なのに、-ing は使っていません。\n\n一方で「今、雨が降っています」は `It's raining.` と -ing を使います。\n\n日本語ではどちらも「〜しています」。**英語では何が違うのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "現在形は「いつもそう」、進行形は「今まさに途中」",
+      "body": "英語は、日本語の「〜しています」を2つに分けて考えます。\n\n> **現在形**（works / play）＝「いつもそう」。昨日も今日も明日もそう（習慣・事実）\n> **現在進行形**（am / is / are ＋ -ing）＝「今まさに途中」。始まっていて、まだ終わっていない\n\n`My father works in Osaka.` は、父の仕事場がいつも大阪だという**事実**。だから現在形です。`He is working at home today.` は、今日は家で働いている**最中**。だから進行形です。\n\n**なぜ be動詞 ＋ -ing なのか**\nbe動詞は「＝（状態）」を表す言葉でした。-ing は「〜している途中」。合わせると「私 ＝ 〜している途中の状態」になります。\n\n- I **am** watch**ing** TV.（私 ＝ テレビを見ている途中）\n\nbe動詞の文なので、否定・疑問は**be動詞が自分で動きます**（do はいりません）。\n\n- I'm **not** watching TV. / **Are** you working now?\n\n**進行形にしない動詞**\nlike（好き）、know（知っている）、want（ほしい）のような「心の状態」を表す動詞は、ふつう進行形にしません。もともと「始まって終わる」という動きがないので、「途中」が作れないからです。\n\n- ✕ I'm knowing her. → ○ I know her.\n\nただし have が「食べる」の意味のときは動作なので、`I'm having lunch.`（昼食を食べているところ）と言えます。\n\n[[日本語の発想|英語の発想]]\nL: 「〜しています」1つで、習慣も最中も表す\nR: 習慣・事実は現在形、最中は進行形と分ける\n\n**-ing のつけ方**：ふつうは ing（play → playing）。e で終わる語は e を取る（make → making）。run や sit のように「短い音＋子音1つ」で終わる語は、最後の文字を重ねる（running, sitting）。",
+      "points": [
+        "現在形 ＝ いつもそう（習慣・事実）。進行形 ＝ 今まさに途中",
+        "形は be動詞 ＋ -ing。否定・疑問は be動詞が動く",
+        "like / know / want など心の状態の動詞は、ふつう進行形にしない"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "「いつもそう」なのか「今まさに途中」なのかを意識して聞きましょう。",
+      "items": [
+        { "en": "I'm watching TV now.", "ja": "私は今テレビを見ています。", "note": "今まさに途中 → 進行形" },
+        { "en": "She is cooking dinner.", "ja": "彼女は夕食を作っています。", "note": "作っている最中" },
+        { "en": "My father works in Osaka, but he is working at home today.", "ja": "父は大阪で働いていますが、今日は家で仕事をしています。", "note": "前半はいつもの事実（現在形）、後半は今日だけの最中（進行形）" },
+        { "en": "It's raining.", "ja": "雨が降っています。", "note": "It rains. だと「（よく）雨が降る」という習慣になる", "sound": "-ing は「イング」より「イン」に近く聞こえる。「イッツレイニン」" },
+        { "en": "Are you working now? — No, I'm having lunch.", "ja": "今、仕事中ですか？ — いいえ、昼食を食べているところです。", "note": "have が「食べる」のときは進行形にできる" },
+        { "en": "I know her very well.", "ja": "私は彼女をとてもよく知っています。", "note": "know は心の状態 → 進行形にしない" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I ___ watching TV now.", "ja": "私は今テレビを見ています。", "choices": ["am", "do", "is"], "answer": "am", "tag": "進行形の形", "why": "進行形は be動詞 ＋ -ing。主語 I なので am。do はいらない。" },
+        { "id": "q2", "type": "choice", "q": "「（今）雨が降っています」", "choices": ["It's raining.", "It rains.", "It raining.", "It's rain."], "answer": 0, "tag": "現在形と進行形", "why": "今まさに途中 → 進行形。It rains. は「よく雨が降る」という習慣。" },
+        { "id": "q3", "type": "choice", "q": "「My father works in Osaka.」が表すのは？", "choices": ["いつもそうだという事実", "今まさに働いている途中", "過去のこと", "これからの予定"], "answer": 0, "tag": "現在形と進行形", "why": "現在形は「いつもそう」。父の仕事場がふだん大阪だという事実。" },
+        { "id": "q4", "type": "fill", "q": "She is ___ dinner.", "ja": "彼女は夕食を作っています。", "choices": ["cooking", "cook", "cooks"], "answer": "cooking", "tag": "進行形の形", "why": "is のうしろは -ing の形。is cook は動詞が2つになってしまう。" },
+        { "id": "q5", "type": "choice", "q": "「私は彼女を知っています」", "choices": ["I know her.", "I'm knowing her.", "I'm know her.", "I knowing her."], "answer": 0, "tag": "進行形にしない動詞", "why": "know は心の状態。「途中」がないので、ふつう進行形にしない。" },
+        { "id": "q6", "type": "order", "ja": "あなたは今、仕事中ですか？", "words": ["Are", "you", "working", "now"], "extra": ["Do"], "answer": "Are you working now", "tag": "進行形の疑問文", "why": "進行形は be動詞の文 → be動詞が先頭へ。代理の do はいらない。" },
+        { "id": "q7", "type": "fill", "q": "I'm not ___ TV.", "ja": "私はテレビを見ていません。", "choices": ["watching", "watch", "watches"], "answer": "watching", "tag": "進行形の形", "why": "否定でも be動詞 ＋ not ＋ -ing の形は変わらない。" },
+        { "id": "q8", "type": "fill", "q": "He is ___ in the park.", "ja": "彼は公園で走っています。", "choices": ["running", "runing", "runs"], "answer": "running", "tag": "-ing のつけ方", "why": "run は「短い音＋子音1つ」で終わる → n を重ねて running。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "「今まさに途中」の場面を思い浮かべて、**be動詞 ＋ -ing** で言います。",
+      "items": [
+        { "ja": "私は今テレビを見ています。", "en": "I'm watching TV now.", "accept": ["I am watching TV now."], "hint": "I'm watching ..." },
+        { "ja": "雨が降っています。", "en": "It's raining.", "accept": ["It is raining."], "hint": "It's ..." },
+        { "ja": "あなたは今、仕事中ですか？", "en": "Are you working now?", "hint": "Are you ...?" },
+        { "ja": "彼女は夕食を作っています。", "en": "She's cooking dinner.", "accept": ["She is cooking dinner.", "She's making dinner.", "She is making dinner."], "hint": "She's ..." },
+        { "ja": "私は昼食を食べているところです。", "en": "I'm having lunch.", "accept": ["I am having lunch.", "I'm eating lunch.", "I am eating lunch."], "hint": "I'm having ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "watch TV", "ja": "テレビを見る", "ex": "I'm watching TV now." },
+    { "en": "cook", "ja": "料理する", "ex": "She is cooking dinner." },
+    { "en": "dinner", "ja": "夕食", "ex": "She is cooking dinner." },
+    { "en": "make dinner", "ja": "夕食を作る", "ex": "She's making dinner." },
+    { "en": "today", "ja": "今日", "ex": "He is working at home today." },
+    { "en": "park", "ja": "公園", "ex": "He is running in the park." },
+    { "en": "run", "ja": "走る", "ex": "He is running in the park." },
+    { "en": "well", "ja": "よく・上手に", "ex": "I know her very well." }
+  ]
+}

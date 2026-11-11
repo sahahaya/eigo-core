@@ -1,0 +1,70 @@
+{
+  "id": "j1-09",
+  "title": "命令文と Let's",
+  "subtitle": "主語を言わない＝目の前の相手に向ける",
+  "steps": [
+    {
+      "type": "question",
+      "title": "主語を大事にする英語なのに、なぜ「Sit down.」には主語がないのか",
+      "body": "これまで、英語は「誰が」を必ず言う言葉だと学んできました。\n\nところが「座ってください」は `Sit down, please.`、「心配しないで」は `Don't worry.` です。どちらにも主語がありません。\n\nさらに「遅れないで」は `Don't be late.` と、be動詞なのに Don't を使います。**これはどういう仕組みでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "命令文は「目の前のあなた」に向けた文。だから主語を言わない",
+      "body": "「座って」「心配しないで」は、**目の前にいる相手**に向けた言葉です。主語は you に決まっているので、わざわざ言いません。\n\n> **動詞のもとの形（原形）から始める** ＝ 相手への働きかけ\n> Sit down. / Open the window. / **Be** careful.\n\nbe動詞のもとの形は **be** です（am / is / are は、主語に合わせて変えた形）。主語がないので、もとの be のまま使います。\n\n**「〜しないで」は Don't を先頭に置くだけ**\n命令文の否定は、動詞の種類に関係なく **Don't** ＋ 原形です。\n\n- Don't **run**.（走らないで）\n- Don't **be** late.（遅れないで）\n\n**Let's ＝「一緒に〜しよう」**\nLet's は let us（私たちに〜させて）が縮まった形です。相手に向けて「私たち（あなたと私）でやろう」と誘います。うしろは動詞の原形です。\n\n**please について**\nplease は丁寧さを足す言葉で、文の最初か最後に置きます。ただし、英語の命令文はいつも失礼なわけではありません。道案内（Turn left.）や、相手の幸せを願う言葉（Have a nice day.）では、命令文がふつうに使われます。\n\n[[日本語の発想|英語の発想]]\nL: 「座って」「座ってください」と語尾で柔らかさを調整\nR: 動詞の原形から始めて、please や言い方で柔らかさを足す",
+      "points": [
+        "命令文は相手（you）に向けた文。主語を言わず、動詞の原形から始める",
+        "否定はどの動詞でも Don't ＋ 原形（Don't be late.）",
+        "Let's ＋ 原形 ＝ 一緒に〜しよう（let us が縮まった形）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "どれも動詞の原形から始まっています。旅行や職場でそのまま使える文です。",
+      "items": [
+        { "en": "Sit down, please.", "ja": "座ってください。", "note": "please は最後でも最初でもよい" },
+        { "en": "Be careful.", "ja": "気をつけて。", "note": "be動詞の原形は be" },
+        { "en": "Don't worry.", "ja": "心配しないで。", "sound": "Don't の t はほとんど聞こえない「ドンウォーリー」" },
+        { "en": "Don't be late.", "ja": "遅れないで。", "note": "be動詞でも Don't を使う" },
+        { "en": "Let's take a break.", "ja": "休憩しよう。", "note": "職場でよく使う。take a break ＝ 休憩をとる", "sound": "take a は「テイカ」とつながる" },
+        { "en": "Turn left at the corner.", "ja": "その角を左に曲がってください。", "note": "道案内は命令文がふつう。失礼ではない" },
+        { "en": "Have a nice day.", "ja": "よい一日を。", "note": "命令文の形で、相手の幸せを願う" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "q": "「窓を開けて」", "choices": ["Open the window.", "Opens the window.", "Opening the window.", "To open the window."], "answer": 0, "tag": "命令文の形", "why": "命令文は動詞の原形から始める。s も ing もつけない。" },
+        { "id": "q2", "type": "fill", "q": "___ careful.", "ja": "気をつけて。", "choices": ["Be", "Are", "Is"], "answer": "Be", "tag": "命令文の形", "why": "主語がないので、be動詞はもとの形 be のまま。" },
+        { "id": "q3", "type": "fill", "q": "___ worry.", "ja": "心配しないで。", "choices": ["Don't", "Not", "Doesn't"], "answer": "Don't", "tag": "命令文の否定", "why": "「〜しないで」は Don't ＋ 原形。主語がないので doesn't にはならない。" },
+        { "id": "q4", "type": "fill", "q": "Don't ___ late.", "ja": "遅れないで。", "choices": ["be", "are", "is"], "answer": "be", "tag": "命令文の否定", "why": "Don't のうしろは原形。be動詞の原形は be。" },
+        { "id": "q5", "type": "fill", "q": "___ take a break.", "ja": "（一緒に）休憩しよう。", "choices": ["Let's", "Let", "Don't"], "answer": "Let's", "tag": "Let's", "why": "「一緒に〜しよう」は Let's（let us）＋ 原形。" },
+        { "id": "q6", "type": "order", "ja": "その角を左に曲がってください。", "words": ["Please", "turn", "left", "at", "the", "corner"], "answer": "Please turn left at the corner", "accept": ["turn left at the corner please"], "tag": "命令文の形", "why": "please ＋ 原形 turn。道案内では命令文がふつう。" },
+        { "id": "q7", "type": "choice", "q": "命令文に主語がないのはなぜ？", "choices": ["目の前の相手（you）に向けた文だと決まっているから", "失礼にならないようにするため", "過去の話だから", "動詞がない文だから"], "answer": 0, "tag": "命令文の核心", "why": "相手に向けた言葉なので、主語 you は言わなくても分かる。" },
+        { "id": "q8", "type": "choice", "q": "Let's はどんな言葉が縮まったもの？", "choices": ["let us", "let is", "let has", "let this"], "answer": 0, "tag": "Let's", "why": "let us（私たちに〜させて）→「一緒にやろう」という誘い。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "主語を言わずに、**動詞から**いきなり話し始める練習です。",
+      "items": [
+        { "ja": "心配しないで。", "en": "Don't worry.", "accept": ["Do not worry."], "hint": "Don't ..." },
+        { "ja": "遅れないで。", "en": "Don't be late.", "hint": "Don't be ..." },
+        { "ja": "休憩しよう。", "en": "Let's take a break.", "hint": "Let's ..." },
+        { "ja": "座ってください。", "en": "Please sit down.", "accept": ["Sit down, please."], "hint": "Please ..." },
+        { "ja": "その角を左に曲がってください。", "en": "Turn left at the corner.", "accept": ["Please turn left at the corner.", "Turn left at the corner, please."], "hint": "Turn ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "sit down", "ja": "座る", "ex": "Sit down, please." },
+    { "en": "careful", "ja": "注意深い", "ex": "Be careful." },
+    { "en": "worry", "ja": "心配する", "ex": "Don't worry." },
+    { "en": "late", "ja": "遅れた・遅い", "ex": "Don't be late." },
+    { "en": "take a break", "ja": "休憩する", "ex": "Let's take a break." },
+    { "en": "turn left", "ja": "左に曲がる", "ex": "Turn left at the corner." },
+    { "en": "corner", "ja": "角", "ex": "Turn left at the corner." },
+    { "en": "Have a nice day.", "ja": "よい一日を。", "ex": "Have a nice day." }
+  ]
+}

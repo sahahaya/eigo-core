@@ -1,0 +1,69 @@
+{
+  "id": "j2-10",
+  "title": "受動態",
+  "subtitle": "「される側」を主役にする理由",
+  "steps": [
+    {
+      "type": "question",
+      "title": "なぜ「誰かがこの寺を建てた」と言わないのか",
+      "body": "観光地で「この寺は約800年前に建てられました」と言うとき、英語では `This temple was built about 800 years ago.` と言います。\n\n`Someone built this temple about 800 years ago.`（誰かがこの寺を建てた）とは、ふつう言いません。\n\nまた、日本語の「〜される」には「雨に降られた」のように迷惑の気持ちがつくことがあります。**英語の「〜される」は、何のために使うのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "受動態は「話の主役」を入れかえるための形",
+      "body": "英語の文では、**主語 ＝ その文の主役（話題）**です。\n\nお寺の説明をしているとき、話題は「お寺」です。建てた人ではありません。だから、**される側のお寺を主語（主役）にする**。これが受動態です。\n\n> **受動態 ＝ be動詞 ＋ 過去分詞**（〜された状態）\n> This temple **was built** about 800 years ago.\n\n**なぜ be動詞 ＋ 過去分詞なのか**\nbe動詞は「＝（状態）」でした。中1では be動詞 ＋ -ing が「〜している途中の状態」でしたね。受動態も同じ組み立てで、be動詞 ＋ 過去分詞が「**〜された状態**」を表します。\n\n- This temple **was** built.（このお寺 ＝ 建てられた状態だった）\n\n**受動態を使うのはこんなとき**\n\n- **された側が話題**：This temple was built 〜.（お寺の説明）\n- **した人が分からない・言う必要がない**：My bike was stolen.（誰が盗んだか分からない）\n\n「誰がしたか」をどうしても言いたいときだけ、最後に **by 〜** を足します。実際の会話では、by のない受動態のほうがずっと多いです。\n\n**過去分詞の形**\n規則動詞は過去形と同じ -ed（paint → painted）。不規則動詞は3つ目の形を覚えます：build → built → **built**、speak → spoke → **spoken**、write → wrote → **written**、steal → stole → **stolen**、take → took → **taken**。\n\nbe動詞の文なので、否定・疑問は **be動詞が動きます**（Is breakfast included? / It isn't included.）。\n\n[[日本語の発想|英語の発想]]\nL: 「〜される」には迷惑の気持ちがつくことがある\nR: 受動態は主役を入れかえるだけ。迷惑の気持ちはない",
+      "points": [
+        "受動態 ＝ be動詞 ＋ 過去分詞（〜された状態）",
+        "された側を主役にしたいとき、した人が分からない・言わなくていいときに使う",
+        "by 〜 は「誰が」を言いたいときだけ。否定・疑問は be動詞が動く"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "それぞれの文で、何が主役（主語）になっているかを確かめましょう。旅行でよく出会う文が多いです。",
+      "items": [
+        { "en": "This temple was built about 800 years ago.", "ja": "この寺は約800年前に建てられました。", "note": "主役はお寺。建てた人は言わない" },
+        { "en": "English is spoken in many countries.", "ja": "英語は多くの国で話されています。", "note": "話している人々を言う必要がない" },
+        { "en": "My bike was stolen last night.", "ja": "昨夜、自転車が盗まれました。", "note": "誰が盗んだか分からない → by なし" },
+        { "en": "This picture was painted by my grandfather.", "ja": "この絵は祖父が描いたものです。", "note": "誰が描いたかを伝えたい → by を足す" },
+        { "en": "Is breakfast included?", "ja": "朝食は含まれていますか？", "note": "ホテルで必須。be動詞が前へ" },
+        { "en": "Is this seat taken?", "ja": "この席は空いていますか？", "note": "直訳は「この席は（誰かに）取られていますか？」", "sound": "seat taken の t が続くので「シーッテイクン」" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "This temple was ___ about 800 years ago.", "ja": "この寺は約800年前に建てられました。", "choices": ["built", "build", "building"], "answer": "built", "tag": "受動態の形", "why": "受動態は be動詞 ＋ 過去分詞。build の過去分詞は built。" },
+        { "id": "q2", "type": "fill", "q": "English ___ spoken in many countries.", "ja": "英語は多くの国で話されています。", "choices": ["is", "does", "has"], "answer": "is", "tag": "受動態の形", "why": "受動態は be動詞の文。English（1つ）→ is。" },
+        { "id": "q3", "type": "choice", "q": "「My bike was stolen.」に by 〜 がない理由として最も近いのは？", "choices": ["盗んだ人が分からない（言う必要がない）から", "過去の話だから", "bike が主語だから", "受動態では by を使えないから"], "answer": 0, "tag": "受動態を使う理由", "why": "した人が分からない・言わなくていいときに受動態を使う。by は言いたいときだけ。" },
+        { "id": "q4", "type": "fill", "q": "Breakfast is ___.", "ja": "朝食は含まれています。", "choices": ["included", "include", "including"], "answer": "included", "tag": "受動態の形", "why": "朝食 ＝ 含まれた状態 → be動詞 ＋ 過去分詞 included。" },
+        { "id": "q5", "type": "choice", "q": "受動態の形は？", "choices": ["be動詞 ＋ 過去分詞", "do ＋ 動詞の原形", "be動詞 ＋ -ing", "will ＋ 動詞の原形"], "answer": 0, "tag": "受動態の核心", "why": "be ＋ -ing が「〜している途中の状態」、be ＋ 過去分詞が「〜された状態」。" },
+        { "id": "q6", "type": "order", "ja": "この絵は祖父が描いたものです。", "words": ["This", "picture", "was", "painted", "by", "my", "grandfather"], "extra": ["did"], "answer": "This picture was painted by my grandfather", "tag": "受動態の形", "why": "主役は絵 → was painted。誰が描いたかを言いたいので by my grandfather。" },
+        { "id": "q7", "type": "choice", "q": "「この席は空いていますか？」（誰かが取っていますか？）", "choices": ["Is this seat taken?", "Does this seat take?", "Is this seat taking?", "Was this seat take?"], "answer": 0, "tag": "受動態の形", "why": "席 ＝ 取られた状態か？ → Is ＋ 過去分詞 taken。be動詞が前へ。" },
+        { "id": "q8", "type": "fill", "q": "This book was ___ by a famous writer.", "ja": "この本は有名な作家によって書かれました。", "choices": ["written", "wrote", "write"], "answer": "written", "tag": "受動態の形", "why": "write → wrote → written。受動態には3つ目の形（過去分詞）を使う。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "観光地やホテルで使う形です。**主役を先に言い、be動詞 ＋ 過去分詞**を続けます。",
+      "items": [
+        { "ja": "この寺は約800年前に建てられました。", "en": "This temple was built about 800 years ago.", "accept": ["This temple was built 800 years ago."], "hint": "This temple was ..." },
+        { "ja": "英語は多くの国で話されています。", "en": "English is spoken in many countries.", "hint": "English is ..." },
+        { "ja": "昨夜、自転車が盗まれました。", "en": "My bike was stolen last night.", "accept": ["My bicycle was stolen last night."], "hint": "My bike was ..." },
+        { "ja": "朝食は含まれていますか？", "en": "Is breakfast included?", "hint": "Is breakfast ...?" },
+        { "ja": "この席は空いていますか？", "en": "Is this seat taken?", "hint": "Is this seat ...?" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "temple", "ja": "寺", "ex": "This temple was built about 800 years ago." },
+    { "en": "built", "ja": "建てられた（build の過去分詞）", "ex": "This temple was built about 800 years ago." },
+    { "en": "country", "ja": "国", "ex": "English is spoken in many countries." },
+    { "en": "stolen", "ja": "盗まれた（steal の過去分詞）", "ex": "My bike was stolen last night." },
+    { "en": "included", "ja": "含まれている", "ex": "Is breakfast included?" },
+    { "en": "seat", "ja": "席", "ex": "Is this seat taken?" },
+    { "en": "grandfather", "ja": "祖父", "ex": "This picture was painted by my grandfather." },
+    { "en": "written", "ja": "書かれた（write の過去分詞）", "ex": "This book was written by a famous writer." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "t1-03",
+  "title": "Part 1 写真描写",
+  "subtitle": "人の動作と物の状態",
+  "steps": [
+    {
+      "type": "question",
+      "title": "写真を見て聞くだけなのに、なぜ間違えるのか",
+      "body": "Part 1 は、写真を見ながら4つの英文を聞き、写真に合うものを選ぶ問題です。いちばんやさしいと言われるパートです。\n\nそれでも `A man is putting on a jacket.` と `A man is wearing a jacket.` のように、ほとんど同じに聞こえる文で迷います。\n\n**Part 1 のひっかけは、どこに仕掛けられているのでしょう？**\n\n※ このアプリでは写真の代わりに、写真の様子を日本語で説明しています。"
+    },
+    {
+      "type": "core",
+      "title": "「写っていることだけ」を、進行形と受動態で正しく言った文を選ぶ",
+      "body": "Part 1 の正解は、**写真に写っていることだけ**を正しく言った文です。写真から想像できること（これから何をするか、何を考えているか）は正解になりません。\n\n**人が写っている写真：進行形「今まさに途中」**\n中1の進行形の単元を思い出しましょう。be ＋ -ing は「今まさに途中」です。\n\n> **wearing** ＝ 着ている「状態」\n> **putting on** ＝ 着ようとしている「動作」の途中\n\n上着をもう着て立っている写真なら wearing が正解で、putting on は間違いです。Part 1 で最もよく出るひっかけです。\n\n**物だけの写真：受動態「〜された状態」**\n\n> **have been ＋ 過去分詞**：〜された状態が今も続いている（Some boxes **have been stacked**.）\n> **are ＋ 過去分詞**：〜された状態だ（Chairs **are arranged** around a table.）\n> **is being ＋ 過去分詞**：今まさに〜されている途中（The road **is being repaired**.）\n\nis being ＋ 過去分詞は「今、誰かが作業している途中」です。だから**人が写っていない写真では、ふつう正解になりません**。\n\n**音のひっかけ**\n写真にある物の名前と、似た音の別の単語（copy ⇔ coffee など）を使った文にも注意します。\n\n[[日本語の発想|英語の発想]]\nL: 「着ている」「着ようとしている」は、語尾で区別\nR: wearing（状態）と putting on（動作）は、動詞そのものが違う",
+      "points": [
+        "写っていることだけを正しく言った文が正解。想像は正解にならない",
+        "wearing ＝ 着ている状態、putting on ＝ 着ようとしている動作",
+        "is being ＋ 過去分詞 ＝ 今まさに〜されている途中 → 人が写っていないとふつう不正解"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "人の「動作」か「状態」か、物が「された状態」か「されている途中」かを聞き分けましょう。",
+      "items": [
+        { "en": "A woman is writing on a whiteboard.", "ja": "女性がホワイトボードに書いている。", "note": "人の動作 → 進行形" },
+        { "en": "A man is wearing a jacket.", "ja": "男性は上着を着ている。", "note": "状態：もう着ている" },
+        { "en": "A man is putting on a jacket.", "ja": "男性は上着を着ようとしている。", "note": "動作：着ている途中", "sound": "putting on は「プッティンゴン」とつながる" },
+        { "en": "Some boxes have been stacked in a corner.", "ja": "箱が隅に積み重ねられている。", "note": "積まれた状態が続いている。人はいなくてよい" },
+        { "en": "The road is being repaired.", "ja": "道路が今、修理されている。", "note": "今まさに修理の途中 → 作業員が写っている必要がある" },
+        { "en": "Chairs are arranged around a table.", "ja": "いすがテーブルのまわりに並べられている。", "note": "並べられた状態" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "scene": "会議室。女性が1人、ホワイトボードに図を書いている。ほかの3人はいすに座って見ている。", "q": "写真に合う文を選ぼう（▶で4つの文が読み上げられる）", "choices": ["A woman is writing on a whiteboard.", "A woman is erasing the whiteboard.", "Some people are leaving the room.", "A woman is turning off the lights."], "answer": 0, "audioChoices": true, "tag": "人の動作", "why": "写っている動作は「書いている」。消している・部屋を出る・電気を消すは写っていない。" },
+        { "id": "q2", "type": "choice", "scene": "駅のホーム。男性が上着をきちんと着て、電車を待って立っている。", "q": "写真に合う文を選ぼう（▶で4つの文が読み上げられる）", "choices": ["A man is putting on a jacket.", "A man is wearing a jacket.", "A man is getting on a train.", "A man is taking off his hat."], "answer": 1, "audioChoices": true, "tag": "wearing と putting on", "why": "もう着ている状態 → wearing。putting on は着ようとしている動作の途中。" },
+        { "id": "q3", "type": "choice", "scene": "倉庫の中。人はいない。段ボール箱が部屋の隅に高く積み重ねられている。", "q": "写真に合う文を選ぼう（▶で4つの文が読み上げられる）", "choices": ["Some workers are stacking boxes.", "Some boxes have been stacked in a corner.", "The boxes are being opened.", "A truck is being loaded."], "answer": 1, "audioChoices": true, "tag": "物の状態", "why": "人がいないので、積まれた「状態」を言う文が正解。workers や is being ＋ 過去分詞は人が必要。" },
+        { "id": "q4", "type": "choice", "scene": "開店前のレストラン。人はいない。テーブルのまわりに、いすがきれいに並べられている。", "q": "写真に合う文を選ぼう（▶で4つの文が読み上げられる）", "choices": ["Chairs are arranged around a table.", "A waiter is setting the table.", "Some people are eating lunch.", "Chairs are being carried outside."], "answer": 0, "audioChoices": true, "tag": "物の状態", "why": "並べられた状態 → are arranged。ウェイターや食事中の人は写っていない。" },
+        { "id": "q5", "type": "choice", "scene": "公園。2人の女性がベンチに座って話している。1人は紙のカップを持っている。", "q": "写真に合う文を選ぼう（▶で4つの文が読み上げられる）", "choices": ["Two women are sitting on a bench.", "Two women are planting flowers.", "A woman is pouring coffee.", "They are walking along a path."], "answer": 0, "audioChoices": true, "tag": "人の動作", "why": "座っている → sitting。カップを持っているだけで、注いではいない（pouring は不正解）。" },
+        { "id": "q6", "type": "choice", "q": "wearing と putting on の違いは？", "choices": ["wearing は着ている状態、putting on は着ようとしている動作", "どちらも同じ意味", "wearing は動作、putting on は状態", "どちらも脱ぐという意味"], "answer": 0, "tag": "wearing と putting on", "why": "Part 1 で最もよく出るひっかけ。状態か動作かで動詞が違う。" },
+        { "id": "q7", "type": "choice", "q": "人が写っていない道路の写真で、ふつう正解にならない文は？", "choices": ["The road is being repaired.", "Some cars are parked along the road.", "The road is empty.", "There are trees along the road."], "answer": 0, "tag": "物の状態", "why": "is being ＋ 過去分詞 ＝ 今まさに修理されている途中 → 作業している人が必要。" },
+        { "id": "q8", "type": "choice", "q": "Part 1 で選ぶべき文は？", "choices": ["写真に写っていることだけを正しく言った文", "写真から想像できることを言った文", "いちばん長い文", "写真にある物の名前が多く入っている文"], "answer": 0, "tag": "Part 1 の核心", "why": "想像は正解にならない。物の名前が入っていても、動作や状態が違えば不正解。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "写真を説明する練習です。**人は進行形、物は受動態**で言います。",
+      "items": [
+        { "ja": "（写真）女性がホワイトボードに書いている。", "en": "A woman is writing on a whiteboard.", "hint": "A woman is ..." },
+        { "ja": "（写真）男性は上着を着ている。", "en": "A man is wearing a jacket.", "accept": ["The man is wearing a jacket."], "hint": "状態 → wearing" },
+        { "ja": "（写真）箱が隅に積み重ねられている。", "en": "Some boxes have been stacked in a corner.", "accept": ["Some boxes are stacked in the corner.", "Boxes have been stacked in the corner."], "hint": "Some boxes have been ..." },
+        { "ja": "（写真）いすがテーブルのまわりに並べられている。", "en": "Chairs are arranged around a table.", "accept": ["Some chairs are arranged around a table.", "The chairs are arranged around the table."], "hint": "Chairs are ..." },
+        { "ja": "（写真）2人の女性がベンチに座っている。", "en": "Two women are sitting on a bench.", "hint": "Two women are ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "whiteboard", "ja": "ホワイトボード", "ex": "A woman is writing on a whiteboard." },
+    { "en": "wear", "ja": "身につけている（状態）", "ex": "A man is wearing a jacket." },
+    { "en": "put on", "ja": "身につける（動作）", "ex": "A man is putting on a jacket." },
+    { "en": "stack", "ja": "積み重ねる", "ex": "Some boxes have been stacked in a corner." },
+    { "en": "arrange", "ja": "並べる・手配する", "ex": "Chairs are arranged around a table." },
+    { "en": "repair", "ja": "修理する", "ex": "The road is being repaired." },
+    { "en": "pour", "ja": "注ぐ", "ex": "A woman is pouring coffee." },
+    { "en": "load", "ja": "（荷物を）積む", "ex": "A truck is being loaded." }
+  ]
+}

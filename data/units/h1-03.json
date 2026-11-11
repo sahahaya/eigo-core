@@ -1,0 +1,69 @@
+{
+  "id": "h1-03",
+  "title": "仮定法",
+  "subtitle": "過去の事実に反する想像（had ＋ 過去分詞）",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「あのとき知っていたら」は、なぜ had known なのか",
+      "body": "中3で `If I knew his number, I would call him.`（もし番号を知っていたら電話するのに：今の話）のような形を学びました。\n\nでは「**あのとき**知っていたら、手伝ったのに」はどうでしょう。英語では `If I had known, I would have helped you.` です。\n\nhad known、would have helped と、形がさらに長くなりました。**今の話と過去の話で、なぜこんなに形が変わるのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "仮定法は「時制を1つ過去にずらす」。過去の想像はさらにもう1つ",
+      "body": "中3で、仮定法は「過去形 ＝ 現実から離れている」印を使うと学びました。ルールを1行にまとめると、こうなります。\n\n> **現実から離れた想像は、時制を1つ過去にずらす**\n\n- **今**の現実から離れる → 現在を1つずらして**過去形**（If I **knew**, I **would** help.）\n- **過去**の現実から離れる → 過去を1つずらして**過去完了**（If I **had known**, I **would have helped**.）\n\nメインの文の **would have ＋ 過去分詞** は、前の単元の「助動詞 ＋ have ＋ 過去分詞（過去の出来事への判断）」と同じ組み立てです。\n\n**過去の想像 → 今の結果（組み合わせ）**\n「あのとき〜していたら、**今ごろ**〜だろう」は、if 側を過去完了、メインを would ＋ 原形にします。\n\n- If I **had taken** that job, I **would be** living in New York now.\n\n**I wish ＋ 過去完了 ＝ 過去への後悔**\n\n- I wish I **had studied** abroad.（実際は留学しなかった → 留学していればよかった）\n\n**as if ＋ 過去形 ＝ まるで〜かのように**\n実際とは違う（現実から離れている）ので過去形にします。\n\n- He talks as if he **knew** everything.（実際は知らない）\n\n**If it weren't for 〜 ＝ 〜がなければ**\n「〜が存在しなかったら」という、現実から離れた想像です。Without 〜 でも言えます。\n\n[[日本語の発想|英語の発想]]\nL: 「〜していたら、〜したのに」の「のに」で、事実と違うことを表す\nR: 時制を1つ過去にずらして、事実と違うことを表す",
+      "points": [
+        "現実から離れた想像は、時制を1つ過去にずらす",
+        "過去の想像：If ＋ had ＋ 過去分詞, would have ＋ 過去分詞",
+        "I wish ＋ had ＋ 過去分詞 ＝ 過去への後悔。as if ＋ 過去形 ＝ まるで〜かのように"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "「今の現実」から離れているのか、「過去の現実」から離れているのかを考えながら聞きましょう。",
+      "items": [
+        { "en": "If I had known, I would have helped you.", "ja": "もしあのとき知っていたら、手伝ったのに。", "note": "実際は知らなかった（過去の現実から離れる）", "sound": "would have は「ウダヴ」とつながる" },
+        { "en": "If I had left earlier, I wouldn't have missed the train.", "ja": "もっと早く出ていたら、電車に乗り遅れなかったのに。", "note": "実際は乗り遅れた" },
+        { "en": "If I had taken that job, I would be living in New York now.", "ja": "あの仕事を受けていたら、今ごろニューヨークに住んでいるだろう。", "note": "過去の想像 → 今の結果" },
+        { "en": "I wish I had studied abroad.", "ja": "留学していればよかった。", "note": "過去への後悔" },
+        { "en": "He talks as if he knew everything.", "ja": "彼はまるで何でも知っているかのように話す。", "note": "実際は知らない → 過去形" },
+        { "en": "If it weren't for your help, I couldn't finish this.", "ja": "あなたの助けがなければ、これは終えられない。", "note": "Without your help, 〜 とも言える" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "If I had ___, I would have helped you.", "ja": "もしあのとき知っていたら、手伝ったのに。", "choices": ["known", "knew", "know"], "answer": "known", "tag": "仮定法過去完了", "why": "過去の現実から離れる → had ＋ 過去分詞 known。" },
+        { "id": "q2", "type": "fill", "q": "If I had left earlier, I wouldn't have ___ the train.", "ja": "もっと早く出ていたら、電車に乗り遅れなかったのに。", "choices": ["missed", "miss", "missing"], "answer": "missed", "tag": "仮定法過去完了", "why": "would have ＋ 過去分詞。過去の出来事への判断。" },
+        { "id": "q3", "type": "choice", "q": "過去の事実に反する想像の形は？", "choices": ["If ＋ had ＋ 過去分詞, would have ＋ 過去分詞", "If ＋ 過去形, will ＋ 原形", "If ＋ 現在形, would ＋ 原形", "If ＋ will, would"], "answer": 0, "tag": "仮定法過去完了", "why": "過去を1つずらして過去完了。メインは would have ＋ 過去分詞。" },
+        { "id": "q4", "type": "choice", "q": "「（あのとき）留学していればよかった」", "choices": ["I wish I had studied abroad.", "I wish I studied abroad.", "I wish I have studied abroad.", "I wish I will study abroad."], "answer": 0, "tag": "I wish", "why": "過去への後悔 → I wish ＋ had ＋ 過去分詞。studied だけだと「今」の願いになる。" },
+        { "id": "q5", "type": "choice", "q": "「If I had taken that job, I would be living in New York now.」の説明として正しいのは？", "choices": ["過去の想像と、その今の結果を組み合わせている", "両方とも過去の想像", "両方とも今の想像", "未来の予定"], "answer": 0, "tag": "仮定法の組み合わせ", "why": "if 側は過去完了（過去の想像）、メインは would ＋ 原形（今の結果）。" },
+        { "id": "q6", "type": "fill", "q": "He talks as if he ___ everything.", "ja": "彼はまるで何でも知っているかのように話す。", "choices": ["knew", "knows", "had know"], "answer": "knew", "tag": "as if", "why": "実際は知らない（現実から離れている）→ 過去形 knew。" },
+        { "id": "q7", "type": "order", "ja": "もしあのとき知っていたら、手伝ったのに。", "words": ["If", "I", "had", "known", "I", "would", "have", "helped", "you"], "extra": ["will"], "answer": "If I had known I would have helped you", "accept": ["I would have helped you if I had known"], "tag": "仮定法過去完了", "why": "If ＋ had known（過去の想像）, would have helped（過去への判断）。" },
+        { "id": "q8", "type": "choice", "q": "仮定法で時制を1つ過去にずらす理由は？", "choices": ["現実から離れていることを示すため", "ていねいにするためだけ", "過去の話は必ずずらすから", "特に理由はない"], "answer": 0, "tag": "仮定法の核心", "why": "過去形 ＝ 離れている印。現実から離れた想像に使う。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "過去を振り返って「〜していたら」と言う練習です。**had ＋ 過去分詞 → would have** の流れで。",
+      "items": [
+        { "ja": "もしあのとき知っていたら、手伝ったのに。", "en": "If I had known, I would have helped you.", "accept": ["If I'd known, I would have helped you.", "If I had known, I'd have helped you."], "hint": "If I had known, ..." },
+        { "ja": "もっと早く出ていたら、電車に乗り遅れなかったのに。", "en": "If I had left earlier, I wouldn't have missed the train.", "accept": ["If I'd left earlier, I wouldn't have missed the train."], "hint": "If I had left earlier, ..." },
+        { "ja": "留学していればよかった。", "en": "I wish I had studied abroad.", "accept": ["I wish I'd studied abroad."], "hint": "I wish I had ..." },
+        { "ja": "彼はまるで何でも知っているかのように話す。", "en": "He talks as if he knew everything.", "accept": ["He talks like he knows everything."], "hint": "He talks as if ..." },
+        { "ja": "あなたの助けがなければ、これは終えられない。", "en": "If it weren't for your help, I couldn't finish this.", "accept": ["Without your help, I couldn't finish this."], "hint": "If it weren't for ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "would have done", "ja": "（もし〜だったら）〜しただろう", "ex": "I would have helped you." },
+    { "en": "I wish I had done", "ja": "〜していればよかった", "ex": "I wish I had studied abroad." },
+    { "en": "as if", "ja": "まるで〜かのように", "ex": "He talks as if he knew everything." },
+    { "en": "miss the train", "ja": "電車に乗り遅れる", "ex": "I wouldn't have missed the train." },
+    { "en": "study abroad", "ja": "留学する", "ex": "I wish I had studied abroad." },
+    { "en": "if it weren't for", "ja": "〜がなければ", "ex": "If it weren't for your help, I couldn't finish this." },
+    { "en": "without", "ja": "〜なしで・〜がなければ", "ex": "Without your help, I couldn't finish this." },
+    { "en": "everything", "ja": "すべてのこと", "ex": "He talks as if he knew everything." }
+  ]
+}

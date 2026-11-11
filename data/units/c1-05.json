@@ -1,0 +1,69 @@
+{
+  "id": "c1-05",
+  "title": "仕事：会議・メール・電話",
+  "subtitle": "依頼のていねいさと、確認・やわらかい反対",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「Would you mind 〜?」に「Yes」と答えたら？",
+      "body": "オンライン会議で `Would you mind sharing your screen?`（画面を共有していただけますか？）と頼まれて、「はい、いいですよ」のつもりで **Yes** と答えたら、相手が困った顔をした……。\n\n実は、この Yes は「いやです」という意味に聞こえてしまいます。\n\n**仕事の英語では、依頼・確認・反対をどう言い分ければいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "依頼は「距離」でていねいさを調整する。確認と反対は型で言う",
+      "body": "**依頼のていねいさは3段階**\n\n> Can you 〜?（気軽）＜ **Could you 〜?**（ていねい）＜ **Would you mind 〜ing?**（とてもていねい）\n\nCould / Would は過去形で、仮定法の単元で学んだ**距離 ＝ 遠慮**です。\n\n**Would you mind 〜ing? には Not at all.**\nmind は「気にする・いやがる」という意味です。`Would you mind sharing your screen?` は「画面を共有するのを**いやがりますか**？」と聞いています。だから OK なら **Not at all.**（まったくいやではありません）、**Sure.** と答えます。Yes と答えると「いやです」になってしまいます。\n\nmind のうしろは -ing です（動名詞の単元：実際にしてもらう動作）。\n\n**確認する**\n\n- **Just to confirm,** the meeting is at 3 p.m. on Monday, right?（確認ですが〜）\n\n**やわらかく反対する**\nいきなり No と言わず、まず相手の意見を受けとめてから、気になる点を伝えます。\n\n- **That's a good point, but** I'm not sure about the cost.\n\n**電話の定番**\n\n- **May I speak to** Ms. Garcia, please?（〜さんをお願いします）\n- **Could you ask her to call me back?**（不定詞の発展：ask 人 to 〜）\n\n[[日本語の発想|英語の発想]]\nL: 「いいですか？」には「はい（いいですよ）」と答える\nR: Would you mind 〜? は「いやですか？」なので、OK なら Not at all.",
+      "points": [
+        "依頼：Can you < Could you < Would you mind 〜ing?（過去形の距離 ＝ ていねいさ）",
+        "Would you mind 〜? に OK なら Not at all. / Sure.（Yes だと「いやです」）",
+        "確認は Just to confirm, 〜、反対は That's a good point, but 〜"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "会議・メール・電話でそのまま使える文です。",
+      "items": [
+        { "en": "Could you send me the file by tomorrow?", "ja": "明日までにファイルを送っていただけますか？", "note": "by ＝ 期限（高校の前置詞の単元）" },
+        { "en": "Would you mind sharing your screen? — Not at all.", "ja": "画面を共有していただけますか？ — いいですよ。", "note": "mind ＝ いやがる。OK なら Not at all." },
+        { "en": "Just to confirm, the meeting is at 3 p.m. on Monday, right?", "ja": "確認ですが、会議は月曜日の午後3時ですよね？" },
+        { "en": "That's a good point, but I'm not sure about the cost.", "ja": "いい点ですね。ただ、費用が少し気になります。", "note": "やわらかい反対" },
+        { "en": "May I speak to Ms. Garcia, please?", "ja": "ガルシアさんをお願いできますか？", "note": "電話の定番" },
+        { "en": "Could you ask her to call me back?", "ja": "折り返し電話するよう、彼女に伝えていただけますか？", "note": "ask 人 to 〜" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "autoplay": false, "audio": ["W: Good morning, Bright Solutions. How may I help you?", "M: Hello, this is Takeshi Mori from ABC Trading. May I speak to Ms. Garcia, please?", "W: I'm sorry, she's in a meeting right now.", "M: I see. Could you ask her to call me back this afternoon?", "W: Of course. I'll give her the message."], "q": "Why can't Ms. Garcia take the call?", "ja": "ガルシアさんはなぜ電話に出られないのですか？（設問を読んでから ▶）", "choices": ["She is in a meeting.", "She is on vacation.", "She left the company.", "She is on another call."], "answer": 0, "tag": "電話の聞き取り", "why": "she's in a meeting right now。" },
+        { "id": "q2", "type": "choice", "autoplay": false, "audio": ["W: Good morning, Bright Solutions. How may I help you?", "M: Hello, this is Takeshi Mori from ABC Trading. May I speak to Ms. Garcia, please?", "W: I'm sorry, she's in a meeting right now.", "M: I see. Could you ask her to call me back this afternoon?", "W: Of course. I'll give her the message."], "q": "What does the man ask the woman to do?", "ja": "男性は女性に何を頼んでいますか？", "choices": ["Have Ms. Garcia return his call", "Send him an e-mail", "Schedule a meeting", "Call him tomorrow morning"], "answer": 0, "tag": "電話の聞き取り", "why": "Could you ask her to call me back this afternoon? → 折り返しの電話（return his call に言い換え）。" },
+        { "id": "q3", "type": "choice", "q": "「Would you mind sharing your screen?」に「いいですよ」と答えるには？", "choices": ["Not at all.", "Yes, I mind.", "Yes, I would.", "I mind it."], "answer": 0, "tag": "Would you mind", "why": "mind ＝ いやがる。「まったくいやではない」→ Not at all.。" },
+        { "id": "q4", "type": "choice", "q": "いちばんていねいな依頼は？", "choices": ["Would you mind sending me the file?", "Send me the file.", "Can you send me the file?", "You send me the file."], "answer": 0, "tag": "依頼のていねいさ", "why": "Would you mind 〜ing? が最もていねい。過去形の距離 ＋ 「いやでなければ」。" },
+        { "id": "q5", "type": "fill", "q": "Just to ___, the meeting is at 3 p.m. on Monday, right?", "ja": "確認ですが、会議は月曜日の午後3時ですよね？", "choices": ["confirm", "confirmed", "confirming"], "answer": "confirm", "tag": "確認の型", "why": "Just to confirm ＝ 確認のために言うと。to のうしろは原形。" },
+        { "id": "q6", "type": "choice", "q": "会議でやわらかく反対するときの言い方は？", "choices": ["That's a good point, but I'm not sure about the cost.", "You are wrong.", "No.", "I don't agree you."], "answer": 0, "tag": "やわらかい反対", "why": "まず受けとめ（good point）、but のあとで気になる点を言う。" },
+        { "id": "q7", "type": "fill", "q": "May I ___ to Ms. Garcia, please?", "ja": "ガルシアさんをお願いできますか？", "choices": ["speak", "say", "tell"], "answer": "speak", "tag": "電話の定番", "why": "speak to 人 ＝ 人と話す。say はうしろに言う内容、tell はうしろに人を直接置く。" },
+        { "id": "q8", "type": "fill", "q": "Would you mind ___ your screen?", "ja": "画面を共有していただけますか？", "choices": ["sharing", "to share", "share"], "answer": "sharing", "tag": "Would you mind", "why": "mind のうしろは -ing（実際にしてもらう動作）。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "会議と電話の練習です。**Could you / Would you mind** をなめらかに言えるように。",
+      "items": [
+        { "ja": "明日までにファイルを送っていただけますか？", "en": "Could you send me the file by tomorrow?", "accept": ["Can you send me the file by tomorrow?"], "hint": "Could you send me ...?" },
+        { "ja": "画面を共有していただけますか？", "en": "Would you mind sharing your screen?", "accept": ["Could you share your screen?"], "hint": "Would you mind ...?" },
+        { "ja": "確認ですが、会議は月曜日の午後3時ですよね？", "en": "Just to confirm, the meeting is at 3 p.m. on Monday, right?", "accept": ["Just to confirm, the meeting is at 3 pm on Monday, right?", "Just to confirm, the meeting is on Monday at 3 p.m., right?"], "hint": "Just to confirm, ..." },
+        { "ja": "いい点ですね。ただ、費用が少し気になります。", "en": "That's a good point, but I'm not sure about the cost.", "hint": "That's a good point, but ..." },
+        { "ja": "折り返し電話するよう、彼女に伝えていただけますか？", "en": "Could you ask her to call me back?", "hint": "Could you ask her ...?" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "Would you mind ...?", "ja": "〜していただけますか？（とてもていねい）", "ex": "Would you mind sharing your screen?" },
+    { "en": "Not at all.", "ja": "（mind に答えて）いいですよ。", "ex": "Would you mind waiting? — Not at all." },
+    { "en": "share", "ja": "共有する", "ex": "Would you mind sharing your screen?" },
+    { "en": "screen", "ja": "画面", "ex": "Would you mind sharing your screen?" },
+    { "en": "just to confirm", "ja": "確認ですが", "ex": "Just to confirm, the meeting is on Monday, right?" },
+    { "en": "That's a good point.", "ja": "いい点ですね。", "ex": "That's a good point, but I'm not sure about the cost." },
+    { "en": "May I speak to ...?", "ja": "（電話で）〜さんをお願いします", "ex": "May I speak to Ms. Garcia, please?" },
+    { "en": "I'm not sure about ...", "ja": "〜は少し気になります（やわらかい反対）", "ex": "I'm not sure about the cost." }
+  ]
+}

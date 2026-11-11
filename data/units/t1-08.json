@@ -1,0 +1,69 @@
+{
+  "id": "t1-08",
+  "title": "Part 6 長文穴埋め",
+  "subtitle": "前後の文と「つなぎ言葉」で解く",
+  "steps": [
+    {
+      "type": "question",
+      "title": "空所のある文だけ読んでも、答えが決まらない",
+      "body": "Part 6 は、メールやお知らせなどの短い文章に空所が4つあり、そこに入るものを選ぶ問題です。4つのうち1つは、**文をまるごと選ぶ**問題です。\n\nPart 5 と同じように空所のある文だけを見ると、どの選択肢も文法的には正しく見えることがあります。\n\n**Part 6 は、Part 5 と何が違うのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "Part 6 は「文章の流れ」で解く。つなぎ言葉は道しるべ",
+      "body": "Part 6 には、**空所の文だけでは決まらず、前後の文を読まないと解けない問題**があります。見るポイントは3つです。\n\n**① 時制：もう起きたこと？ これから？**\n文書の日付や、前後の文（Next month 〜 / Last week 〜）から判断します。\n\n**② つなぎ言葉：前と後ろの関係を示す道しるべ**\n中2の接続詞の単元で、because と so は向きが逆だと学びました。文と文をつなぐ言葉も、**前の文と後ろの文がどんな関係か**を示しています。\n\n> **However**（しかし）：前と反対のことが続く\n> **As a result / Therefore**（その結果・だから）：前が原因、後ろが結果\n> **In addition / Also**（さらに）：同じ方向の情報を足す\n> **For example**（たとえば）：前の内容の具体例\n> **Instead**（代わりに）：前のものの代わりを言う\n\n**③ 文を選ぶ問題：前後とつながるか**\n選択肢の文が、**前の文の話を受けているか**、**後ろの文につながるか**を確かめます。this / they / the boxes のような言葉が、前の何を指しているかが手がかりになります。\n\n[[日本語の発想|英語の発想]]\nL: 「しかし」「さらに」がなくても、流れで分かることが多い\nR: However / In addition などを文頭に置き、関係をはっきり示す",
+      "points": [
+        "Part 6 は前後の文を読む。時制は文書の日付や前後の文で決める",
+        "However ＝ 反対、As a result ＝ 結果、In addition ＝ 追加、For example ＝ 具体例、Instead ＝ 代わり",
+        "文を選ぶ問題は、前後の文と話がつながるかで判断する"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "つなぎ言葉の前と後ろが、どんな関係になっているかを確かめましょう。",
+      "items": [
+        { "en": "The train was delayed. As a result, I was late for the meeting.", "ja": "電車が遅れました。その結果、会議に遅刻しました。", "note": "前が原因、後ろが結果" },
+        { "en": "The hotel was expensive. However, the service was excellent.", "ja": "そのホテルは高かった。しかし、サービスはすばらしかった。", "note": "前と反対の評価" },
+        { "en": "We offer many services. For example, we can arrange airport pickups.", "ja": "多くのサービスがございます。たとえば、空港への送迎の手配もできます。", "note": "前の内容の具体例" },
+        { "en": "The meeting room is being cleaned. Let's meet in the cafeteria instead.", "ja": "会議室は清掃中です。代わりにカフェテリアで会いましょう。", "note": "instead は文の最後にも置ける" },
+        { "en": "In addition, the meeting rooms on the second floor will not be available.", "ja": "さらに、2階の会議室は使えません。", "note": "同じ方向の情報を足す" },
+        { "en": "If you have any questions, please contact Ms. Ito at extension 214.", "ja": "ご質問があれば、内線214のイトウさんにご連絡ください。", "note": "お知らせの最後によくある文" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "passage": "To: All Staff\nFrom: Facilities Department\nSubject: Office Renovation\n\nNext month, the second floor will be renovated. Work ___(1) on May 3 and is expected to last two weeks. During this period, staff on the second floor will move to temporary desks on the fifth floor. ___(2), the meeting rooms on the second floor will not be available.\n\n___(3) Please pack your personal items in the boxes provided by April 30. If you have any questions, ___(4) contact Ms. Ito at extension 214.", "q": "空所 (1) に入るものは？", "choices": ["will begin", "began", "has begun", "beginning"], "answer": 0, "keepOrder": true, "tag": "時制の判断", "why": "Next month（来月）の工事の話なので、これからのこと → will begin。" },
+        { "id": "q2", "type": "choice", "passage": "To: All Staff\nFrom: Facilities Department\nSubject: Office Renovation\n\nNext month, the second floor will be renovated. Work ___(1) on May 3 and is expected to last two weeks. During this period, staff on the second floor will move to temporary desks on the fifth floor. ___(2), the meeting rooms on the second floor will not be available.\n\n___(3) Please pack your personal items in the boxes provided by April 30. If you have any questions, ___(4) contact Ms. Ito at extension 214.", "q": "空所 (2) に入るものは？", "choices": ["In addition", "However", "For example", "Instead"], "answer": 0, "keepOrder": true, "tag": "つなぎ言葉", "why": "前（5階へ移る）も後ろ（会議室が使えない）も工事の影響。同じ方向の情報を足す → In addition。" },
+        { "id": "q3", "type": "choice", "passage": "To: All Staff\nFrom: Facilities Department\nSubject: Office Renovation\n\nNext month, the second floor will be renovated. Work ___(1) on May 3 and is expected to last two weeks. During this period, staff on the second floor will move to temporary desks on the fifth floor. ___(2), the meeting rooms on the second floor will not be available.\n\n___(3) Please pack your personal items in the boxes provided by April 30. If you have any questions, ___(4) contact Ms. Ito at extension 214.", "q": "空所 (3) に入る文は？", "choices": ["Boxes will be delivered to each desk next week.", "The renovation was completed last year.", "The fifth floor has a nice cafeteria.", "Please enjoy your summer vacation."], "answer": 0, "keepOrder": true, "tag": "文を選ぶ問題", "why": "後ろの文の the boxes provided（用意された箱）につながる。工事はこれからなので completed last year は合わない。" },
+        { "id": "q4", "type": "choice", "passage": "To: All Staff\nFrom: Facilities Department\nSubject: Office Renovation\n\nNext month, the second floor will be renovated. Work ___(1) on May 3 and is expected to last two weeks. During this period, staff on the second floor will move to temporary desks on the fifth floor. ___(2), the meeting rooms on the second floor will not be available.\n\n___(3) Please pack your personal items in the boxes provided by April 30. If you have any questions, ___(4) contact Ms. Ito at extension 214.", "q": "空所 (4) に入るものは？", "choices": ["please", "pleasing", "pleased", "pleasure"], "answer": 0, "keepOrder": true, "tag": "品詞の見分け", "why": "動詞 contact の前で「〜してください」→ please。命令文の please。" },
+        { "id": "q5", "type": "fill", "q": "The train was delayed. ___, I was late for the meeting.", "ja": "電車が遅れました。その結果、会議に遅刻しました。", "choices": ["As a result", "However", "For example"], "answer": "As a result", "tag": "つなぎ言葉", "why": "前（電車の遅れ）が原因、後ろ（遅刻）が結果。" },
+        { "id": "q6", "type": "fill", "q": "The hotel was expensive. ___, the service was excellent.", "ja": "そのホテルは高かった。しかし、サービスはすばらしかった。", "choices": ["However", "Therefore", "In addition"], "answer": "However", "tag": "つなぎ言葉", "why": "前（高い：よくない点）と後ろ（すばらしい：よい点）が反対 → However。" },
+        { "id": "q7", "type": "fill", "q": "We offer many services. ___, we can arrange airport pickups.", "ja": "多くのサービスがございます。たとえば、空港への送迎の手配もできます。", "choices": ["For example", "However", "Instead"], "answer": "For example", "tag": "つなぎ言葉", "why": "後ろが、前の「多くのサービス」の具体例。" },
+        { "id": "q8", "type": "fill", "q": "The meeting room is being cleaned. ___, let's meet in the cafeteria.", "ja": "会議室は清掃中です。代わりに、カフェテリアで会いましょう。", "choices": ["Instead", "In addition", "For example"], "answer": "Instead", "tag": "つなぎ言葉", "why": "会議室の代わりにカフェテリア → Instead。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "つなぎ言葉を使って、2つの文を**関係がはっきり分かるように**言います。",
+      "items": [
+        { "ja": "電車が遅れました。その結果、会議に遅刻しました。", "en": "The train was delayed. As a result, I was late for the meeting.", "hint": "As a result, ..." },
+        { "ja": "そのホテルは高かった。しかし、サービスはすばらしかった。", "en": "The hotel was expensive. However, the service was excellent.", "hint": "However, ..." },
+        { "ja": "会議室は清掃中です。代わりにカフェテリアで会いましょう。", "en": "The meeting room is being cleaned. Let's meet in the cafeteria instead.", "accept": ["The meeting room is being cleaned. Instead, let's meet in the cafeteria."], "hint": "... instead." },
+        { "ja": "さらに、2階の会議室は使えません。", "en": "In addition, the meeting rooms on the second floor will not be available.", "accept": ["In addition, the meeting rooms on the second floor won't be available."], "hint": "In addition, ..." },
+        { "ja": "ご質問があれば、内線214のイトウさんにご連絡ください。", "en": "If you have any questions, please contact Ms. Ito at extension 214.", "hint": "If you have any questions, ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "renovate", "ja": "改装する", "ex": "The second floor will be renovated." },
+    { "en": "temporary", "ja": "一時的な", "ex": "Staff will move to temporary desks." },
+    { "en": "however", "ja": "しかし", "ex": "However, the service was excellent." },
+    { "en": "as a result", "ja": "その結果", "ex": "As a result, I was late for the meeting." },
+    { "en": "in addition", "ja": "さらに・加えて", "ex": "In addition, the meeting rooms will not be available." },
+    { "en": "instead", "ja": "代わりに", "ex": "Let's meet in the cafeteria instead." },
+    { "en": "extension", "ja": "内線", "ex": "Please contact Ms. Ito at extension 214." },
+    { "en": "provide", "ja": "提供する・用意する", "ex": "Please use the boxes provided." }
+  ]
+}

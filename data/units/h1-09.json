@@ -1,0 +1,69 @@
+{
+  "id": "h1-09",
+  "title": "比較の発展",
+  "subtitle": "差の大きさ・倍数・「〜すればするほど」",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「たった500円」を no more than で言うのはなぜ？",
+      "body": "「たった500円しかかからない」は `It costs no more than 500 yen.` と言えます。\n\nmore（もっと多く）が入っているのに、意味は「たった」と少ないほうです。逆に `no less than five cars` は「5台**も**」と多いほうです。\n\nさらに「練習すればするほど上手になる」は `The more you practice, the better you get.` と、the が2回出てきます。**比較の発展形は、どう読めばいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "比較は「ものさし」。発展形は「差の大きさ」をはっきりさせる",
+      "body": "中2で、比較は**1本のものさしの上に並べる**ことだと学びました。高校の比較は、ものさしの上の**差の大きさ**や、**ものさしの動き**を表します。\n\n**① 差が大きいことを言う：much / far ＋ 比較級**\n`much better`（ずっといい）。very は比較級を強められません（✕ very better）。\n\n**② 何倍かを言う：〜 times as … as**\n`twice as large as`（2倍の大きさ）、`three times as large as`（3倍）。as 〜 as（同じ位置）に「何倍」をかけるだけです。\n\n**③ 2つのものさしが一緒に動く：the 比較級, the 比較級**\n\n> **The more** you practice, **the better** you get.\n> 練習の量が増えるほど、うまさも上がる（2本のものさしが一緒に動く）\n\n**④ だんだん：比較級 and 比較級**\n`colder and colder`（だんだん寒く）。ものさしの目もりが少しずつ進んでいく絵です。\n\n**⑤ no ＝ 差がゼロ**\nno は「ゼロ」です。no more than 500 yen は「500円より**多い分がゼロ**」。差がないことを強く言うので、**「たった500円」**という気持ちになります。\n\n- **no more than** 〜：〜しか（少ないという気持ち）\n- **no less than** 〜：〜も（多いという気持ち）\n\n[[日本語の発想|英語の発想]]\nL: 「ずっと」「2倍」「〜するほど」「たった」を、それぞれ別の言葉で言う\nR: ものさしの上の差（much / times / no）と動き（the 〜, the 〜）で言う",
+      "points": [
+        "比較級を強めるのは much / far（very は使わない）",
+        "〜 times as … as ＝ 〜倍。the 比較級, the 比較級 ＝ 〜すればするほど…",
+        "no ＝ 差がゼロ。no more than ＝ たった、no less than ＝ 〜も"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "ものさしの上で、差がどのくらいか、どう動いているかを思い浮かべましょう。",
+      "items": [
+        { "en": "This phone is much better than my old one.", "ja": "この電話は前のよりずっといい。", "note": "much ＋ 比較級 ＝ 差が大きい" },
+        { "en": "My room is twice as large as yours.", "ja": "私の部屋はあなたの部屋の2倍の広さだ。", "note": "twice ＝ 2倍。3倍からは three times" },
+        { "en": "The more you practice, the better you get.", "ja": "練習すればするほど、上手になる。", "note": "語学学習にぴったりの文", "sound": "the more は「ザモア」、the better は「ザベター」とリズムよく" },
+        { "en": "It's getting colder and colder.", "ja": "だんだん寒くなってきた。" },
+        { "en": "It costs no more than 500 yen.", "ja": "たった500円しかかからない。", "note": "多い分がゼロ → 少ないという気持ち" },
+        { "en": "He has no less than five cars.", "ja": "彼は車を5台も持っている。", "note": "少ない分がゼロ → 多いという気持ち" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "This phone is ___ better than my old one.", "ja": "この電話は前のよりずっといい。", "choices": ["much", "very", "more"], "answer": "much", "tag": "差の大きさ", "why": "比較級を強めるのは much / far。very better とは言わない。" },
+        { "id": "q2", "type": "order", "ja": "私の部屋はあなたの部屋の2倍の広さだ。", "words": ["My", "room", "is", "twice", "as", "large", "as", "yours"], "extra": ["than"], "answer": "My room is twice as large as yours", "tag": "倍数", "why": "twice ＋ as 〜 as。as 〜 as に「何倍」をかける。" },
+        { "id": "q3", "type": "fill", "q": "The more you practice, the ___ you get.", "ja": "練習すればするほど、上手になる。", "choices": ["better", "good", "best"], "answer": "better", "tag": "the 比較級, the 比較級", "why": "2つのものさしが一緒に動く → どちらも the ＋ 比較級。" },
+        { "id": "q4", "type": "fill", "q": "It's getting ___.", "ja": "だんだん寒くなってきた。", "choices": ["colder and colder", "more cold", "coldest"], "answer": "colder and colder", "tag": "比較級 and 比較級", "why": "目もりが少しずつ進む → 比較級 and 比較級。" },
+        { "id": "q5", "type": "choice", "q": "「It costs no more than 500 yen.」にこめられた気持ちは？", "choices": ["たった500円（少ない）", "500円もする（高い）", "500円よりずっと高い", "値段は分からない"], "answer": 0, "tag": "no more than / no less than", "why": "no ＝ 差がゼロ。多い分がゼロ → 「たった」。" },
+        { "id": "q6", "type": "choice", "q": "「He has no less than five cars.」の意味は？", "choices": ["彼は車を5台も持っている", "彼は車をたった5台しか持っていない", "彼の車は5台より少ない", "彼は車を持っていない"], "answer": 0, "tag": "no more than / no less than", "why": "少ない分がゼロ → 「〜も」と多いという気持ち。" },
+        { "id": "q7", "type": "choice", "q": "比較級を強めるのに使えない語は？", "choices": ["very", "much", "far", "a lot"], "answer": 0, "tag": "差の大きさ", "why": "very は比較級を強められない。much / far / a lot を使う。" },
+        { "id": "q8", "type": "choice", "q": "「the 比較級, the 比較級」が表すのは？", "choices": ["2つのことが一緒に変化する（〜すればするほど…）", "2つが同じくらい", "いちばん〜", "だんだん〜"], "answer": 0, "tag": "the 比較級, the 比較級", "why": "2本のものさしが一緒に動く絵。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "差の大きさや変化を言う練習です。**The more 〜, the better 〜** はリズムで覚えましょう。",
+      "items": [
+        { "ja": "この電話は前のよりずっといい。", "en": "This phone is much better than my old one.", "hint": "This phone is much ..." },
+        { "ja": "練習すればするほど、上手になる。", "en": "The more you practice, the better you get.", "accept": ["The more you practice, the better you'll get.", "The more you practise, the better you get."], "hint": "The more you practice, ..." },
+        { "ja": "だんだん寒くなってきた。", "en": "It's getting colder and colder.", "accept": ["It is getting colder and colder."], "hint": "It's getting ..." },
+        { "ja": "たった500円しかかからない。", "en": "It costs no more than 500 yen.", "accept": ["It only costs 500 yen.", "It costs only 500 yen."], "hint": "It costs no more than ..." },
+        { "ja": "私の部屋はあなたの部屋の2倍の広さだ。", "en": "My room is twice as large as yours.", "accept": ["My room is twice as big as yours."], "hint": "My room is twice ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "much better", "ja": "ずっとよい", "ex": "This phone is much better than my old one." },
+    { "en": "twice", "ja": "2倍・2回", "ex": "My room is twice as large as yours." },
+    { "en": "large", "ja": "大きい・広い", "ex": "My room is twice as large as yours." },
+    { "en": "practice", "ja": "練習する", "ex": "The more you practice, the better you get." },
+    { "en": "get colder", "ja": "寒くなる", "ex": "It's getting colder and colder." },
+    { "en": "cost", "ja": "（費用が）かかる", "ex": "It costs no more than 500 yen." },
+    { "en": "no more than", "ja": "たった〜しか", "ex": "It costs no more than 500 yen." },
+    { "en": "no less than", "ja": "〜も（多い）", "ex": "He has no less than five cars." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "j2-01",
+  "title": "過去形の深掘り",
+  "subtitle": "過去進行形と、よく使う不規則動詞",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「テレビを見ていた」と「テレビを見た」は何が違う？",
+      "body": "「昨夜8時、何をしていましたか？」と聞かれたら、英語では `I was watching TV.` と答えます。\n\nでも中1では `I watched TV last night.`（昨夜テレビを見た）も習いました。どちらも昨夜の話です。\n\n**was watching と watched は、何が違うのでしょう？** そして went、bought、thought のような不規則な形は、どう覚えればいいのでしょう？"
+    },
+    {
+      "type": "core",
+      "title": "過去進行形は「過去のある時点で、まさに途中」",
+      "body": "中1で、進行形（be動詞 ＋ -ing）は「今まさに途中」だと学びました。\n\n**過去進行形は、その「途中」を過去のある時点に移しただけ**です。be動詞を過去形（was / were）にします。\n\n> **過去形**：出来事を丸ごと言う（I watched TV. ＝ 見た）\n> **過去進行形**：過去のある時点で、途中の場面を写真のように切り取る（I was watching TV. ＝ 見ている途中だった）\n\nだから「8時に何をしていた？」のように**時点を聞かれたら、過去進行形**が自然です。\n\n**長い動作に、短い出来事が割り込む**\n2つを組み合わせると、場面がよく伝わります。\n\n- When you called me, I **was taking** a shower.\n- （あなたが電話した ＝ 短い出来事）（シャワーの途中だった ＝ 長い動作）\n\n進行形と同じく、know や like のような心の状態の動詞は、過去でも進行形にしません（I **knew** her name.）。\n\n**不規則動詞はグループで覚える**\n中1で学んだとおり、よく使う動詞ほど特別な形です。似た形をまとめると覚えやすくなります。\n\n- 音が「オート」に変わる：buy → **bought**、think → **thought**、bring → **brought**、catch → **caught**、teach → **taught**\n- 真ん中の音が変わる：get → **got**、come → **came**、sit → **sat**、drink → **drank**\n- 形が変わらない：put → **put**、cut → **cut**、read → **read**（発音だけ「レッド」に変わる）\n\n[[日本語の発想|英語の発想]]\nL: 「見た」「見ていた」の違いはあいまいなことも多い\nR: 出来事を丸ごと言うか（watched）、途中の場面を切り取るか（was watching）をはっきり分ける",
+      "points": [
+        "過去進行形 ＝ was / were ＋ -ing。過去のある時点で途中だった",
+        "When 〜, I was 〜ing. で「〜したとき、〜している途中だった」",
+        "不規則動詞は似た形のグループで覚える（bought / thought / caught）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "「丸ごと」なのか「途中の場面」なのかを意識して聞きましょう。",
+      "items": [
+        { "en": "What were you doing at eight last night? — I was watching TV.", "ja": "昨夜8時に何をしていましたか？ — テレビを見ていました。", "note": "時点を聞かれたので過去進行形で答える" },
+        { "en": "When you called me, I was taking a shower.", "ja": "あなたが電話をくれたとき、私はシャワーを浴びていました。", "note": "シャワーの途中に、電話が割り込んだ" },
+        { "en": "It was snowing this morning.", "ja": "今朝は雪が降っていました。", "sound": "was は弱く「ワズ」より「ウズ」に近く聞こえる" },
+        { "en": "I bought a new phone last week.", "ja": "先週、新しい電話を買いました。", "note": "buy → bought", "sound": "bought は「ボート」に近い。最後の t は弱い" },
+        { "en": "I thought so too.", "ja": "私もそう思いました。", "note": "think → thought。会話であいづちによく使う" },
+        { "en": "She read the book yesterday.", "ja": "彼女は昨日その本を読みました。", "note": "read の過去形は形が同じで、発音が「レッド」" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I ___ watching TV at eight.", "ja": "私は8時にテレビを見ていました。", "choices": ["was", "were", "did"], "answer": "was", "tag": "過去進行形の形", "why": "過去進行形は was / were ＋ -ing。主語 I なので was。did はいらない。" },
+        { "id": "q2", "type": "fill", "q": "They ___ playing soccer then.", "ja": "彼らはそのときサッカーをしていました。", "choices": ["were", "was", "did"], "answer": "were", "tag": "過去進行形の形", "why": "they（2人以上）の be動詞の過去は were。" },
+        { "id": "q3", "type": "choice", "q": "「あなたが電話をくれたとき、私はシャワーを浴びていました」", "choices": ["When you called me, I was taking a shower.", "When you called me, I am taking a shower.", "When you called me, I was take a shower.", "When you called me, I taking a shower."], "answer": 0, "tag": "過去進行形の使い方", "why": "過去の時点で途中だった → was ＋ -ing。be動詞と -ing の両方が必要。" },
+        { "id": "q4", "type": "fill", "q": "I ___ a new phone last week.", "ja": "先週、新しい電話を買いました。", "choices": ["bought", "buyed", "buy"], "answer": "bought", "tag": "不規則動詞", "why": "buy はよく使う動詞なので特別な形 bought。thought、caught と同じグループ。" },
+        { "id": "q5", "type": "choice", "q": "「I was watching TV at eight.」が表すのは？", "choices": ["8時の時点で、テレビを見ている途中だった", "8時にテレビを見始めた", "毎日8時にテレビを見る", "8時にテレビを見終わった"], "answer": 0, "tag": "過去進行形の使い方", "why": "過去進行形は、過去のある時点の「途中」の場面を切り取る。" },
+        { "id": "q6", "type": "order", "ja": "昨夜8時に何をしていましたか？", "words": ["What", "were", "you", "doing", "at", "eight", "last", "night"], "extra": ["did"], "answer": "What were you doing at eight last night", "tag": "過去進行形の形", "why": "疑問詞 ＋ were you doing。be動詞の文なので be動詞が前に出る。" },
+        { "id": "q7", "type": "fill", "q": "I ___ so too.", "ja": "私もそう思いました。", "choices": ["thought", "thinked", "think"], "answer": "thought", "tag": "不規則動詞", "why": "think → thought。bought と同じ「オート」のグループ。" },
+        { "id": "q8", "type": "choice", "q": "「私は彼女の名前を知っていました」", "choices": ["I knew her name.", "I was knowing her name.", "I was know her name.", "I knowed her name."], "answer": 0, "tag": "進行形にしない動詞", "why": "know は心の状態なので、過去でも進行形にしない。know → knew。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "昨日のことを話す練習です。**時点を聞かれたら was / were ＋ -ing** で答えます。",
+      "items": [
+        { "ja": "昨夜8時に何をしていましたか？", "en": "What were you doing at eight last night?", "accept": ["What were you doing at 8 last night?"], "hint": "What were you ...?" },
+        { "ja": "テレビを見ていました。", "en": "I was watching TV.", "hint": "I was ..." },
+        { "ja": "あなたが電話をくれたとき、私はシャワーを浴びていました。", "en": "When you called me, I was taking a shower.", "accept": ["I was taking a shower when you called me.", "When you called, I was taking a shower."], "hint": "When you called me, ..." },
+        { "ja": "先週、新しい電話を買いました。", "en": "I bought a new phone last week.", "hint": "I bought ..." },
+        { "ja": "私もそう思いました。", "en": "I thought so too.", "hint": "I thought ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "take a shower", "ja": "シャワーを浴びる", "ex": "I was taking a shower." },
+    { "en": "snow", "ja": "雪が降る・雪", "ex": "It was snowing this morning." },
+    { "en": "bought", "ja": "買った（buy の過去形）", "ex": "I bought a new phone last week." },
+    { "en": "thought", "ja": "思った（think の過去形）", "ex": "I thought so too." },
+    { "en": "knew", "ja": "知っていた（know の過去形）", "ex": "I knew her name." },
+    { "en": "then", "ja": "そのとき", "ex": "They were playing soccer then." },
+    { "en": "phone", "ja": "電話", "ex": "I bought a new phone last week." },
+    { "en": "caught", "ja": "つかまえた・（病気に）かかった（catch の過去形）", "ex": "I caught a cold last week." }
+  ]
+}

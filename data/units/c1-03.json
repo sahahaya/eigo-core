@@ -1,0 +1,69 @@
+{
+  "id": "c1-03",
+  "title": "旅行：道案内・買い物",
+  "subtitle": "間接疑問でたずね、命令文の案内を聞き取る",
+  "steps": [
+    {
+      "type": "question",
+      "title": "道を聞いたのに、答えが聞き取れない",
+      "body": "勇気を出して「美術館はどこですか？」と聞いたのに、返ってきた答えが速くて、どっちに曲がればいいのか分からない……。旅行でよくある失敗です。\n\nお店でも「Can I help you?」と声をかけられて、何と答えればいいか困ってしまいます。\n\n**道案内と買い物の会話は、どう準備すればいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "たずね方は間接疑問、答えは命令文と前置詞。どれも学んだ形",
+      "body": "道案内と買い物の英語は、**これまでに学んだ文法の組み合わせ**です。\n\n**たずねる：間接疑問でていねいに**\n中3で、疑問文を `Can you tell me 〜?` で包むと、ていねいに聞こえると学びました。\n\n> Excuse me. **Could you tell me how to get to** the museum?\n> **Is there** a pharmacy **near here**?（There is の疑問文）\n\n**答えを聞き取る：命令文 ＋ 前置詞**\n道案内の答えは、ほとんどが**命令文**（動詞から始まる）と、**位置を表す前置詞**です。\n\n- **Go straight** / **Turn left** at the second corner（動作）\n- It's **on your right** / **next to** the bank / **across from** the station（位置）\n\n動詞（go / turn）と、left / right、next to / across from の4つを聞き取れれば、道はほぼ分かります。\n\n**買い物の決まり文句**\n\n- 声をかけられて見ているだけなら：**I'm just looking, thanks.**\n- サイズ違い：**Do you have this in a smaller size?**（比較級）\n- 値段：**How much is this?**\n- 買うと決めたら：**I'll take it.**（その場で決めた → will）\n\n[[日本語の発想|英語の発想]]\nL: 「美術館はどこですか？」と場所をたずねる\nR: Could you tell me how to get to 〜? と「行き方」をたずねることが多い",
+      "points": [
+        "たずねる：Could you tell me how to get to 〜? / Is there 〜 near here?",
+        "答えは命令文（Go straight / Turn left）と位置の前置詞（next to / on your right）",
+        "買い物：I'm just looking. / How much is this? / I'll take it."
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "道をたずねる → 案内を聞く → 買い物、の順に並んでいます。",
+      "items": [
+        { "en": "Excuse me. Could you tell me how to get to the museum?", "ja": "すみません、美術館への行き方を教えていただけますか？" },
+        { "en": "Go straight and turn left at the second corner.", "ja": "まっすぐ行って、2つ目の角を左に曲がってください。", "note": "命令文。道案内では失礼ではない" },
+        { "en": "It's on your right, next to the bank.", "ja": "右手の、銀行の隣にあります。", "sound": "on your right は「オニュアライト」とつながる" },
+        { "en": "How much is this? — It's twenty dollars.", "ja": "これはいくらですか？ — 20ドルです。" },
+        { "en": "Do you have this in a smaller size?", "ja": "これのもっと小さいサイズはありますか？", "note": "比較級 smaller" },
+        { "en": "I'm just looking, thanks.", "ja": "見ているだけです、ありがとう。" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "autoplay": false, "audio": ["M: Excuse me. Could you tell me how to get to the museum?", "W: Sure. Go straight down this street and turn left at the second corner.", "W: The museum is on your right, next to the bank.", "M: Thank you so much!"], "q": "Where is the museum?", "ja": "美術館はどこにありますか？（設問を読んでから ▶）", "choices": ["Next to the bank", "Across from the bank", "At the first corner", "Behind the station"], "answer": 0, "tag": "道案内の聞き取り", "why": "on your right, next to the bank。位置の前置詞を聞き取る。" },
+        { "id": "q2", "type": "choice", "autoplay": false, "audio": ["M: Excuse me. Could you tell me how to get to the museum?", "W: Sure. Go straight down this street and turn left at the second corner.", "W: The museum is on your right, next to the bank.", "M: Thank you so much!"], "q": "Where should the man turn left?", "ja": "男性はどこで左に曲がればいいですか？", "choices": ["At the second corner", "At the first corner", "At the bank", "At the station"], "answer": 0, "tag": "道案内の聞き取り", "why": "turn left at the second corner。命令文の動詞（turn）のあとを聞く。" },
+        { "id": "q3", "type": "choice", "autoplay": false, "audio": ["W: Hi, can I help you?", "M: Yes. Do you have this shirt in a smaller size?", "W: Let me check. Yes, here's a medium.", "M: Great. How much is it?", "W: It's thirty-five dollars.", "M: OK, I'll take it."], "q": "How much is the shirt?", "ja": "シャツはいくらですか？", "choices": ["$35", "$25", "$45", "$53"], "answer": 0, "tag": "買い物の聞き取り", "why": "thirty-five dollars。数字は TOEIC の単元と同じく、強く言う位置に注意。" },
+        { "id": "q4", "type": "choice", "q": "道をたずねるときの、ていねいな言い方は？", "choices": ["Could you tell me how to get to the station?", "Where station?", "Tell me station.", "You know station?"], "answer": 0, "tag": "たずね方", "why": "間接疑問 ＋ Could you でていねいに。how to get to ＝ 〜への行き方。" },
+        { "id": "q5", "type": "fill", "q": "It's on your right, ___ to the bank.", "ja": "右手の、銀行の隣にあります。", "choices": ["next", "near", "side"], "answer": "next", "tag": "位置の前置詞", "why": "next to ＝ 〜の隣に。near は to をとらない（near the bank）。" },
+        { "id": "q6", "type": "choice", "q": "店員に「Can I help you?」と聞かれ、見ているだけのときは？", "choices": ["I'm just looking, thanks.", "No, I can't.", "Yes, I'm looking.", "I don't need you."], "answer": 0, "tag": "買い物の決まり文句", "why": "I'm just looking. ＝ 見ているだけです。thanks をつけるとやわらかい。" },
+        { "id": "q7", "type": "fill", "q": "Do you have this in a ___ size?", "ja": "これのもっと小さいサイズはありますか？", "choices": ["smaller", "small", "smallest"], "answer": "smaller", "tag": "買い物の決まり文句", "why": "今のものと比べて「もっと小さい」→ 比較級 smaller。" },
+        { "id": "q8", "type": "choice", "q": "買うと決めたときの決まり文句は？", "choices": ["I'll take it.", "I took it.", "I have taken it.", "I was taking it."], "answer": 0, "tag": "買い物の決まり文句", "why": "その場で決めた → will。take ＝ （買って）もらっていく。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "旅先で道を聞き、買い物をする練習です。**Excuse me. から始めて**、ていねいに。",
+      "items": [
+        { "ja": "すみません、美術館への行き方を教えていただけますか？", "en": "Excuse me. Could you tell me how to get to the museum?", "accept": ["Excuse me, could you tell me how to get to the museum?", "Excuse me. Can you tell me how to get to the museum?"], "hint": "Excuse me. Could you tell me ...?" },
+        { "ja": "これはいくらですか？", "en": "How much is this?", "hint": "How much ...?" },
+        { "ja": "これのもっと小さいサイズはありますか？", "en": "Do you have this in a smaller size?", "accept": ["Do you have a smaller size?"], "hint": "Do you have this in ...?" },
+        { "ja": "見ているだけです、ありがとう。", "en": "I'm just looking, thanks.", "accept": ["I'm just looking, thank you."], "hint": "I'm just ..." },
+        { "ja": "これにします（買います）。", "en": "I'll take it.", "accept": ["I will take it."], "hint": "I'll ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "how to get to", "ja": "〜への行き方", "ex": "Could you tell me how to get to the museum?" },
+    { "en": "go straight", "ja": "まっすぐ進む", "ex": "Go straight and turn left." },
+    { "en": "on your right", "ja": "右手に", "ex": "It's on your right." },
+    { "en": "next to", "ja": "〜の隣に", "ex": "It's next to the bank." },
+    { "en": "across from", "ja": "〜の向かいに", "ex": "It's across from the station." },
+    { "en": "museum", "ja": "美術館・博物館", "ex": "How do I get to the museum?" },
+    { "en": "How much is ...?", "ja": "〜はいくらですか？", "ex": "How much is this?" },
+    { "en": "I'm just looking.", "ja": "見ているだけです。", "ex": "I'm just looking, thanks." }
+  ]
+}

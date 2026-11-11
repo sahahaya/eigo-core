@@ -1,0 +1,69 @@
+{
+  "id": "c1-02",
+  "title": "旅行：ホテル・レストラン",
+  "subtitle": "店員の「決まった質問」に短く答える",
+  "steps": [
+    {
+      "type": "question",
+      "title": "レストランで、店員に何を聞かれているか分からない",
+      "body": "レストランに入ると、店員が早口で何か聞いてきます。`How many?` `For here or to go?` `Are you ready to order?` ……。\n\n何を聞かれているのか分からないと、こちらも答えられません。ホテルで「エアコンが動かない」と伝えたいときも、どう言えばいいか迷います。\n\n**お店やホテルでの会話を、楽に乗り切るにはどうすればいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "お店の会話は「店員の決まった質問 → 短い答え」のくり返し",
+      "body": "レストランやホテルの会話は、**店員が質問し、客が短く答える**流れのくり返しです。店員の質問はほとんど決まっているので、**質問を聞き取れれば、答えは短くて大丈夫**です。\n\n> How many? → **Two, please.**\n> For here or to go? → **For here.**（店内で）／ **To go.**（持ち帰り）\n> Are you ready to order? → **I'll have** 〜.\n> Anything else? → **That's all, thank you.**\n\n**注文は I'll have 〜**\n「〜にします」は I'll have 〜 です。未来の単元で学んだとおり、**その場で決めたこと**は will で言います。メニューを見て今決めたので I'll なのです。\n\n**会計**\n`Could I have the check, please?`（お会計をお願いします）。イギリスなどでは check の代わりに bill を使います。\n\n**ホテルで問題を伝える型**\n\n> There's a problem with 〜. ＋ 何が起きているか\n\n- There's a problem with my room. The air conditioner **isn't working**.（動いていない）\n\n「今そうなっている」ので進行形や現在形で言います。There is の単元で学んだ「新しい情報を登場させる」形で、まず問題があることを伝えます。\n\n[[日本語の発想|英語の発想]]\nL: 「チキンサラダで」「お会計を」と、言葉の一部だけで済ませることが多い\nR: 短くてもよいが、I'll have 〜 / Could I have 〜? のような型に乗せて言う",
+      "points": [
+        "店員の決まった質問（How many? / For here or to go?）を聞き取り、短く答える",
+        "注文は I'll have 〜（その場で決めた → will）。会計は Could I have the check, please?",
+        "問題を伝える型：There's a problem with 〜. ＋ 何が起きているか"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "レストランとホテルで、そのまま使える文です。",
+      "items": [
+        { "en": "A table for two, please.", "ja": "2人です（テーブルをお願いします）。" },
+        { "en": "I'll have the chicken salad.", "ja": "チキンサラダにします。", "note": "その場で決めた → will", "sound": "I'll have は「アイラヴ」に近い" },
+        { "en": "For here or to go? — For here, please.", "ja": "店内でお召し上がりですか、お持ち帰りですか？ — 店内で。" },
+        { "en": "Could I have the check, please?", "ja": "お会計をお願いします。", "note": "イギリスなどでは bill" },
+        { "en": "Can I pay by credit card?", "ja": "クレジットカードで払えますか？" },
+        { "en": "There's a problem with my room. The air conditioner isn't working.", "ja": "部屋に問題があります。エアコンが動きません。", "note": "まず問題があると伝え、次にくわしく" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "autoplay": false, "audio": ["M: Hi, are you ready to order?", "W: Yes, I'll have the chicken salad and an iced tea, please.", "M: Sure. Would you like anything else?", "W: No, that's all. Thank you."], "q": "What does the woman order?", "ja": "女性は何を注文しましたか？（設問を読んでから ▶）", "choices": ["A chicken salad and an iced tea", "A steak and a coffee", "Only an iced tea", "A chicken sandwich"], "answer": 0, "tag": "会話の聞き取り", "why": "I'll have the chicken salad and an iced tea。注文は I'll have のあとを聞く。" },
+        { "id": "q2", "type": "choice", "autoplay": false, "audio": ["W: Front desk. How can I help you?", "M: Hi, this is room 512. There's a problem with my room. The air conditioner isn't working.", "W: I'm sorry about that. I'll send someone up right away."], "q": "What is the man's problem?", "ja": "男性の問題は何ですか？", "choices": ["The air conditioner is not working.", "The room is too small.", "He lost his key.", "The TV is broken."], "answer": 0, "tag": "会話の聞き取り", "why": "There's a problem with my room. のあとに、くわしい内容が来る。" },
+        { "id": "q3", "type": "choice", "autoplay": false, "audio": ["W: Front desk. How can I help you?", "M: Hi, this is room 512. There's a problem with my room. The air conditioner isn't working.", "W: I'm sorry about that. I'll send someone up right away."], "q": "What will the woman do?", "ja": "女性は何をしますか？", "choices": ["Send someone to the room", "Give him a new key", "Call a taxi", "Cancel the reservation"], "answer": 0, "tag": "会話の聞き取り", "why": "I'll send someone up right away.（すぐに誰かを部屋へ行かせます）。" },
+        { "id": "q4", "type": "fill", "q": "I'll ___ the chicken salad.", "ja": "チキンサラダにします。", "choices": ["have", "having", "had"], "answer": "have", "tag": "注文の型", "why": "I'll（will）のうしろは原形 have。その場で決めた注文。" },
+        { "id": "q5", "type": "choice", "q": "「For here or to go?」の意味は？", "choices": ["店内で食べるか、持ち帰るか", "ここに行くか、あそこに行くか", "今払うか、あとで払うか", "1人か、2人か"], "answer": 0, "tag": "店員の質問", "why": "for here ＝ ここで（店内で）、to go ＝ 持って行く（持ち帰り）。" },
+        { "id": "q6", "type": "choice", "q": "注文で「I'll have 〜」と will を使う理由は？", "choices": ["その場で決めたことを言うから", "過去の話だから", "意味のない決まり文句だから", "あとで予約するから"], "answer": 0, "tag": "注文の型", "why": "未来の単元と同じ：その場で決めたことは will。" },
+        { "id": "q7", "type": "fill", "q": "Could I have the ___, please?", "ja": "お会計をお願いします。", "choices": ["check", "menu", "table"], "answer": "check", "tag": "会計", "why": "check ＝ 勘定書。menu だと「メニューをください」になる。" },
+        { "id": "q8", "type": "order", "ja": "クレジットカードで払えますか？", "words": ["Can", "I", "pay", "by", "credit", "card"], "extra": ["for"], "answer": "Can I pay by credit card", "tag": "会計", "why": "pay by 〜 ＝ 〜で払う。by は手段（高校の前置詞の単元）。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "お店で**店員に答える側**の練習です。短く、はっきり。",
+      "items": [
+        { "ja": "（何名様ですか？に）2人です。", "en": "A table for two, please.", "accept": ["Two, please.", "Table for two, please."], "hint": "A table for ..." },
+        { "ja": "チキンサラダにします。", "en": "I'll have the chicken salad.", "accept": ["I will have the chicken salad.", "I'd like the chicken salad."], "hint": "I'll have ..." },
+        { "ja": "お会計をお願いします。", "en": "Could I have the check, please?", "accept": ["Can I have the check, please?", "Check, please.", "Could I have the bill, please?"], "hint": "Could I have ...?" },
+        { "ja": "クレジットカードで払えますか？", "en": "Can I pay by credit card?", "accept": ["Can I pay by card?", "Can I pay with a credit card?"], "hint": "Can I pay ...?" },
+        { "ja": "部屋のエアコンが動きません。", "en": "The air conditioner in my room isn't working.", "accept": ["The air conditioner isn't working.", "The air conditioner in my room is not working."], "hint": "The air conditioner ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "a table for two", "ja": "2人用の席", "ex": "A table for two, please." },
+    { "en": "I'll have ...", "ja": "〜にします（注文）", "ex": "I'll have the chicken salad." },
+    { "en": "for here", "ja": "店内で（食べる）", "ex": "For here, please." },
+    { "en": "to go", "ja": "持ち帰りで", "ex": "Two coffees to go, please." },
+    { "en": "check", "ja": "勘定書・お会計", "ex": "Could I have the check, please?" },
+    { "en": "pay by card", "ja": "カードで払う", "ex": "Can I pay by card?" },
+    { "en": "air conditioner", "ja": "エアコン", "ex": "The air conditioner isn't working." },
+    { "en": "That's all.", "ja": "以上です。", "ex": "No, that's all. Thank you." }
+  ]
+}

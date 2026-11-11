@@ -1,0 +1,69 @@
+{
+  "id": "j1-02",
+  "title": "be動詞",
+  "subtitle": "「＝」と「いる・ある」の2つの顔",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「am / is / are ＝ です」で本当にいい？",
+      "body": "学校で「be動詞は『〜です』」と習った人が多いと思います。でも、`I am in Tokyo.` は「私は東京です」ではなく「私は東京に**います**」です。\n\n`My phone is on the desk.`（私の電話は机の上に**ある**）も、「です」では説明がつきません。\n\n「です」と覚えると、ここでつまずきます。be動詞の本当の仕事は何でしょう？"
+    },
+    {
+      "type": "core",
+      "title": "be動詞は「＝」と「いる・ある」",
+      "body": "be動詞（am / is / are）の仕事は2つだけです。\n\n> ① **イコール（＝）でつなぐ**　I am a nurse. → 私 ＝ 看護師\n> ② **「いる・ある」（存在）を表す**　I am in Tokyo. → 私は東京に「いる」\n\n①は「AはBだ」と左右をつなぐ記号。②は「そこにいる・ある」と言うだけ。どちらも、走る・食べるのような動きではありません。**be動詞は「状態」を表す動詞**です。\n\n**なぜ形が3つあるのか？** 英語は主語をとても大事にする言葉で、動詞の形を変えて「主語が誰か」をもう一度示します。\n\n- I → **am**\n- you、2人以上（we / they / Tom and Ken）→ **are**\n- それ以外の1人・1つ（he / she / it / Tom / my phone）→ **is**\n\n「私」「あなた」「それ以外の1人／1つ」「2人以上」。この分け方は、あとで出てくる三単現の s でも、ずっと使います。\n\n[[日本語の発想|英語の発想]]\nL: 「です」は丁寧さの印。なくても文になる（「私、看護師」）\nR: be動詞は文の骨。抜くと文にならない\n\n会話では `I am` → `I'm`、`you are` → `you're`、`he is` → `he's` のように**短縮形**が普通です。書くときは短縮しなくても正しいですが、話すときは短縮形で練習しましょう。",
+      "points": [
+        "be動詞 ＝「＝」か「いる・ある」。動きではなく状態",
+        "形は主語で決まる：I→am、you・2人以上→are、それ以外の1人／1つ→is",
+        "話すときは I'm / you're / he's の短縮形で"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "それぞれの be動詞が「＝」なのか「いる・ある」なのかを考えながら聞いてみましょう。",
+      "items": [
+        { "en": "I am a nurse.", "ja": "私は看護師です。", "note": "私 ＝ 看護師（イコール）", "sound": "会話では I'm a nurse.「アイマ ナース」とつながる" },
+        { "en": "You are kind.", "ja": "あなたは親切です。", "note": "あなた ＝ 親切。性質もイコールでつなぐ", "sound": "You're kind.「ユア カインド」" },
+        { "en": "He is my brother.", "ja": "彼は私の兄です。", "note": "彼 ＝ 私の兄", "sound": "He's「ヒーズ」" },
+        { "en": "My phone is on the desk.", "ja": "私の電話は机の上にあります。", "note": "「ある」の be動詞。「です」では訳せない" },
+        { "en": "We are in the office now.", "ja": "私たちは今オフィスにいます。", "note": "「いる」の be動詞", "sound": "We're「ウィア」" },
+        { "en": "Tom and Ken are friends.", "ja": "トムとケンは友達です。", "note": "2人だから are" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "I ___ a student.", "ja": "私は学生です。", "choices": ["am", "is", "are"], "answer": "am", "tag": "be動詞の形", "why": "I はいつも am。私 ＝ 学生。" },
+        { "id": "q2", "type": "fill", "q": "My phone ___ on the desk.", "ja": "私の電話は机の上にあります。", "choices": ["is", "am", "are"], "answer": "is", "tag": "be動詞の形", "why": "my phone は「それ以外の1つ」→ is。意味は「ある」。" },
+        { "id": "q3", "type": "choice", "q": "「This book is on the table.」の is の意味は？", "choices": ["ある（存在）", "イコール（＝）", "動き", "丁寧さ"], "answer": 0, "tag": "be動詞の2つの意味", "why": "本がテーブルの上に「ある」。本 ＝ テーブルではない。" },
+        { "id": "q4", "type": "choice", "q": "「She is a doctor.」の is の意味は？", "choices": ["イコール（＝）", "いる（存在）", "動き", "過去"], "answer": 0, "tag": "be動詞の2つの意味", "why": "彼女 ＝ 医者。左右をつなぐイコール。" },
+        { "id": "q5", "type": "fill", "q": "Tom and Ken ___ friends.", "ja": "トムとケンは友達です。", "choices": ["are", "is", "am"], "answer": "are", "tag": "be動詞の形（2人以上）", "why": "2人以上は are。Tom だけなら is。" },
+        { "id": "q6", "type": "order", "ja": "私たちは今オフィスにいます。", "words": ["We", "are", "in", "the", "office", "now"], "answer": "We are in the office now", "tag": "語順＋be動詞", "why": "We（誰が）are（いる）in the office（どこに）now（いつ）。" },
+        { "id": "q7", "type": "choice", "q": "会話でふつうに使う形は？「私は親切です」", "choices": ["I'm kind.", "I kind.", "Am I kind.", "I'm am kind."], "answer": 0, "tag": "短縮形", "why": "I'm は I am の短縮。am を2回言わない。be動詞を抜いた I kind. は文にならない。" },
+        { "id": "q8", "type": "fill", "q": "You ___ my best friend.", "ja": "あなたは私の親友です。", "choices": ["are", "is", "am"], "answer": "are", "tag": "be動詞の形", "why": "you はいつも are。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "be動詞は**短縮形**で言う練習をします。「＝」か「いる・ある」かを意識して。",
+      "items": [
+        { "ja": "私は看護師です。", "en": "I'm a nurse.", "accept": ["I am a nurse."], "hint": "I'm ..." },
+        { "ja": "彼は私の兄です。", "en": "He's my brother.", "accept": ["He is my brother."], "hint": "He's ..." },
+        { "ja": "私の電話は机の上にあります。", "en": "My phone is on the desk.", "hint": "My phone is ..." },
+        { "ja": "私たちは今オフィスにいます。", "en": "We're in the office now.", "accept": ["We are in the office now."], "hint": "We're in ..." },
+        { "ja": "あなたは親切です。", "en": "You're kind.", "accept": ["You are kind."], "hint": "You're ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "nurse", "ja": "看護師", "ex": "I'm a nurse." },
+    { "en": "kind", "ja": "親切な", "ex": "You're kind." },
+    { "en": "brother", "ja": "兄・弟", "ex": "He's my brother." },
+    { "en": "desk", "ja": "机", "ex": "My phone is on the desk." },
+    { "en": "office", "ja": "オフィス・事務所", "ex": "We're in the office now." },
+    { "en": "friend", "ja": "友達", "ex": "Tom and Ken are friends." },
+    { "en": "now", "ja": "今", "ex": "We're in the office now." },
+    { "en": "best friend", "ja": "親友", "ex": "You are my best friend." }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "t1-07",
+  "title": "Part 5 短文穴埋め",
+  "subtitle": "品詞と文型で、訳さずに解く",
+  "steps": [
+    {
+      "type": "question",
+      "title": "30問を10分で。全部訳していたら間に合わない",
+      "body": "Part 5 は、短い文の空所に入る語を4つから選ぶ問題で、30問あります。リーディング全体の時間を考えると、**1問あたり約20秒**で解きたいところです。\n\n1問ずつ日本語に訳していたら、とても間に合いません。\n\n**意味を全部とらなくても解ける問題は、どうやって見分けるのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "品詞問題は「空所の席」を見るだけで解ける",
+      "body": "Part 5 の問題は、大きく3種類です。\n\n> **品詞問題**：選択肢が同じ語の形違い（approve / approval / approved / approving）\n> **文法問題**：時制・受動態・関係詞・前置詞など\n> **語彙問題**：意味の違う単語から選ぶ\n\nこのうち**品詞問題は、文の意味が分からなくても解けます**。中1の代名詞や中2の文型の単元で学んだ「**席**」の考え方を使うからです。空所の前後を見て、「この席には何が座るか」を決めます。\n\n- **a / the / your などのうしろ、前置詞の前後** → **名詞**（your **approval**）\n- **be動詞のうしろ**（名詞が続かない）→ **形容詞**（was very **helpful**）\n- **動詞を説明する**・文の最後の空所 → **副詞**（read it **carefully**）\n- **主語のうしろ、助動詞（must / will）のうしろ** → **動詞**（must **submit**）\n\n**語尾で品詞が分かる**\n\n- 名詞：-tion / -ment / -ness / -ance（construction、payment）\n- 形容詞：-ful / -ive / -able / -al（helpful、effective）\n- 副詞：-ly（carefully、significantly）\n\n品詞問題で時間を節約し、そのぶん語彙問題や Part 7 に時間を使いましょう。\n\n[[日本語の発想|英語の発想]]\nL: 「承認」「承認する」「承認された」は、語尾の変化で区別\nR: 形が変わると座れる席が変わる。席を見れば形が決まる",
+      "points": [
+        "Part 5 は品詞・文法・語彙の3種類。品詞問題は訳さずに解ける",
+        "冠詞・所有格のうしろ → 名詞、be動詞のうしろ → 形容詞、動詞を説明 → 副詞",
+        "語尾で品詞を見分ける：-tion / -ment は名詞、-ful / -ive は形容詞、-ly は副詞"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "どの席にどの品詞が座っているかを確かめましょう。",
+      "items": [
+        { "en": "We need your approval by Friday.", "ja": "金曜日までにあなたの承認が必要です。", "note": "your ＋ ___ → 名詞" },
+        { "en": "The staff were very helpful.", "ja": "スタッフはとても親切でした。", "note": "be動詞 ＋ very ＋ ___ → 形容詞" },
+        { "en": "Please read the instructions carefully.", "ja": "説明書をよく読んでください。", "note": "動詞 read を説明 → 副詞" },
+        { "en": "The construction of the new office will finish in May.", "ja": "新しいオフィスの建設は5月に終わります。", "note": "The ＋ ___ ＋ of → 名詞" },
+        { "en": "The event was well organized.", "ja": "そのイベントはよく準備されていました。", "note": "過去分詞 organized を説明 → 副詞 well" },
+        { "en": "Our sales increased significantly last quarter.", "ja": "前四半期、売上が大きく伸びました。", "note": "動詞 increased を説明 → 副詞" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "The new policy will take effect after ___ from the board.", "ja": "新しい方針は、役員会の承認後に有効になります。", "choices": ["approval", "approve", "approved"], "answer": "approval", "tag": "品詞の見分け", "why": "前置詞 after のうしろ、from の前 → 名詞の席。-al で終わるが、approval は名詞。" },
+        { "id": "q2", "type": "fill", "q": "Ms. Rivera has been extremely ___ in organizing the event.", "ja": "リベラさんは、イベントの準備でとても役に立ってくれています。", "choices": ["helpful", "help", "helpfully"], "answer": "helpful", "tag": "品詞の見分け", "why": "be動詞（has been）＋ extremely ＋ ___ → 形容詞の席。-ful は形容詞。" },
+        { "id": "q3", "type": "fill", "q": "Please read the instructions ___ before using the machine.", "ja": "機械を使う前に、説明書をよく読んでください。", "choices": ["carefully", "careful", "care"], "answer": "carefully", "tag": "品詞の見分け", "why": "動詞 read（the instructions）を説明 → 副詞の席。-ly は副詞。" },
+        { "id": "q4", "type": "fill", "q": "All employees must ___ their timesheets by Friday.", "ja": "全社員は金曜日までに勤務表を提出しなければなりません。", "choices": ["submit", "submission", "submitted"], "answer": "submit", "tag": "品詞の見分け", "why": "助動詞 must のうしろ → 動詞の原形の席。" },
+        { "id": "q5", "type": "fill", "q": "The ___ of the new office was delayed by two months.", "ja": "新しいオフィスの建設は2か月遅れました。", "choices": ["construction", "construct", "constructive"], "answer": "construction", "tag": "品詞の見分け", "why": "The ＋ ___ ＋ of → 名詞の席。-tion は名詞。" },
+        { "id": "q6", "type": "fill", "q": "The seminar was ___ attended, so we need a bigger room next time.", "ja": "セミナーは参加者が多かったので、次回はもっと大きな部屋が必要です。", "choices": ["well", "good", "goodness"], "answer": "well", "tag": "品詞の見分け", "why": "過去分詞 attended を説明 → 副詞の席。good は形容詞なので使えない。" },
+        { "id": "q7", "type": "choice", "q": "-tion / -ment / -ness で終わる語の品詞は？", "choices": ["名詞", "動詞", "形容詞", "副詞"], "answer": 0, "tag": "語尾と品詞", "why": "construction、payment、kindness など。名詞の席に入る。" },
+        { "id": "q8", "type": "choice", "q": "Part 5 の品詞問題を速く解くコツは？", "choices": ["空所の前後を見て、その席に入る品詞を決める", "文全体を日本語に訳す", "いちばん長い選択肢を選ぶ", "最初の選択肢を選ぶ"], "answer": 0, "tag": "Part 5 の核心", "why": "品詞問題は意味が分からなくても、席で解ける。浮いた時間を語彙問題や Part 7 に回す。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "Part 5 によく出る形の文を、自分で言ってみます。**席に合う形**を意識して。",
+      "items": [
+        { "ja": "スタッフはとても親切でした。", "en": "The staff were very helpful.", "accept": ["The staff was very helpful."], "hint": "The staff were very ..." },
+        { "ja": "機械を使う前に、説明書をよく読んでください。", "en": "Please read the instructions carefully before using the machine.", "hint": "Please read ... carefully ..." },
+        { "ja": "金曜日までにあなたの承認が必要です。", "en": "We need your approval by Friday.", "hint": "We need your ..." },
+        { "ja": "前四半期、売上が大きく伸びました。", "en": "Our sales increased significantly last quarter.", "accept": ["Sales increased significantly last quarter."], "hint": "Our sales increased ..." },
+        { "ja": "そのイベントはよく準備されていました。", "en": "The event was well organized.", "accept": ["The event was well-organized."], "hint": "The event was well ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "approval", "ja": "承認", "ex": "We need your approval by Friday." },
+    { "en": "policy", "ja": "方針・規定", "ex": "The new policy will take effect next month." },
+    { "en": "take effect", "ja": "（規則などが）有効になる", "ex": "The new policy will take effect next month." },
+    { "en": "helpful", "ja": "役に立つ・親切な", "ex": "The staff were very helpful." },
+    { "en": "carefully", "ja": "注意深く", "ex": "Please read the instructions carefully." },
+    { "en": "instructions", "ja": "説明書・指示", "ex": "Please read the instructions carefully." },
+    { "en": "construction", "ja": "建設・工事", "ex": "The construction of the new office will finish in May." },
+    { "en": "significantly", "ja": "大きく・著しく", "ex": "Our sales increased significantly." },
+    { "en": "quarter", "ja": "四半期・4分の1", "ex": "Our sales increased last quarter." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "j1-13",
+  "title": "前置詞のイメージ",
+  "subtitle": "in / on / at を1つの絵で",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「〜に」が in / on / at の3つに分かれるのはなぜ？",
+      "body": "「4月に」は `in April`、「月曜日に」は `on Monday`、「7時に」は `at seven`。日本語ではどれも「に」なのに、英語では3つに分かれます。\n\n場所も同じです。「かばんの中に」は `in`、「壁に（かかっている）」は `on`、「駅で（待ち合わせ）」は `at`。\n\n**1つずつ暗記するしかないのでしょうか？**"
+    },
+    {
+      "type": "core",
+      "title": "in は「中」、on は「接触」、at は「点」",
+      "body": "前置詞（名詞の前に置いて、場所や時間との関係を示す言葉）は、それぞれ**1つの絵**を持っています。\n\n> **in ＝ 囲まれた空間の中**：in the box、in Tokyo、in my bag\n> **on ＝ 接触（くっついている）**：on the desk、on the wall\n> **at ＝ 地図やものさしの上の1点**：at the station、at the door\n\n**on は「上」ではない**\n大事なのは「くっついている」ことです。壁にかかった絵は `on the wall`、天井にとまったハエも `on the ceiling`。上でも横でも下でも、くっついていれば on です。\n\n**時間も同じ絵で考える**\n時間を「線」だと思ってください。\n\n- **at**：線の上の1点 → at seven（7時ちょうど）\n- **on**：カレンダーの1日（1マス）に予定がくっつく → on Monday、on May 5\n- **in**：幅のある期間の中 → in July、in 2027、in the morning\n\n**同じ場所でも、見方で変わる**\n同じ駅でも、待ち合わせの地点として見れば `at the station`、建物の中にいることを言うなら `in the station` です。前置詞は「場所の大きさ」ではなく、**話し手がその場所をどう見ているか**で決まります。\n\n[[日本語の発想|英語の発想]]\nL: 「に」「で」で、場所や時間を広くまとめて言う\nR: 中・接触・点のどれとして見ているかを言い分ける",
+      "points": [
+        "in ＝ 中、on ＝ 接触、at ＝ 点",
+        "on は「上」ではなく「くっついている」（壁・天井でも on）",
+        "時間も同じ：at 7時（点）、on 月曜日（1日）、in 7月（期間の中）"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "前置詞のうしろの名詞を「中」「接触」「点」のどれとして見ているか、絵を思い浮かべながら聞きましょう。",
+      "items": [
+        { "en": "My keys are in my bag.", "ja": "かぎはかばんの中にあります。", "note": "かばんに囲まれている → in" },
+        { "en": "The picture is on the wall.", "ja": "その絵は壁にかかっています。", "note": "上ではないが、くっついている → on" },
+        { "en": "Let's meet at the station.", "ja": "駅で会いましょう。", "note": "待ち合わせの1点 → at", "sound": "meet at は「ミーラッ」のように t が軽くなる" },
+        { "en": "The meeting starts at ten.", "ja": "会議は10時に始まります。", "note": "時計の1点 → at" },
+        { "en": "I'm free on Sunday.", "ja": "私は日曜日はひまです。", "note": "カレンダーの1日 → on" },
+        { "en": "My birthday is in July.", "ja": "私の誕生日は7月です。", "note": "7月という期間の中のどこか → in" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "fill", "q": "My keys are ___ my bag.", "ja": "かぎはかばんの中にあります。", "choices": ["in", "on", "at"], "answer": "in", "tag": "in / on / at（場所）", "why": "かばんに囲まれた空間の中 → in。" },
+        { "id": "q2", "type": "fill", "q": "The picture is ___ the wall.", "ja": "その絵は壁にかかっています。", "choices": ["on", "in", "at"], "answer": "on", "tag": "in / on / at（場所）", "why": "壁にくっついている → on。on は「上」ではなく「接触」。" },
+        { "id": "q3", "type": "fill", "q": "Let's meet ___ the station.", "ja": "駅で会いましょう。", "choices": ["at", "in", "on"], "answer": "at", "tag": "in / on / at（場所）", "why": "待ち合わせの地点（1点）として見ている → at。" },
+        { "id": "q4", "type": "fill", "q": "The meeting starts ___ ten.", "ja": "会議は10時に始まります。", "choices": ["at", "on", "in"], "answer": "at", "tag": "in / on / at（時間）", "why": "時計の針が指す1点 → at。" },
+        { "id": "q5", "type": "fill", "q": "I'm free ___ Sunday.", "ja": "私は日曜日はひまです。", "choices": ["on", "in", "at"], "answer": "on", "tag": "in / on / at（時間）", "why": "カレンダーの1日（1マス）→ on。" },
+        { "id": "q6", "type": "fill", "q": "My birthday is ___ July.", "ja": "私の誕生日は7月です。", "choices": ["in", "on", "at"], "answer": "in", "tag": "in / on / at（時間）", "why": "7月という幅のある期間の中 → in。" },
+        { "id": "q7", "type": "choice", "q": "on の中心イメージは？", "choices": ["接触（くっついている）", "上の方にある", "中に入っている", "地図の上の1点"], "answer": 0, "tag": "前置詞の核心", "why": "on は接触。だから壁や天井にも使える。" },
+        { "id": "q8", "type": "choice", "q": "「天井にハエがとまっている」の「天井に」に使うのは？", "choices": ["on", "in", "at", "under"], "answer": 0, "tag": "前置詞の核心", "why": "下向きでも、くっついていれば on（a fly on the ceiling）。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "前置詞を言う前に、**中・接触・点**のどれかを頭の中で絵にしてから言います。",
+      "items": [
+        { "ja": "かぎはかばんの中にあります。", "en": "My keys are in my bag.", "accept": ["The keys are in my bag."], "hint": "かばんの中 → in" },
+        { "ja": "駅で会いましょう。", "en": "Let's meet at the station.", "hint": "待ち合わせの点 → at" },
+        { "ja": "会議は10時に始まります。", "en": "The meeting starts at ten.", "accept": ["The meeting starts at 10."], "hint": "時計の点 → at" },
+        { "ja": "私は日曜日はひまです。", "en": "I'm free on Sunday.", "accept": ["I am free on Sunday."], "hint": "カレンダーの1日 → on" },
+        { "ja": "私の誕生日は7月です。", "en": "My birthday is in July.", "hint": "期間の中 → in" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "key", "ja": "かぎ", "ex": "My keys are in my bag." },
+    { "en": "picture", "ja": "絵・写真", "ex": "The picture is on the wall." },
+    { "en": "wall", "ja": "壁", "ex": "The picture is on the wall." },
+    { "en": "meet", "ja": "会う", "ex": "Let's meet at the station." },
+    { "en": "meeting", "ja": "会議", "ex": "The meeting starts at ten." },
+    { "en": "start", "ja": "始まる", "ex": "The meeting starts at ten." },
+    { "en": "free", "ja": "ひまな・自由な", "ex": "I'm free on Sunday." },
+    { "en": "birthday", "ja": "誕生日", "ex": "My birthday is in July." }
+  ]
+}

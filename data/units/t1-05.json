@@ -1,0 +1,69 @@
+{
+  "id": "t1-05",
+  "title": "Part 3 会話",
+  "subtitle": "先に設問を読んでから聞く",
+  "steps": [
+    {
+      "type": "question",
+      "title": "30秒の会話を聞いたあと、3つの質問に答えられる？",
+      "body": "Part 3 は、2〜3人の会話（約30〜40秒）を聞いて、3つの設問に答える問題です。設問と選択肢は問題用紙に印刷されています。\n\n会話を全部聞いてから設問を読むと、「どこで、何を話していたっけ？」と思い出せないことがよくあります。\n\n**長い会話を聞いて、3つの設問に正しく答えるには、どうすればいいのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "聞く前に設問を読み、「何を聞き取るか」を決めておく",
+      "body": "Part 3 でいちばん大切なのは、**音声が流れる前に設問を読んでおく**ことです。何を聞き取ればいいかが分かっていれば、30秒の会話を全部覚える必要はありません。\n\n> 設問を先に読む → 聞き取るポイントを決める → そのポイントだけを待ちかまえて聞く\n\n**設問の順番 ≒ 会話の順番**\n3つの設問の答えは、たいてい会話の**前半 → 中ほど → 後半**の順に出てきます。\n\n- **全体の設問**（Where does the conversation take place? / What is the problem?）→ 会話の**最初**で分かることが多い\n- **詳細の設問**（Why does the woman need 〜?）→ 中ほど\n- **次の行動・提案**（What does the man suggest? / What will the woman do next?）→ 会話の**最後**。Why don't you 〜? / I'll 〜 / Let me 〜 を待つ\n\n**正解は「言い換え」られている**\n正解の選択肢は、会話の言葉をそのまま使わず、**別の言葉に言い換えている**ことが多いです。\n\n- 会話：handouts（配布資料）→ 選択肢：materials（資料）\n- 会話：bags（かばん）→ 選択肢：luggage（荷物）\n\n逆に、会話の単語をそのまま使った選択肢は、わなのこともあります。\n\n[[日本語の発想|英語の発想]]\nL: 同じ言葉をくり返して確認することが多い\nR: 同じ言葉のくり返しを避け、別の言葉で言い換えることが多い\n\n**このアプリでの練習のしかた**：設問と選択肢を読んでから ▶ を押してください。答えたあとに「スクリプト」で会話の英文を確認できます。",
+      "points": [
+        "音声の前に設問を読み、聞き取るポイントを決めておく",
+        "答えはだいたい設問の順に出る。提案・次の行動は会話の最後",
+        "正解の選択肢は、会話の言葉を言い換えていることが多い"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "Part 3 の会話によく出る言い方です。会話でもそのまま使えます。",
+      "items": [
+        { "en": "Do you know who I should call?", "ja": "誰に連絡すればいいか分かりますか？", "note": "中3の間接疑問文（who I should call）" },
+        { "en": "In that case, why don't you use the printer in the sales department?", "ja": "それなら、営業部のプリンターを使ったらどうですか？", "note": "Why don't you 〜? ＝ 提案。設問「何を提案しているか」の答えになる" },
+        { "en": "I have a reservation under the name Brown.", "ja": "ブラウンという名前で予約しています。", "note": "ホテル・レストランの定番" },
+        { "en": "Is there somewhere I can leave my bags?", "ja": "荷物を預けられるところはありますか？" },
+        { "en": "My flight isn't until the evening.", "ja": "私の飛行機は夕方まで出ません。", "note": "not until 〜 ＝ 〜までは…ない（〜になってやっと）" },
+        { "en": "Let me see.", "ja": "ええと（確認しますね）。", "note": "考えたり調べたりするときのつなぎ言葉" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "autoplay": false, "audio": ["W: Hi, Mark. The printer on the third floor isn't working again. Do you know who I should call?", "M: The technician usually comes on Tuesdays, but I can send an e-mail to the maintenance office now.", "W: That would be great. I need to print the handouts for this afternoon's client meeting.", "M: In that case, why don't you use the printer in the sales department for now?"], "q": "What is the problem?", "ja": "何が問題ですか？（設問を読んでから ▶）", "choices": ["A printer is not working.", "A meeting was canceled.", "A client is late.", "An e-mail was lost."], "answer": 0, "tag": "全体の設問", "why": "会話の最初で The printer isn't working と言っている。全体の設問の答えは最初に出ることが多い。" },
+        { "id": "q2", "type": "choice", "autoplay": false, "audio": ["W: Hi, Mark. The printer on the third floor isn't working again. Do you know who I should call?", "M: The technician usually comes on Tuesdays, but I can send an e-mail to the maintenance office now.", "W: That would be great. I need to print the handouts for this afternoon's client meeting.", "M: In that case, why don't you use the printer in the sales department for now?"], "q": "Why does the woman need a printer?", "ja": "女性はなぜプリンターが必要なのですか？", "choices": ["To prepare materials for a meeting", "To print a train ticket", "To copy a contract", "To send a fax"], "answer": 0, "tag": "言い換え", "why": "会話の handouts for the client meeting が、選択肢では materials for a meeting に言い換えられている。" },
+        { "id": "q3", "type": "choice", "autoplay": false, "audio": ["W: Hi, Mark. The printer on the third floor isn't working again. Do you know who I should call?", "M: The technician usually comes on Tuesdays, but I can send an e-mail to the maintenance office now.", "W: That would be great. I need to print the handouts for this afternoon's client meeting.", "M: In that case, why don't you use the printer in the sales department for now?"], "q": "What does the man suggest?", "ja": "男性は何を提案していますか？", "choices": ["Using another printer", "Calling the client", "Buying a new printer", "Postponing the meeting"], "answer": 0, "tag": "提案・次の行動", "why": "最後の why don't you use the printer in the sales department が提案。another printer に言い換えられている。" },
+        { "id": "q4", "type": "choice", "autoplay": false, "audio": ["M: Good evening. I have a reservation under the name Brown, for two nights.", "W: Welcome, Mr. Brown. Let me see... yes, a double room. Breakfast is served from seven to ten on the second floor.", "M: Great. Also, is there somewhere I can leave my bags tomorrow after I check out? My flight isn't until the evening.", "W: Of course. We can keep them at the front desk until you leave for the airport."], "q": "Where most likely is the conversation taking place?", "ja": "この会話はどこで行われていると考えられますか？", "choices": ["At a hotel", "At an airport", "At a restaurant", "At a travel agency"], "answer": 0, "tag": "全体の設問", "why": "reservation、two nights、check out、front desk からホテル。airport は会話に出てくるが、場所ではない（わな）。" },
+        { "id": "q5", "type": "choice", "autoplay": false, "audio": ["M: Good evening. I have a reservation under the name Brown, for two nights.", "W: Welcome, Mr. Brown. Let me see... yes, a double room. Breakfast is served from seven to ten on the second floor.", "M: Great. Also, is there somewhere I can leave my bags tomorrow after I check out? My flight isn't until the evening.", "W: Of course. We can keep them at the front desk until you leave for the airport."], "q": "Where is breakfast served?", "ja": "朝食はどこで出されますか？", "choices": ["On the second floor", "In the guest rooms", "At the airport", "Near the front desk"], "answer": 0, "tag": "詳細の設問", "why": "Breakfast is served ... on the second floor。設問の Where（場所）を待ちかまえて聞く。" },
+        { "id": "q6", "type": "choice", "autoplay": false, "audio": ["M: Good evening. I have a reservation under the name Brown, for two nights.", "W: Welcome, Mr. Brown. Let me see... yes, a double room. Breakfast is served from seven to ten on the second floor.", "M: Great. Also, is there somewhere I can leave my bags tomorrow after I check out? My flight isn't until the evening.", "W: Of course. We can keep them at the front desk until you leave for the airport."], "q": "What does the man ask about?", "ja": "男性は何についてたずねていますか？", "choices": ["Storing his luggage", "Changing his room", "Extending his stay", "Booking a taxi"], "answer": 0, "tag": "言い換え", "why": "leave my bags（かばんを置いていく）が、Storing his luggage（荷物を保管する）に言い換えられている。" },
+        { "id": "q7", "type": "choice", "q": "Part 3 で、音声が流れる前にすることは？", "choices": ["設問を先に読み、聞き取るポイントを決める", "選択肢を全部日本語に訳す", "目を閉じて集中する", "前の問題を見直す"], "answer": 0, "tag": "Part 3 の核心", "why": "何を聞き取るか分かっていれば、会話を全部覚えなくてよい。" },
+        { "id": "q8", "type": "choice", "q": "Part 3 の正解の選択肢によくある特徴は？", "choices": ["会話の言葉を別の言葉に言い換えている", "会話と同じ単語がいちばん多く入っている", "いつもいちばん長い", "いつも最初の選択肢"], "answer": 0, "tag": "言い換え", "why": "handouts → materials、bags → luggage のように言い換える。同じ単語の選択肢はわなのことも。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "会話に出てきた表現を、自分で言えるようにします。**仕事や旅行でそのまま使えます**。",
+      "items": [
+        { "ja": "誰に連絡すればいいか分かりますか？", "en": "Do you know who I should call?", "hint": "Do you know who ...?" },
+        { "ja": "それなら、営業部のプリンターを使ったらどうですか？", "en": "In that case, why don't you use the printer in the sales department?", "hint": "In that case, why don't you ...?" },
+        { "ja": "ブラウンという名前で予約しています。", "en": "I have a reservation under the name Brown.", "accept": ["I have a reservation under Brown."], "hint": "I have a reservation ..." },
+        { "ja": "チェックアウトのあと、荷物を預けられるところはありますか？", "en": "Is there somewhere I can leave my bags after I check out?", "hint": "Is there somewhere ...?" },
+        { "ja": "私の飛行機は夕方まで出ません。", "en": "My flight isn't until the evening.", "accept": ["My flight is not until the evening."], "hint": "My flight isn't until ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "technician", "ja": "技術者", "ex": "The technician usually comes on Tuesdays." },
+    { "en": "maintenance", "ja": "保守・管理", "ex": "I can send an e-mail to the maintenance office." },
+    { "en": "handout", "ja": "配布資料", "ex": "I need to print the handouts." },
+    { "en": "in that case", "ja": "それなら", "ex": "In that case, why don't you use another printer?" },
+    { "en": "reservation", "ja": "予約", "ex": "I have a reservation under the name Brown." },
+    { "en": "check out", "ja": "チェックアウトする", "ex": "after I check out" },
+    { "en": "luggage", "ja": "手荷物（数えない）", "ex": "Can I store my luggage here?" },
+    { "en": "front desk", "ja": "フロント・受付", "ex": "We can keep them at the front desk." }
+  ]
+}

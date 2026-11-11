@@ -1,0 +1,69 @@
+{
+  "id": "c1-07",
+  "title": "聞き取りのコツ：音の変化",
+  "subtitle": "強弱・連結・脱落・変化",
+  "steps": [
+    {
+      "type": "question",
+      "title": "知っている単語なのに、なぜ聞き取れないのか",
+      "body": "`Check it out.` は、どの単語も中学レベルです。ところが実際の会話では「チェック・イット・アウト」ではなく「チェキラウ」のように聞こえます。\n\n`I want to go.` は「アイワナゴウ」、`Did you eat?` は「ディジュイー」。スクリプトを見れば分かるのに、音だけだと聞き取れない……。\n\n**英語の音は、なぜ文字どおりに聞こえないのでしょう？**"
+    },
+    {
+      "type": "core",
+      "title": "英語は「強く言う語」と「弱く言う語」のリズム。弱いところで音が変わる",
+      "body": "日本語は、1つ1つの音をほぼ同じ強さで、はっきり言います。英語は違います。\n\n> **意味の中心の語**（名詞・動詞・形容詞など）→ **強く・はっきり**\n> **文法の語**（a, the, to, for, and, can, of, you など）→ **弱く・短く**\n\n強いところと弱いところが交互に来る**リズム**の中で、弱いところの音が変わります。主な変化は4つです。\n\n**① 弱くなる（弱形）**\nto →「タ」、for →「ファ」、and →「ン」、can →「クン」（can の単元で学んだとおり）\n\n**② つながる（連結）**\n子音で終わる語 ＋ 母音で始まる語は、1語のようにつながります。\n`check it out` →「チェキッアウ」、`an apple` →「アナプル」\n\n**③ 消える（脱落）**\n同じ音や似た音が続くと、前の音がほとんど消えます。\n`next time` →「ネクスタイム」（t が1つ消える）\n\n**④ 変わる（変化・同化）**\n\n- t が母音にはさまれると、アメリカ英語では「ラ行」に近い音になる：`water` →「ワラー」、`check it out` →「チェキラウ」\n- 2つの音がとけ合って別の音になる：`want you` →「ウォンチュー」、`did you` →「ディジュー」\n\n**聞き取れるようになる練習**\n変化した音を、**自分でもそのまま声に出して**まねすることです。シャドーイング（例文のステップ）で、強いところを強く、弱いところを弱く言う練習を続けましょう。\n\n※ このアプリの読み上げ音声は、実際の会話ほど音を変化させないことがあります。例文の 🔊 メモで、実際の聞こえ方を確認してください。\n\n[[日本語の発想|英語の発想]]\nL: 1音1音を同じ強さで、はっきり言う\nR: 意味の中心を強く、文法の語を弱く。弱いところで音がつながり、消え、変わる",
+      "points": [
+        "意味の中心の語は強く、文法の語（to / for / and / can）は弱く短く",
+        "変化は4つ：弱くなる・つながる・消える・変わる",
+        "聞き取りの近道は、変化した音を自分でもまねして言うこと"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "🔊 のメモで実際の聞こえ方を確かめ、シャドーイングでまねしましょう。",
+      "items": [
+        { "en": "I want to go home.", "ja": "家に帰りたい。", "sound": "want to →「ワナ」。会話では wanna と書くこともある" },
+        { "en": "Check it out.", "ja": "見てみて。", "sound": "つながって t がラ行に変わり「チェキラウ」" },
+        { "en": "See you next time.", "ja": "またね。", "sound": "next time の t が1つ消えて「ネクスタイム」" },
+        { "en": "What are you going to do?", "ja": "何をするつもり？", "sound": "「ワラユガナドゥ」。going to →「ガナ」（gonna）" },
+        { "en": "Did you eat?", "ja": "もう食べた？", "sound": "did you がとけ合って「ディジュイー」" },
+        { "en": "Can I have a cup of coffee?", "ja": "コーヒーを1杯もらえますか？", "sound": "can は弱く「クナイ」、a cup of →「アカッパ」" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "choice", "audio": "I want to go home.", "q": "聞こえた文はどれ？", "choices": ["I want to go home.", "I went home.", "I won't go home.", "I want a home."], "answer": 0, "tag": "音の聞き取り", "why": "want to は弱く「ワナ」と聞こえる。won't（ウォウント）は強く長い。" },
+        { "id": "q2", "type": "choice", "audio": "Check it out.", "q": "聞こえた文はどれ？", "choices": ["Check it out.", "Check out.", "Chicken out.", "Catch it out."], "answer": 0, "tag": "音の聞き取り", "why": "check ＋ it ＋ out がつながって「チェキラウ」。" },
+        { "id": "q3", "type": "choice", "audio": "See you next time.", "q": "聞こえた文はどれ？", "choices": ["See you next time.", "See you at nine.", "See you next week.", "See you this time."], "answer": 0, "tag": "音の聞き取り", "why": "next time は t が1つ消えて「ネクスタイム」。" },
+        { "id": "q4", "type": "choice", "q": "ふつう弱く・短く発音される語の組み合わせは？", "choices": ["to, for, and, can", "music, Tokyo, beautiful, run", "hospital, lunch, teacher, happy", "water, coffee, apple, money"], "answer": 0, "tag": "強弱のリズム", "why": "文法の語は弱く、意味の中心の語（名詞・動詞・形容詞）は強く言う。" },
+        { "id": "q5", "type": "choice", "q": "「Check it out」が「チェキラウ」と聞こえる理由は？", "choices": ["子音と母音がつながり、母音にはさまれた t がラ行に近くなるから", "単語を省略しているから", "早口の人だけの発音だから", "つづりの間違いだから"], "answer": 0, "tag": "音の変化", "why": "連結（つながる）と変化（t がラ行に）が同時に起きている。" },
+        { "id": "q6", "type": "choice", "q": "「next time」が「ネクスタイム」と聞こえる理由は？", "choices": ["t が2つ続き、前の t がほとんど消えるから", "time を省略するから", "next を言わないから", "イギリス英語だけの発音だから"], "answer": 0, "tag": "音の変化", "why": "同じ音が続くと、前の音が消える（脱落）。" },
+        { "id": "q7", "type": "choice", "q": "「Did you eat?」がつながって聞こえると？", "choices": ["ディジュイー", "ディドユーイート", "ディッヨウ", "ダイユー"], "answer": 0, "tag": "音の変化", "why": "d ＋ you がとけ合って「ジュ」になる（同化）。" },
+        { "id": "q8", "type": "choice", "q": "聞き取れるようになるための練習として効果的なのは？", "choices": ["変化した音のまま、自分でも声に出してまねする", "単語のつづりだけを覚える", "音声を聞かずに読むだけにする", "ゆっくりの音声だけを聞く"], "answer": 0, "tag": "練習のしかた", "why": "自分で言える音は聞き取りやすくなる。シャドーイングで強弱ごとまねする。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "カタカナの音を参考に、**変化した音で**言ってみましょう（判定は単語で行います）。",
+      "items": [
+        { "ja": "見てみて。（チェキラウ）", "en": "Check it out.", "hint": "つなげて言う" },
+        { "ja": "家に帰りたい。（アイワナゴウホウム）", "en": "I want to go home.", "accept": ["I wanna go home."], "hint": "want to →「ワナ」" },
+        { "ja": "またね。（スィーユーネクスタイム）", "en": "See you next time.", "hint": "next time の t を1つ" },
+        { "ja": "何をするつもり？（ワラユガナドゥ）", "en": "What are you going to do?", "accept": ["What are you gonna do?"], "hint": "going to →「ガナ」" },
+        { "ja": "もう食べた？（ディジュイー）", "en": "Did you eat?", "accept": ["Did you eat yet?"], "hint": "did you →「ディジュ」" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "wanna", "ja": "want to の会話の形", "ex": "I wanna go home." },
+    { "en": "gonna", "ja": "going to の会話の形", "ex": "What are you gonna do?" },
+    { "en": "check it out", "ja": "見てみる・調べてみる", "ex": "Check it out." },
+    { "en": "See you next time.", "ja": "またね。", "ex": "See you next time." },
+    { "en": "a cup of", "ja": "カップ1杯の", "ex": "Can I have a cup of coffee?" },
+    { "en": "Did you eat?", "ja": "もう食べた？", "ex": "Did you eat? — Not yet." },
+    { "en": "Got it.", "ja": "分かった。", "ex": "Call me at six. — Got it." },
+    { "en": "rhythm", "ja": "リズム", "ex": "English has a strong rhythm." }
+  ]
+}

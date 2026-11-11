@@ -1,0 +1,69 @@
+{
+  "id": "j1-01",
+  "title": "英語の語順",
+  "subtitle": "「誰が→どうする→何を」。場所が役割を決める",
+  "steps": [
+    {
+      "type": "question",
+      "title": "「私は毎朝コーヒーを飲みます」は並べ替えても通じる？",
+      "body": "日本語は「毎朝 私は コーヒーを 飲みます」「コーヒーを 私は 毎朝 飲みます」と順番を入れ替えても通じます。\n\nところが英語は `I drink coffee every morning.` の順番を変えて `Coffee I drink every morning.` と言うと、不自然になるか、意味が変わってしまいます。\n\n**なぜ英語は順番にうるさいのでしょう？** ここが、英語を学ぶときの最初の分かれ道です。"
+    },
+    {
+      "type": "core",
+      "title": "英語は「置く場所」が役割を決める",
+      "body": "日本語には「は」「を」「に」という**助詞**があります。「私**は**」「コーヒー**を**」と、単語の後ろにくっついて「これが主役」「これが相手」と教えてくれます。だから順番を変えても意味が崩れません。\n\n英語には助詞がありません。その代わりに、**置く場所**で役割を決めます。\n\n> **誰が → どうする → 何を → （いつ・どこで）**\n> I → drink → coffee → every morning.\n\n先頭に置いたものが「誰が（主語）」、次が「どうする（動詞）」、その次が「何を（目的語）」。場所が名札の代わりなのです。\n\n[[日本語の発想|英語の発想]]\nL: 助詞が役割を教える\nL: 動詞は最後。最後まで聞かないと結論が分からない\nR: 置く場所が役割を教える\nR: 動詞は2番目。「誰が・どうする」を先に言う\n\nもう1つ大事な感覚。英語は**「結論を先に言う」言葉**です。「私は→飲む」と、まず誰が何をするのかを言い切ってから、「コーヒーを」「毎朝」と細かい情報を足していきます。だから英語を話すときは、**主語と動詞をまず口に出す**ことを目指します。",
+      "points": [
+        "英語は「誰が→どうする→何を→いつ・どこで」の順。場所が役割を決める",
+        "主語と動詞を先に言う。おまけ（時間・場所）は後ろ",
+        "品詞の名前を覚えるより、「この単語は主役？ 動き？ 相手？」と役割で見る"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "例文で確かめる",
+      "intro": "▶ で音声を聞き、「誰が／どうする／何を／おまけ」に分けながら読んでみましょう。",
+      "items": [
+        { "en": "I drink coffee every morning.", "ja": "私は毎朝コーヒーを飲みます。", "note": "I（誰が）drink（どうする）coffee（何を）every morning（いつ）" },
+        { "en": "She likes music.", "ja": "彼女は音楽が好きです。", "note": "「好きです」も英語では動詞 like で言う。日本語の「音楽が」に引きずられて music を前に出さない" },
+        { "en": "We play soccer on Sundays.", "ja": "私たちは日曜日にサッカーをします。", "note": "on Sundays（いつ）はいちばん後ろ" },
+        { "en": "They speak English at work.", "ja": "彼らは職場で英語を話します。", "note": "at work（どこで）も後ろ" },
+        { "en": "I eat lunch at noon.", "ja": "私は正午に昼食をとります。", "sound": "eat lunch は「イート ランチ」ではなく「イーッ・ランチ」。t の音が弱くなる" },
+        { "en": "You know my name.", "ja": "あなたは私の名前を知っています。", "note": "「知っている」も動詞 know。You（誰が）know（どうする）my name（何を）" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "items": [
+        { "id": "q1", "type": "order", "ja": "私は紅茶を飲みます。", "words": ["I", "drink", "tea"], "answer": "I drink tea", "tag": "語順", "why": "誰が（I）→ どうする（drink）→ 何を（tea）。日本語の「紅茶を」の位置に引きずられない。" },
+        { "id": "q2", "type": "order", "ja": "彼らは英語を話します。", "words": ["They", "speak", "English"], "answer": "They speak English", "tag": "語順", "why": "They（誰が）speak（どうする）English（何を）。" },
+        { "id": "q3", "type": "choice", "q": "英語で、文の中の役割（誰が・何を）を決めるのは？", "choices": ["置く場所", "「は」「を」のような助詞", "動詞の形", "声の強さ"], "answer": 0, "tag": "語順の核心", "why": "英語には助詞がないので、置く場所が役割の名札になる。" },
+        { "id": "q4", "type": "order", "ja": "私たちは毎朝パンを食べます。", "words": ["We", "eat", "bread", "every", "morning"], "answer": "We eat bread every morning", "tag": "語順（おまけは後ろ）", "why": "「毎朝」は時間のおまけなので、いちばん後ろ。" },
+        { "id": "q5", "type": "choice", "q": "日本語「私は音楽が好きです」を英語で言うとき、先に口に出すべき2語は？", "choices": ["I like", "music is", "I music", "like music"], "answer": 0, "tag": "主語と動詞を先に", "why": "英語は「誰が・どうする」を先に言い切る。「音楽が」から始めない。" },
+        { "id": "q6", "type": "fill", "q": "___ know her name.", "ja": "私は彼女の名前を知っています。", "choices": ["I", "Me", "My"], "answer": "I", "tag": "主語の位置", "why": "先頭は「誰が」の席。その席に置く形は I。" },
+        { "id": "q7", "type": "order", "ja": "あなたは職場で日本語を話します。", "words": ["You", "speak", "Japanese", "at", "work"], "answer": "You speak Japanese at work", "tag": "語順（おまけは後ろ）", "why": "「職場で」は場所のおまけ。at work を最後に。" },
+        { "id": "q8", "type": "choice", "q": "「They eat lunch at noon.」で「どうする」にあたる語は？", "choices": ["eat", "They", "lunch", "noon"], "answer": 0, "tag": "動詞を見つける", "why": "2番目に置かれた eat が「どうする」。文の心臓。" }
+      ]
+    },
+    {
+      "type": "speak",
+      "intro": "日本語を見て、**主語→動詞**の順に口に出します。完璧でなくてかまいません。まず最初の2語を言うのが目標です。",
+      "items": [
+        { "ja": "私は毎朝コーヒーを飲みます。", "en": "I drink coffee every morning.", "hint": "I drink ..." },
+        { "ja": "彼らは職場で英語を話します。", "en": "They speak English at work.", "hint": "They speak ..." },
+        { "ja": "私たちは日曜日にサッカーをします。", "en": "We play soccer on Sundays.", "accept": ["We play soccer on Sunday."], "hint": "We play ..." },
+        { "ja": "私は正午に昼食をとります。", "en": "I eat lunch at noon.", "accept": ["I have lunch at noon."], "hint": "I eat ..." },
+        { "ja": "あなたは私の名前を知っています。", "en": "You know my name.", "hint": "You know ..." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "drink", "ja": "飲む", "ex": "I drink coffee every morning." },
+    { "en": "every morning", "ja": "毎朝", "ex": "I drink coffee every morning." },
+    { "en": "speak", "ja": "話す", "ex": "They speak English at work." },
+    { "en": "at work", "ja": "職場で", "ex": "They speak English at work." },
+    { "en": "lunch", "ja": "昼食", "ex": "I eat lunch at noon." },
+    { "en": "know", "ja": "知っている", "ex": "You know my name." },
+    { "en": "music", "ja": "音楽", "ex": "She likes music." },
+    { "en": "on Sundays", "ja": "日曜日に（毎週）", "ex": "We play soccer on Sundays." }
+  ]
+}
