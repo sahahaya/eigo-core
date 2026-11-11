@@ -195,6 +195,9 @@ file:// では JSON を fetch できないので必ずサーバー経由で。
 
 ### 公開（GitHub Pages）について
 
+- **公開中**：https://sahahaya.github.io/eigo-core/ （リポジトリ：https://github.com/sahahaya/eigo-core 、main ブランチの / (root) から配信。2026-11-11 公開）
+- 作業フォルダはデスクトップの `eigo-core`（git リポジトリ。remote は `https://sahahaya@github.com/sahahaya/eigo-core.git`）。更新は commit して `git push` するだけで、数分後に公開サイトへ反映される
+- このPCには別アカウント「SahashiHayata」の GitHub ログイン情報も保存されている。remote の URL にユーザー名 `sahahaya@` を入れてあるのは、そちらが使われないようにするため。このリポジトリだけ `credential.gitHubAuthModes=device`（コード入力でログイン）にしてある
 - 手順は README の「B. GitHub Pages で公開する」。ブラウザからのアップロードだけでできる形にしてある
 - `index.html` の CSS / JS には `?v=20261111` を付けている。**JS・CSS を変えたら、この日付を全部新しくする**（スマホに古いファイルが残るのを防ぐ）。教材 JSON は `fetch(..., {cache: 'no-cache'})` なので不要
 - `.nojekyll`：GitHub Pages にファイルを加工させない。`.gitignore`：`.claude/`（開発用）と `.preview/`（動作確認用）を除外
